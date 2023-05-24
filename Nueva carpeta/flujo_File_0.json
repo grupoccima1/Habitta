@@ -19,7 +19,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "JUAN MANUEL COVARRUBIAS SANCHEZ",
   "CORREO" : "juan2829@hotmail.com",
-  "1ER_MENSUALIDAD" : "1904.75"
+  "ER_MENSUALIDAD" : "1904.75"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -41,7 +41,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "FRANCISCO JAVIER GUERRERO MARTINEZ",
   "CORREO" : "packo727@hotmail.com",
-  "1ER_MENSUALIDAD" : "3449.25"
+  "ER_MENSUALIDAD" : "3449.25"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -63,7 +63,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "DIANA CECILIA MONTEJO BERNAL",
   "CORREO" : "dmontejob@hotmail.com",
-  "1ER_MENSUALIDAD" : "2190.0"
+  "ER_MENSUALIDAD" : "2190.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -85,7 +85,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "LILIANA RAZO MARTINEZ",
   "CORREO" : "razolili13@gmail.com",
-  "1ER_MENSUALIDAD" : "2636.21"
+  "ER_MENSUALIDAD" : "2636.21"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -107,7 +107,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ELIZABETH ROJAS ARELLANO; ANGELICA JUAREZ CRUZ",
   "CORREO" : "raelizabeth11@gmail.com",
-  "1ER_MENSUALIDAD" : "3449.25"
+  "ER_MENSUALIDAD" : "3449.25"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -129,7 +129,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "DIANA MONTSERRAT GARCIA MARTINEZ; ISRAEL MONTECINOS SORIANO",
   "CORREO" : "montsgarcia09@gmail.com",
-  "1ER_MENSUALIDAD" : "2167.49"
+  "ER_MENSUALIDAD" : "2167.49"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -151,7 +151,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "NORMA OLVERA MARTINEZ",
   "CORREO" : "olveranorma@hotmail.com",
-  "1ER_MENSUALIDAD" : "2012.06"
+  "ER_MENSUALIDAD" : "2012.06"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -173,7 +173,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "EDGARDO PORRAS RAMOS",
   "CORREO" : "edgardo.porras@hotmail.com",
-  "1ER_MENSUALIDAD" : "2409.0"
+  "ER_MENSUALIDAD" : "2409.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -195,7 +195,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "IRAIS REAL ORTEGA",
   "CORREO" : "ireal@usebeq.edu.mx",
-  "1ER_MENSUALIDAD" : "2740.24"
+  "ER_MENSUALIDAD" : "2740.24"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -217,7 +217,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "SALMA LUCERO SANCHEZ OCAMPO",
   "CORREO" : "salma.sanchez.o@gmail.com",
-  "1ER_MENSUALIDAD" : "2460.46"
+  "ER_MENSUALIDAD" : "2460.46"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -239,7 +239,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "JUAN CARLOS LOPEZ LOPEZ",
   "CORREO" : "jclp79@gmail.com",
-  "1ER_MENSUALIDAD" : "1916.25"
+  "ER_MENSUALIDAD" : "1916.25"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -261,7 +261,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "CARLOS HIPOLITO PEDRAZA NIETO",
   "CORREO" : "carlos.pedraza.nieto@gmail.com",
-  "1ER_MENSUALIDAD" : "2299.5"
+  "ER_MENSUALIDAD" : "2299.5"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -283,7 +283,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "CLAUDIA MENDOZA RANGEL",
   "CORREO" : "cmendoza7777@hotmail.com",
-  "1ER_MENSUALIDAD" : "2343.3"
+  "ER_MENSUALIDAD" : "2343.3"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -305,7 +305,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "CLAUDIA ALEJANDRA ISLAS APREZA",
   "CORREO" : "claudiaalejandraia@gmail.com; aaronreyman@gmail.com",
-  "1ER_MENSUALIDAD" : "2870.54"
+  "ER_MENSUALIDAD" : "2870.54"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -327,7 +327,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ARELY IVETTE CAJERO LUCERO",
   "CORREO" : "arecajelu@gmail.com",
-  "1ER_MENSUALIDAD" : "2343.3"
+  "ER_MENSUALIDAD" : "2343.3"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -349,7 +349,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ALEJANDRO RUBEN BARBERENA HERNANDEZ",
   "CORREO" : "alejandro_barberena@hotmail.com",
-  "1ER_MENSUALIDAD" : "2050.39"
+  "ER_MENSUALIDAD" : "2050.39"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -371,7 +371,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "EDUARDO PULIDO MARTIN",
   "CORREO" : "eddy.hb29@gmail.com; eddy@inkwonders.com",
-  "1ER_MENSUALIDAD" : "1968.37"
+  "ER_MENSUALIDAD" : "1968.37"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -393,7 +393,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "BRENDA GUTIERREZ RAMIREZ",
   "CORREO" : "fermyers@yahoo.com.mx",
-  "1ER_MENSUALIDAD" : "1968.37"
+  "ER_MENSUALIDAD" : "1968.37"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -415,7 +415,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "SALMA LUCERO SANCHEZ OCAMPO",
   "CORREO" : "salma.sanchez.o@gmail.com",
-  "1ER_MENSUALIDAD" : "1874.64"
+  "ER_MENSUALIDAD" : "1874.64"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -437,7 +437,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "OSCAR ROMAN ARAMBURO GALLARDO",
   "CORREO" : "oscar.roman@live.com.mx",
-  "1ER_MENSUALIDAD" : "1968.37"
+  "ER_MENSUALIDAD" : "1968.37"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -459,7 +459,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "LUIS FERNANDO HERNANDEZ SAN ROMAN",
   "CORREO" : "luis.hernandez01@grupobimbo.com",
-  "1ER_MENSUALIDAD" : "2319.76"
+  "ER_MENSUALIDAD" : "2319.76"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -481,7 +481,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "MARIBEL ALICIA GUADARRAMA LARA",
   "CORREO" : "maribelguadarrama70@gmail.com",
-  "1ER_MENSUALIDAD" : "1874.64"
+  "ER_MENSUALIDAD" : "1874.64"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -503,7 +503,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "NORMA OLVERA MARTINEZ",
   "CORREO" : "olveranorma@hotmail.com",
-  "1ER_MENSUALIDAD" : "2108.97"
+  "ER_MENSUALIDAD" : "2108.97"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -525,7 +525,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "NORMA OLVERA MARTINEZ",
   "CORREO" : "olveranorma@hotmail.com",
-  "1ER_MENSUALIDAD" : "2108.97"
+  "ER_MENSUALIDAD" : "2108.97"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -547,7 +547,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "EDGARDO PORRAS RAMOS",
   "CORREO" : "edgardo.porras@hotmail.com",
-  "1ER_MENSUALIDAD" : "2108.97"
+  "ER_MENSUALIDAD" : "2108.97"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -569,7 +569,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "EDGARDO PORRAS RAMOS",
   "CORREO" : "edgardo.porras@hotmail.com",
-  "1ER_MENSUALIDAD" : "2108.97"
+  "ER_MENSUALIDAD" : "2108.97"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -591,7 +591,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "JOSE RAUL RONQUILLO VELEZ",
   "CORREO" : "ronquillovelez@gmail.com",
-  "1ER_MENSUALIDAD" : "2340.18"
+  "ER_MENSUALIDAD" : "2340.18"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -613,7 +613,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ALDO RENE SALCEDO GARCIA",
   "CORREO" : "arsaga7@gmail.com",
-  "1ER_MENSUALIDAD" : "2005.87"
+  "ER_MENSUALIDAD" : "2005.87"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -635,7 +635,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "MARIA FERNANDA NAVARRO GONZALEZ",
   "CORREO" : "mfernavarro7@gmail.com",
-  "1ER_MENSUALIDAD" : "3134.17"
+  "ER_MENSUALIDAD" : "3134.17"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -657,7 +657,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "BRENDA ITZEL HERNANDEZ OCHOA",
   "CORREO" : "brendiscd0788@gmail.com",
-  "1ER_MENSUALIDAD" : "2820.75"
+  "ER_MENSUALIDAD" : "2820.75"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -679,7 +679,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "PEDRO CABRERA MORENO",
   "CORREO" : "pittmx@hotmail.com",
-  "1ER_MENSUALIDAD" : "9271.58"
+  "ER_MENSUALIDAD" : "9271.58"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -701,7 +701,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "JUAN RODRIGO PIMENTEL ESQUIVEL",
   "CORREO" : "juanro@email.com",
-  "1ER_MENSUALIDAD" : "7459.32"
+  "ER_MENSUALIDAD" : "7459.32"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -723,7 +723,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "JOAQUIN EDUARDO AGUILAR SIERRA",
   "CORREO" : "joaquin.aguilarsierra@gmail.com",
-  "1ER_MENSUALIDAD" : "2150.4"
+  "ER_MENSUALIDAD" : "2150.4"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -745,7 +745,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "VIOLETA SOTO RODRIGUEZ",
   "CORREO" : "violet_617@msn.com",
-  "1ER_MENSUALIDAD" : "2150.4"
+  "ER_MENSUALIDAD" : "2150.4"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -767,7 +767,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "SANDRA MIREYA TREJO SUAREZ",
   "CORREO" : "sandra.trejosuarez@gmail.com",
-  "1ER_MENSUALIDAD" : "2688.0"
+  "ER_MENSUALIDAD" : "2688.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -789,7 +789,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "SANDRA MIREYA TREJO SUAREZ",
   "CORREO" : "sandra.trejosuarez@gmail.com",
-  "1ER_MENSUALIDAD" : "2688.0"
+  "ER_MENSUALIDAD" : "2688.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -811,7 +811,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "BERTHA EVELIA DE JESUS OLVERA RICO",
   "CORREO" : "berthaevel@hotmail.com",
-  "1ER_MENSUALIDAD" : "2685.11"
+  "ER_MENSUALIDAD" : "2685.11"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -833,7 +833,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "MA. TERESA MARTINEZ PEREZ",
   "CORREO" : "medser62@gmail.com",
-  "1ER_MENSUALIDAD" : "2179.86"
+  "ER_MENSUALIDAD" : "2179.86"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -855,7 +855,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "CARLOS ALFONSO CASTILLO QUEZADA",
   "CORREO" : "ccarlosccastillo@gmail.com; ccarloscastillo@gmail.com",
-  "1ER_MENSUALIDAD" : "2256.0"
+  "ER_MENSUALIDAD" : "2256.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -877,7 +877,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ARMANDO CASTILLO ANDRADE; DANIELLA BARBA BOONE",
   "CORREO" : "armandocastillo84@gmail.com",
-  "1ER_MENSUALIDAD" : "2688.0"
+  "ER_MENSUALIDAD" : "2688.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -899,7 +899,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "YULIANA CABRERA LOPEZ",
   "CORREO" : "yuli.cabrera220387@live.com",
-  "1ER_MENSUALIDAD" : "2508.8"
+  "ER_MENSUALIDAD" : "2508.8"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -921,7 +921,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "RENE LEYVA ROLDAN; KARINA NAYELI MONTIEL HERNANDEZ",
   "CORREO" : "leyarq@gmail.com",
-  "1ER_MENSUALIDAD" : "3024.0"
+  "ER_MENSUALIDAD" : "3024.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -943,7 +943,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "MARIA FERNANDA MUÑOZ HERNANDEZ; VICTOR JESUS HERNANDEZ PONCE",
   "CORREO" : "victor.hernandezponce@gmail.com",
-  "1ER_MENSUALIDAD" : "4869.96"
+  "ER_MENSUALIDAD" : "4869.96"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -965,7 +965,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "JORGE RAUL TINAJERO LOBERA",
   "CORREO" : "tinajero.2312@gmail.com",
-  "1ER_MENSUALIDAD" : "2688.0"
+  "ER_MENSUALIDAD" : "2688.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -987,7 +987,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ANA VICTORIA MARTINEZ CAVAZOS",
   "CORREO" : "a.victoria_mc@hotmail.com",
-  "1ER_MENSUALIDAD" : "2867.2"
+  "ER_MENSUALIDAD" : "2867.2"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1009,7 +1009,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "MARCO ANTONIO CERVANTES GUIZAR",
   "CORREO" : "marco.a_cervantes@hotmail.com",
-  "1ER_MENSUALIDAD" : "3017.4"
+  "ER_MENSUALIDAD" : "3017.4"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1031,7 +1031,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ALFONSO GUTIERREZ PADILLA",
   "CORREO" : "alfonsogutierrezpadilla@gmail.com",
-  "1ER_MENSUALIDAD" : "2304.0"
+  "ER_MENSUALIDAD" : "2304.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1053,7 +1053,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ALFONSO GUTIERREZ PADILLA",
   "CORREO" : "alfonsogutierrezpadilla@gmail.com",
-  "1ER_MENSUALIDAD" : "2304.0"
+  "ER_MENSUALIDAD" : "2304.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1075,7 +1075,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ALFONSO GUTIERREZ PADILLA",
   "CORREO" : "alfonsogutierrezpadilla@gmail.com",
-  "1ER_MENSUALIDAD" : "2304.0"
+  "ER_MENSUALIDAD" : "2304.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1097,7 +1097,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "SUSANA MAGDALENA HERNANDEZ GARCIA",
   "CORREO" : "maki_yg16@hotmail.com; bocho_rso@hotmail.com ",
-  "1ER_MENSUALIDAD" : "2304.0"
+  "ER_MENSUALIDAD" : "2304.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1119,7 +1119,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "OLIVA HERNANDEZ OROZCO",
   "CORREO" : "ohernandez.ccima@gmail.com",
-  "1ER_MENSUALIDAD" : "2560.0"
+  "ER_MENSUALIDAD" : "2560.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1141,7 +1141,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "SORAYA OSORIO DAVILA",
   "CORREO" : "soraya_osorio@hotmail.com",
-  "1ER_MENSUALIDAD" : "2304.0"
+  "ER_MENSUALIDAD" : "2304.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1163,7 +1163,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "MONSERRAT VALERO MONTIEL",
   "CORREO" : "mon_valmon@hotmail.com",
-  "1ER_MENSUALIDAD" : "2640.23"
+  "ER_MENSUALIDAD" : "2640.23"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1185,7 +1185,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "GERARDO MANCERA VENEGAS",
   "CORREO" : "gerepapi07@gmail.com; carlota40600411@gmail.com",
-  "1ER_MENSUALIDAD" : "2304.0"
+  "ER_MENSUALIDAD" : "2304.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1207,7 +1207,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "NANCY MARTINEZ LEON",
   "CORREO" : "nancymartinezleon@gmail.com",
-  "1ER_MENSUALIDAD" : "2457.6"
+  "ER_MENSUALIDAD" : "2457.6"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1229,7 +1229,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "CHRISTIAN FLORES TAPIA",
   "CORREO" : "christian.florestap@gmail.com",
-  "1ER_MENSUALIDAD" : "3218.56"
+  "ER_MENSUALIDAD" : "3218.56"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1251,7 +1251,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "SORAYA OSORIO DAVILA",
   "CORREO" : "soraya_osorio@hotmail.com",
-  "1ER_MENSUALIDAD" : "2304.0"
+  "ER_MENSUALIDAD" : "2304.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1273,7 +1273,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "XAVIER EDSEL CASTILLO ZUÑIGA",
   "CORREO" : "xcastilloz@outlook.com",
-  "1ER_MENSUALIDAD" : "3394.58"
+  "ER_MENSUALIDAD" : "3394.58"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1295,7 +1295,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "DIANA YURANI ROA PUENTES; JORGE LUIS MENDEZ ARROYO",
   "CORREO" : "lui_mendez@hotmail.com",
-  "1ER_MENSUALIDAD" : "3072.0"
+  "ER_MENSUALIDAD" : "3072.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1317,7 +1317,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "REBECA VICTORIA RICOY PARAMO",
   "CORREO" : "rebeca.ricoy@gmail.com",
-  "1ER_MENSUALIDAD" : "8231.4"
+  "ER_MENSUALIDAD" : "8231.4"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1339,7 +1339,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "MARIA LUISA LIZARDO MARTINEZ",
   "CORREO" : "mari_1309@icloud.com",
-  "1ER_MENSUALIDAD" : "2483.71"
+  "ER_MENSUALIDAD" : "2483.71"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1361,7 +1361,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "MARIA LUISA LIZARDO MARTINEZ",
   "CORREO" : "mari_1309@icloud.com",
-  "1ER_MENSUALIDAD" : "2483.71"
+  "ER_MENSUALIDAD" : "2483.71"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1383,7 +1383,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ALI YADIRA JIMENEZ ORTEGA",
   "CORREO" : "aly_adir@hotmail.com; omusalemr@gmail.com",
-  "1ER_MENSUALIDAD" : "2736.0"
+  "ER_MENSUALIDAD" : "2736.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1405,7 +1405,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "RAQUEL RODRIGUEZ VEGA",
   "CORREO" : "rrodriguezv@queretaro.gob.mx; rrodriguez.v@hotmail.com",
-  "1ER_MENSUALIDAD" : "3024.0"
+  "ER_MENSUALIDAD" : "3024.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1427,7 +1427,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "GABRIELA ESQUEDA ARRIAGA",
   "CORREO" : "gesquedaa@gmail.com",
-  "1ER_MENSUALIDAD" : "3492.72"
+  "ER_MENSUALIDAD" : "3492.72"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1449,7 +1449,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "OMAR OCTAVIO MUSALEM RAMIREZ",
   "CORREO" : "omusalemr@gmail.com",
-  "1ER_MENSUALIDAD" : "4050.0"
+  "ER_MENSUALIDAD" : "4050.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1471,7 +1471,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ROSA LINDA SANCHEZ ILDEFONSO",
   "CORREO" : "rosasi@gmail.com",
-  "1ER_MENSUALIDAD" : "6165.23"
+  "ER_MENSUALIDAD" : "6165.23"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1493,7 +1493,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "PABLO ANTONIO ZULUAGA GOMEZ ",
   "CORREO" : "XPOWEROFICIAL@GMAIL.COM",
-  "1ER_MENSUALIDAD" : "4402.0"
+  "ER_MENSUALIDAD" : "4402.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1515,7 +1515,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "JORGE MALDONADO DE LOS COBOS",
   "CORREO" : "j.maldodlc@gmail.com",
-  "1ER_MENSUALIDAD" : "10386.54"
+  "ER_MENSUALIDAD" : "10386.54"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1537,7 +1537,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "MARIA FERNANDA NAVARRO GONZALEZ",
   "CORREO" : "mfernavarro7@gmail.com",
-  "1ER_MENSUALIDAD" : "10291.51"
+  "ER_MENSUALIDAD" : "10291.51"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1559,7 +1559,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1581,7 +1581,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1603,7 +1603,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1625,7 +1625,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1647,7 +1647,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1669,7 +1669,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1691,7 +1691,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1713,7 +1713,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1735,7 +1735,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1757,7 +1757,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1779,7 +1779,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1801,7 +1801,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1823,7 +1823,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1845,7 +1845,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1867,7 +1867,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1889,7 +1889,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1911,7 +1911,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1933,7 +1933,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1955,7 +1955,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1977,7 +1977,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -1999,7 +1999,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2021,7 +2021,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2043,7 +2043,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2065,7 +2065,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2087,7 +2087,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2109,7 +2109,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2131,7 +2131,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2153,7 +2153,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2175,7 +2175,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2197,7 +2197,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2219,7 +2219,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2241,7 +2241,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2263,7 +2263,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2285,7 +2285,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2307,7 +2307,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2329,7 +2329,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2351,7 +2351,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2373,7 +2373,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2395,7 +2395,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2417,7 +2417,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2439,7 +2439,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2461,7 +2461,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2483,7 +2483,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2505,7 +2505,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2527,7 +2527,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2549,7 +2549,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2571,7 +2571,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2593,7 +2593,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2615,7 +2615,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2637,7 +2637,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2659,7 +2659,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2681,7 +2681,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2703,7 +2703,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2725,7 +2725,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2747,7 +2747,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2769,7 +2769,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2791,7 +2791,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2813,7 +2813,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2835,7 +2835,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2857,7 +2857,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2879,7 +2879,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2901,7 +2901,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2923,7 +2923,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2945,7 +2945,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2967,7 +2967,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -2989,7 +2989,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3011,7 +3011,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3033,7 +3033,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3055,7 +3055,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3077,7 +3077,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3099,7 +3099,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3121,7 +3121,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3143,7 +3143,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3165,7 +3165,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3187,7 +3187,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3209,7 +3209,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3231,7 +3231,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3253,7 +3253,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3275,7 +3275,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3297,7 +3297,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3319,7 +3319,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3341,7 +3341,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3363,7 +3363,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3385,7 +3385,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3407,7 +3407,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3429,7 +3429,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3451,7 +3451,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3473,7 +3473,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3495,7 +3495,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3517,7 +3517,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3539,7 +3539,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3561,7 +3561,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3583,7 +3583,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3605,7 +3605,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3627,7 +3627,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3649,7 +3649,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3671,7 +3671,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3693,7 +3693,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3715,7 +3715,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3737,7 +3737,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3759,7 +3759,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3781,7 +3781,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3803,7 +3803,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3825,7 +3825,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3847,7 +3847,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3869,7 +3869,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3891,7 +3891,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3913,7 +3913,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3935,7 +3935,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3957,7 +3957,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -3979,7 +3979,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4001,7 +4001,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4023,7 +4023,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4045,7 +4045,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4067,7 +4067,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4089,7 +4089,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4111,7 +4111,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4133,7 +4133,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4155,7 +4155,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4177,7 +4177,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4199,7 +4199,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4221,7 +4221,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4243,7 +4243,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4265,7 +4265,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4287,7 +4287,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4309,7 +4309,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4331,7 +4331,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4353,7 +4353,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4375,7 +4375,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4397,7 +4397,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4419,7 +4419,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4441,7 +4441,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4463,7 +4463,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4485,7 +4485,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4507,7 +4507,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4529,7 +4529,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4551,7 +4551,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4573,7 +4573,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4595,7 +4595,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4617,7 +4617,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4639,7 +4639,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4661,7 +4661,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4683,7 +4683,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4705,7 +4705,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4727,7 +4727,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4749,7 +4749,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4771,7 +4771,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4793,7 +4793,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4815,7 +4815,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4837,7 +4837,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4859,7 +4859,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4881,7 +4881,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4903,7 +4903,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4925,7 +4925,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4947,7 +4947,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4969,7 +4969,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -4991,7 +4991,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5013,7 +5013,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5035,7 +5035,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5057,7 +5057,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5079,7 +5079,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5101,7 +5101,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5123,7 +5123,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5145,7 +5145,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5167,7 +5167,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5189,7 +5189,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5211,7 +5211,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5233,7 +5233,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5255,7 +5255,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5277,7 +5277,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5299,7 +5299,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5321,7 +5321,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5343,7 +5343,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5365,7 +5365,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5387,7 +5387,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5409,7 +5409,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5431,7 +5431,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5453,7 +5453,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5475,7 +5475,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5497,7 +5497,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5519,7 +5519,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5541,7 +5541,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5563,7 +5563,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5585,7 +5585,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5607,7 +5607,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5629,7 +5629,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5651,7 +5651,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5673,7 +5673,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5695,7 +5695,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5717,7 +5717,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5739,7 +5739,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5761,7 +5761,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5783,7 +5783,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "DULCE MARIA ANGELES PERALTA",
   "CORREO" : "dulceaperalta4j@gmail.com",
-  "1ER_MENSUALIDAD" : "2507.33"
+  "ER_MENSUALIDAD" : "2507.33"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5805,7 +5805,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "0",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5827,7 +5827,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "0",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5849,7 +5849,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "JOSE ANTONIO LEDESMA PERUSQUIA",
   "CORREO" : "ledesma_a2401@hotmail.com",
-  "1ER_MENSUALIDAD" : "3877.64"
+  "ER_MENSUALIDAD" : "3877.64"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5871,7 +5871,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "GUSTAVO ZARAGOZA CANO",
   "CORREO" : "gzc_9@outlook.com",
-  "1ER_MENSUALIDAD" : "4548.22"
+  "ER_MENSUALIDAD" : "4548.22"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5893,7 +5893,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "MICHELLE STEPHANIA RODRIGUEZ NAVARRO",
   "CORREO" : "casamariaroomb@gmail.com",
-  "1ER_MENSUALIDAD" : "9530.14"
+  "ER_MENSUALIDAD" : "9530.14"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5915,7 +5915,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "OMAR ISAI BENITEZ LOPEZ",
   "CORREO" : "isaibenitezlopez@gmail.com",
-  "1ER_MENSUALIDAD" : "9147.6"
+  "ER_MENSUALIDAD" : "9147.6"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5937,7 +5937,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "RENE CORDERO VALDOS",
   "CORREO" : "rene_cordero_valdos@hotmail.com",
-  "1ER_MENSUALIDAD" : "9147.6"
+  "ER_MENSUALIDAD" : "9147.6"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5959,7 +5959,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "JESUS RUBEN VILLALPANDO CHEREM",
   "CORREO" : "ruben@villalpando.com.mx",
-  "1ER_MENSUALIDAD" : "9147.6"
+  "ER_MENSUALIDAD" : "9147.6"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -5981,7 +5981,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "JESUS RUBEN VILLALPANDO CHEREM",
   "CORREO" : "ruben@villalpando.com.mx",
-  "1ER_MENSUALIDAD" : "9147.6"
+  "ER_MENSUALIDAD" : "9147.6"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6003,7 +6003,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "MA. GUADALUPE SANCHEZ GANTE",
   "CORREO" : "guadalupesgante@hotmail.com",
-  "1ER_MENSUALIDAD" : "9147.6"
+  "ER_MENSUALIDAD" : "9147.6"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6025,7 +6025,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "DANIEL ADRIAN VALLE CENTENO; JESUS ROBERTO GOMEZ PAREDES",
   "CORREO" : "valle54@hotmail.com;robertogj5@gmail.com",
-  "1ER_MENSUALIDAD" : "2658.95"
+  "ER_MENSUALIDAD" : "2658.95"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6047,7 +6047,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "PERCY ANDREWS BABB ALCIBAR",
   "CORREO" : "percyandrewsb@gmail.com",
-  "1ER_MENSUALIDAD" : "3413.33"
+  "ER_MENSUALIDAD" : "3413.33"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6069,7 +6069,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "PERCY ANDREWS BABB ALCIBAR",
   "CORREO" : "percyandrewsb@gmail.com",
-  "1ER_MENSUALIDAD" : "3413.33"
+  "ER_MENSUALIDAD" : "3413.33"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6091,7 +6091,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "PERCY ANDREWS BABB ALCIBAR",
   "CORREO" : "percyandrewsb@gmail.com",
-  "1ER_MENSUALIDAD" : "3413.33"
+  "ER_MENSUALIDAD" : "3413.33"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6113,7 +6113,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "PERCY ANDREWS BABB ALCIBAR",
   "CORREO" : "percyandrewsb@gmail.com",
-  "1ER_MENSUALIDAD" : "3413.33"
+  "ER_MENSUALIDAD" : "3413.33"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6135,7 +6135,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "CINTHIA MARTINEZ HERNANDEZ",
   "CORREO" : "cinthiamartinez96@icloud.com",
-  "1ER_MENSUALIDAD" : "3323.69"
+  "ER_MENSUALIDAD" : "3323.69"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6157,7 +6157,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ABEL ALEJANDRO CARRANZA SANCHEZ; VICTOR MANUEL VELAZQUEZ MARTINEZ",
   "CORREO" : "ALECSCARR@ICLOUD.COM; victormanuel.vlz.mtz@gmail.com",
-  "1ER_MENSUALIDAD" : "11632.92"
+  "ER_MENSUALIDAD" : "11632.92"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6179,7 +6179,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "CARLOS OMAR CASTILLO ARAIZA",
   "CORREO" : "carlos.castilloaraiza@gmail.com",
-  "1ER_MENSUALIDAD" : "7726.32"
+  "ER_MENSUALIDAD" : "7726.32"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6201,7 +6201,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "EMILIO DANIEL LOPEZ MARTINEZ",
   "CORREO" : "daniellm1011@gmail.com",
-  "1ER_MENSUALIDAD" : "2557.44"
+  "ER_MENSUALIDAD" : "2557.44"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6223,7 +6223,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "JOSE FRANCISCO CEBALLOS CARMONA",
   "CORREO" : "ceballoscarmonaj@gmail.com",
-  "1ER_MENSUALIDAD" : "2835.0"
+  "ER_MENSUALIDAD" : "2835.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6245,7 +6245,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "DANIELA GUADALUPE LOPEZ MARTINEZ",
   "CORREO" : "Danielalm831011@gmail.com",
-  "1ER_MENSUALIDAD" : "2445.62"
+  "ER_MENSUALIDAD" : "2445.62"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6267,7 +6267,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "GUADALUPE OLARTE PALE; JOSE ALFREDO CONTRERAS CONDE",
   "CORREO" : "lupis.olarte16@gmail.com",
-  "1ER_MENSUALIDAD" : "2419.2"
+  "ER_MENSUALIDAD" : "2419.2"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6289,7 +6289,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "GUADALUPE OLARTE PALE; JOSE ALFREDO CONTRERAS CONDE",
   "CORREO" : "lupis.olarte16@gmail.com",
-  "1ER_MENSUALIDAD" : "2419.2"
+  "ER_MENSUALIDAD" : "2419.2"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6311,7 +6311,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ARTURO SALDAÑA MARTINEZ",
   "CORREO" : "jurisaldana@gmail.com",
-  "1ER_MENSUALIDAD" : "3328.8"
+  "ER_MENSUALIDAD" : "3328.8"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6333,7 +6333,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ARTURO SALDAÑA MARTINEZ",
   "CORREO" : "jurisaldana@gmail.com",
-  "1ER_MENSUALIDAD" : "3328.8"
+  "ER_MENSUALIDAD" : "3328.8"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6355,7 +6355,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ADRIANA ALONSO CARBAJAL",
   "CORREO" : "adriana.alonsocarbajal@gmail.com",
-  "1ER_MENSUALIDAD" : "3159.56"
+  "ER_MENSUALIDAD" : "3159.56"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6377,7 +6377,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ADRIANA ALONSO CARBAJAL",
   "CORREO" : "adriana.alonsocarbajal@gmail.com",
-  "1ER_MENSUALIDAD" : "3159.56"
+  "ER_MENSUALIDAD" : "3159.56"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6399,7 +6399,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ADRIANA ALONSO CARBAJAL",
   "CORREO" : "adriana.alonsocarbajal@gmail.com",
-  "1ER_MENSUALIDAD" : "3159.56"
+  "ER_MENSUALIDAD" : "3159.56"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6421,7 +6421,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "DANIEL SORIA MENDOZA",
   "CORREO" : "danielsoriamendoz@gmail.com",
-  "1ER_MENSUALIDAD" : "2661.12"
+  "ER_MENSUALIDAD" : "2661.12"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6443,7 +6443,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "CARLOS RIVERA CEDILLO",
   "CORREO" : "im_rivera@hotmail.com",
-  "1ER_MENSUALIDAD" : "3056.13"
+  "ER_MENSUALIDAD" : "3056.13"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6465,7 +6465,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "GUADALUPE OLARTE PALE; JOSE ALFREDO CONTRERAS CONDE",
   "CORREO" : "lupis.olarte16@gmail.com",
-  "1ER_MENSUALIDAD" : "2646.0"
+  "ER_MENSUALIDAD" : "2646.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6487,7 +6487,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "OMAR ISAI BENITEZ LOPEZ",
   "CORREO" : "isaibenitezlopez@gmail.com",
-  "1ER_MENSUALIDAD" : "3240.0"
+  "ER_MENSUALIDAD" : "3240.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6509,7 +6509,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ADRIANA RAQUEL TABORDA ORTIZ",
   "CORREO" : "adrianatabordaortiz@hotmail.com",
-  "1ER_MENSUALIDAD" : "3827.25"
+  "ER_MENSUALIDAD" : "3827.25"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6531,7 +6531,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "LUIS GILBERTO CHIMAL DE LA SERNA",
   "CORREO" : "luisgchimaldls@gmail.com",
-  "1ER_MENSUALIDAD" : "12864.85"
+  "ER_MENSUALIDAD" : "12864.85"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6553,7 +6553,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "LETICIA MARTINEZ ARTEAGA",
   "CORREO" : "leticiamartinezarteaga@hotmail.com",
-  "1ER_MENSUALIDAD" : "3942.0"
+  "ER_MENSUALIDAD" : "3942.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6575,7 +6575,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ROCIO VILLALOBOS MANZO",
   "CORREO" : "rovima11@gmail.com",
-  "1ER_MENSUALIDAD" : "4266.0"
+  "ER_MENSUALIDAD" : "4266.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6597,7 +6597,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "PANTELIS KALOGEROPOULOS",
   "CORREO" : "ventas@kaloindustries.com.mx",
-  "1ER_MENSUALIDAD" : "5343.75"
+  "ER_MENSUALIDAD" : "5343.75"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6619,7 +6619,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "DOLORES GARCES LOPEZ",
   "CORREO" : "dolores.garces.dg@gmail.com",
-  "1ER_MENSUALIDAD" : "6075.0"
+  "ER_MENSUALIDAD" : "6075.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6641,7 +6641,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "DAVID CORDOVA CARDOZA",
   "CORREO" : "ISC.IPN.DAVID@GMAIL.COM",
-  "1ER_MENSUALIDAD" : "4050.0"
+  "ER_MENSUALIDAD" : "4050.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6663,7 +6663,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "CLAUDIA NAVARRO FLORES",
   "CORREO" : "faniuprincess@hotmail.com",
-  "1ER_MENSUALIDAD" : "2695.88"
+  "ER_MENSUALIDAD" : "2695.88"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6685,7 +6685,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ERIKA YOVANA GUERRERO BAEZA; IVAN OMAR SANDOVAL JIMENEZ",
   "CORREO" : "iosandoval03@gmail.com; erikaguerrero011101@gmail.com",
-  "1ER_MENSUALIDAD" : "2843.6"
+  "ER_MENSUALIDAD" : "2843.6"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6707,7 +6707,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "GABRIEL LUNA AGUILAR",
   "CORREO" : "gabrieluna@gmail.com",
-  "1ER_MENSUALIDAD" : "2976.0"
+  "ER_MENSUALIDAD" : "2976.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6729,7 +6729,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "RODOLFO MARTINEZ HURTADO",
   "CORREO" : "rodolfomh7@gmail.com",
-  "1ER_MENSUALIDAD" : "2585.09"
+  "ER_MENSUALIDAD" : "2585.09"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6751,7 +6751,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "MA. GUADALUPE SANCHEZ GANTE",
   "CORREO" : "guadalupesgante@hotmail.com",
-  "1ER_MENSUALIDAD" : "2658.95"
+  "ER_MENSUALIDAD" : "2658.95"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6773,7 +6773,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ANGELA CECILIA HERNANDEZ LICONA",
   "CORREO" : "achernanli@gmail.com ",
-  "1ER_MENSUALIDAD" : "3255.0"
+  "ER_MENSUALIDAD" : "3255.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6795,7 +6795,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "MIGUEL ANGEL PRADO FARIAS; DANNA FLORES GRAJALES CUEVAS",
   "CORREO" : "miguelangelpradofarias@hotmail.com",
-  "1ER_MENSUALIDAD" : "3110.19"
+  "ER_MENSUALIDAD" : "3110.19"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6817,7 +6817,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "JOSE MORTIMER BOUCHOT MARTINEZ",
   "CORREO" : "mortybt@hotmail.com;mortybouchot@gmail.com",
-  "1ER_MENSUALIDAD" : "2908.23"
+  "ER_MENSUALIDAD" : "2908.23"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6839,7 +6839,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "MARIA GUADALUPE MENDEZ CABRERA",
   "CORREO" : "mendezguadalupe.mgmc@gmail.com",
-  "1ER_MENSUALIDAD" : "3110.19"
+  "ER_MENSUALIDAD" : "3110.19"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6861,7 +6861,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "IVAN ABIMAEL PEREZ FAJARDO",
   "CORREO" : "abimper7@gmail.com",
-  "1ER_MENSUALIDAD" : "3029.41"
+  "ER_MENSUALIDAD" : "3029.41"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6883,7 +6883,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "JESUS MANUEL CENTENO OLVERA",
   "CORREO" : "mcolvera_4@hotmail.com",
-  "1ER_MENSUALIDAD" : "3462.18"
+  "ER_MENSUALIDAD" : "3462.18"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6905,7 +6905,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "FEDERICO DAVID FAILLA",
   "CORREO" : "federicodfailla@hotmail.com; fdfmex@gmail.com",
-  "1ER_MENSUALIDAD" : "2769.74"
+  "ER_MENSUALIDAD" : "2769.74"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6927,7 +6927,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "CLAUDIA MENDEZ FACCIO; ARTURO SEBASTIAN CASASOLA BUSTEROS",
   "CORREO" : "klausslove333@hotmail.com; arturocas29@yahoo.com.mx",
-  "1ER_MENSUALIDAD" : "2819.26"
+  "ER_MENSUALIDAD" : "2819.26"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6949,7 +6949,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "OSCAR AMED ALDANA ASSAD",
   "CORREO" : "oaa97181@gmail.com",
-  "1ER_MENSUALIDAD" : "4847.05"
+  "ER_MENSUALIDAD" : "4847.05"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6971,7 +6971,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "SOFIA VICTORIA LOTYS",
   "CORREO" : "sofia.lotys@gamil.com",
-  "1ER_MENSUALIDAD" : "4402.0"
+  "ER_MENSUALIDAD" : "4402.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -6993,7 +6993,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : " ANA MA RIOS SALINAS",
   "CORREO" : "riosars@outlook.com",
-  "1ER_MENSUALIDAD" : "5769.31"
+  "ER_MENSUALIDAD" : "5769.31"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7015,7 +7015,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "CESAR ALONSO ARROYO ALTAMIRANO",
   "CORREO" : "cesararroyo92@hotmail.com",
-  "1ER_MENSUALIDAD" : "3284.58"
+  "ER_MENSUALIDAD" : "3284.58"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7037,7 +7037,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "JUAN JOSE MARTINEZ MURGUIA",
   "CORREO" : "juanjoxs@gmail.com",
-  "1ER_MENSUALIDAD" : "3199.27"
+  "ER_MENSUALIDAD" : "3199.27"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7059,7 +7059,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "PEDRO KALEB BARRERA MARTINEZ",
   "CORREO" : "pdrokaleb@gmail.com",
-  "1ER_MENSUALIDAD" : "6900.6"
+  "ER_MENSUALIDAD" : "6900.6"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7081,7 +7081,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "PEDRO KALEB BARRERA MARTINEZ",
   "CORREO" : "pdrokaleb@gmail.com",
-  "1ER_MENSUALIDAD" : "6900.6"
+  "ER_MENSUALIDAD" : "6900.6"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7103,7 +7103,7 @@
   "DESARROLLO" : "PB CIM",
   "CLIENTE" : "ALEJANDRO LOZANO GARCIA",
   "CORREO" : "cano_13_lg@hotmail.com",
-  "1ER_MENSUALIDAD" : "2799.17"
+  "ER_MENSUALIDAD" : "2799.17"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7125,7 +7125,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7147,7 +7147,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7169,7 +7169,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7191,7 +7191,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7213,7 +7213,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7235,7 +7235,7 @@
   "DESARROLLO" : "null",
   "CLIENTE" : "null",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7257,7 +7257,7 @@
   "DESARROLLO" : "LPB",
   "CLIENTE" : "ANA LAURA BARRON LEON",
   "CORREO" : "ana.laura.barron@gmail.com",
-  "1ER_MENSUALIDAD" : "2160.0"
+  "ER_MENSUALIDAD" : "2160.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7279,7 +7279,7 @@
   "DESARROLLO" : "LPB",
   "CLIENTE" : "MARIA DEL RAYO MARTINEZ LOPEZ",
   "CORREO" : "03rayis@gmail.com",
-  "1ER_MENSUALIDAD" : "2181.12"
+  "ER_MENSUALIDAD" : "2181.12"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7301,7 +7301,7 @@
   "DESARROLLO" : "LPB",
   "CLIENTE" : "LORENA MENDIETA SILVA",
   "CORREO" : "loreinmendieta884@gmail.com",
-  "1ER_MENSUALIDAD" : "2448.0"
+  "ER_MENSUALIDAD" : "2448.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7323,7 +7323,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "LETICIA HERVER VAZQUEZ",
   "CORREO" : "letyherver@hotmail.com; guitregal@gmail.com",
-  "1ER_MENSUALIDAD" : "4497.55"
+  "ER_MENSUALIDAD" : "4497.55"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7345,7 +7345,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "DIANA MARGARITA CORDOVA ESPARZA",
   "CORREO" : "diana_mce@hotmail.com",
-  "1ER_MENSUALIDAD" : "3942.0"
+  "ER_MENSUALIDAD" : "3942.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7367,7 +7367,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "PABLO ANTONIO ZULUAGA GOMEZ ",
   "CORREO" : "XPOWEROFICIAL@GMAIL.COM",
-  "1ER_MENSUALIDAD" : "3164.55"
+  "ER_MENSUALIDAD" : "3164.55"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7389,7 +7389,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "ATANACIA FABIAN MORALES",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7411,7 +7411,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "KARLA MONSERRATH TOBIAS PONCE",
   "CORREO" : "karla.tobias@gmail.com",
-  "1ER_MENSUALIDAD" : "3195.87"
+  "ER_MENSUALIDAD" : "3195.87"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7433,7 +7433,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "DANIMAURY MARTIN LIMA SANCHEZ",
   "CORREO" : "creeden26@hotmail.com",
-  "1ER_MENSUALIDAD" : "2520.0"
+  "ER_MENSUALIDAD" : "2520.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7455,7 +7455,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "AMG AISLAMIENTOS TERMICOS S.A. DE C.V.",
   "CORREO" : "amgqro@hotmail.com",
-  "1ER_MENSUALIDAD" : "2700.0"
+  "ER_MENSUALIDAD" : "2700.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7477,7 +7477,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "PATRICIA ASTUDILLO ANLEHU",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7499,7 +7499,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "PATRICIA ASTUDILLO ANLEHU",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7521,7 +7521,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "SAUL GUEVARA MARTINEZ",
   "CORREO" : "sayda9801@hotmail.com",
-  "1ER_MENSUALIDAD" : "15999.02"
+  "ER_MENSUALIDAD" : "15999.02"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7543,7 +7543,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "SAUL GUEVARA MARTINEZ",
   "CORREO" : "sayda9801@hotmail.com",
-  "1ER_MENSUALIDAD" : "15654.77"
+  "ER_MENSUALIDAD" : "15654.77"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7565,7 +7565,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "SAUL GUEVARA MARTINEZ",
   "CORREO" : "sayda9801@hotmail.com",
-  "1ER_MENSUALIDAD" : "15761.42"
+  "ER_MENSUALIDAD" : "15761.42"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7587,7 +7587,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "SERGIO ALBERTO SANCHEZ VILLEGAS",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "4533.22"
+  "ER_MENSUALIDAD" : "4533.22"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7609,7 +7609,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "ANGEL ADAN ARGUMEDO MUÑOZ",
   "CORREO" : "aargumedomu@gmail.com",
-  "1ER_MENSUALIDAD" : "3053.88"
+  "ER_MENSUALIDAD" : "3053.88"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7631,7 +7631,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "ROSA MARIA BREMONT CONTRERAS",
   "CORREO" : "robremont@gmail.com",
-  "1ER_MENSUALIDAD" : "2850.0"
+  "ER_MENSUALIDAD" : "2850.0"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7653,7 +7653,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "JOSUE CARDONA BARCENAS",
   "CORREO" : "jcbsantander@hotmail.com",
-  "1ER_MENSUALIDAD" : "3225.26"
+  "ER_MENSUALIDAD" : "3225.26"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7675,7 +7675,7 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "RAUL SANCHEZ ESCARCEGA",
   "CORREO" : "rse815830@gmail.com",
-  "1ER_MENSUALIDAD" : "6331.12"
+  "ER_MENSUALIDAD" : "6331.12"
 }, {
   "CREAR_RECIBO" : "null",
   "NOTAS" : "null",
@@ -7697,5 +7697,5 @@
   "DESARROLLO" : "PBB",
   "CLIENTE" : "GISELLE JAZMIN CAMPOS FLORES",
   "CORREO" : "null",
-  "1ER_MENSUALIDAD" : "null"
+  "ER_MENSUALIDAD" : "null"
 } ]
