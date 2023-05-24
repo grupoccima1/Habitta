@@ -1,9 +1,9 @@
-<?php include "./header.php"; ?>
+
 <?php
 require_once "./clases/Conexion.php";
   require_once "./clases/crud.php";
   $crud = new Crud();
-  $datos = $crud->mostrarDatosflujo();
+  $datos = $crud->mostrarDatosmadre();
 ?>
 
 <!DOCTYPE html>
@@ -31,94 +31,46 @@ require_once "./clases/Conexion.php";
         </div>
         <ul class="list-unstyled components">
           <li class="active">
-            <a href="#" class="dashboard"><img src="images/home.svg" width="20px"><span>Inicio</span></a>
+            <a href="index.php" class="dashboard"><img src="images/home.svg" width="20px"><span>Inicio</span></a>
           </li>
 
           <li class="">
-            <a href="#" class="dashboard"><span>Dashboard</span></a>
+            <a  class="dashboard"><span>Principales</span></a>
           </li>
-         <li class="dropdown">
-            <a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-              <i class="material-icons"></i>Lotes</a>
-            <ul class="collapse list-unstyled menu" id="homeSubmenu1">
-              <li>
-                <a href="#">Home 1</a>
-              </li>
-              <li>
-                <a href="#">Home 2</a>
-              </li>
-              <li>
-                <a href="#">Home 3</a>
-              </li>
-            </ul>
-          </li>
-
           <li class="dropdown">
-            <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-              <i class="material-icons"></i><span>Lorem</span></a>
-            <ul class="collapse list-unstyled menu" id="pageSubmenu2">
-              <li>
-                <a href="#">Page 1</a>
-              </li>
-              <li>
-                <a href="#">Page 2</a>
-              </li>
-              <li>
-                <a href="#">Page 3</a>
-              </li>
-            </ul>
+            <a href="./basemadre.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Base Madre</span></a>
+
+          </li>
+          <li class="dropdown">
+            <a href="./flujo.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Flujo</span></a>
+
+          </li>
+          <li class="dropdown">
+            <a href="./liberados.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Liberado</span></a>
+
           </li>
           
           <li class="">
-            <a href="#" class="dashboard"><span>Lorem</span></a>
+            <a href="#" class="dashboard"><span>Bancos</span></a>
           </li>
 
           <li class="dropdown">
-            <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-              <i class="material-icons"></i>
-              <span>Lorem</span></a>
-            <ul class="collapse list-unstyled menu" id="pageSubmenu3">
-              <li>
-                <a href="#">Page 1</a>
-              </li>
-              <li>
-                <a href="#">Page 2</a>
-              </li>
-              <li>
-                <a href="#">Page 3</a>
-              </li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-              <i class="material-icons"></i><span>Lorem</span></a>
-            <ul class="collapse list-unstyled menu" id="pageSubmenu4">
-              <li>
-                <a href="#">Page 1</a>
-              </li>
-              <li>
-                <a href="#">Page 2</a>
-              </li>
-              <li>
-                <a href="#">Page 3</a>
-              </li>
-            </ul>
-          </li>
+            <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>BBVA</span></a>
 
+          </li>
           <li class="dropdown">
-            <a href="#pageSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-              <i class="material-icons"></i><span>Lorem</span></a>
-            <ul class="collapse list-unstyled menu" id="pageSubmenu5">
-              <li>
-                <a href="#">Page 1</a>
-              </li>
-              <li>
-                <a href="#">Page 2</a>
-              </li>
-              <li>
-                <a href="#">Page 3</a>
-              </li>
-            </ul>
+            <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>HSBC1</span></a>
+
+          </li>
+          <li class="dropdown">
+            <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>HSBC2</span></a>
+
           </li>
         </ul>
       </nav>
@@ -170,85 +122,7 @@ require_once "./clases/Conexion.php";
             <h2>Bienvenido</h2>
           </div>
         </div>
-        <div class="col-md-12 mb-3">
-          <div class="card">
-            <div class="card-header">
-              <div class="row">
-                <div class="col">
-                  <span><img src="images/home.svg" width="25px"></i></span> Home/Base de datos
-                </div>
-  
-              </div>
-  
-            </div>
-            <div class="card-body">
-              <div class="table-responsive">
-                <table id="tabla" class="table table-striped data-table" style="width: 100%">
-                  <thead class="bg__td">
-                    <tr>
-                   
-                    <th class="th__texto" style="text-align:center;">Llave</th>                        
-                    <th class="th__texto" style="text-align:center;">Fecha</th>
-  
-                    </tr>
-                  </thead>
-                  <tbody>
-                  <?php
-                          foreach($datos as $item) {
-                        ?>
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>
-  
-                                 
-                            </form>
-                          
-                            </td> --> 
-                            <td class="text-center"> <?php echo $item->LLAVE; ?> </td>
-                          <td class="text-center"> <?php echo $item->FECHA;?>
-                            </td>
-                          </tr>
-                          <?php } ?> 
-                  </tbody>
-                  <tfoot class="bg-blue">
-                    <tr>
 
-
-                    <th class="th__texto" style="text-align:center;">Llave</th>                        
-                    <th class="th__texto" style="text-align:center;">Fecha</th>
-                    </tr>
-                  </tfoot>
-                </table>
-                <div class="row">
-                  <div class="col-sm-12 col-md-5">
-                    <div class="dataTables_info" id="example_info" role="status" aria-live="polite"></div>
-                  </div>
-                  <div class="col-sm-12 col-md-7">
-                    <div class="dataTables_paginate paging_simple_numbers" id="example_paginate">
-                      <ul class="pagination">
-                        <li class="paginate_button page-item previous disabled" id="example_previous"><a href="#"
-                            aria-controls="example" data-dt-idx="0" tabindex="0" class="page-link">Siguiente</a></li>
-                        <li class="paginate_button page-item active"><a href="#" aria-controls="example" data-dt-idx="1"
-                            tabindex="0" class="page-link">1</a></li>
-                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="2"
-                            tabindex="0" class="page-link">2</a></li>
-                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="3"
-                            tabindex="0" class="page-link">3</a></li>
-                        <li class="paginate_button page-item next" id="example_next"><a href="#" aria-controls="example"
-                            data-dt-idx="7" tabindex="0" class="page-link">Next</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
 
 
