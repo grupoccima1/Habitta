@@ -72,6 +72,14 @@ require_once "./clases/Conexion.php";
               <i class="material-icons"></i><span>HSBC Habitta</span></a>
 
           </li>
+          <li class="">
+            <a href="#" class="dashboard"><span>Estados de cuenta</span></a>
+          </li>
+          <li class="dropdown">
+            <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Cobranza</span></a>
+
+          </li>
         </ul>
       </nav>
 

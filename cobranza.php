@@ -3,7 +3,7 @@
 require_once "./clases/Conexion.php";
   require_once "./clases/crud.php";
   $crud = new Crud();
-  $datos = $crud->mostrarDatosmadre();
+  $datos = $crud->mostrarDatoscobranza();
 ?>
 
 <!DOCTYPE html>
@@ -86,7 +86,6 @@ require_once "./clases/Conexion.php";
 
 
 
-
       <!--------page-content---------------->
 
       <div id="content">
@@ -136,7 +135,7 @@ require_once "./clases/Conexion.php";
             <div class="card-header">
               <div class="row">
                 <div class="col">
-                  <span><img src="images/home.svg" width="25px"></i></span> Home/Base Madre
+                  <span><img src="images/home.svg" width="25px"></i></span> Home/Cobranza
                 </div>
   
               </div>
@@ -148,48 +147,14 @@ require_once "./clases/Conexion.php";
                   <thead class="bg__td">
                     <tr>
                    
-                    <th class="th__texto" style="text-align:center;">Llave</th>                        
-                        <th class="th__texto" style="text-align:center;">Lote</th>
-                        <th class="th__texto" style="text-align:center;">Condominio</th>
-                        <th class="th__texto" style="text-align:center;">Cluster</th>
-                        <th class="th__texto" style="text-align:center;">Desarrollo</th>
-                        <th class="th__texto" style="text-align:center;">Apartado telegram</th>
-                        <th class="th__texto" style="text-align:center;">Cliente</th>
-                        <th class="th__texto" style="text-align:center;">Rfc</th>
-                        <th class="th__texto" style="text-align:center;">Idcif</th>
-                        <th class="th__texto" style="text-align:center;">Uso de cfdi</th>
-                        <th class="th__texto" style="text-align:center;">Razon social</th>
-                        <th class="th__texto" style="text-align:center;">Domicilio fiscal</th>
-                        <th class="th__texto" style="text-align:center;">Telefono</th>
-                        <th class="th__texto" style="text-align:center;">Correo</th>
-                        <th class="th__texto" style="text-align:center;">M2</th>
-                        <th class="th__texto" style="text-align:center;">Total operacion</th>                        
-                        <th class="th__texto" style="text-align:center;">Enganche</th>
-                        <th class="th__texto" style="text-align:center;">Financiamiento</th>
-                        <th class="th__texto" style="text-align:center;">Firma contrato</th>
-                        <th class="th__texto" style="text-align:center;">Fin corrida</th>
-                        <th class="th__texto" style="text-align:center;">Total mensualidades</th>
-                        <th class="th__texto" style="text-align:center;">No 1er mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">1er mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">No 2da mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">2da mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">No 3ra mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">3er mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">Tipo de interes</th>
-                        <th class="th__texto" style="text-align:center;">Mensualidad de entrega</th>
-                        <th class="th__texto" style="text-align:center;">Inicio corrida</th>
-                        <th class="th__texto" style="text-align:center;">Fecha primer abono</th>
-                        <th class="th__texto" style="text-align:center;">Pagado</th>
-                        <th class="th__texto" style="text-align:center;">Deuda</th>
-                        <th class="th__texto" style="text-align:center;">Fecha Entrega Lote</th>
-                        <th class="th__texto" style="text-align:center;">Estatus cm</th>
-                        <th class="th__texto" style="text-align:center;">Link sat</th>
-                        <th class="th__texto" style="text-align:center;">Notas de pagos</th>
-                        <th class="th__texto" style="text-align:center;">Abono referido</th>
-                        <th class="th__texto" style="text-align:center;">Estatus</th>
-                        <th class="th__texto" style="text-align:center;">Motivo estatus</th>
-                        <th class="th__texto" style="text-align:center;">Resultado</th>
-  
+                        <th class="th__texto" style="text-align:center;">Fecha</th>                        
+                        <th class="th__texto" style="text-align:center;">Motivo</th>
+                        <th class="th__texto" style="text-align:center;">Flujo</th>
+                        <!-- <th class="th__texto" style="text-align:center;">Fecha (#)</th> -->
+                        <th class="th__texto" style="text-align:center;">Descripcion</th>
+                        <th class="th__texto" style="text-align:center;">A pagar</th>
+                        <th class="th__texto" style="text-align:center;">Pago</th>
+                        
                     </tr>
                   </thead>
                   <tbody>
@@ -209,47 +174,14 @@ require_once "./clases/Conexion.php";
                             </form>
                           
                             </td> --> 
-                            <td class="text-center"> <?php echo $item->LLAVE; ?> </td>
-                          <td class="text-center"> <?php echo $item->LOTE;?> </td>
-                          <td class="text-center"> <?php echo $item->CONDOMINIO;?> </td>
-                          <td class="text-center"> <?php echo $item->CLUSTER; ?> </td>
-                          <td class="text-center"> <?php echo $item->DESARROLLO;?> </td>
-                          <td class="text-center"> <?php echo $item->APARTADOTELEGRAM;?> </td>
-                          <td class="text-center"> <?php echo $item->CLIENTE;?></td>
-                          <td class="text-center"> <?php echo $item->RFC;?> </td>
-                          <td class="text-center"> <?php echo $item->IDCIF;?> </td>
-                          <td class="text-center"> <?php echo $item->USOCFDI;?> </td>
-                          <td class="text-center"> <?php echo $item->RAZONSOCIAL;?> </td>
-                          <td class="text-center"> <?php echo $item->DOMICILIOFISCAL;?> </td>
-                          <td class="text-center"> <?php echo $item->TELEFONO;?> </td>
-                          <td class="text-center"> <?php echo $item->CORREO;?> </td>
-                          <td class="text-center"> <?php echo $item->M2; ?> </td>
-                          <td class="text-center"> <?php echo $item->TOTALOPERACION;?> </td>
-                          <td class="text-center"> <?php echo $item->ENGANCHE;?> </td>
-                          <td class="text-center"> <?php echo $item->FINANCIAMIENTO;?> </td>
-                          <td class="text-center"> <?php echo $item->FIRMACONTRATO;?> </td>
-                          <td class="text-center"> <?php echo $item->FINCORRIDA;?> </td>
-                          <td class="text-center"> <?php echo $item->TOTALMENSUALIDADES; ?> </td>
-                          <td class="text-center"> <?php echo $item->ERMENSUALIDAD;?> </td>
-                          <td class="text-center"> <?php echo $item->NO1ERMENS;?> </td>
-                          <td class="text-center"> <?php echo $item->DAMENSUALIDAD; ?> </td>
-                          <td class="text-center"> <?php echo $item->NO2DAMENS;?> </td>
-                          <td class="text-center"> <?php echo $item->ERMENSUALIDAD;?></td>
-                          <td class="text-center"> <?php echo $item->NO3ERMENS;?></td>
-                          <td class="text-center"> <?php echo $item->TIPODEINTERES; ?> </td>
-                          <td class="text-center"> <?php echo $item->MENSENTREGA;?> </td>
-                          <td class="text-center"> <?php echo $item->INICIOCORRIDA;?> </td>
-                          <td class="text-center"> <?php echo $item->FECHAPRIMERABONO; ?> </td>
-                          <td class="text-center"> <?php echo $item->PAGADO;?> </td>
-                          <td class="text-center"> <?php echo $item->DEUDA;?> </td>
-                          <td class="text-center"> <?php echo $item->FECHAENTREGALOTE; ?> </td>
-                          <td class="text-center"> <?php echo $item->ESTATUSCM;?> </td>
-                          <td class="text-center"> <?php echo $item->LINKSAT;?></td>
-                          <td class="text-center"> <?php echo $item->NOTASDEPAGOS;?></td>
-                          <td class="text-center"> <?php echo $item->BONOREFERIDO; ?> </td>
-                          <td class="text-center"> <?php echo $item->ESTATUS;?> </td>
-                          <td class="text-center"> <?php echo $item->MOTIVOESTATUS;?> </td>
-                          <td class="text-center"> <?php echo $item->RESULTADO;?> </td>
+                          <td class="text-center"> <?php echo $item->FECHA; ?> </td>
+                          <td class="text-center"> <?php echo $item->MOTIVO;?> </td>
+                          <td class="text-center"> <?php echo $item->FLUJO;?> </td>
+                          <!-- <td class="text-center"> <?php echo $item->FECHA1 ?> </td> -->
+                          <td class="text-center"> <?php echo $item->DESCRIPCION;?> </td>
+                          <td class="text-center"> <?php echo $item->APAGAR;?> </td>
+                          <td class="text-center"> <?php echo $item->PAGO;?></td>
+                          
                             </td>
                           </tr>
                           <?php } ?> 
@@ -258,47 +190,14 @@ require_once "./clases/Conexion.php";
                     <tr>
 
 
-                    <th class="th__texto" style="text-align:center;">Llave</th>                        
-                        <th class="th__texto" style="text-align:center;">Lote</th>
-                        <th class="th__texto" style="text-align:center;">Condominio</th>
-                        <th class="th__texto" style="text-align:center;">Cluster</th>
-                        <th class="th__texto" style="text-align:center;">Desarrollo</th>
-                        <th class="th__texto" style="text-align:center;">Apartado telegram</th>
-                        <th class="th__texto" style="text-align:center;">Cliente</th>
-                        <th class="th__texto" style="text-align:center;">Rfc</th>
-                        <th class="th__texto" style="text-align:center;">Idcif</th>
-                        <th class="th__texto" style="text-align:center;">Uso de cfdi</th>
-                        <th class="th__texto" style="text-align:center;">Razon social</th>
-                        <th class="th__texto" style="text-align:center;">Domicilio fiscal</th>
-                        <th class="th__texto" style="text-align:center;">Telefono</th>
-                        <th class="th__texto" style="text-align:center;">Correo</th>
-                        <th class="th__texto" style="text-align:center;">M2</th>
-                        <th class="th__texto" style="text-align:center;">Total operacion</th>                        
-                        <th class="th__texto" style="text-align:center;">Enganche</th>
-                        <th class="th__texto" style="text-align:center;">Financiamiento</th>
-                        <th class="th__texto" style="text-align:center;">Firma contrato</th>
-                        <th class="th__texto" style="text-align:center;">Fin corrida</th>
-                        <th class="th__texto" style="text-align:center;">Total mensualidades</th>
-                        <th class="th__texto" style="text-align:center;">No 1er mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">1er mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">No 2da mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">2da mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">No 3ra mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">3er mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">Tipo de interes</th>
-                        <th class="th__texto" style="text-align:center;">Mensualidad de entrega</th>
-                        <th class="th__texto" style="text-align:center;">Inicio corrida</th>
-                        <th class="th__texto" style="text-align:center;">Fecha primer abono</th>
-                        <th class="th__texto" style="text-align:center;">Pagado</th>
-                        <th class="th__texto" style="text-align:center;">Deuda</th>
-                        <th class="th__texto" style="text-align:center;">Fecha Entrega Lote</th>
-                        <th class="th__texto" style="text-align:center;">Estatus cm</th>
-                        <th class="th__texto" style="text-align:center;">Link sat</th>
-                        <th class="th__texto" style="text-align:center;">Notas de pagos</th>
-                        <th class="th__texto" style="text-align:center;">Abono referido</th>
-                        <th class="th__texto" style="text-align:center;">Estatus</th>
-                        <th class="th__texto" style="text-align:center;">Motivo estatus</th>
-                        <th class="th__texto" style="text-align:center;">Resultado</th>
+                    <th class="th__texto" style="text-align:center;">Fecha</th>                        
+                        <th class="th__texto" style="text-align:center;">Motivo</th>
+                        <th class="th__texto" style="text-align:center;">Flujo</th>
+                        <!-- <th class="th__texto" style="text-align:center;">Fecha (#)</th> -->
+                        <th class="th__texto" style="text-align:center;">Descripcion</th>
+                        <th class="th__texto" style="text-align:center;">A pagar</th>
+                        <th class="th__texto" style="text-align:center;">Pago</th>
+                        
                     </tr>
                   </tfoot>
                 </table>
