@@ -58,18 +58,18 @@ require_once "./clases/Conexion.php";
           </li>
 
           <li class="dropdown">
-            <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" >
+            <a href="./bbva.php" data-toggle="collapse" aria-expanded="false" >
               <i class="material-icons"></i><span>BBVA</span></a>
 
           </li>
           <li class="dropdown">
-            <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>HSBC1</span></a>
+            <a href="./hsbcl.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>HSBC Lomas</span></a>
 
           </li>
           <li class="dropdown">
-            <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>HSBC2</span></a>
+            <a href="./hsbch.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>HSBC Habitta</span></a>
 
           </li>
         </ul>
