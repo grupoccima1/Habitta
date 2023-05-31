@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icons/logo.ico">
+    <title>Simulador de Pagos Habitta</title>
+    <meta name="title" content="">
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta name="author" content="Grupo CCIMA">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">    
+    
+</head>
+
+<body>
+    <header class="">
+        <!-- Grey with black text -->
+        <nav class="navbar navbar-expand-sm  navbar-light px-4 ">
+            <div class="container">
+
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-logo" src="img/logos/ccimaofficial.svg" alt="logo-grupo ccima">
+                </a>
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse flex-row-reverse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link n-item-text" href="index.html">Historial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link n-item-text" href="simulador.html">Simulador</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link n-item-text" href="registro_cliente.html">Registro Cliente</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <div class="container ">
+        <!-- menu bar -->
+        <div class="">
+            <h3 class="gray-text text-end text-uppercase text-sm pt-3"> simulador actualizacion: 22-12-2022</h3>
+            <div class="d-flex  align-items-center">
+                <img id="logo" class="img-logo-desarrollo" src="img/logos/logo-pbcimatario.svg" alt="">
+                <h1 class="blue-text text-uppercase ml-1"> Simulador de Pagos</h1>
+            </div>
+            <div class="d-flex align-items-start justify-content-end">
+                <img class="w-3 mr-1 pt-1" src="img/icon/calendar-alt-solid.svg" alt="">
+                <h3 class="text-uppercase blue-text text-end  text-bold mr-2 pt-1">fecha: </h3>
+                <input class="ml-1" data-date-format="dd/mm/yyyy" id="datepicker">
+            </div>
+            <hr class="pbhr">
+        </div>
+        <!-- vista de escritorio -->
+        <section class="table-view mb-5">
+            <div class="row mt-4">
+                <div class="col-12  col-xl-6">
+                    <!-- informacion de lote -->
+                    <div class="card p-3">
+                        <form>
+                            <div class="form-group">
+                                <label class="blue-text" for="name">Nombre</label>
+                                <input type="input" class="form-control" id="name" aria-describedby="name"
+                                    placeholder="Jonh Doe">
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pt-4">
+                                <h2 class="text-uppercase blue-text">lote</h2>
+                                <h3 class="text-uppercase secondary-text">REFERENCES: PREMIUM | M1 | L-1 | 165m<sup> 2</sup> </h3>
+                            </div>
+                            <div class="row pt-3">
+                                <div class="col-12 col-xl-6 mt-2 order-xl-first">
+                                    <div class="form-group">
+                                        <label class="blue-text " for="desarrollo">Desarrollo</label>
+                                        <select class="form-control" id="desarrollo">
+                                            <option selected disabled>Desarrollos</option>
+                                            <option>Porttoblanco Bernal</option>
+                                            <option>Porttoblanco Cimatario</option>
+                                            <option>Lomas de Porttoblanco Cimatario</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-xl-6 mt-2 order-xl-first">
+                                    <div class="form-group">
+                                        <label class="blue-text" for="condominium">Condominium</label>
+                                        <select class="form-control" id="condominium">
+                                            
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-xl-4 mt-2 order-xl-first">
+                                    <div class="form-group">
+                                        <label class="blue-text" for="name">Lote</label>
+                                        <input type="input" class="form-control" id="name" aria-describedby="name"
+                                            placeholder="12">
+                                    </div>
+                                </div>
+                                <div class="col-6 col-xl-4 mt-2 order-xl-last">
+                                    <div class="form-group">
+                                        <label class="blue-text" for="name">Descuento</label>
+                                        <input type="input" class="form-control" id="name" aria-describedby="name"
+                                            placeholder="15%">
+                                    </div>
+                                </div>
+                                <div class="col-6 col-xl-4 mt-2 ">
+                                    <div class="form-group">
+                                        <label class="blue-text" for="area">Metros cuadrados</label>
+                                        <input type="input" class="form-control" id="area" aria-describedby="name"
+                                        placeholder="150.00 m2">
+                                    </div>
+                                </div>
+                                <div class="col-6 col-xl-4 mt-2 ">
+                                    <div class="form-group">
+                                        <label class="blue-text " for="name">Tipo</label>
+                                            <select class="form-control" id="exampleFormControlSelect1">
+                                                <option>Estandar</option>
+                                                <option>Premium</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-xl-4 mt-2 order-xl-last">
+                                    <div class="form-group">
+                                        <label class="blue-text " for="name">Precio Unitario Lista </label>
+                                        <div class="d-flex">
+                                            <img class="w-3 mr-1" src="img/icon/times-solid.svg"
+                                                alt="">
+                                        <p class="text-b">$4,990.00</p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-6 col-xl-4 mt-2 order-xl-last">
+                                    <div class="form-group">
+                                        <label class="blue-text " for="name">Precio Unitario Descuento </label>
+                                        <div class="d-flex">
+                                            <img class="w-3 mr-1" src="img/icon/check-square-regular.svg" alt="">
+                                        <p class="text-b green-text" class="text-uppercase">$3,742.50</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                    <!-- financiamiento -->
+                    <div class="card p-3 mt-4">
+                        <h2 class="text-uppercase blue-text">financiamiento</h2>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label class="blue-text" for="name">Tiempo</label>
+                                    <input type="input" class="form-control" id="name" aria-describedby="name"
+                                        placeholder="15 Años">
+                                </div>
+                            </div>
+                            <div class="col-6 d-flex align-items-end">
+                                <div class="d-flex align-items-start">
+                                    <img class="w-3 mr-1" src="img/icon/calendar-alt-solid.svg"
+                                        alt=""> 
+                                    <h3 class="blue-text">180 meses</h3>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <table class="table table-striped table-hover mt-3 ">
+
+                            <tbody>
+                                <tr>
+
+                                    <td>1 A 30 Meses </td>
+                                    <td>30 Meses </td>
+                                    <td>0%</td>
+                                </tr>
+                                <tr>
+
+                                    <td>31 A 120 Meses </td>
+                                    <td>90 Meses</td>
+                                    <td>1.0%</td>
+                                </tr>
+                                <tr>
+
+                                    <td>121 A 240 Meses </td>
+                                    <td>120 Meses</td>
+                                    <td>1.25%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- documentacion requerida -->
+                    <div class="card p-3 mt-4">
+                        <h2 class="text-uppercase blue-text">documentacion requerida</h2>
+                        <div class="row">
+                            <div class="col-6">
+                                <h3 class="text-uppercase pt-3">fisica</h3>
+                                <ul class="documentos">
+                                    <li>Identificación oficial vigente.</li>
+                                    <li>Acta de nacimiento.</li>
+                                    <li>Acta de matrimonio ( en caso de ser casado).</li>
+                                    <li>Constancia de situación fiscal </li>
+                                    <li>CURP</li>
+                                    <li>Comprobante de domicilio</li>
+                                </ul>
+                                <p style="font-size: 12px;">**En caso de ser copropiedad o casado por bienes
+                                    mancomunados anexar envíar toda la documnetación de ambas personas**</p>
+                            </div>
+                            <div class="col-6">
+                                <h3 class="text-uppercase pt-3">Moral</h3>
+                                <ul class="documentos">
+                                    <li>Identificación oficial del representante legal vigente.</li>
+                                    <li>Acta de nacimiento del representante legal.</li>
+                                    <li>Acta constitutiva</li>
+                                    <li>Constancia de situacón fiscal empresa y representante legal</li>
+                                    <li>CURP del representante legal</li>
+                                    <li>Comprobante de Domicilio (Empresa y Representante legal)</li>
+                                    <li>Poder en el que ostenta las facultades otorgadas al representante legal</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6">
+                    <!-- resumen de financiamiento -->
+                    <div class="card p-3 mt-4 mt-xl-0">
+                        <h2 class="text-uppercase blue-text mt-3">resumen del importe</h2>
+                        <table class="table mt-3 mb-2">
+                            <thead>
+                                <tr>
+                                    <th class="text-uppercase text-bold" scope="col">importe</th>
+                                    <th class="text-uppercase text-bold" scope="col">%</th>
+                                    <th class="text-uppercase text-bold" scope="col">subtotal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>PRECIO DE LISTA </td>
+                                    <td></td>
+                                    <td>$823,350.00</td>
+                                </tr>
+                                <tr>
+                                    <td>DESCUENTO</td>
+                                    <td>25%</td>
+                                    <td>$205,837.50</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-bold">IMPORTE DE OPERACIONES</td>
+                                    <td></td>
+                                    <td class="text-bold green-text">$617,512.50</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="row mt-3">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label class="blue-text text-uppercase" for="name">enganche</label>
+                                    <input type="input" class="form-control" id="name" aria-describedby="name"
+                                        placeholder="$61,751.25">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label class="blue-text text-uppercase" for="name">enganche extra</label>
+                                    <input type="input" class="form-control" id="name" aria-describedby="name"
+                                        placeholder="$61,751.25">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 d-flex align-items-end">
+                                <div class="form-group">
+                                    <label class="blue-text text-uppercase" for="name">Descuento en el Enganche</label>
+                                    <input type="input" class="form-control" id="name" aria-describedby="name"
+                                        placeholder="10%">
+                                </div>
+                            </div>
+                        </div>
+                        <table class="table mt-3 mb-2">
+                            <thead>
+                                <tr>
+                                    <th class="text-uppercase text-bold" scope="col">importe</th>
+                                    <th class="text-uppercase text-bold" scope="col">%</th>
+                                    <th class="text-uppercase text-bold" scope="col">subtotal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-uppercase">Enganche </td>
+                                    <td>10%</td>
+                                    <td>$61,751.25</td>
+                                </tr>
+                                <tr>
+
+                                    <td class="text-uppercase">Descuento en el Enganche</td>
+                                    <td></td>
+                                    <td>$205,837.50</td>
+                                </tr>
+                                <tr>
+
+                                    <td class="text-uppercase">Enganche extra</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+
+                                    <td class="text-uppercase text-bold">Enganche a Pagar</td>
+                                    <td>9%</td>
+                                    <td>$55,576.125</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-uppercase text-bold">total a pagar</td>
+                                    <td></td>
+                                    <td>$611,337.38</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-uppercase text-bold">importe a financiar </td>
+                                    <td></td>
+                                    <td class="text-bold green-text">$555,761.25</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- mensualidades -->
+                    <div class="card p-3 mt-4">
+                        <h2 class="text-uppercase blue-text">Mensualidades</h2>
+                        <table class="table table-striped table-hover mt-3 ">
+
+                            <tbody>
+                                <tr>
+                                    <td>Mensualidades 1 A 48 Meses </td>
+
+                                    <td>$3,087.56</td>
+                                </tr>
+                                <tr>
+
+                                    <td>Mensualidades 49 A 120 Meses </td>
+
+                                    <td>$5,574.53</td>
+                                </tr>
+                                <tr>
+
+                                    <td>Mensualidades 121 A 180 Meses </td>
+
+                                    <td>$5,961.84</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                        <button type="submit" class="btn btn-simualador mt-3 mb-2 text-uppercase ">Calcular</button>
+                    </div>
+                    <p class="blue-text text-rigth">*Los precios estan sujetos a cambios sin previo aviso</p>
+                </div>
+                <div class="col-12 text-center mt-3 mt-md-5">
+                    <a href="registro_cliente.html" class="btn btn-simualador mt-3 mb-2 text-uppercase px-5 d-block d-md-inline-block">Registro de cliente</a>
+                </div>
+            </div>
+        </section>
+        <!-- spiner -->
+        <div class="text-center d-none">
+            <img src="img/spiner/Fusion6.gif" style="width: 9rem;" alt="">
+        </div>
+        <!-- financiamiento a meses sin intereses -->
+        <section class="mb-5">
+            <h2 class="text-uppercase blue-text mt-3">DESGLOSE DE FINANCIAMIENTO A MESES SIN INTERESES</h2>
+            <div class="p-3 table-responsive-lg">
+                <table class="table table-striped table-hover mb-2">
+                    <thead class="thead-pagos">
+                        <tr>
+                            <th class="text-uppercase text-bold" scope="col">periodo</th>
+                            <th class="text-uppercase text-bold" scope="col">fecha</th>
+                            <th class="text-uppercase text-bold" scope="col">saldo inicial</th>
+
+                            <th class="text-uppercase text-bold" scope="col">mensualidad</th>
+                            <th class="text-uppercase text-bold" scope="col">Abonos</th>
+                            <th class="text-uppercase text-bold" scope="col">pagado</th>
+                            <th class="text-uppercase text-bold" scope="col">interes</th>
+                            <th class="text-uppercase text-bold" scope="col">abono a capital</th>
+                            <th class="text-uppercase text-bold" scope="col">Saldo Final</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <!-- financiamiento a meses con intereses 1.0% -->
+        <section class="mb-5">
+            <h2 class="text-uppercase blue-text mt-3">DESGLOSE DE FINANCIAMIENTO A MESES con INTERESES 1.0%</h2>
+            <div class="p-3 table-responsive-lg">
+                <table class="table table-striped table-hover mb-2">
+                    <thead class="thead-pagos">
+                        <tr>
+                            <th class="text-uppercase text-bold" scope="col">periodo</th>
+                            <th class="text-uppercase text-bold" scope="col">fecha</th>
+                            <th class="text-uppercase text-bold" scope="col">saldo inicial</th>
+
+                            <th class="text-uppercase text-bold" scope="col">mensualidad</th>
+                            <th class="text-uppercase text-bold" scope="col">Abonos</th>
+                            <th class="text-uppercase text-bold" scope="col">pagado</th>
+                            <th class="text-uppercase text-bold" scope="col">interes</th>
+                            <th class="text-uppercase text-bold" scope="col">abono a capital</th>
+                            <th class="text-uppercase text-bold" scope="col">Saldo Final</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <!-- financiamiento a meses con intereses a 1.25% -->
+        <section class="mb-5">
+            <h2 class="text-uppercase blue-text mt-3">DESGLOSE DE FINANCIAMIENTO A MESES con INTERESES 1.25%</h2>
+            <div class="p-3 table-responsive-xl">
+                <table class="table table-striped table-hover mb-2">
+                    <thead class="thead-pagos">
+                        <tr>
+                            <th class="text-uppercase text-bold" scope="col">periodo</th>
+                            <th class="text-uppercase text-bold" scope="col">fecha</th>
+                            <th class="text-uppercase text-bold" scope="col">saldo inicial</th>
+
+                            <th class="text-uppercase text-bold" scope="col">mensualidad</th>
+                            <th class="text-uppercase text-bold" scope="col">Abonos</th>
+                            <th class="text-uppercase text-bold" scope="col">pagado</th>
+                            <th class="text-uppercase text-bold" scope="col">interes</th>
+                            <th class="text-uppercase text-bold" scope="col">abono a capital</th>
+                            <th class="text-uppercase text-bold" scope="col">Saldo Final</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript">
+        $('#datepicker').datepicker({
+            weekStart: 1,
+            daysOfWeekHighlighted: "6,0",
+            autoclose: true,
+            todayHighlight: true,
+        });
+        $('#datepicker').datepicker("setDate", new Date());
+    </script>
+</body>
+
+</html>
