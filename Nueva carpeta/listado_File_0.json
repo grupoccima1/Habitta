@@ -1,0 +1,2245 @@
+[ {
+  "LLAVE" : "21ESTEPA 1",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 1752.0,
+  "LLAVE_2" : "21ESTEPA 1ENERO 2023"
+}, {
+  "LLAVE" : "21ESTEPA 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 1752.0,
+  "LLAVE_2" : "21ESTEPA 1FEBRERO 2023"
+}, {
+  "LLAVE" : "21ESTEPA 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 1752.0,
+  "LLAVE_2" : "21ESTEPA 1MARZO 2023"
+}, {
+  "LLAVE" : "21ESTEPA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 1752.0,
+  "LLAVE_2" : "21ESTEPA 1ABRIL 2023"
+}, {
+  "LLAVE" : "43ESTEPA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2117.0,
+  "LLAVE_2" : "43ESTEPA 1ABRIL 2023"
+}, {
+  "LLAVE" : "89ESTEPA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2600.16,
+  "LLAVE_2" : "89ESTEPA 1ABRIL 2023"
+}, {
+  "LLAVE" : "93ESTEPA 1",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 1916.25,
+  "LLAVE_2" : "93ESTEPA 1ENERO 2023"
+}, {
+  "LLAVE" : "95ESTEPA 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 1916.25,
+  "LLAVE_2" : "95ESTEPA 1MARZO 2023"
+}, {
+  "LLAVE" : "95ESTEPA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 1916.25,
+  "LLAVE_2" : "95ESTEPA 1ABRIL 2023"
+}, {
+  "LLAVE" : "5ESTEPA 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2737.5,
+  "LLAVE_2" : "5ESTEPA 2ABRIL 2023"
+}, {
+  "LLAVE" : "6ESTEPA 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2555.0,
+  "LLAVE_2" : "6ESTEPA 2ABRIL 2023"
+}, {
+  "LLAVE" : "40ESTEPA 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2874.38,
+  "LLAVE_2" : "40ESTEPA 2ABRIL 2023"
+}, {
+  "LLAVE" : "2ESTEPA 3",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 5748.75,
+  "LLAVE_2" : "2ESTEPA 3MARZO 2023"
+}, {
+  "LLAVE" : "2ESTEPA 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 5748.75,
+  "LLAVE_2" : "2ESTEPA 3ABRIL 2023"
+}, {
+  "LLAVE" : "11ESTEPA 3",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 5748.75,
+  "LLAVE_2" : "11ESTEPA 3MARZO 2023"
+}, {
+  "LLAVE" : "12DESIERTO 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2460.47,
+  "LLAVE_2" : "12DESIERTO 1FEBRERO 2023"
+}, {
+  "LLAVE" : "12DESIERTO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2460.47,
+  "LLAVE_2" : "12DESIERTO 1MARZO 2023"
+}, {
+  "LLAVE" : "12DESIERTO 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2460.47,
+  "LLAVE_2" : "12DESIERTO 1ABRIL 2023"
+}, {
+  "LLAVE" : "28DESIERTO 1",
+  "MES" : "ENERO",
+  "AÑO" : 2022,
+  "MONTO" : 2343.3,
+  "LLAVE_2" : "28DESIERTO 1ENERO 2022"
+}, {
+  "LLAVE" : "29DESIERTO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2507.33,
+  "LLAVE_2" : "29DESIERTO 1MARZO 2023"
+}, {
+  "LLAVE" : "29DESIERTO 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2507.33,
+  "LLAVE_2" : "29DESIERTO 1ABRIL 2023"
+}, {
+  "LLAVE" : "72DESIERTO 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2137.22,
+  "LLAVE_2" : "72DESIERTO 1FEBRERO 2023"
+}, {
+  "LLAVE" : "73DESIERTO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 4072.97,
+  "LLAVE_2" : "73DESIERTO 1MARZO 2023"
+}, {
+  "LLAVE" : "73DESIERTO 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 4072.97,
+  "LLAVE_2" : "73DESIERTO 1ABRIL 2023"
+}, {
+  "LLAVE" : "1DESIERTO 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2460.47,
+  "LLAVE_2" : "1DESIERTO 2MARZO 2023"
+}, {
+  "LLAVE" : "1DESIERTO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2460.47,
+  "LLAVE_2" : "1DESIERTO 2ABRIL 2023"
+}, {
+  "LLAVE" : "13DESIERTO 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2670.48,
+  "LLAVE_2" : "13DESIERTO 2FEBRERO 2023"
+}, {
+  "LLAVE" : "13DESIERTO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2670.48,
+  "LLAVE_2" : "13DESIERTO 2ABRIL 2023"
+}, {
+  "LLAVE" : "68DESIERTO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2378.45,
+  "LLAVE_2" : "68DESIERTO 2ABRIL 2023"
+}, {
+  "LLAVE" : "100DESIERTO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 1700.99,
+  "LLAVE_2" : "100DESIERTO 2ABRIL 2023"
+}, {
+  "LLAVE" : "35DESIERTO 3",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 3845.1,
+  "LLAVE_2" : "35DESIERTO 3DICIEMBRE 2022"
+}, {
+  "LLAVE" : "35DESIERTO 3",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 3845.1,
+  "LLAVE_2" : "35DESIERTO 3FEBRERO 2023"
+}, {
+  "LLAVE" : "24DESIERTO 4",
+  "MES" : "NOVIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2152.91,
+  "LLAVE_2" : "24DESIERTO 4NOVIEMBRE 2022"
+}, {
+  "LLAVE" : "16TAIGA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2507.33,
+  "LLAVE_2" : "16TAIGA 1ABRIL 2023"
+}, {
+  "LLAVE" : "28TAIGA 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2384.94,
+  "LLAVE_2" : "28TAIGA 1FEBRERO 2023"
+}, {
+  "LLAVE" : "28TAIGA 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2384.94,
+  "LLAVE_2" : "28TAIGA 1MARZO 2023"
+}, {
+  "LLAVE" : "28TAIGA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2384.94,
+  "LLAVE_2" : "28TAIGA 1ABRIL 2023"
+}, {
+  "LLAVE" : "51TAIGA 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2005.87,
+  "LLAVE_2" : "51TAIGA 1FEBRERO 2023"
+}, {
+  "LLAVE" : "51TAIGA 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2005.87,
+  "LLAVE_2" : "51TAIGA 1MARZO 2023"
+}, {
+  "LLAVE" : "51TAIGA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2005.87,
+  "LLAVE_2" : "51TAIGA 1ABRIL 2023"
+}, {
+  "LLAVE" : "60TAIGA 1",
+  "MES" : "AGOSTO",
+  "AÑO" : 2022,
+  "MONTO" : 2106.16,
+  "LLAVE_2" : "60TAIGA 1AGOSTO 2022"
+}, {
+  "LLAVE" : "60TAIGA 1",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2106.16,
+  "LLAVE_2" : "60TAIGA 1SEPTIEMBRE 2022"
+}, {
+  "LLAVE" : "60TAIGA 1",
+  "MES" : "OCTUBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2106.16,
+  "LLAVE_2" : "60TAIGA 1OCTUBRE 2022"
+}, {
+  "LLAVE" : "60TAIGA 1",
+  "MES" : "NOVIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2106.16,
+  "LLAVE_2" : "60TAIGA 1NOVIEMBRE 2022"
+}, {
+  "LLAVE" : "60TAIGA 1",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2106.16,
+  "LLAVE_2" : "60TAIGA 1DICIEMBRE 2022"
+}, {
+  "LLAVE" : "60TAIGA 1",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 2106.16,
+  "LLAVE_2" : "60TAIGA 1ENERO 2023"
+}, {
+  "LLAVE" : "60TAIGA 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2106.16,
+  "LLAVE_2" : "60TAIGA 1MARZO 2023"
+}, {
+  "LLAVE" : "60TAIGA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2106.16,
+  "LLAVE_2" : "60TAIGA 1ABRIL 2023"
+}, {
+  "LLAVE" : "75TAIGA 1",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2193.92,
+  "LLAVE_2" : "75TAIGA 1DICIEMBRE 2022"
+}, {
+  "LLAVE" : "110TAIGA 1",
+  "MES" : "ENERO",
+  "AÑO" : 2022,
+  "MONTO" : 1370.68,
+  "LLAVE_2" : "110TAIGA 1ENERO 2022"
+}, {
+  "LLAVE" : "5TAIGA 3",
+  "MES" : "NOVIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 6854.4,
+  "LLAVE_2" : "5TAIGA 3NOVIEMBRE 2022"
+}, {
+  "LLAVE" : "5TAIGA 3",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 6854.4,
+  "LLAVE_2" : "5TAIGA 3ENERO 2023"
+}, {
+  "LLAVE" : "19TAIGA 3",
+  "MES" : "JUNIO",
+  "AÑO" : 2022,
+  "MONTO" : 7020.54,
+  "LLAVE_2" : "19TAIGA 3JUNIO 2022"
+}, {
+  "LLAVE" : "28PARAMO 1",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 2688.0,
+  "LLAVE_2" : "28PARAMO 1ENERO 2023"
+}, {
+  "LLAVE" : "28PARAMO 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2688.0,
+  "LLAVE_2" : "28PARAMO 1FEBRERO 2023"
+}, {
+  "LLAVE" : "28PARAMO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2688.0,
+  "LLAVE_2" : "28PARAMO 1MARZO 2023"
+}, {
+  "LLAVE" : "28PARAMO 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2688.0,
+  "LLAVE_2" : "28PARAMO 1ABRIL 2023"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "AGOSTO",
+  "AÑO" : 2021,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1AGOSTO 2021"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2021,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1SEPTIEMBRE 2021"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "OCTUBRE",
+  "AÑO" : 2021,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1OCTUBRE 2021"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "NOVIEMBRE",
+  "AÑO" : 2021,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1NOVIEMBRE 2021"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2021,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1DICIEMBRE 2021"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "ENERO",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1ENERO 2022"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1FEBRERO 2022"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1MARZO 2022"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1ABRIL 2022"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "MAYO",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1MAYO 2022"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "JUNIO",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1JUNIO 2022"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "JULIO",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1JULIO 2022"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "AGOSTO",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1AGOSTO 2022"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1SEPTIEMBRE 2022"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "OCTUBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1OCTUBRE 2022"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "NOVIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1NOVIEMBRE 2022"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1DICIEMBRE 2022"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1ENERO 2023"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1FEBRERO 2023"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1MARZO 2023"
+}, {
+  "LLAVE" : "40PARAMO 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "40PARAMO 1ABRIL 2023"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "AGOSTO",
+  "AÑO" : 2021,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1AGOSTO 2021"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2021,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1SEPTIEMBRE 2021"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "OCTUBRE",
+  "AÑO" : 2021,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1OCTUBRE 2021"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "NOVIEMBRE",
+  "AÑO" : 2021,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1NOVIEMBRE 2021"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2021,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1DICIEMBRE 2021"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "ENERO",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1ENERO 2022"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1FEBRERO 2022"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1MARZO 2022"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "MAYO",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1MAYO 2022"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "JUNIO",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1JUNIO 2022"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "JULIO",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1JULIO 2022"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "AGOSTO",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1AGOSTO 2022"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1SEPTIEMBRE 2022"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "OCTUBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1OCTUBRE 2022"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "NOVIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1NOVIEMBRE 2022"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1DICIEMBRE 2022"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1ENERO 2023"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1FEBRERO 2023"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1MARZO 2023"
+}, {
+  "LLAVE" : "41PARAMO 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2867.2,
+  "LLAVE_2" : "41PARAMO 1ABRIL 2023"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "OCTUBRE",
+  "AÑO" : 2021,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1OCTUBRE 2021"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "ENERO",
+  "AÑO" : 2022,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1ENERO 2022"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2022,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1ABRIL 2022"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "MAYO",
+  "AÑO" : 2022,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1MAYO 2022"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "JUNIO",
+  "AÑO" : 2022,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1JUNIO 2022"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "JULIO",
+  "AÑO" : 2022,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1JULIO 2022"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "AGOSTO",
+  "AÑO" : 2022,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1AGOSTO 2022"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1SEPTIEMBRE 2022"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "OCTUBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1OCTUBRE 2022"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "NOVIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1NOVIEMBRE 2022"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1DICIEMBRE 2022"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1ENERO 2023"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1FEBRERO 2023"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1MARZO 2023"
+}, {
+  "LLAVE" : "45PARAMO 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2820.0,
+  "LLAVE_2" : "45PARAMO 1ABRIL 2023"
+}, {
+  "LLAVE" : "59PARAMO 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3098.99,
+  "LLAVE_2" : "59PARAMO 1ABRIL 2023"
+}, {
+  "LLAVE" : "88PARAMO 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2256.0,
+  "LLAVE_2" : "88PARAMO 1ABRIL 2023"
+}, {
+  "LLAVE" : "99PARAMO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2508.8,
+  "LLAVE_2" : "99PARAMO 1MARZO 2023"
+}, {
+  "LLAVE" : "2PARAMO 2",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2150.4,
+  "LLAVE_2" : "2PARAMO 2DICIEMBRE 2022"
+}, {
+  "LLAVE" : "2PARAMO 2",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 2150.4,
+  "LLAVE_2" : "2PARAMO 2ENERO 2023"
+}, {
+  "LLAVE" : "2PARAMO 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2150.4,
+  "LLAVE_2" : "2PARAMO 2FEBRERO 2023"
+}, {
+  "LLAVE" : "2PARAMO 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2150.4,
+  "LLAVE_2" : "2PARAMO 2MARZO 2023"
+}, {
+  "LLAVE" : "7PARAMO 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2150.4,
+  "LLAVE_2" : "7PARAMO 2FEBRERO 2023"
+}, {
+  "LLAVE" : "7PARAMO 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2150.4,
+  "LLAVE_2" : "7PARAMO 2MARZO 2023"
+}, {
+  "LLAVE" : "7PARAMO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2150.4,
+  "LLAVE_2" : "7PARAMO 2ABRIL 2023"
+}, {
+  "LLAVE" : "20PARAMO 2",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2150.4,
+  "LLAVE_2" : "20PARAMO 2DICIEMBRE 2022"
+}, {
+  "LLAVE" : "20PARAMO 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2150.4,
+  "LLAVE_2" : "20PARAMO 2FEBRERO 2023"
+}, {
+  "LLAVE" : "20PARAMO 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2150.4,
+  "LLAVE_2" : "20PARAMO 2MARZO 2023"
+}, {
+  "LLAVE" : "67PARAMO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2150.4,
+  "LLAVE_2" : "67PARAMO 2ABRIL 2023"
+}, {
+  "LLAVE" : "72PARAMO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2256.0,
+  "LLAVE_2" : "72PARAMO 2ABRIL 2023"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "AGOSTO",
+  "AÑO" : 2021,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2AGOSTO 2021"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2021,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2SEPTIEMBRE 2021"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "OCTUBRE",
+  "AÑO" : 2021,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2OCTUBRE 2021"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "NOVIEMBRE",
+  "AÑO" : 2021,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2NOVIEMBRE 2021"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2021,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2DICIEMBRE 2021"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "ENERO",
+  "AÑO" : 2022,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2ENERO 2022"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2022,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2FEBRERO 2022"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "MARZO",
+  "AÑO" : 2022,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2MARZO 2022"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2022,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2ABRIL 2022"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "MAYO",
+  "AÑO" : 2022,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2MAYO 2022"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "JUNIO",
+  "AÑO" : 2022,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2JUNIO 2022"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "JULIO",
+  "AÑO" : 2022,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2JULIO 2022"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "AGOSTO",
+  "AÑO" : 2022,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2AGOSTO 2022"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2SEPTIEMBRE 2022"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "OCTUBRE",
+  "AÑO" : 2022,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2OCTUBRE 2022"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "NOVIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2NOVIEMBRE 2022"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2DICIEMBRE 2022"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2ENERO 2023"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2FEBRERO 2023"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2MARZO 2023"
+}, {
+  "LLAVE" : "80PARAMO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3337.9,
+  "LLAVE_2" : "80PARAMO 2ABRIL 2023"
+}, {
+  "LLAVE" : "10PARAMO 3",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 3024.0,
+  "LLAVE_2" : "10PARAMO 3DICIEMBRE 2022"
+}, {
+  "LLAVE" : "10PARAMO 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3024.0,
+  "LLAVE_2" : "10PARAMO 3ABRIL 2023"
+}, {
+  "LLAVE" : "11PARAMO 3",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3360.0,
+  "LLAVE_2" : "11PARAMO 3MARZO 2023"
+}, {
+  "LLAVE" : "11PARAMO 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3360.0,
+  "LLAVE_2" : "11PARAMO 3ABRIL 2023"
+}, {
+  "LLAVE" : "18PARAMO 3",
+  "MES" : "OCTUBRE",
+  "AÑO" : 2022,
+  "MONTO" : 3024.0,
+  "LLAVE_2" : "18PARAMO 3OCTUBRE 2022"
+}, {
+  "LLAVE" : "21PARAMO 3",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 3172.5,
+  "LLAVE_2" : "21PARAMO 3SEPTIEMBRE 2022"
+}, {
+  "LLAVE" : "21PARAMO 3",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 3172.5,
+  "LLAVE_2" : "21PARAMO 3DICIEMBRE 2022"
+}, {
+  "LLAVE" : "53PARAMO 3",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 2688.0,
+  "LLAVE_2" : "53PARAMO 3ENERO 2023"
+}, {
+  "LLAVE" : "54PARAMO 3",
+  "MES" : "FEBRERO",
+  "AÑO" : 2022,
+  "MONTO" : 2688.0,
+  "LLAVE_2" : "54PARAMO 3FEBRERO 2022"
+}, {
+  "LLAVE" : "78PARAMO 3",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 4117.38,
+  "LLAVE_2" : "78PARAMO 3MARZO 2023"
+}, {
+  "LLAVE" : "78PARAMO 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 4117.38,
+  "LLAVE_2" : "78PARAMO 3ABRIL 2023"
+}, {
+  "LLAVE" : "80PARAMO 3",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 4230.0,
+  "LLAVE_2" : "80PARAMO 3ENERO 2023"
+}, {
+  "LLAVE" : "80PARAMO 3",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 4230.0,
+  "LLAVE_2" : "80PARAMO 3FEBRERO 2023"
+}, {
+  "LLAVE" : "80PARAMO 3",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 4230.0,
+  "LLAVE_2" : "80PARAMO 3MARZO 2023"
+}, {
+  "LLAVE" : "80PARAMO 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 4230.0,
+  "LLAVE_2" : "80PARAMO 3ABRIL 2023"
+}, {
+  "LLAVE" : "92PARAMO 3",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3916.67,
+  "LLAVE_2" : "92PARAMO 3MARZO 2023"
+}, {
+  "LLAVE" : "93PARAMO 3",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2021,
+  "MONTO" : 3525.0,
+  "LLAVE_2" : "93PARAMO 3SEPTIEMBRE 2021"
+}, {
+  "LLAVE" : "11PARAMO A",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 9148.47,
+  "LLAVE_2" : "11PARAMO AMARZO 2023"
+}, {
+  "LLAVE" : "11PARAMO B",
+  "MES" : "AGOSTO",
+  "AÑO" : 2022,
+  "MONTO" : 9147.6,
+  "LLAVE_2" : "11PARAMO BAGOSTO 2022"
+}, {
+  "LLAVE" : "11SELVA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3017.4,
+  "LLAVE_2" : "11SELVA 1ABRIL 2023"
+}, {
+  "LLAVE" : "21SELVA 1",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 3017.4,
+  "LLAVE_2" : "21SELVA 1ENERO 2023"
+}, {
+  "LLAVE" : "21SELVA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3017.4,
+  "LLAVE_2" : "21SELVA 1ABRIL 2023"
+}, {
+  "LLAVE" : "31SELVA 1",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 3216.75,
+  "LLAVE_2" : "31SELVA 1ENERO 2023"
+}, {
+  "LLAVE" : "46SELVA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2769.74,
+  "LLAVE_2" : "46SELVA 1ABRIL 2023"
+}, {
+  "LLAVE" : "71SELVA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2413.92,
+  "LLAVE_2" : "71SELVA 1ABRIL 2023"
+}, {
+  "LLAVE" : "75SELVA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2520.0,
+  "LLAVE_2" : "75SELVA 1ABRIL 2023"
+}, {
+  "LLAVE" : "95SELVA 1",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2640.23,
+  "LLAVE_2" : "95SELVA 1DICIEMBRE 2022"
+}, {
+  "LLAVE" : "95SELVA 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2640.23,
+  "LLAVE_2" : "95SELVA 1FEBRERO 2023"
+}, {
+  "LLAVE" : "95SELVA 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2640.23,
+  "LLAVE_2" : "95SELVA 1MARZO 2023"
+}, {
+  "LLAVE" : "95SELVA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2640.23,
+  "LLAVE_2" : "95SELVA 1ABRIL 2023"
+}, {
+  "LLAVE" : "96SELVA 1",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2640.23,
+  "LLAVE_2" : "96SELVA 1DICIEMBRE 2022"
+}, {
+  "LLAVE" : "96SELVA 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2640.23,
+  "LLAVE_2" : "96SELVA 1FEBRERO 2023"
+}, {
+  "LLAVE" : "96SELVA 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2640.23,
+  "LLAVE_2" : "96SELVA 1MARZO 2023"
+}, {
+  "LLAVE" : "96SELVA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2640.23,
+  "LLAVE_2" : "96SELVA 1ABRIL 2023"
+}, {
+  "LLAVE" : "102SELVA 1",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "102SELVA 1DICIEMBRE 2022"
+}, {
+  "LLAVE" : "102SELVA 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "102SELVA 1FEBRERO 2023"
+}, {
+  "LLAVE" : "102SELVA 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "102SELVA 1MARZO 2023"
+}, {
+  "LLAVE" : "102SELVA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "102SELVA 1ABRIL 2023"
+}, {
+  "LLAVE" : "114SELVA 1",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 2996.48,
+  "LLAVE_2" : "114SELVA 1ENERO 2023"
+}, {
+  "LLAVE" : "114SELVA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2996.48,
+  "LLAVE_2" : "114SELVA 1ABRIL 2023"
+}, {
+  "LLAVE" : "12SELVA 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2022,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "12SELVA 2ABRIL 2022"
+}, {
+  "LLAVE" : "12SELVA 2",
+  "MES" : "MAYO",
+  "AÑO" : 2022,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "12SELVA 2MAYO 2022"
+}, {
+  "LLAVE" : "12SELVA 2",
+  "MES" : "JUNIO",
+  "AÑO" : 2022,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "12SELVA 2JUNIO 2022"
+}, {
+  "LLAVE" : "12SELVA 2",
+  "MES" : "JULIO",
+  "AÑO" : 2022,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "12SELVA 2JULIO 2022"
+}, {
+  "LLAVE" : "12SELVA 2",
+  "MES" : "AGOSTO",
+  "AÑO" : 2022,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "12SELVA 2AGOSTO 2022"
+}, {
+  "LLAVE" : "12SELVA 2",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "12SELVA 2SEPTIEMBRE 2022"
+}, {
+  "LLAVE" : "12SELVA 2",
+  "MES" : "OCTUBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "12SELVA 2OCTUBRE 2022"
+}, {
+  "LLAVE" : "12SELVA 2",
+  "MES" : "NOVIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "12SELVA 2NOVIEMBRE 2022"
+}, {
+  "LLAVE" : "12SELVA 2",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "12SELVA 2DICIEMBRE 2022"
+}, {
+  "LLAVE" : "12SELVA 2",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "12SELVA 2ENERO 2023"
+}, {
+  "LLAVE" : "12SELVA 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "12SELVA 2FEBRERO 2023"
+}, {
+  "LLAVE" : "12SELVA 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "12SELVA 2MARZO 2023"
+}, {
+  "LLAVE" : "12SELVA 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "12SELVA 2ABRIL 2023"
+}, {
+  "LLAVE" : "21SELVA 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3555.61,
+  "LLAVE_2" : "21SELVA 2MARZO 2023"
+}, {
+  "LLAVE" : "21SELVA 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3555.61,
+  "LLAVE_2" : "21SELVA 2ABRIL 2023"
+}, {
+  "LLAVE" : "54SELVA 2",
+  "MES" : "JULIO",
+  "AÑO" : 2022,
+  "MONTO" : 3218.56,
+  "LLAVE_2" : "54SELVA 2JULIO 2022"
+}, {
+  "LLAVE" : "54SELVA 2",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 3218.56,
+  "LLAVE_2" : "54SELVA 2DICIEMBRE 2022"
+}, {
+  "LLAVE" : "54SELVA 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 3218.56,
+  "LLAVE_2" : "54SELVA 2FEBRERO 2023"
+}, {
+  "LLAVE" : "54SELVA 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3218.56,
+  "LLAVE_2" : "54SELVA 2MARZO 2023"
+}, {
+  "LLAVE" : "55SELVA 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3019.01,
+  "LLAVE_2" : "55SELVA 2ABRIL 2023"
+}, {
+  "LLAVE" : "58SELVA 2",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2304.0,
+  "LLAVE_2" : "58SELVA 2SEPTIEMBRE 2022"
+}, {
+  "LLAVE" : "86SELVA 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2803.2,
+  "LLAVE_2" : "86SELVA 2FEBRERO 2023"
+}, {
+  "LLAVE" : "86SELVA 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2803.2,
+  "LLAVE_2" : "86SELVA 2MARZO 2023"
+}, {
+  "LLAVE" : "86SELVA 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2803.2,
+  "LLAVE_2" : "86SELVA 2ABRIL 2023"
+}, {
+  "LLAVE" : "89SELVA 2",
+  "MES" : "JUNIO",
+  "AÑO" : 2022,
+  "MONTO" : 2640.23,
+  "LLAVE_2" : "89SELVA 2JUNIO 2022"
+}, {
+  "LLAVE" : "89SELVA 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2640.23,
+  "LLAVE_2" : "89SELVA 2ABRIL 2023"
+}, {
+  "LLAVE" : "98SELVA 2",
+  "MES" : "AGOSTO",
+  "AÑO" : 2022,
+  "MONTO" : 2816.24,
+  "LLAVE_2" : "98SELVA 2AGOSTO 2022"
+}, {
+  "LLAVE" : "98SELVA 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2816.24,
+  "LLAVE_2" : "98SELVA 2FEBRERO 2023"
+}, {
+  "LLAVE" : "98SELVA 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2816.24,
+  "LLAVE_2" : "98SELVA 2MARZO 2023"
+}, {
+  "LLAVE" : "115SELVA 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2413.92,
+  "LLAVE_2" : "115SELVA 2ABRIL 2023"
+}, {
+  "LLAVE" : "2SELVA 3",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2880.0,
+  "LLAVE_2" : "2SELVA 3DICIEMBRE 2022"
+}, {
+  "LLAVE" : "2SELVA 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2880.0,
+  "LLAVE_2" : "2SELVA 3ABRIL 2023"
+}, {
+  "LLAVE" : "21SELVA 3",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3600.0,
+  "LLAVE_2" : "21SELVA 3MARZO 2023"
+}, {
+  "LLAVE" : "21SELVA 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3600.0,
+  "LLAVE_2" : "21SELVA 3ABRIL 2023"
+}, {
+  "LLAVE" : "48SELVA 3",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2021,
+  "MONTO" : 3771.75,
+  "LLAVE_2" : "48SELVA 3DICIEMBRE 2021"
+}, {
+  "LLAVE" : "73SELVA 3",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2880.0,
+  "LLAVE_2" : "73SELVA 3MARZO 2023"
+}, {
+  "LLAVE" : "73SELVA 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2880.0,
+  "LLAVE_2" : "73SELVA 3ABRIL 2023"
+}, {
+  "LLAVE" : "83SELVA 3",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3240.0,
+  "LLAVE_2" : "83SELVA 3MARZO 2023"
+}, {
+  "LLAVE" : "83SELVA 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3240.0,
+  "LLAVE_2" : "83SELVA 3ABRIL 2023"
+}, {
+  "LLAVE" : "91SELVA 3",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3072.0,
+  "LLAVE_2" : "91SELVA 3MARZO 2023"
+}, {
+  "LLAVE" : "91SELVA 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3072.0,
+  "LLAVE_2" : "91SELVA 3ABRIL 2023"
+}, {
+  "LLAVE" : "95SELVA 3",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 3270.4,
+  "LLAVE_2" : "95SELVA 3FEBRERO 2023"
+}, {
+  "LLAVE" : "95SELVA 3",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3270.4,
+  "LLAVE_2" : "95SELVA 3MARZO 2023"
+}, {
+  "LLAVE" : "95SELVA 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3270.4,
+  "LLAVE_2" : "95SELVA 3ABRIL 2023"
+}, {
+  "LLAVE" : "19SELVA 4",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 10643.4,
+  "LLAVE_2" : "19SELVA 4ENERO 2023"
+}, {
+  "LLAVE" : "19SELVA 4",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 10643.4,
+  "LLAVE_2" : "19SELVA 4FEBRERO 2023"
+}, {
+  "LLAVE" : "19SELVA 4",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 10643.4,
+  "LLAVE_2" : "19SELVA 4MARZO 2023"
+}, {
+  "LLAVE" : "19SELVA 4",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 10643.4,
+  "LLAVE_2" : "19SELVA 4ABRIL 2023"
+}, {
+  "LLAVE" : "25SELVA 4",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 9630.63,
+  "LLAVE_2" : "25SELVA 4ENERO 2023"
+}, {
+  "LLAVE" : "25SELVA 4",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 9630.63,
+  "LLAVE_2" : "25SELVA 4ABRIL 2023"
+}, {
+  "LLAVE" : "18BOSQUE 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "18BOSQUE 1MARZO 2023"
+}, {
+  "LLAVE" : "18BOSQUE 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "18BOSQUE 1ABRIL 2023"
+}, {
+  "LLAVE" : "42BOSQUE 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2777.25,
+  "LLAVE_2" : "42BOSQUE 1ABRIL 2023"
+}, {
+  "LLAVE" : "49BOSQUE 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2646.0,
+  "LLAVE_2" : "49BOSQUE 1ABRIL 2023"
+}, {
+  "LLAVE" : "62BOSQUE 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2970.17,
+  "LLAVE_2" : "62BOSQUE 1ABRIL 2023"
+}, {
+  "LLAVE" : "75BOSQUE 1",
+  "MES" : "AGOSTO",
+  "AÑO" : 2022,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "75BOSQUE 1AGOSTO 2022"
+}, {
+  "LLAVE" : "75BOSQUE 1",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "75BOSQUE 1SEPTIEMBRE 2022"
+}, {
+  "LLAVE" : "75BOSQUE 1",
+  "MES" : "OCTUBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "75BOSQUE 1OCTUBRE 2022"
+}, {
+  "LLAVE" : "75BOSQUE 1",
+  "MES" : "NOVIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "75BOSQUE 1NOVIEMBRE 2022"
+}, {
+  "LLAVE" : "75BOSQUE 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "75BOSQUE 1MARZO 2023"
+}, {
+  "LLAVE" : "76BOSQUE 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2856.6,
+  "LLAVE_2" : "76BOSQUE 1MARZO 2023"
+}, {
+  "LLAVE" : "76BOSQUE 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2856.6,
+  "LLAVE_2" : "76BOSQUE 1ABRIL 2023"
+}, {
+  "LLAVE" : "109BOSQUE 1",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2021,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "109BOSQUE 1DICIEMBRE 2021"
+}, {
+  "LLAVE" : "109BOSQUE 1",
+  "MES" : "OCTUBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "109BOSQUE 1OCTUBRE 2022"
+}, {
+  "LLAVE" : "4BOSQUE 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2658.95,
+  "LLAVE_2" : "4BOSQUE 2MARZO 2023"
+}, {
+  "LLAVE" : "4BOSQUE 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2658.95,
+  "LLAVE_2" : "4BOSQUE 2ABRIL 2023"
+}, {
+  "LLAVE" : "5BOSQUE 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "5BOSQUE 2FEBRERO 2023"
+}, {
+  "LLAVE" : "5BOSQUE 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "5BOSQUE 2MARZO 2023"
+}, {
+  "LLAVE" : "6BOSQUE 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "6BOSQUE 2FEBRERO 2023"
+}, {
+  "LLAVE" : "6BOSQUE 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "6BOSQUE 2MARZO 2023"
+}, {
+  "LLAVE" : "9BOSQUE 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "9BOSQUE 2FEBRERO 2023"
+}, {
+  "LLAVE" : "9BOSQUE 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "9BOSQUE 2MARZO 2023"
+}, {
+  "LLAVE" : "29BOSQUE 2",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 3159.56,
+  "LLAVE_2" : "29BOSQUE 2ENERO 2023"
+}, {
+  "LLAVE" : "29BOSQUE 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 3159.56,
+  "LLAVE_2" : "29BOSQUE 2FEBRERO 2023"
+}, {
+  "LLAVE" : "29BOSQUE 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3159.56,
+  "LLAVE_2" : "29BOSQUE 2MARZO 2023"
+}, {
+  "LLAVE" : "40BOSQUE 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "40BOSQUE 2MARZO 2023"
+}, {
+  "LLAVE" : "40BOSQUE 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2483.71,
+  "LLAVE_2" : "40BOSQUE 2ABRIL 2023"
+}, {
+  "LLAVE" : "45BOSQUE 2",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 2856.6,
+  "LLAVE_2" : "45BOSQUE 2ENERO 2023"
+}, {
+  "LLAVE" : "45BOSQUE 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2856.6,
+  "LLAVE_2" : "45BOSQUE 2ABRIL 2023"
+}, {
+  "LLAVE" : "53BOSQUE 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2419.2,
+  "LLAVE_2" : "53BOSQUE 2FEBRERO 2023"
+}, {
+  "LLAVE" : "53BOSQUE 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2419.2,
+  "LLAVE_2" : "53BOSQUE 2MARZO 2023"
+}, {
+  "LLAVE" : "53BOSQUE 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2419.2,
+  "LLAVE_2" : "53BOSQUE 2ABRIL 2023"
+}, {
+  "LLAVE" : "56BOSQUE 2",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2661.12,
+  "LLAVE_2" : "56BOSQUE 2DICIEMBRE 2022"
+}, {
+  "LLAVE" : "56BOSQUE 2",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 2661.12,
+  "LLAVE_2" : "56BOSQUE 2ENERO 2023"
+}, {
+  "LLAVE" : "56BOSQUE 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2661.12,
+  "LLAVE_2" : "56BOSQUE 2FEBRERO 2023"
+}, {
+  "LLAVE" : "56BOSQUE 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2661.12,
+  "LLAVE_2" : "56BOSQUE 2MARZO 2023"
+}, {
+  "LLAVE" : "56BOSQUE 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2661.12,
+  "LLAVE_2" : "56BOSQUE 2ABRIL 2023"
+}, {
+  "LLAVE" : "82BOSQUE 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 4054.56,
+  "LLAVE_2" : "82BOSQUE 2ABRIL 2023"
+}, {
+  "LLAVE" : "96BOSQUE 2",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 4513.43,
+  "LLAVE_2" : "96BOSQUE 2ENERO 2023"
+}, {
+  "LLAVE" : "96BOSQUE 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 4513.43,
+  "LLAVE_2" : "96BOSQUE 2ABRIL 2023"
+}, {
+  "LLAVE" : "97BOSQUE 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 3645.6,
+  "LLAVE_2" : "97BOSQUE 2FEBRERO 2023"
+}, {
+  "LLAVE" : "97BOSQUE 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3645.6,
+  "LLAVE_2" : "97BOSQUE 2MARZO 2023"
+}, {
+  "LLAVE" : "97BOSQUE 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3645.6,
+  "LLAVE_2" : "97BOSQUE 2ABRIL 2023"
+}, {
+  "LLAVE" : "114BOSQUE 2",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 6791.4,
+  "LLAVE_2" : "114BOSQUE 2ENERO 2023"
+}, {
+  "LLAVE" : "28BOSQUE 3",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 3584.0,
+  "LLAVE_2" : "28BOSQUE 3ENERO 2023"
+}, {
+  "LLAVE" : "28BOSQUE 3",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 3584.0,
+  "LLAVE_2" : "28BOSQUE 3FEBRERO 2023"
+}, {
+  "LLAVE" : "28BOSQUE 3",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3584.0,
+  "LLAVE_2" : "28BOSQUE 3MARZO 2023"
+}, {
+  "LLAVE" : "28BOSQUE 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3584.0,
+  "LLAVE_2" : "28BOSQUE 3ABRIL 2023"
+}, {
+  "LLAVE" : "30BOSQUE 3",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 3024.0,
+  "LLAVE_2" : "30BOSQUE 3ENERO 2023"
+}, {
+  "LLAVE" : "61BOSQUE 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3024.0,
+  "LLAVE_2" : "61BOSQUE 3ABRIL 2023"
+}, {
+  "LLAVE" : "65BOSQUE 3",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3174.0,
+  "LLAVE_2" : "65BOSQUE 3MARZO 2023"
+}, {
+  "LLAVE" : "65BOSQUE 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3174.0,
+  "LLAVE_2" : "65BOSQUE 3ABRIL 2023"
+}, {
+  "LLAVE" : "69BOSQUE 3",
+  "MES" : "AGOSTO",
+  "AÑO" : 2022,
+  "MONTO" : 3402.0,
+  "LLAVE_2" : "69BOSQUE 3AGOSTO 2022"
+}, {
+  "LLAVE" : "69BOSQUE 3",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 3402.0,
+  "LLAVE_2" : "69BOSQUE 3SEPTIEMBRE 2022"
+}, {
+  "LLAVE" : "69BOSQUE 3",
+  "MES" : "NOVIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 3402.0,
+  "LLAVE_2" : "69BOSQUE 3NOVIEMBRE 2022"
+}, {
+  "LLAVE" : "85BOSQUE 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3492.72,
+  "LLAVE_2" : "85BOSQUE 3ABRIL 2023"
+}, {
+  "LLAVE" : "7BOSQUE 4",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 4050.0,
+  "LLAVE_2" : "7BOSQUE 4FEBRERO 2023"
+}, {
+  "LLAVE" : "31BOSQUE 4",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 5193.27,
+  "LLAVE_2" : "31BOSQUE 4ABRIL 2023"
+}, {
+  "LLAVE" : "40BOSQUE 4",
+  "MES" : "JULIO",
+  "AÑO" : 2022,
+  "MONTO" : 6075.0,
+  "LLAVE_2" : "40BOSQUE 4JULIO 2022"
+}, {
+  "LLAVE" : "40BOSQUE 4",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 6075.0,
+  "LLAVE_2" : "40BOSQUE 4ABRIL 2023"
+}, {
+  "LLAVE" : "48BOSQUE 4",
+  "MES" : "AGOSTO",
+  "AÑO" : 2022,
+  "MONTO" : 4158.0,
+  "LLAVE_2" : "48BOSQUE 4AGOSTO 2022"
+}, {
+  "LLAVE" : "48BOSQUE 4",
+  "MES" : "SEPTIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 4158.0,
+  "LLAVE_2" : "48BOSQUE 4SEPTIEMBRE 2022"
+}, {
+  "LLAVE" : "48BOSQUE 4",
+  "MES" : "OCTUBRE",
+  "AÑO" : 2022,
+  "MONTO" : 4158.0,
+  "LLAVE_2" : "48BOSQUE 4OCTUBRE 2022"
+}, {
+  "LLAVE" : "48BOSQUE 4",
+  "MES" : "NOVIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 4158.0,
+  "LLAVE_2" : "48BOSQUE 4NOVIEMBRE 2022"
+}, {
+  "LLAVE" : "48BOSQUE 4",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 4158.0,
+  "LLAVE_2" : "48BOSQUE 4DICIEMBRE 2022"
+}, {
+  "LLAVE" : "48BOSQUE 4",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 4158.0,
+  "LLAVE_2" : "48BOSQUE 4ENERO 2023"
+}, {
+  "LLAVE" : "48BOSQUE 4",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 4158.0,
+  "LLAVE_2" : "48BOSQUE 4FEBRERO 2023"
+}, {
+  "LLAVE" : "48BOSQUE 4",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 4158.0,
+  "LLAVE_2" : "48BOSQUE 4MARZO 2023"
+}, {
+  "LLAVE" : "48BOSQUE 4",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 4158.0,
+  "LLAVE_2" : "48BOSQUE 4ABRIL 2023"
+}, {
+  "LLAVE" : "50BOSQUE 4",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 4217.07,
+  "LLAVE_2" : "50BOSQUE 4ABRIL 2023"
+}, {
+  "LLAVE" : "74MANGLAR 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 7011.92,
+  "LLAVE_2" : "74MANGLAR 1FEBRERO 2023"
+}, {
+  "LLAVE" : "74MANGLAR 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 7011.92,
+  "LLAVE_2" : "74MANGLAR 1MARZO 2023"
+}, {
+  "LLAVE" : "74MANGLAR 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 7011.92,
+  "LLAVE_2" : "74MANGLAR 1ABRIL 2023"
+}, {
+  "LLAVE" : "9MANGLAR 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3199.27,
+  "LLAVE_2" : "9MANGLAR 2ABRIL 2023"
+}, {
+  "LLAVE" : "38MANGLAR 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2585.09,
+  "LLAVE_2" : "38MANGLAR 2ABRIL 2023"
+}, {
+  "LLAVE" : "48MANGLAR 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2769.74,
+  "LLAVE_2" : "48MANGLAR 2MARZO 2023"
+}, {
+  "LLAVE" : "48MANGLAR 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2769.74,
+  "LLAVE_2" : "48MANGLAR 2ABRIL 2023"
+}, {
+  "LLAVE" : "72MANGLAR 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 14006.67,
+  "LLAVE_2" : "72MANGLAR 2ABRIL 2023"
+}, {
+  "LLAVE" : "8LAGO 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3115.96,
+  "LLAVE_2" : "8LAGO 1ABRIL 2023"
+}, {
+  "LLAVE" : "42LAGO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2658.95,
+  "LLAVE_2" : "42LAGO 1MARZO 2023"
+}, {
+  "LLAVE" : "68LAGO 1",
+  "MES" : "AGOSTO",
+  "AÑO" : 2022,
+  "MONTO" : 3110.19,
+  "LLAVE_2" : "68LAGO 1AGOSTO 2022"
+}, {
+  "LLAVE" : "93LAGO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2769.74,
+  "LLAVE_2" : "93LAGO 1MARZO 2023"
+}, {
+  "LLAVE" : "94LAGO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2769.74,
+  "LLAVE_2" : "94LAGO 1MARZO 2023"
+}, {
+  "LLAVE" : "22LAGO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3915.21,
+  "LLAVE_2" : "22LAGO 2ABRIL 2023"
+}, {
+  "LLAVE" : "75LAGO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2695.88,
+  "LLAVE_2" : "75LAGO 2ABRIL 2023"
+}, {
+  "LLAVE" : "110LAGO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2880.0,
+  "LLAVE_2" : "110LAGO 2ABRIL 2023"
+}, {
+  "LLAVE" : "27LOMAS 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2362.5,
+  "LLAVE_2" : "27LOMAS 1ABRIL 2023"
+}, {
+  "LLAVE" : "118LOMAS 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2160.0,
+  "LLAVE_2" : "118LOMAS 2ABRIL 2023"
+}, {
+  "LLAVE" : "119LOMAS 2",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2520.0,
+  "LLAVE_2" : "119LOMAS 2DICIEMBRE 2022"
+}, {
+  "LLAVE" : "119LOMAS 2",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 2520.0,
+  "LLAVE_2" : "119LOMAS 2ENERO 2023"
+}, {
+  "LLAVE" : "119LOMAS 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2520.0,
+  "LLAVE_2" : "119LOMAS 2FEBRERO 2023"
+}, {
+  "LLAVE" : "119LOMAS 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2520.0,
+  "LLAVE_2" : "119LOMAS 2MARZO 2023"
+}, {
+  "LLAVE" : "119LOMAS 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2520.0,
+  "LLAVE_2" : "119LOMAS 2ABRIL 2023"
+}, {
+  "LLAVE" : "138LOMAS 2",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2102.4,
+  "LLAVE_2" : "138LOMAS 2DICIEMBRE 2022"
+}, {
+  "LLAVE" : "138LOMAS 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2102.4,
+  "LLAVE_2" : "138LOMAS 2FEBRERO 2023"
+}, {
+  "LLAVE" : "138LOMAS 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2102.4,
+  "LLAVE_2" : "138LOMAS 2MARZO 2023"
+}, {
+  "LLAVE" : "138LOMAS 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2102.4,
+  "LLAVE_2" : "138LOMAS 2ABRIL 2023"
+}, {
+  "LLAVE" : "278LOMAS 3",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 3007.56,
+  "LLAVE_2" : "278LOMAS 3FEBRERO 2023"
+}, {
+  "LLAVE" : "278LOMAS 3",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3007.56,
+  "LLAVE_2" : "278LOMAS 3MARZO 2023"
+}, {
+  "LLAVE" : "278LOMAS 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3007.56,
+  "LLAVE_2" : "278LOMAS 3ABRIL 2023"
+}, {
+  "LLAVE" : "420LOMAS 3",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3175.19,
+  "LLAVE_2" : "420LOMAS 3ABRIL 2023"
+}, {
+  "LLAVE" : "82ZAFIRO 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2448.0,
+  "LLAVE_2" : "82ZAFIRO 1FEBRERO 2023"
+}, {
+  "LLAVE" : "82ZAFIRO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2448.0,
+  "LLAVE_2" : "82ZAFIRO 1MARZO 2023"
+}, {
+  "LLAVE" : "82ZAFIRO 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2448.0,
+  "LLAVE_2" : "82ZAFIRO 1ABRIL 2023"
+}, {
+  "LLAVE" : "99ZAFIRO 1",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 3801.56,
+  "LLAVE_2" : "99ZAFIRO 1ENERO 2023"
+}, {
+  "LLAVE" : "99ZAFIRO 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 3801.56,
+  "LLAVE_2" : "99ZAFIRO 1FEBRERO 2023"
+}, {
+  "LLAVE" : "99ZAFIRO 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3801.56,
+  "LLAVE_2" : "99ZAFIRO 1MARZO 2023"
+}, {
+  "LLAVE" : "99ZAFIRO 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3801.56,
+  "LLAVE_2" : "99ZAFIRO 1ABRIL 2023"
+}, {
+  "LLAVE" : "51ZAFIRO 2",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 2700.0,
+  "LLAVE_2" : "51ZAFIRO 2ENERO 2023"
+}, {
+  "LLAVE" : "51ZAFIRO 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2700.0,
+  "LLAVE_2" : "51ZAFIRO 2FEBRERO 2023"
+}, {
+  "LLAVE" : "51ZAFIRO 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2700.0,
+  "LLAVE_2" : "51ZAFIRO 2MARZO 2023"
+}, {
+  "LLAVE" : "51ZAFIRO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2700.0,
+  "LLAVE_2" : "51ZAFIRO 2ABRIL 2023"
+}, {
+  "LLAVE" : "65ZAFIRO 2",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 3586.28,
+  "LLAVE_2" : "65ZAFIRO 2ENERO 2023"
+}, {
+  "LLAVE" : "65ZAFIRO 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 3586.28,
+  "LLAVE_2" : "65ZAFIRO 2FEBRERO 2023"
+}, {
+  "LLAVE" : "65ZAFIRO 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 3586.28,
+  "LLAVE_2" : "65ZAFIRO 2MARZO 2023"
+}, {
+  "LLAVE" : "65ZAFIRO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3586.28,
+  "LLAVE_2" : "65ZAFIRO 2ABRIL 2023"
+}, {
+  "LLAVE" : "66ZAFIRO 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 3667.78,
+  "LLAVE_2" : "66ZAFIRO 2FEBRERO 2023"
+}, {
+  "LLAVE" : "66ZAFIRO 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3667.78,
+  "LLAVE_2" : "66ZAFIRO 2ABRIL 2023"
+}, {
+  "LLAVE" : "72MALAQUITA 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3718.55,
+  "LLAVE_2" : "72MALAQUITA 2ABRIL 2023"
+}, {
+  "LLAVE" : "18AMATISTA 1",
+  "MES" : "DICIEMBRE",
+  "AÑO" : 2022,
+  "MONTO" : 2976.75,
+  "LLAVE_2" : "18AMATISTA 1DICIEMBRE 2022"
+}, {
+  "LLAVE" : "18AMATISTA 1",
+  "MES" : "ENERO",
+  "AÑO" : 2023,
+  "MONTO" : 2976.75,
+  "LLAVE_2" : "18AMATISTA 1ENERO 2023"
+}, {
+  "LLAVE" : "18AMATISTA 1",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 2976.75,
+  "LLAVE_2" : "18AMATISTA 1FEBRERO 2023"
+}, {
+  "LLAVE" : "18AMATISTA 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2976.75,
+  "LLAVE_2" : "18AMATISTA 1MARZO 2023"
+}, {
+  "LLAVE" : "18AMATISTA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2976.75,
+  "LLAVE_2" : "18AMATISTA 1ABRIL 2023"
+}, {
+  "LLAVE" : "19AMATISTA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2976.75,
+  "LLAVE_2" : "19AMATISTA 1ABRIL 2023"
+}, {
+  "LLAVE" : "36AMATISTA 1",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 2835.0,
+  "LLAVE_2" : "36AMATISTA 1MARZO 2023"
+}, {
+  "LLAVE" : "36AMATISTA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2835.0,
+  "LLAVE_2" : "36AMATISTA 1ABRIL 2023"
+}, {
+  "LLAVE" : "55AMATISTA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 2520.0,
+  "LLAVE_2" : "55AMATISTA 1ABRIL 2023"
+}, {
+  "LLAVE" : "99AMATISTA 1",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 3423.26,
+  "LLAVE_2" : "99AMATISTA 1ABRIL 2023"
+}, {
+  "LLAVE" : "35AMATISTA 2",
+  "MES" : "FEBRERO",
+  "AÑO" : 2023,
+  "MONTO" : 4950.0,
+  "LLAVE_2" : "35AMATISTA 2FEBRERO 2023"
+}, {
+  "LLAVE" : "35AMATISTA 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 4950.0,
+  "LLAVE_2" : "35AMATISTA 2ABRIL 2023"
+}, {
+  "LLAVE" : "49AMATISTA 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 4099.98,
+  "LLAVE_2" : "49AMATISTA 2MARZO 2023"
+}, {
+  "LLAVE" : "49AMATISTA 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 4099.98,
+  "LLAVE_2" : "49AMATISTA 2ABRIL 2023"
+}, {
+  "LLAVE" : "50AMATISTA 2",
+  "MES" : "MARZO",
+  "AÑO" : 2023,
+  "MONTO" : 4099.98,
+  "LLAVE_2" : "50AMATISTA 2MARZO 2023"
+}, {
+  "LLAVE" : "50AMATISTA 2",
+  "MES" : "ABRIL",
+  "AÑO" : 2023,
+  "MONTO" : 4099.98,
+  "LLAVE_2" : "50AMATISTA 2ABRIL 2023"
+} ]
