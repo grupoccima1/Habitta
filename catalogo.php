@@ -3,7 +3,7 @@
 require_once "./clases/Conexion.php";
   require_once "./clases/crud.php";
   $crud = new Crud();
-  $datos = $crud->mostrarDatoscobranza();
+  $datos = $crud->mostrarDatoscatalogo();
 ?>
 
 <!DOCTYPE html>
@@ -106,6 +106,7 @@ require_once "./clases/Conexion.php";
 
 
 
+
       <!--------page-content---------------->
 
       <div id="content">
@@ -155,7 +156,7 @@ require_once "./clases/Conexion.php";
             <div class="card-header">
               <div class="row">
                 <div class="col">
-                  <span><img src="images/home.svg" width="25px"></i></span> Home/Cobranza
+                  <span><img src="images/home.svg" width="25px"></i></span> Home/Catalogo
                 </div>
   
               </div>
@@ -167,14 +168,11 @@ require_once "./clases/Conexion.php";
                   <thead class="bg__td">
                     <tr>
                    
-                        <th class="th__texto" style="text-align:center;">Fecha</th>                        
-                        <th class="th__texto" style="text-align:center;">Motivo</th>
-                        <th class="th__texto" style="text-align:center;">Flujo</th>
-                        <!-- <th class="th__texto" style="text-align:center;">Fecha (#)</th> -->
-                        <th class="th__texto" style="text-align:center;">Descripcion</th>
-                        <th class="th__texto" style="text-align:center;">A pagar</th>
-                        <th class="th__texto" style="text-align:center;">Pago</th>
-                        
+                        <th class="th__texto" style="text-align:center;">Llave</th>                        
+                        <th class="th__texto" style="text-align:center;">Porcentaje 1</th>
+                        <th class="th__texto" style="text-align:center;">Porcentaje 2</th>
+                        <th class="th__texto" style="text-align:center;">Porcentaje 3</th>
+  
                     </tr>
                   </thead>
                   <tbody>
@@ -194,15 +192,12 @@ require_once "./clases/Conexion.php";
                             </form>
                           
                             </td> --> 
-                          <td class="text-center"> <?php echo $item->FECHA; ?> </td>
-                          <td class="text-center"> <?php echo $item->MOTIVO;?> </td>
-                          <td class="text-center"> <?php echo $item->FLUJO;?> </td>
-                          <!-- <td class="text-center"> <?php echo $item->FECHA1 ?> </td> -->
-                          <td class="text-center"> <?php echo $item->DESCRIPCION;?> </td>
-                          <td class="text-center"> <?php echo $item->APAGAR;?> </td>
-                          <td class="text-center"> <?php echo $item->PAGO;?></td>
-                          
-                            </td>
+                            <td class="text-center"> <?php echo $item->LLAVE; ?> </td>
+                          <td class="text-center"> <?php echo $item->PORCENT1;?> </td>
+                          <td class="text-center"> <?php echo $item->PORCENT2;?> </td>
+                          <td class="text-center"> <?php echo $item->PORCENT3; ?> </td>
+
+                            
                           </tr>
                           <?php } ?> 
                   </tbody>
@@ -210,14 +205,11 @@ require_once "./clases/Conexion.php";
                     <tr>
 
 
-                    <th class="th__texto" style="text-align:center;">Fecha</th>                        
-                        <th class="th__texto" style="text-align:center;">Motivo</th>
-                        <th class="th__texto" style="text-align:center;">Flujo</th>
-                        <!-- <th class="th__texto" style="text-align:center;">Fecha (#)</th> -->
-                        <th class="th__texto" style="text-align:center;">Descripcion</th>
-                        <th class="th__texto" style="text-align:center;">A pagar</th>
-                        <th class="th__texto" style="text-align:center;">Pago</th>
-                        
+                        <th class="th__texto" style="text-align:center;">Llave</th>                        
+                        <th class="th__texto" style="text-align:center;">Porcentaje 1</th>
+                        <th class="th__texto" style="text-align:center;">Porcentaje 2</th>
+                        <th class="th__texto" style="text-align:center;">Porcentaje 3</th>
+
                     </tr>
                   </tfoot>
                 </table>

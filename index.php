@@ -1,11 +1,3 @@
-
-<?php
-require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
-  $datos = $crud->mostrarDatosmadre();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -79,6 +71,27 @@ require_once "./clases/Conexion.php";
           <li class="dropdown">
             <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
               <i class="material-icons"></i><span>Cobranza</span></a>
+
+          </li>
+          </li>
+          <li class="dropdown">
+            <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Listado</span></a>
+
+          </li>
+          <li class="dropdown">
+            <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Estados de cuenta</span></a>
+
+          </li>
+          <li class="dropdown">
+            <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Catalogo</span></a>
+
+          </li>
+          <li class="dropdown">
+            <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Tabulador</span></a>
 
           </li>
         </ul>

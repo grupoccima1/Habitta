@@ -80,6 +80,26 @@ require_once "./clases/Conexion.php";
               <i class="material-icons"></i><span>Cobranza</span></a>
 
           </li>
+          <li class="dropdown">
+            <a href="./listado.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Listado</span></a>
+
+          </li>
+          <li class="dropdown">
+            <a href="./estados.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Estados de cuenta</span></a>
+
+          </li>
+          <li class="dropdown">
+            <a href="./catalogo.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Catalogo</span></a>
+
+          </li>
+          <li class="dropdown">
+            <a href="./tabulador.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Tabulador</span></a>
+
+          </li>
         </ul>
       </nav>
 
