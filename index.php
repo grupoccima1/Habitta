@@ -94,6 +94,12 @@
               <i class="material-icons"></i><span>Tabulador</span></a>
 
           </li>
+
+          <li class="dropdown">
+            <a href="./comisiones2023.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Comisiones 2023</span></a>
+
+          </li>
         </ul>
       </nav>
 
