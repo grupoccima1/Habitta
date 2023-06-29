@@ -1,32 +1,11 @@
 <?php
 
 class Crud extends Conexion {
-    public function mostrarDatos(){
-        try {
-            $conexion = parent::conectar();
-            $coleccion = $conexion->validador;
-            $datos = $coleccion->find();
-            return $datos;
-        } catch (\Throwable $th) {
-            return $th->getMessage();
-        }
-    }
 
     public function mostrarDatosmadre(){
         try {
             $conexion = parent::conectar();
             $coleccion = $conexion->basemadre;
-            $datos = $coleccion->find();
-            return $datos;
-        } catch (\Throwable $th) {
-            return $th->getMessage();
-        }
-    }
-
-    public function mostrarDatosbdflujo(){
-        try {
-            $conexion = parent::conectar();
-            $coleccion = $conexion->bdflujo;
             $datos = $coleccion->find();
             return $datos;
         } catch (\Throwable $th) {
@@ -45,10 +24,11 @@ class Crud extends Conexion {
         }
     }
 
-    public function mostrarDatosgeneral(){
+
+    public function mostrarDatosliberado(){
         try {
             $conexion = parent::conectar();
-            $coleccion = $conexion->general;
+            $coleccion = $conexion->liberado;
             $datos = $coleccion->find();
             return $datos;
         } catch (\Throwable $th) {
@@ -56,16 +36,116 @@ class Crud extends Conexion {
         }
     }
 
-    public function mostrarDatosliberados(){
+        public function mostrarDatosbbva(){
         try {
             $conexion = parent::conectar();
-            $coleccion = $conexion->liberados;
+            $coleccion = $conexion->bbva;
             $datos = $coleccion->find();
             return $datos;
         } catch (\Throwable $th) {
             return $th->getMessage();
         }
-    }
+    }    
+
+        public function mostrarDatoshsbc_habitta(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->hsbc_habitta;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+
+        public function mostrarDatoshsbc_lomas(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->hsbc_lomas;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+
+    public function mostrarDatoscobranza(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->cobranza;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+
+    public function mostrarDatoslistado(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->cobranza;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+
+    public function mostrarDatosestados(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->estados;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+
+    public function mostrarDatoscatalogo(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->catalogo;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+
+        public function mostrarDatostabulador(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->tabulador;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+
+            public function mostrarDatoslistados(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->listado;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+
+
+    public function mostrarDatoscomisiones2023(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->comisiones2023;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
     // public function insertarDatos($datos){
     //     try {
     //         $conexion = parent::conectar();
