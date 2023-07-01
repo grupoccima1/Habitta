@@ -139,7 +139,73 @@ class Crud extends Conexion {
     public function mostrarDatoscomisiones2023(){
         try {
             $conexion = parent::conectar();
-            $coleccion = $conexion->comisiones2023;
+            $coleccion = $conexion->comision2023;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+
+    public function mostrarDatoscomisiones2021(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->comision2021;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+
+    public function mostrarDatoscomisiones2022(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->comision2022;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+
+    public function mostrarDatoscomisiones2020(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->comision2020;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+    public function mostrarDatosAcumuladoSherpa(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->acumuladosherpa;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+
+
+    public function mostrarDatoBaseMadreHabitta(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->basemadrehabitta;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+
+    public function mostrarDatobillpocket(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->billpocket;
             $datos = $coleccion->find();
             return $datos;
         } catch (\Throwable $th) {
