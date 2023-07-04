@@ -2,7 +2,7 @@
 require_once "./clases/Conexion.php";
   require_once "./clases/crud.php";
   $crud = new Crud();
-  $datos = $crud->mostrarNico();
+  $datos = $crud->mostrarDatoscomisiones2020();
 ?>
 
 <!DOCTYPE html>
@@ -171,30 +171,39 @@ require_once "./clases/Conexion.php";
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td">
                     <tr>
-
-                        
-                        <th class="th__texto" style="text-align:center;">OBSERVACION</th>                        
-                        <th class="th__texto" style="text-align:center;">LLAVE</th>
-                        <th class="th__texto" style="text-align:center;">RAZON_SOCIAL</th>
-                        <th class="th__texto" style="text-align:center;">FECHA</th>
-                        <th class="th__texto" style="text-align:center;">BENEFICIARIO</th>
-                        <th class="th__texto" style="text-align:center;">RFC</th>
-                        <th class="th__texto" style="text-align:center;">USO_CFDI</th>
-                        <th class="th__texto" style="text-align:center;">ABONO</th>
-                        <th class="th__texto" style="text-align:center;">CARGO</th>
-                        <th class="th__texto" style="text-align:center;">FACTURA</th>
-                        <th class="th__texto" style="text-align:center;">REAL</th>
-                        <th class="th__texto" style="text-align:center;">MOTIVO</th>
-                        <th class="th__texto" style="text-align:center;">CATEGORIA</th>
+                        <th class="th__texto" style="text-align:center;">Llave</th>                        
+                        <th class="th__texto" style="text-align:center;">FECHA_DE_INGRESO</th>
+                        <th class="th__texto" style="text-align:center;">LOTE</th>
+                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
+                        <th class="th__texto" style="text-align:center;">DESARROLLO</th>
+                        <th class="th__texto" style="text-align:center;">PUESTO</th>
+                        <th class="th__texto" style="text-align:center;">COMISIONISTA</th>
+                        <th class="th__texto" style="text-align:center;">TOTAL_DE_LA_VENTA</th>
+                        <th class="th__texto" style="text-align:center;">ENGANCHE</th>
+                        <th class="th__texto" style="text-align:center;">%_COMISION</th>
+                        <th class="th__texto" style="text-align:center;">TOTAL_COMISION</th>
+                        <th class="th__texto" style="text-align:center;">DESCUENTO</th>
+                        <th class="th__texto" style="text-align:center;">A_PAGAR_EXTERNOS</th>
+                        <th class="th__texto" style="text-align:center;">SUBTOTAL</th>
+                        <th class="th__texto" style="text-align:center;">IVA</th>
+                        <th class="th__texto" style="text-align:center;">RETENCIONES_DE_IVA</th>
+                        <th class="th__texto" style="text-align:center;">RETENCIONES_ISR</th>                        
+                        <th class="th__texto" style="text-align:center;">TOTAL</th>
+                        <th class="th__texto" style="text-align:center;">PAGO</th>
+                        <th class="th__texto" style="text-align:center;">PAGADO</th>
                         <th class="th__texto" style="text-align:center;">METODO_DE_PAGO</th>
-                        <th class="th__texto" style="text-align:center;">SUBCATEGORIA</th>
-                        <th class="th__texto" style="text-align:center;">FLUJO</th>
-                        <th class="th__texto" style="text-align:center;">ORIGEN</th>
-                        <th class="th__texto" style="text-align:center;">CLIENTE</th>
-                        <th class="th__texto" style="text-align:center;">CORREO</th>
-                        <th class="th__texto" style="text-align:center;">TELEFONO</th>
+                        <th class="th__texto" style="text-align:center;">FECHA_PAGADA</th>
+                        <th class="th__texto" style="text-align:center;">NOMBRE_CORRECTO</th>
+                        <th class="th__texto" style="text-align:center;">SEMANA_PAGADA</th>
+                        <th class="th__texto" style="text-align:center;">SEMANA</th>
+                        <th class="th__texto" style="text-align:center;">X_TIPO_DE_REGIMEN</th>
+                        <th class="th__texto" style="text-align:center;">CUENTA</th>
+                        <th class="th__texto" style="text-align:center;">MOTIVO_DE_DESCUENTO</th>
+                        <th class="th__texto" style="text-align:center;">ESTATUS</th>
+                        <th class="th__texto" style="text-align:center;">LOTE_ANTERIOR</th>
+                        <th class="th__texto" style="text-align:center;">TOTAL_DELA_VENTA</th>
+                        <th class="th__texto" style="text-align:center;">X_TIPO_DE_REGIMEN</th>
 
-                      
 
 
                     </tr>
@@ -210,31 +219,48 @@ require_once "./clases/Conexion.php";
                                 <!-- <input type="text" hidden value="" name="id">
                                 <button class="border__none">
                                   <input type="text" hidden value="" name="id">
-                                </button>     
+                                </button>
+  
+                                 
                             </form>
                           
                             </td> --> 
-                          <td class="text-center"> <?php echo $item->OBSERVACION; ?> </td>
-                          <td class="text-center"> <?php echo $item->LLAVE;?> </td>
-                          <td class="text-center"> <?php echo $item->RAZON_SOCIAL;?> </td>
-                          <td class="text-center"> <?php echo $item->FECHA;?> </td>
-                          <td class="text-center"> <?php echo $item->BENEFICIARIO;?> </td>
-                          <td class="text-center"> <?php echo $item->RFC; ?> </td>
-                          <td class="text-center"> <?php echo $item->USO_CFDI;?> </td>
-                          <td class="text-center"> <?php echo $item->ABONO;?> </td>
-                          <td class="text-center"> <?php echo $item->CARGO;?></td>
-                          <td class="text-center"> <?php echo $item->FACTURA;?> </td>
-                          <td class="text-center"> <?php echo $item->REAL;?> </td>
-                          <td class="text-center"> <?php echo $item->MOTIVO;?> </td>
-                          <td class="text-center"> <?php echo $item->CATEGORIA;?> </td>
-                          <td class="text-center"> <?php echo $item->METODO_DE_PAGO;?> </td>
-                          <td class="text-center"> <?php echo $item->SUBCATEGORIA;?> </td>
-                          <td class="text-center"> <?php echo $item->FLUJO;?> </td>
-                          <td class="text-center"> <?php echo $item->ORIGEN;?> </td>
-                          <td class="text-center"> <?php echo $item->CLIENTE;?> </td>
-                          <td class="text-center"> <?php echo $item->CORREO;?> </td>
-                          <td class="text-center"> <?php echo $item->TELEFONO;?> </td>
-                         
+                          <td class="text-center"> <?php echo $item->LLAVE; ?> </td>
+                          <td class="text-center"> <?php echo $item->FECHA_DE_INGRESO;?> </td>
+                          <td class="text-center"> <?php echo $item->LOTE;?> </td>
+                          <td class="text-center"> <?php echo $item->CONDOMINIO;?> </td>
+                          <td class="text-center"> <?php echo $item->CLUSTER;?> </td>
+                          <td class="text-center"> <?php echo $item->DESARROLLO; ?> </td>
+                          <td class="text-center"> <?php echo $item->PUESTO;?> </td>
+                          <td class="text-center"> <?php echo $item->COMISIONISTA;?> </td>
+                          <td class="text-center"> <?php echo $item->TOTAL_DE_LA_VENTA;?></td>
+                          <td class="text-center"> <?php echo $item->ENGANCHE;?> </td>
+                          <td class="text-center"> <?php echo $item->PCOMISION;?> </td>
+                          <td class="text-center"> <?php echo $item->TOTAL_COMISION;?> </td>
+                          <td class="text-center"> <?php echo $item->DESCUENTO;?> </td>
+                          <td class="text-center"> <?php echo $item->A_PAGAR_EXTERNOS;?> </td>
+                          <td class="text-center"> <?php echo $item->SUBTOTAL;?> </td>
+                          <td class="text-center"> <?php echo $item->IVA;?> </td>
+                          <td class="text-center"> <?php echo $item->RETENCIONES_DE_IVA; ?> </td>
+                          <td class="text-center"> <?php echo $item->RETENCIONES_ISR;?> </td>
+                          <td class="text-center"> <?php echo $item->TOTAL;?> </td>
+                          <td class="text-center"> <?php echo $item->PAGO;?> </td>
+                          <td class="text-center"> <?php echo $item->PAGADO;?> </td>
+                          <td class="text-center"> <?php echo $item->METODO_DE_PAGO; ?> </td>
+                          <td class="text-center"> <?php echo $item->FECHA_PAGADA;?> </td>
+                          <td class="text-center"> <?php echo $item->NOMBRE_CORRECTO;?> </td>
+                          <td class="text-center"> <?php echo $item->SEMANA_PAGADA; ?> </td>
+                          <td class="text-center"> <?php echo $item->SEMANA;?> </td>
+                          <td class="text-center"> <?php echo $item->X_TIPO_DE_REGIMEN;?></td>
+                          <td class="text-center"> <?php echo $item->CUENTA;?></td>
+                          <td class="text-center"> <?php echo $item->MOTIVO_DE_DESCUENTO; ?> </td>
+                          <td class="text-center"> <?php echo $item->ESTATUS;?> </td>
+                          <td class="text-center"> <?php echo $item->LOTE_ANTERIOR;?> </td>
+                          <td class="text-center"> <?php echo $item->TOTAL_DELA_VENTA;?> </td>
+                          <td class="text-center"> <?php echo $item->X_TIPO_DE_REGIMEN;?> </td>
+
+                          
+                          
                          
                           </tr>
                           <?php } ?> 
@@ -243,26 +269,40 @@ require_once "./clases/Conexion.php";
                     <tr>
 
 
-                        <th class="th__texto" style="text-align:center;">OBSERVACION</th>                        
-                        <th class="th__texto" style="text-align:center;">LLAVE</th>
-                        <th class="th__texto" style="text-align:center;">RAZON_SOCIAL</th>
-                        <th class="th__texto" style="text-align:center;">FECHA</th>
-                        <th class="th__texto" style="text-align:center;">BENEFICIARIO</th>
-                        <th class="th__texto" style="text-align:center;">RFC</th>
-                        <th class="th__texto" style="text-align:center;">USO_CFDI</th>
-                        <th class="th__texto" style="text-align:center;">ABONO</th>
-                        <th class="th__texto" style="text-align:center;">CARGO</th>
-                        <th class="th__texto" style="text-align:center;">FACTURA</th>
-                        <th class="th__texto" style="text-align:center;">REAL</th>
-                        <th class="th__texto" style="text-align:center;">MOTIVO</th>
-                        <th class="th__texto" style="text-align:center;">CATEGORIA</th>
+                    <th class="th__texto" style="text-align:center;">Llave</th>                        
+                        <th class="th__texto" style="text-align:center;">FECHA_DE_INGRESO</th>
+                        <th class="th__texto" style="text-align:center;">LOTE</th>
+                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
+                        <th class="th__texto" style="text-align:center;">DESARROLLO</th>
+                        <th class="th__texto" style="text-align:center;">PUESTO</th>
+                        <th class="th__texto" style="text-align:center;">COMISIONISTA</th>
+                        <th class="th__texto" style="text-align:center;">TOTAL_DE_LA_VENTA</th>
+                        <th class="th__texto" style="text-align:center;">ENGANCHE</th>
+                        <th class="th__texto" style="text-align:center;">%_COMISION</th>
+                        <th class="th__texto" style="text-align:center;">TOTAL_COMISION</th>
+                        <th class="th__texto" style="text-align:center;">DESCUENTO</th>
+                        <th class="th__texto" style="text-align:center;">A_PAGAR_EXTERNOS</th>
+                        <th class="th__texto" style="text-align:center;">SUBTOTAL</th>
+                        <th class="th__texto" style="text-align:center;">IVA</th>
+                        <th class="th__texto" style="text-align:center;">RETENCIONES_DE_IVA</th>
+                        <th class="th__texto" style="text-align:center;">RETENCIONES_ISR</th>                        
+                        <th class="th__texto" style="text-align:center;">TOTAL</th>
+                        <th class="th__texto" style="text-align:center;">PAGO</th>
+                        <th class="th__texto" style="text-align:center;">PAGADO</th>
                         <th class="th__texto" style="text-align:center;">METODO_DE_PAGO</th>
-                        <th class="th__texto" style="text-align:center;">SUBCATEGORIA</th>
-                        <th class="th__texto" style="text-align:center;">FLUJO</th>
-                        <th class="th__texto" style="text-align:center;">ORIGEN</th>
-                        <th class="th__texto" style="text-align:center;">CLIENTE</th>
-                        <th class="th__texto" style="text-align:center;">CORREO</th>
-                        <th class="th__texto" style="text-align:center;">TELEFONO</th>
+                        <th class="th__texto" style="text-align:center;">FECHA_PAGADA</th>
+                        <th class="th__texto" style="text-align:center;">NOMBRE_CORRECTO</th>
+                        <th class="th__texto" style="text-align:center;">SEMANA_PAGADA</th>
+                        <th class="th__texto" style="text-align:center;">SEMANA</th>
+                        <th class="th__texto" style="text-align:center;">X_TIPO_DE_REGIMEN</th>
+                        <th class="th__texto" style="text-align:center;">CUENTA</th>
+                        <th class="th__texto" style="text-align:center;">MOTIVO_DE_DESCUENTO</th>
+                        <th class="th__texto" style="text-align:center;">ESTATUS</th>
+                        <th class="th__texto" style="text-align:center;">LOTE_ANTERIOR</th>
+                        <th class="th__texto" style="text-align:center;">TOTAL_DELA_VENTA</th>
+                        <th class="th__texto" style="text-align:center;">X_TIPO_DE_REGIMEN</th>
+
+                      
                     </tr>
                   </tfoot>
                 </table>
