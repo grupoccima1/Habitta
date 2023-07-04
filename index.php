@@ -45,7 +45,7 @@
 
           </li>
           
-          <li class="">
+       <!--    <li class="">
             <a href="#" class="dashboard"><span>Bancos</span></a>
           </li>
 
@@ -64,8 +64,8 @@
               <i class="material-icons"></i><span>HSBC Habitta</span></a>
 
           </li>
-
-          <li class="">
+ -->
+         <!--  <li class="">
             <a href="#" class="dashboard"><span>Estados de cuenta</span></a>
           </li>
           <li class="dropdown">
@@ -87,7 +87,7 @@
           <li class="dropdown">
             <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
               <i class="material-icons"></i><span>Catalogo</span></a>
-
+ -->
           </li>
           <li class="dropdown">
             <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
@@ -96,10 +96,55 @@
           </li>
 
           <li class="dropdown">
+            <a href="./comisiones2020.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Comisiones 2020</span></a>
+          </li>
+
+          <li class="dropdown">
             <a href="./comisiones2023.php" data-toggle="collapse" aria-expanded="false" >
               <i class="material-icons"></i><span>Comisiones 2023</span></a>
-
           </li>
+
+          <li class="dropdown">
+            <a href="./comisiones2021.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Comisiones 2021</span></a>
+          </li>
+
+          <li class="dropdown">
+            <a href="./comisiones2022.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Comisiones 2022</span></a>
+          </li>
+
+           <li class="dropdown">
+            <a href="./acumuladosherpa.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Acumulados Sherpa</span></a>
+          </li>   
+
+          <li class="dropdown">
+            <a href="./basemadrehabitta.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Base Madre</span></a>
+          </li>   
+
+          <li class="dropdown">
+            <a href="./billpocket.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Billpocket</span></a>
+          </li>  
+
+          <li class="dropdown">
+            <a href="./clientesMorosos.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Clientes Morosos</span></a>
+          </li>    
+
+          <li class="dropdown">
+            <a href="./estadodecuenta.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Estado de cuenta</span></a>
+          </li>  
+
+          <li class="dropdown">
+            <a href="./Nico.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Nico</span></a>
+          </li>   
+
         </ul>
       </nav>
 
