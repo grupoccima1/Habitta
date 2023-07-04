@@ -212,6 +212,42 @@ class Crud extends Conexion {
             return $th->getMessage();
         }
     }  
+
+    public function mostrarDatoClientesMorosos(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->clientesmorosos;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+
+    public function mostrarEstadoDeCuentaDesarrollo(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->estadodecuenta;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+    public function mostrarNico(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->nico;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+
+
     // public function insertarDatos($datos){
     //     try {
     //         $conexion = parent::conectar();
