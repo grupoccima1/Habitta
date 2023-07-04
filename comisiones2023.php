@@ -1,4 +1,3 @@
-
 <?php
 require_once "./clases/Conexion.php";
   require_once "./clases/crud.php";
@@ -19,11 +18,11 @@ require_once "./clases/Conexion.php";
     <title>Habitta</title>
   </head>
   <body>
-  
+
     <div class="wrapper">
       <div class="body-overlay"></div>
-  
-  
+
+
        <!-- Sidebar  -->
        <nav id="sidebar">
         <div class="sidebar-header">
@@ -52,7 +51,7 @@ require_once "./clases/Conexion.php";
               <i class="material-icons"></i><span>Liberado</span></a>
 
           </li>
-          
+
           <li class="">
             <a href="#" class="dashboard"><span>Bancos</span></a>
           </li>
@@ -102,7 +101,7 @@ require_once "./clases/Conexion.php";
 
           </li>
           <li class="dropdown">
-            <a href="./ccoisiones2023.php" data-toggle="collapse" aria-expanded="false" >
+            <a href="./comisiones2023.php" data-toggle="collapse" aria-expanded="false" >
               <i class="material-icons"></i><span>Comisiones 2023</span></a>
 
           </li>
@@ -125,7 +124,7 @@ require_once "./clases/Conexion.php";
             </ol>
           </div>
         </div>
-       
+
       <div class="container">
         <div class="row justify-content-center py-5">
           <div class="col-md-3">
@@ -145,9 +144,9 @@ require_once "./clases/Conexion.php";
               <img src="images/cimatario.svg" class="imagen-logos"/>
             </div>
           </div>
- 
-          
-           
+
+
+
         </div>
       </div>
       <div class="container-fluid">
@@ -163,17 +162,17 @@ require_once "./clases/Conexion.php";
                 <div class="col">
                   <span><img src="images/home.svg" width="25px"></i></span> Home/Comisioes 2023
                 </div>
-  
+
               </div>
-  
+
             </div>
             <div class="card-body">
               <div class="table-responsive">
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td">
                     <tr>
-                   
-                    <th class="th__texto" style="text-align:center;">Llave</th>                        
+
+                        <th class="th__texto" style="text-align:center;">Llave</th>                        
                         <th class="th__texto" style="text-align:center;">FECHA_DE_INGRESO</th>
                         <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
                         <th class="th__texto" style="text-align:center;">DESARROLLO</th>
@@ -203,9 +202,9 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">MOTIVO_DE_DESCUENTO</th>
                         <th class="th__texto" style="text-align:center;">ESTATUS</th>
                         <th class="th__texto" style="text-align:center;">LOTE_ANTERIOR</th>
-                        <th class="th__texto" style="text-align:center;">%COMISION</th>
-                       
-  
+                  
+
+
                     </tr>
                   </thead>
                   <tbody>
@@ -225,7 +224,7 @@ require_once "./clases/Conexion.php";
                             </form>
                           
                             </td> --> 
-                            <td class="text-center"> <?php echo $item->LLAVE; ?> </td>
+                          <td class="text-center"> <?php echo $item->LLAVE; ?> </td>
                           <td class="text-center"> <?php echo $item->FECHA_DE_INGRESO;?> </td>
                           <td class="text-center"> <?php echo $item->CONDOMINIO;?> </td>
                           <td class="text-center"> <?php echo $item->DESARROLLO; ?> </td>
@@ -255,7 +254,7 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->MOTIVO_DE_DESCUENTO; ?> </td>
                           <td class="text-center"> <?php echo $item->ESTATUS;?> </td>
                           <td class="text-center"> <?php echo $item->LOTE_ANTERIOR;?> </td>
-                          <td class="text-center"> <?php echo $item->PCOMISION; ?> </td>
+                      
                           </tr>
                           <?php } ?> 
                   </tbody>
@@ -293,7 +292,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">MOTIVO_DE_DESCUENTO</th>
                         <th class="th__texto" style="text-align:center;">ESTATUS</th>
                         <th class="th__texto" style="text-align:center;">LOTE_ANTERIOR</th>
-                        <th class="th__texto" style="text-align:center;">%COMISION</th>
+                       
                     </tr>
                   </tfoot>
                 </table>
@@ -427,7 +426,7 @@ require_once "./clases/Conexion.php";
       <!---footer---->
 
 
-      </div> -->
+      </div> 
 
       <footer class="footer">
         <div class="container-fluid">
