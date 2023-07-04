@@ -172,11 +172,11 @@ require_once "./clases/Conexion.php";
                   <thead class="bg__td">
                     <tr>
 
-                    <th class="th__texto" style="text-align:center;">Llave</th>                        
+                        <th class="th__texto" style="text-align:center;">Llave</th>                        
                         <th class="th__texto" style="text-align:center;">FECHA_DE_INGRESO</th>
                         <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
-                        <th class="th__texto" style="text-align:center;">DESARROLLO</th>
                         <th class="th__texto" style="text-align:center;">CLUSTER</th>
+                        <th class="th__texto" style="text-align:center;">DESARROLLO</th>
                         <th class="th__texto" style="text-align:center;">PUESTO</th>
                         <th class="th__texto" style="text-align:center;">COMISIONISTA</th>
                         <th class="th__texto" style="text-align:center;">TOTAL_DE_LA_VENTA</th>
@@ -268,7 +268,8 @@ require_once "./clases/Conexion.php";
 
                     <th class="th__texto" style="text-align:center;">Llave</th>                        
                         <th class="th__texto" style="text-align:center;">FECHA_DE_INGRESO</th>
-                        <th class="th__texto" style="text-align:center;">Condominio</th>
+                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
+                        <th class="th__texto" style="text-align:center;">CLUSTER</th>
                         <th class="th__texto" style="text-align:center;">DESARROLLO</th>
                         <th class="th__texto" style="text-align:center;">PUESTO</th>
                         <th class="th__texto" style="text-align:center;">COMISIONISTA</th>
