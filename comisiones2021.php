@@ -174,6 +174,7 @@ require_once "./clases/Conexion.php";
 
                     <th class="th__texto" style="text-align:center;">Llave</th>                        
                         <th class="th__texto" style="text-align:center;">FECHA_DE_INGRESO</th>
+                        <th class="th__texto" style="text-align:center;">LOTE</th>
                         <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
                         <th class="th__texto" style="text-align:center;">DESARROLLO</th>
                         <th class="th__texto" style="text-align:center;">PUESTO</th>
@@ -190,7 +191,6 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">RETENCIONES_ISR</th>                        
                         <th class="th__texto" style="text-align:center;">TOTAL</th>
                         <th class="th__texto" style="text-align:center;">PAGO</th>
- 
                         <th class="th__texto" style="text-align:center;">PAGADO</th>
                         <th class="th__texto" style="text-align:center;">METODO_DE_PAGO</th>
                         <th class="th__texto" style="text-align:center;">FECHA_PAGADA</th>
@@ -202,9 +202,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">MOTIVO_DE_DESCUENTO</th>
                         <th class="th__texto" style="text-align:center;">ESTATUS</th>
                         <th class="th__texto" style="text-align:center;">LOTE_ANTERIOR</th>
-                      
 
-
+                        
                     </tr>
                   </thead>
                   <tbody>
@@ -224,9 +223,11 @@ require_once "./clases/Conexion.php";
                             </form>
                           
                             </td> --> 
-                            <td class="text-center"> <?php echo $item->LLAVE; ?> </td>
+                          <td class="text-center"> <?php echo $item->LLAVE; ?> </td>
                           <td class="text-center"> <?php echo $item->FECHA_DE_INGRESO;?> </td>
+                          <td class="text-center"> <?php echo $item->LOTE;?> </td>
                           <td class="text-center"> <?php echo $item->CONDOMINIO;?> </td>
+                          <td class="text-center"> <?php echo $item->CLUSTER;?> </td>
                           <td class="text-center"> <?php echo $item->DESARROLLO; ?> </td>
                           <td class="text-center"> <?php echo $item->PUESTO;?> </td>
                           <td class="text-center"> <?php echo $item->COMISIONISTA;?> </td>
@@ -242,7 +243,6 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->RETENCIONES_ISR;?> </td>
                           <td class="text-center"> <?php echo $item->TOTAL;?> </td>
                           <td class="text-center"> <?php echo $item->PAGO;?> </td>
-                        
                           <td class="text-center"> <?php echo $item->PAGADO;?> </td>
                           <td class="text-center"> <?php echo $item->METODO_DE_PAGO; ?> </td>
                           <td class="text-center"> <?php echo $item->FECHA_PAGADA;?> </td>
@@ -262,9 +262,10 @@ require_once "./clases/Conexion.php";
                     <tr>
 
 
-                    <th class="th__texto" style="text-align:center;">Llave</th>                        
+                        <th class="th__texto" style="text-align:center;">Llave</th>                        
                         <th class="th__texto" style="text-align:center;">FECHA_DE_INGRESO</th>
-                        <th class="th__texto" style="text-align:center;">Condominio</th>
+                        <th class="th__texto" style="text-align:center;">LOTE</th>
+                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
                         <th class="th__texto" style="text-align:center;">DESARROLLO</th>
                         <th class="th__texto" style="text-align:center;">PUESTO</th>
                         <th class="th__texto" style="text-align:center;">COMISIONISTA</th>
@@ -280,7 +281,6 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">RETENCIONES_ISR</th>                        
                         <th class="th__texto" style="text-align:center;">TOTAL</th>
                         <th class="th__texto" style="text-align:center;">PAGO</th>
-                       
                         <th class="th__texto" style="text-align:center;">PAGADO</th>
                         <th class="th__texto" style="text-align:center;">METODO_DE_PAGO</th>
                         <th class="th__texto" style="text-align:center;">FECHA_PAGADA</th>
