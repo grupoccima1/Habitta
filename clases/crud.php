@@ -246,6 +246,29 @@ class Crud extends Conexion {
         }
     } 
 
+      public function mostrarCierreMensualHabitta(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->cierreMensual;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+
+
+    public function mostrarAcumuladoComisiones(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->AcumuladoComisiones;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
 
 
     // public function insertarDatos($datos){
