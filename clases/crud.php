@@ -1,25 +1,25 @@
 <?php
 
-class Crud extends Conexion {
+class Crud extends Conexion { //la palabra clave "extends" indica que la clase "Crud" hereda todas las propiedades y métodos de la clase "Conexion".
 
-    public function mostrarDatosmadre(){
+    public function mostrarDatosmadre(){ //Esta haciendo una conexion con la base de datos 
         try {
-            $conexion = parent::conectar();
-            $coleccion = $conexion->basemadre;
-            $datos = $coleccion->find();
+            $conexion = parent::conectar(); //si la conexion es exitosa, la variable se establece con el objeto de conexion
+            $coleccion = $conexion->basemadre; //Luego, se accede a la colección llamada "basemadre" en la base de datos utilizando la variable de conexión "$conexion" y se guarda el resultado en la variable "$datos".
+            $datos = $coleccion->find(); // Finalmente, se retorna la variable "$datos", que contiene los datos recuperados de la colección.
             return $datos;
-        } catch (\Throwable $th) {
+        } catch (\Throwable $th) {  //En caso de que ocurra alguna excepción durante la ejecución del código dentro del bloque "try", se captura la excepción y se devuelve el mensaje de error correspondiente utilizando el método "getMessage()" del objeto de la excepción.
             return $th->getMessage();
         }
     }
 
     public function mostrarDatosflujo(){
         try {
-            $conexion = parent::conectar();
-            $coleccion = $conexion->flujo;
-            $datos = $coleccion->find();
+            $conexion = parent::conectar();//si la conexion es exitosa, la variable se establece con el objeto de conexion
+            $coleccion = $conexion->flujo;//Luego, se accede a la colección llamada "basemadre" en la base de datos utilizando la variable de conexión "$conexion" y se guarda el resultado en la variable "$datos".
+            $datos = $coleccion->find();// Finalmente, se retorna la variable "$datos", que contiene los datos recuperados de la colección.
             return $datos;
-        } catch (\Throwable $th) {
+        } catch (\Throwable $th) { // //En caso de que ocurra alguna excepción durante la ejecución del código dentro del bloque "try", se captura la excepción y se devuelve el mensaje de error correspondiente utilizando el método "getMessage()" del objeto de la excepción.
             return $th->getMessage();
         }
     }
@@ -246,7 +246,7 @@ class Crud extends Conexion {
         }
     } 
 
-      public function mostrarCierreMensualHabitta(){
+    public function mostrarCierreMensualHabitta(){
         try {
             $conexion = parent::conectar();
             $coleccion = $conexion->cierreMensual;
@@ -263,6 +263,132 @@ class Crud extends Conexion {
         try {
             $conexion = parent::conectar();
             $coleccion = $conexion->AcumuladoComisiones;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }
+
+
+
+    public function mostrarCorteMR(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->CorteMR;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+    
+    public function mostrarCobranzaAcumulado(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->CobranzaAcumulado;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+    public function mostrarDatosbonosFebrero(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->ComBonosFebrero;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+    
+    public function mostrarComHabSemana(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->ComSemana20;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+
+    public function mostrarDatosDevolucionesClientes(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->DevolucionesClientes;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+    public function mostrarDatosComisionesInternas(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->ComisionesInternas;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+    public function mostrarDatosCreacionRecibos(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->CreacionRecibos;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+    public function mostrarDatosEstadoCuenta(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->EstadosDecuenta;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+    
+    public function mostrarDatosProyeccionesHabitta(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->ProyeccionHabitta;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+    public function mostrarDatosRevision(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->Revision;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+    public function mostrarDatosTableroResultados(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->TableroResultados;
             $datos = $coleccion->find();
             return $datos;
         } catch (\Throwable $th) {
