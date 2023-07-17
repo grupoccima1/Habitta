@@ -171,10 +171,7 @@
           </li>   
 
           
-          <li class="dropdown">
-            <a href="./COM-HAB-SEMANA_20.phpp" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Com Semana 20</span></a>
-          </li> 
+        
           
           <li class="dropdown">
             <a href="./Devoluciones_clientes.php" data-toggle="collapse" aria-expanded="false" >
@@ -186,27 +183,29 @@
             <a href="./Hab_Formato_Comisiones_Internas.php" data-toggle="collapse" aria-expanded="false" >
               <i class="material-icons"></i><span>Comisiones Internas</span></a>
           </li>   
-
-          <li class="dropdown">
-            <a href="./Macro_Creacion_Recibos.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Macro Creacion de Recibos</span></a>
-          </li>   
-
-          <li class="dropdown">
-            <a href="./Macro_Estados_Cuenta.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Macro Estado de Cuenta</span></a>
-          </li> 
-
           
-          <li class="dropdown">
-            <a href="./Revision.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Revision</span></a>
-          </li> 
+      
 
           <li class="dropdown">
             <a href="./TableroDeResultados.php" data-toggle="collapse" aria-expanded="false" >
               <i class="material-icons"></i><span>Tablero de Resultados</span></a>
           </li> 
+
+          <li class="dropdown">
+            <a href="./AcumuladosBonosDeTierra.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Acumulados Bonos de Tierra</span></a>
+          </li> 
+
+          <li class="dropdown">
+            <a href="./BonosReferidos.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Bonos Referidos</span></a>
+          </li> 
+
+          <li class="dropdown">
+            <a href="./EDO_De_Cuenta_Por_Desarrollo_Actualizado.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Estado De Cuenta por Desarrollo Actualizado</span></a>
+          </li> 
+
 
 
         </ul>
