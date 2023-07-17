@@ -333,7 +333,7 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
     public function mostrarDatosComisionesInternas(){
         try {
             $conexion = parent::conectar();
-            $coleccion = $conexion->ComisionesInternas;
+            $coleccion = $conexion->ComisionInternas;
             $datos = $coleccion->find();
             return $datos;
         } catch (\Throwable $th) {
@@ -385,16 +385,52 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
         }
     } 
 
-    public function mostrarDatosTableroResultados(){
+    public function mostrarDatosAcumuladoDeTierra(){
         try {
             $conexion = parent::conectar();
-            $coleccion = $conexion->TableroResultados;
+            $coleccion = $conexion->AcumuladoTierra;
             $datos = $coleccion->find();
             return $datos;
         } catch (\Throwable $th) {
             return $th->getMessage();
         }
     } 
+
+
+    public function mostrarDatosTableroResultados(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->TableroDeResultados;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+    public function mostrarDatosBonosReferidos(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->BonosReferidos;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+    public function mostrarDatosCuentaDesarrolloActualizado(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->CuentaDesarrolloActualizado;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    } 
+
+
 
 
     // public function insertarDatos($datos){
