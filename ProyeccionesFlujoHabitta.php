@@ -226,37 +226,39 @@ require_once "./clases/Conexion.php";
                             </form>
                           
                             </td> --> 
-                          <td class="text-center"> <?php echo $item->MES; ?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2020;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2021;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2022;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2023;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2024; ?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2025;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2026;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2027;?></td>
-                          <td class="text-center"> <?php echo $item->fecha_2028;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2029;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2030;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2031;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2032;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2033;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2034;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2035;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2036;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_2037;?> </td>
-                          <td class="text-center"> <?php echo $item->fecha_general;?> </td>
-                          <td class="text-center"> <?php echo $item->DESIERTO;?> </td>
-                          <td class="text-center"> <?php echo $item->ESTEPA;?> </td>
-                          <td class="text-center"> <?php echo $item->PARAMO;?> </td>
-                          <td class="text-center"> <?php echo $item->TAIGA;?> </td>
-                          <td class="text-center"> <?php echo $item->BOSQUE;?> </td>
-                          <td class="text-center"> <?php echo $item->LOMAS;?> </td>
-                          <td class="text-center"> <?php echo $item->Total_general;?> </td>
-                          <td class="text-center"> <?php echo $item->SELVA;?> </td>
-                          <td class="text-center"> <?php echo $item->LAGO;?> </td>
-                          <td class="text-center"> <?php echo $item->MANGLAR;?> </td>
+                            <td class="text-center"> <?php echo $item->MES;?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2020,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2021,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2022,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2023,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2024,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2025,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2026,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2027,2);?></td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2028,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2029,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2030,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2031,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2032,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2033,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2034,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2035,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2036,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2037,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->fecha_general,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->DESIERTO,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->ESTEPA,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->PARAMO,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->TAIGA,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->BOSQUE,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->LOMAS,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->Total_general,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->SELVA,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->LAGO,2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format($item->MANGLAR,2);?> </td>
                         
+                          
+                         
                           
                          
                           </tr>
