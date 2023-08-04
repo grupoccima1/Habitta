@@ -24,22 +24,22 @@ require_once "./clases/Conexion.php";
       <div class="body-overlay"></div>
   
   
-       <!-- Sidebar  -->
-       <nav id="sidebar">
-        <div class="sidebar-header">
-          <h3><img src="images/habitta.svg" class="img-fluid"/></h3>
+       <!-- Sidebar  --> 
+      <nav id="sidebar"> <!-- Es un elemento de navegación con el atributo de identificación "sidebar". -->
+        <div class="sidebar-header">  <!-- esta es  una sección dentro del menú lateral para el encabezado. Aquí es donde podría ir el logotipo u otro contenido relacionado con el encabezado. -->
+          <h3><img src="images/habitta.svg" class="img-fluid"/></h3><!-- Define un encabezado de nivel 3 y dentro de él se encuentra una etiqueta de imagen -->    
         </div>
-        <ul class="list-unstyled components">
-          <li class="active">
+        <ul class="list-unstyled components"> <!--Crea una lista desordenada (<ul>) con la clase "list-unstyled components". Esta lista probablemente contendrá los elementos del menú. -->  
+          <li class="active"> 
             <a href="index.php" class="dashboard"><img src="images/home.svg" width="20px"><span>Inicio</span></a>
           </li>
 
           <li class="">
             <a  class="dashboard"><span>Principales</span></a>
           </li>
-          <li class="dropdown">
-            <a href="./basemadre.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Base Madre</span></a>
+          <li class="dropdown"><!--Esta clase generalmente se utiliza para indicar que el elemento de menú tiene un submenú o desplegable. -->
+            <a href="./basemadre.php" data-toggle="collapse" aria-expanded="false"><!--se utilizan comúnmente en el marco Bootstrap para habilitar el comportamiento de colapso/desplegado en los submenús o contenido relacionado. -->
+              <i class="material-icons"></i><span>Base Madre</span></a><!-- define un iccono, un maetrial de iccono -->
 
           </li>
           <li class="dropdown">
@@ -53,6 +53,168 @@ require_once "./clases/Conexion.php";
 
           </li>
           
+       <!--    <li class="">
+            <a href="#" class="dashboard"><span>Bancos</span></a>
+          </li>
+
+          <li class="dropdown">
+            <a href="./bbva.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>BBVA</span></a>
+
+          </li>
+          <li class="dropdown">
+            <a href="./hsbcl.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>HSBC Lomas</span></a>
+
+          </li>
+          <li class="dropdown">
+            <a href="./hsbch.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>HSBC Habitta</span></a>
+
+          </li>
+ -->
+         <!--  <li class="">
+            <a href="#" class="dashboard"><span>Estados de cuenta</span></a>
+          </li>
+          <li class="dropdown">
+            <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Cobranza</span></a>
+
+          </li>
+          </li>
+          <li class="dropdown">
+            <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Listado</span></a>
+
+          </li>
+          <li class="dropdown">
+            <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Estados de cuenta</span></a>
+
+          </li>
+          <li class="dropdown">
+            <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Catalogo</span></a>
+ -->
+          </li>
+          <li class="dropdown">
+            <a href="./tabulador.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Tabulador</span></a>
+
+          </li>
+
+          <li class="dropdown">
+            <a href="./comisiones2020.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Comisiones 2020</span></a>
+            </li>
+            
+            <li class="dropdown">
+              <a href="./comisiones2021.php" data-toggle="collapse" aria-expanded="false" >
+                <i class="material-icons"></i><span>Comisiones 2021</span></a>
+            </li>
+            
+            <li class="dropdown">
+              <a href="./comisiones2022.php" data-toggle="collapse" aria-expanded="false" >
+                <i class="material-icons"></i><span>Comisiones 2022</span></a>
+            </li>
+
+          <li class="dropdown">
+            <a href="./comisiones2023.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Comisiones 2023</span></a>
+          </li>
+
+
+           <li class="dropdown">
+            <a href="./acumuladosherpa.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Acumulados Sherpa</span></a>
+          </li>   
+
+          <li class="dropdown">
+            <a href="./basemadrehabitta.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Base Madre</span></a>
+          </li>   
+
+          <li class="dropdown">
+            <a href="./bilpocket.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Billpocket</span></a>
+          </li>  
+
+          <li class="dropdown">
+            <a href="./clientesMorosos.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Clientes Morosos</span></a>
+          </li>    
+
+          <li class="dropdown">
+            <a href="./estadodecuenta.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Estado de cuenta</span></a>
+          </li>  
+
+          <li class="dropdown">
+            <a href="./Nico.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Nico</span></a>
+          </li>   
+
+          <li class="dropdown">
+            <a href="./cierreMensualHabitta.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Cierre Mensual</span></a>
+          </li>  
+          
+          <li class="dropdown">
+            <a href="./acumuladoComisiones.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Acumulado De Comisiones</span></a>
+          </li>   
+
+          <li class="dropdown">
+            <a href="./CorteMoraRango.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Corte de Mora y Rango</span></a>
+          </li>   
+
+          <li class="dropdown">
+            <a href="./Cobranza_Acumulado.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Cobranza Y Acumulado</span></a>
+          </li>   
+
+           
+        
+          
+          <li class="dropdown">
+            <a href="./Devoluciones_clientes.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Devoluciones a Clientes</span></a>
+          </li>   
+
+               
+          <li class="dropdown">
+            <a href="./Hab_Formato_Comisiones_Internas.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Comisiones Internas</span></a>
+          </li>   
+          
+      
+
+          <li class="dropdown">
+            <a href="./TableroDeResultados.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Tablero de Resultados</span></a>
+          </li> 
+
+          <li class="dropdown">
+            <a href="./AcumuladosBonosDeTierra.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Acumulados Bonos de Tierra</span></a>
+          </li> 
+
+          <li class="dropdown">
+            <a href="./BonosReferidos.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Bonos Referidos</span></a>
+          </li> 
+
+          <li class="dropdown">
+            <a href="./ProyeccionesFlujoHabitta.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Proyecciones de flujo de habitta</span></a>
+          </li> 
+
+          <li class="dropdown">
+            <a href="./EDO_De_Cuenta_Por_Desarrollo_Actualizado.php" data-toggle="collapse" aria-expanded="false" >
+              <i class="material-icons"></i><span>Estado De Cuenta por Desarrollo Actualizado</span></a>
+          </li> 
+
           <li class="">
             <a href="#" class="dashboard"><span>Bancos</span></a>
           </li>
@@ -101,6 +263,9 @@ require_once "./clases/Conexion.php";
               <i class="material-icons"></i><span>Tabulador</span></a>
 
           </li>
+
+
+
         </ul>
       </nav>
 
@@ -220,14 +385,14 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->SUBCATEGORIA;?> </td>
                           <td class="text-center"> <?php echo $item->MES;?> </td>
                           <td class="text-center"> <?php echo $item->AÑO;?> </td>
-                          <td class="text-center"> <?php echo $item->FLUJO2;?> </td>
-                          <td class="text-center"> <?php echo $item->LOTE; ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->FLUJO2),2);?> </td>
+                          <td class="text-center"> <?php echo number_format(floatval($item->LOTE)); ?> </td>
                           <td class="text-center"> <?php echo $item->CONDOMINIO;?> </td>
                           <td class="text-center"> <?php echo $item->CLUSTER;?> </td>
                           <td class="text-center"> <?php echo $item->DESARROLLO;?> </td>
                           <td class="text-center"> <?php echo $item->CLIENTE;?> </td>
                           <td class="text-center"> <?php echo $item->CORREO;?> </td>
-                          <td class="text-center"> <?php echo $item->ER_MENSUALIDAD; ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->ER_MENSUALIDAD),2); ?> </td>
 
                             </td>
                           </tr>
@@ -261,7 +426,7 @@ require_once "./clases/Conexion.php";
                     </tr>
                   </tfoot>
                 </table>
-                <div class="row">
+                <!-- <div class="row">
                   <div class="col-sm-12 col-md-5">
                     <div class="dataTables_info" id="example_info" role="status" aria-live="polite"></div>
                   </div>
@@ -271,11 +436,11 @@ require_once "./clases/Conexion.php";
                         <li class="paginate_button page-item previous disabled" id="example_previous"><a href="#"
                             aria-controls="example" data-dt-idx="0" tabindex="0" class="page-link">Siguiente</a></li>
                         <li class="paginate_button page-item active"><a href="#" aria-controls="example" data-dt-idx="1"
-                            tabindex="0" class="page-link">1</a></li>
+                            tabindex="0" class="page-link"></a></li>
                         <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="2"
-                            tabindex="0" class="page-link">2</a></li>
+                            tabindex="0" class="page-link"></a></li>
                         <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="3"
-                            tabindex="0" class="page-link">3</a></li>
+                            tabindex="0" class="page-link"></a></li>
                         <li class="paginate_button page-item next" id="example_next"><a href="#" aria-controls="example"
                             data-dt-idx="7" tabindex="0" class="page-link">Next</a></li>
                       </ul>
@@ -286,7 +451,7 @@ require_once "./clases/Conexion.php";
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
 
 
