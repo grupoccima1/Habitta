@@ -342,7 +342,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">COMISIONISTA</th>
                         <th class="th__texto" style="text-align:center;">TOTAL_DE_LA_VENTA</th>
                         <th class="th__texto" style="text-align:center;">ENGANCHE</th>
-                        <th class="th__texto" style="text-align:center;">PCOMISION</th>
+                        <th class="th__texto" style="text-align:center;">%_COMISION</th>
                         <th class="th__texto" style="text-align:center;">TOTAL_COMISION</th>
                         <th class="th__texto" style="text-align:center;">DESCUENTO</th>
                         <th class="th__texto" style="text-align:center;">DESC</th>
@@ -438,7 +438,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">COMISIONISTA</th>
                         <th class="th__texto" style="text-align:center;">TOTAL_DE_LA_VENTA</th>
                         <th class="th__texto" style="text-align:center;">ENGANCHE</th>
-                        <th class="th__texto" style="text-align:center;">PCOMISION</th>
+                        <th class="th__texto" style="text-align:center;">%_COMISION</th>
                         <th class="th__texto" style="text-align:center;">TOTAL_COMISION</th>
                         <th class="th__texto" style="text-align:center;">DESCUENTO</th>
                         <th class="th__texto" style="text-align:center;">DESC</th>

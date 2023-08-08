@@ -393,7 +393,7 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->MENSUALIDAD;?> </td>
                           <td class="text-center"> <?php echo $item->INTERES;?> </td>
                           <td class="text-center"> <?php echo $item->TIPO_DE_INTES;?> </td>
-                          <td class="text-center"> <?php echo $item->I_NEGOCIADO;?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->I_NEGOCIADO),2);?> </td>
                           <td class="text-center"> <?php echo $item->REAL;?> </td>
                           <td class="text-center"> <?php echo $item->MENS_PAGADA;?> </td>
                           <td class="text-center"> <?php echo $item->MEN_ADEUDADA;?> </td>

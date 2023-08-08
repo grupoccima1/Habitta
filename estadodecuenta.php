@@ -362,12 +362,12 @@ require_once "./clases/Conexion.php";
                           
                             </td> --> 
                           <td class="text-center"> <?php echo $item->CONCEPTO; ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->PORTTO_BLANCO_CIM),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->LOMAS_DE_PORTTO_BLANCO),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->PORTTO_BLANCO_BERNAL),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->VEREDAS_DE_LIRA),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->PORTTO_BLANCO_SLP),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->GENERAL),2);?> </td>
+                          <td class="text-center"> <?php echo number_format(floatval($item->PORTTO_BLANCO_CIM),2);?> </td>
+                          <td class="text-center"> <?php echo number_format(floatval($item->LOMAS_DE_PORTTO_BLANCO),2);?> </td>
+                          <td class="text-center"> <?php echo number_format(floatval($item->PORTTO_BLANCO_BERNAL),2);?> </td>
+                          <td class="text-center"> <?php echo number_format(floatval($item->VEREDAS_DE_LIRA),2);?> </td>
+                          <td class="text-center"> <?php echo number_format(floatval($item->PORTTO_BLANCO_SLP),2); ?> </td>
+                          <td class="text-center"> <?php echo number_format(floatval($item->GENERAL),2);?> </td>
                          
                           </tr>
                           <?php } ?> 

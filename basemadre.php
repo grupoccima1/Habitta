@@ -474,7 +474,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Mensualidad de entrega</th>
                         <th class="th__texto" style="text-align:center;">Inicio corrida</th>
                         <th class="th__texto" style="text-align:center;">Fecha primer abono</th>
-                        <th class="th__texto" style="text-align:center;">Pagado</th>
+                        <!-- <th class="th__texto" style="text-align:center;">Pagado</th> -->
                         <th class="th__texto" style="text-align:center;">Deuda</th>
                         <th class="th__texto" style="text-align:center;">Fecha Entrega Lote</th>
                         <th class="th__texto" style="text-align:center;">Estatus cm</th>

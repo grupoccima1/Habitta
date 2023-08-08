@@ -415,8 +415,8 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->COMISIONISTA;?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval( $item->TOTAL_DE_LA_VENTA),2);?></td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->ENGANCHE),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->PCOMISION,2);?> </td>
-                          <td class="text-center"> <?php echo  number_format(floatval($item->TOTAL_COMISION),2);?> </td>
+                          <td class="text-center"> <?php echo $item->PCOMISION;?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->TOTAL_COMISION),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->DESCUENTO),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->A_PAGAR_EXTERNOS),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->SUBTOTAL),2);?> </td>
@@ -448,6 +448,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">FECHA_DE_INGRESO</th>
                         <th class="th__texto" style="text-align:center;">LOTE</th>
                         <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
+                        <th class="th__texto" style="text-align:center;">CLUSTER</th>
                         <th class="th__texto" style="text-align:center;">DESARROLLO</th>
                         <th class="th__texto" style="text-align:center;">PUESTO</th>
                         <th class="th__texto" style="text-align:center;">COMISIONISTA</th>

@@ -413,7 +413,7 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->SOLICITÓ;?> </td>
                           <td class="text-center"> <?php echo $item->AUTORIZÓ;?> </td>
                           <td class="text-center"> <?php echo $item->PRESUPUESTO;?> </td>
-                          <td class="text-center"> <?php echo $item->UNIDAD_DE_NEGOCIOS;?> </td>
+                          <td class="text-center"> <?php echo $item->UNIDAD_DE_NEGOCIO;?> </td>
                           <td class="text-center"> <?php echo $item->FLUJO;?> </td>
                           <td class="text-center"> <?php echo $item->LLAVE;?> </td>
                           <td class="text-center"> <?php echo $item->FECHA_CORRECTA;?> </td>

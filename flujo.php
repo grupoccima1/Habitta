@@ -372,7 +372,7 @@ require_once "./clases/Conexion.php";
                             </form>
                           
                             </td> --> 
-                            <td class="text-center"> <?php echo $item->CREAR_RECIBO; ?> </td>
+                          <td class="text-center"> <?php echo $item->CREAR_RECIBO; ?> </td>
                           <td class="text-center"> <?php echo $item->NOTAS;?> </td>
                           <td class="text-center"> <?php echo $item->ENVIADO;?> </td>
                           <td class="text-center"> <?php echo $item->LLAVE; ?> </td>

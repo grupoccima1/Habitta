@@ -395,7 +395,7 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->COMISIONISTA;?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->TOTAL_DE_LA_VENTA),2);?></td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->ENGANCHE),2);?> </td>
-                          <td class="text-center"> <?php echo number_format(floatval($item->PCOMISION),2);?> </td>
+                          <td class="text-center"> <?php echo $item->PCOMISION;?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->TOTAL_COMISION),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->DESCUENTO),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->A_PAGAR_EXTERNOS),2);?> </td>

@@ -355,7 +355,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2020</th>
                         <th class="th__texto" style="text-align:center;">febrero_2020</th>
                         <th class="th__texto" style="text-align:center;">marzo_2020</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2020</th>
+                        <th class="th__texto" style="text-align:center;">abril_2020</th>
                         <th class="th__texto" style="text-align:center;">mayo_2020</th>
                         <th class="th__texto" style="text-align:center;">junio_2020</th>
                         <th class="th__texto" style="text-align:center;">julio_2020</th>
@@ -367,7 +367,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2021</th>
                         <th class="th__texto" style="text-align:center;">febrero_2021</th>
                         <th class="th__texto" style="text-align:center;">marzo_2021</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2021</th>
+                        <th class="th__texto" style="text-align:center;">abril_2021</th>
                         <th class="th__texto" style="text-align:center;">mayo_2021</th>
                         <th class="th__texto" style="text-align:center;">junio_2021</th>
                         <th class="th__texto" style="text-align:center;">julio_2021</th>
@@ -379,7 +379,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2022</th>
                         <th class="th__texto" style="text-align:center;">febrero_2022</th>
                         <th class="th__texto" style="text-align:center;">marzo_2022</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2022</th>
+                        <th class="th__texto" style="text-align:center;">abril_2022</th>
                         <th class="th__texto" style="text-align:center;">mayo_2022</th>
                         <th class="th__texto" style="text-align:center;">junio_2022</th>
                         <th class="th__texto" style="text-align:center;">julio_2022</th>
@@ -391,7 +391,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2023</th>
                         <th class="th__texto" style="text-align:center;">febrero_2023</th>
                         <th class="th__texto" style="text-align:center;">marzo_2023</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2023</th>
+                        <th class="th__texto" style="text-align:center;">abril_2023</th>
                         <th class="th__texto" style="text-align:center;">mayo_2023</th>
                         <th class="th__texto" style="text-align:center;">junio_2023</th>
                         <th class="th__texto" style="text-align:center;">julio_2023</th>
@@ -403,7 +403,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2024</th>
                         <th class="th__texto" style="text-align:center;">febrero_2024</th>
                         <th class="th__texto" style="text-align:center;">marzo_2024</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2024</th>
+                        <th class="th__texto" style="text-align:center;">abril_2024</th>
                         <th class="th__texto" style="text-align:center;">mayo_2024</th>
                         <th class="th__texto" style="text-align:center;">junio_2024</th>
                         <th class="th__texto" style="text-align:center;">julio_2024</th>
@@ -415,7 +415,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2025</th>
                         <th class="th__texto" style="text-align:center;">febrero_2025</th>
                         <th class="th__texto" style="text-align:center;">marzo_2025</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2025</th>
+                        <th class="th__texto" style="text-align:center;">abril_2025</th>
                         <th class="th__texto" style="text-align:center;">mayo_2025</th>
                         <th class="th__texto" style="text-align:center;">junio_2025</th>
                         <th class="th__texto" style="text-align:center;">julio_2025</th>
@@ -427,7 +427,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2026</th>
                         <th class="th__texto" style="text-align:center;">febrero_2026</th>
                         <th class="th__texto" style="text-align:center;">marzo_2026</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2026</th>
+                        <th class="th__texto" style="text-align:center;">abril_2026</th>
                         <th class="th__texto" style="text-align:center;">mayo_2026</th>
                         <th class="th__texto" style="text-align:center;">junio_2026</th>
                         <th class="th__texto" style="text-align:center;">julio_2026</th>
@@ -439,7 +439,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2027</th>
                         <th class="th__texto" style="text-align:center;">febrero_2027</th>
                         <th class="th__texto" style="text-align:center;">marzo_2027</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2027</th>
+                        <th class="th__texto" style="text-align:center;">abril_2027</th>
                         <th class="th__texto" style="text-align:center;">mayo_2027</th>
                         <th class="th__texto" style="text-align:center;">junio_2027</th>
                         <th class="th__texto" style="text-align:center;">julio_2027</th>
@@ -451,7 +451,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2028</th>
                         <th class="th__texto" style="text-align:center;">febrero_2028</th>
                         <th class="th__texto" style="text-align:center;">marzo_2028</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2028</th>
+                        <th class="th__texto" style="text-align:center;">abril_2028</th>
                         <th class="th__texto" style="text-align:center;">mayo_2028</th>
                         <th class="th__texto" style="text-align:center;">junio_2028</th>
                         <th class="th__texto" style="text-align:center;">julio_2028</th>
@@ -463,7 +463,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2029</th>
                         <th class="th__texto" style="text-align:center;">febrero_2029</th>
                         <th class="th__texto" style="text-align:center;">marzo_2029</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2029</th>
+                        <th class="th__texto" style="text-align:center;">abril_2029</th>
                         <th class="th__texto" style="text-align:center;">mayo_2029</th>
                         <th class="th__texto" style="text-align:center;">junio_2029</th>
                         <th class="th__texto" style="text-align:center;">julio_2029</th>
@@ -475,7 +475,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2030</th>
                         <th class="th__texto" style="text-align:center;">febrero_2030</th>
                         <th class="th__texto" style="text-align:center;">marzo_2030</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2030</th>
+                        <th class="th__texto" style="text-align:center;">abril_2030</th>
                         <th class="th__texto" style="text-align:center;">mayo_2030</th>
                         <th class="th__texto" style="text-align:center;">junio_2030</th>
                         <th class="th__texto" style="text-align:center;">julio_2030</th>
@@ -487,7 +487,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2031</th>
                         <th class="th__texto" style="text-align:center;">febrero_2031</th>
                         <th class="th__texto" style="text-align:center;">marzo_2031</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2031</th>
+                        <th class="th__texto" style="text-align:center;">abril_2031</th>
                         <th class="th__texto" style="text-align:center;">mayo_2031</th>
                         <th class="th__texto" style="text-align:center;">junio_2031</th>
                         <th class="th__texto" style="text-align:center;">julio_2031</th>
@@ -499,7 +499,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2032</th>
                         <th class="th__texto" style="text-align:center;">febrero_2032</th>
                         <th class="th__texto" style="text-align:center;">marzo_2032</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2032</th>
+                        <th class="th__texto" style="text-align:center;">abril_2032</th>
                         <th class="th__texto" style="text-align:center;">mayo_2032</th>
                         <th class="th__texto" style="text-align:center;">junio_2032</th>
                         <th class="th__texto" style="text-align:center;">julio_2032</th>
@@ -511,7 +511,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2033</th>
                         <th class="th__texto" style="text-align:center;">febrero_2033</th>
                         <th class="th__texto" style="text-align:center;">marzo_2033</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2033</th>
+                        <th class="th__texto" style="text-align:center;">abril_2033</th>
                         <th class="th__texto" style="text-align:center;">mayo_2033</th>
                         <th class="th__texto" style="text-align:center;">junio_2033</th>
                         <th class="th__texto" style="text-align:center;">julio_2033</th>
@@ -523,7 +523,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2034</th>                   
                         <th class="th__texto" style="text-align:center;">febrero_2034</th>
                         <th class="th__texto" style="text-align:center;">marzo_2034</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2034</th>
+                        <th class="th__texto" style="text-align:center;">abril_2034</th>
                         <th class="th__texto" style="text-align:center;">mayo_2034</th>
                         <th class="th__texto" style="text-align:center;">junio_2034</th>
                         <th class="th__texto" style="text-align:center;">julio_2034</th>
@@ -535,7 +535,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2035</th>  
                         <th class="th__texto" style="text-align:center;">febrero_2035</th>                    
                         <th class="th__texto" style="text-align:center;">marzo_2035</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2035</th>
+                        <th class="th__texto" style="text-align:center;">abril_2035</th>
                         <th class="th__texto" style="text-align:center;">mayo_2035</th>
                         <th class="th__texto" style="text-align:center;">junio_2035</th>
                         <th class="th__texto" style="text-align:center;">julio_2035</th>
@@ -547,7 +547,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2036</th>                   
                         <th class="th__texto" style="text-align:center;">febrero_2036</th>
                         <th class="th__texto" style="text-align:center;">marzo_2036</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2036</th>
+                        <th class="th__texto" style="text-align:center;">abril_2036</th>
                         <th class="th__texto" style="text-align:center;">mayo_2036</th>
                         <th class="th__texto" style="text-align:center;">junio_2036</th>
                         <th class="th__texto" style="text-align:center;">julio_2036</th>
@@ -559,7 +559,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2037</th>                    
                         <th class="th__texto" style="text-align:center;">febrero_2037</th> 
                         <th class="th__texto" style="text-align:center;">marzo_2037</th> 
-                        <th class="th__texto" style="text-align:center;">abrirl_2037</th>
+                        <th class="th__texto" style="text-align:center;">abril_2037</th>
                         <th class="th__texto" style="text-align:center;">mayo_2037</th>
                         <th class="th__texto" style="text-align:center;">junio_2037</th>
                         <th class="th__texto" style="text-align:center;">julio_2037</th>
@@ -571,7 +571,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">enero_2038</th>
                         <th class="th__texto" style="text-align:center;">febrero_2038</th>             
                         <th class="th__texto" style="text-align:center;">marzo_2038</th>
-                        <th class="th__texto" style="text-align:center;">abrirl_2038</th>
+                        <th class="th__texto" style="text-align:center;">abril_2038</th>
                         <th class="th__texto" style="text-align:center;">mayo_2038</th>
                         <th class="th__texto" style="text-align:center;">junio_2038</th>
                         <th class="th__texto" style="text-align:center;">julio_2038</th>
@@ -726,7 +726,7 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2021),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2021),2); ?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2021),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2020),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2021),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2021),2);?></td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2022),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2022),2);?> </td>
@@ -742,96 +742,82 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2022),2);?></td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2023),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2023),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->marzo_2023),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->abril_2023),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->mayo_2023),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->junio_2023),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->julio_2023),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->agosto_2023),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->septiembre_2023),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->octubre_2023),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->noviembre_2023),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->diciembre_2023),2);?></td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->enero_2024),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->febrero_2024),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->marzo_2024),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->abril_2024),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->mayo_2024),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->junio_2024),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->julio_2024),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->agosto_2024),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->septiembre_2024),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->octubre_2024),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->noviembre_2024),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->diciembre_2024),2);?></td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->enero_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->febrero_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->marzo_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->abril_2025),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->mayo_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->junio_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->julio_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->agosto_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->septiembre_2025),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->octubre_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->noviembre_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->diciembre_2025),2);?></td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->enero_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->febrero_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->marzo_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->abril_2025),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->mayo_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->junio_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->julio_2025),2)?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->julio_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->agosto_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->septiembre_2025),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->octubre_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->noviembre_2025),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->diciembre_2025),2);?></td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->enero_2026),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->febrero_2026),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->marzo_2026),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->abril_2026),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->mayo_2026),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->junio_2026),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->julio_2026),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->agosto_2026),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->septiembre_2026),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->octubre_2026),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->noviembre_2026),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->diciembre_2026),2);?></td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->enero_2027),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->febrero_2027),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->marzo_2027),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->abril_2027),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->mayo_2027),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->junio_2027),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->julio_2027),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->agosto_2027),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->septiembre_2027),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->octubre_2027),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->noviembre_2027),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->diciembre_2027),2);?></td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->enero_2028),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->febrero_2028),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->marzo_2028),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->abril_2028),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->mayo_2028),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->junio_2028),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->julio_2028),2)?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->julio_2028),2)?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->agosto_2028),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->septiembre_2028),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->octubre_2028),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->noviembre_2028),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->diciembre_2028),2);?></td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->enero_2029),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->febrero_2029),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->marzo_2029),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->abril_2029),2); ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->mayo_2029),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval(item->junio_2029),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2023),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2023),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2023),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2023),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2023),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2023),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2023),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2023),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2023),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2023),2);?></td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2024),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2024),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2024),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2024),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2024),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2024),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2024),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2024),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2024),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2024),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2024),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2024),2);?></td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2025),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2025),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2025),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2025),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2025),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2025),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2025),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2025),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2025),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2025),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2025),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2025),2);?></td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2026),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2026),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2026),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2026),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2026),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2026),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2026),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2026),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2026),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2026),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2026),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2026),2);?></td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2027),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2027),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2027),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2027),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2027),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2027),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2027),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2027),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2027),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2027),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2027),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2027),2);?></td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2028),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2028),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2028),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2028),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2028),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2028),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2028),2)?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2028),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2028),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2028),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2028),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2028),2);?></td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2029),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2029),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2029),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2029),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2029),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2029),2);?> </td>
                           <td class="text-center"> <?php echo" $".number_format(floatval($item->julio_2029),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2029),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2029),2); ?> </td>
@@ -922,109 +908,109 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2036),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2036),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2036),2);?></td>
-                          <td class="text-center"> <?php echo $item->enero_2037;?> </td>
-                          <td class="text-center"> <?php echo $item->febrero_2037;?> </td>
-                          <td class="text-center"> <?php echo $item->marzo_2037;?> </td>
-                          <td class="text-center"> <?php echo $item->abril_2037; ?> </td>
-                          <td class="text-center"> <?php echo $item->mayo_2037;?> </td>
-                          <td class="text-center"> <?php echo $item->junio_2037;?> </td>
-                          <td class="text-center"> <?php echo $item->julio_2037;?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2037),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2037),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2037),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2037),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2037),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2037),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2037),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2037),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2037),2); ?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2037),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2037),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2037),2);?></td>
-                          <td class="text-center"> <?php echo $item->enero_2038;?> </td>
-                          <td class="text-center"> <?php echo $item->febrero_2038;?> </td>
-                          <td class="text-center"> <?php echo $item->marzo_2038;?> </td>
-                          <td class="text-center"> <?php echo $item->abril_2038; ?> </td>
-                          <td class="text-center"> <?php echo $item->mayo_2038;?> </td>
-                          <td class="text-center"> <?php echo $item->junio_2038;?> </td>
-                          <td class="text-center"> <?php echo $item->julio_2038;?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2038),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2038),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2038),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2038),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2038),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2038),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2038),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2038),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2038),2); ?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2038),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2038),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2038),2);?></td>
-                          <td class="text-center"> <?php echo $item->enero_2039?> </td>
-                          <td class="text-center"> <?php echo $item->febrero_2039;?> </td>
-                          <td class="text-center"> <?php echo $item->marzo_2039;?> </td>
-                          <td class="text-center"> <?php echo $item->abril_2039; ?> </td>
-                          <td class="text-center"> <?php echo $item->mayo_2039;?> </td>
-                          <td class="text-center"> <?php echo $item->junio_2039;?> </td>
-                          <td class="text-center"> <?php echo $item->julio_2039;?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2039),2)?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2039),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2039),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2039),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2039),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2039),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2039),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2039),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2039),2); ?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2039),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2039),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2039),2);?></td>
-                          <td class="text-center"> <?php echo $item->enero_2040;?> </td>
-                          <td class="text-center"> <?php echo $item->febrero_2040;?> </td>
-                          <td class="text-center"> <?php echo $item->marzo_2040;?> </td>
-                          <td class="text-center"> <?php echo $item->abril_2040; ?> </td>
-                          <td class="text-center"> <?php echo $item->mayo_2040;?> </td>
-                          <td class="text-center"> <?php echo $item->junio_2040;?> </td>
-                          <td class="text-center"> <?php echo $item->julio_2040;?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2040),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2040),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2040),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2040),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2040),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2040),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2040),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2040),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2040),2); ?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2040),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2040),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2040),2);?></td>
-                          <td class="text-center"> <?php echo $item->enero_2041?> </td>
-                          <td class="text-center"> <?php echo $item->febrero_2041;?> </td>
-                          <td class="text-center"> <?php echo $item->marzo_2041;?> </td>
-                          <td class="text-center"> <?php echo $item->abril_2041; ?> </td>
-                          <td class="text-center"> <?php echo $item->mayo_2041;?> </td>
-                          <td class="text-center"> <?php echo $item->junio_2041;?> </td>
-                          <td class="text-center"> <?php echo $item->julio_2041;?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2041),2)?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2041),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2041),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2041),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2041),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2041),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2041),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2041),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2041),2); ?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2041),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2041),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2041),2);?></td>
-                          <td class="text-center"> <?php echo $item->enero_2042;?> </td>
-                          <td class="text-center"> <?php echo $item->febrero_2042;?> </td>
-                          <td class="text-center"> <?php echo $item->marzo_2042;?> </td>
-                          <td class="text-center"> <?php echo $item->abril_2042; ?> </td>
-                          <td class="text-center"> <?php echo $item->mayo_2042;?> </td>
-                          <td class="text-center"> <?php echo $item->junio_2042;?> </td>
-                          <td class="text-center"> <?php echo $item->julio_2042;?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2042),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2042),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2042),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2042),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2042),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2042),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2042),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2042),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2042),2); ?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2042),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2042),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2042),2);?></td>
-                          <td class="text-center"> <?php echo $item->enero_2043;?> </td>
-                          <td class="text-center"> <?php echo $item->febrero_2043;?> </td>
-                          <td class="text-center"> <?php echo $item->marzo_2043;?> </td>
-                          <td class="text-center"> <?php echo $item->abril_2043; ?> </td>
-                          <td class="text-center"> <?php echo $item->mayo_2043;?> </td>
-                          <td class="text-center"> <?php echo $item->junio_2043;?> </td>
-                          <td class="text-center"> <?php echo $item->julio_2043;?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2043),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2043),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2043),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2043),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2043),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2043),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2043),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2043),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2043),2); ?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2043),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2043),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2043),2);?></td>
-                          <td class="text-center"> <?php echo $item->enero_2044;?> </td>
-                          <td class="text-center"> <?php echo $item->febrero_2044;?> </td>
-                          <td class="text-center"> <?php echo $item->marzo_2044;?> </td>
-                          <td class="text-center"> <?php echo $item->abril_2044; ?> </td>
-                          <td class="text-center"> <?php echo $item->mayo_2044;?> </td>
-                          <td class="text-center"> <?php echo $item->junio_2044;?> </td>
-                          <td class="text-center"> <?php echo $item->julio_2044;?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2044),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2044),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2044),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2044),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2044),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2044),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2044),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2044),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2044),2); ?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2044),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->noviembre_2044),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->diciembre_2044),2);?></td>
-                          <td class="text-center"> <?php echo $item->enero_2045;?> </td>
-                          <td class="text-center"> <?php echo $item->febrero_2045;?> </td>
-                          <td class="text-center"> <?php echo $item->marzo_2045;?> </td>
-                          <td class="text-center"> <?php echo $item->abril_2045; ?> </td>
-                          <td class="text-center"> <?php echo $item->mayo_2045;?> </td>
-                          <td class="text-center"> <?php echo $item->junio_2045;?> </td>
-                          <td class="text-center"> <?php echo $item->julio_2045;?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->enero_2045),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->febrero_2045),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->marzo_2045),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->abril_2045),2); ?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->mayo_2045),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->junio_2045),2);?> </td>
+                          <td class="text-center"> <?php echo "$".number_format(floatval($item->julio_2045),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->agosto_2045),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->septiembre_2045),2); ?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->octubre_2045),2);?> </td>
