@@ -152,7 +152,7 @@ require_once "./clases/Conexion.php";
           </li> 
           <li class="dropdown">
             <a href="./EDO_De_Cuenta_Por_Desarrollo_Actualizado.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Estado De Cuenta por Desarrollo Actualizado</span></a>
+              <span>Estado De Cuenta por Desarrollo Actualizado</span></a>
           </li> 
           <li>
             <a href="#submenu4" data-bs-toggle="collapse"  class="dashboard"><span>Bancos</span></a>
