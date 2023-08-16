@@ -207,7 +207,7 @@ require_once "./clases/Conexion.php";
 
           <li class="dropdown">
             <a href="./ProyeccionesFlujoHabitta.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Proyecciones de flujo de habitta</span></a>
+              <span>Proyecciones de flujo</span></a>
           </li> 
 
           <li class="dropdown">
