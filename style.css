@@ -238,13 +238,12 @@ overflow:auto;
    
    
    #sidebar ul li.active>a{
-	  color: #4c7cf3;
-		background-color:#DBE5FD;
-    text-align: center;
+	background-color:#4c7cf3;
    }
    
    #sidebar ul li.active>a span{
-	        color: #4c7cf3!important;
+	color: #ffffff!important;
+	padding-left: 12px;
    }
    
    #sidebar ul li.active>a i{
@@ -843,3 +842,27 @@ width:100%;
   /*==========================================================
     media querys end
   ================================*/
+
+  .bg-blue__500{
+    background-color: #021D49 !important;
+  }
+  .bg-blue__400{
+    background-color: #254369 !important;
+  }
+  #sidebar{
+	background-color: #021D49 !important;
+  }
+  #sidebar ul li a span{
+	color: #FFF;
+  }
+  #sidebar ul li a ul li span{
+	color: #FFF;
+  }
+
+  #sidebar ul li a:hover span{
+	font-weight: 500;
+	color: #254369;
+  }
+  #sidebar .activo{
+	background-color:#254369;
+  }
