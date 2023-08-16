@@ -24,7 +24,7 @@ require_once "./clases/Conexion.php";
 
 
        <!-- Sidebar  -->
-       <nav id="sidebar">
+       <nav id="sidebar" class="bg-blue__500">
         <div class="sidebar-header">
           <h3><img src="images/habitta.svg" class="img-fluid"/></h3>
         </div>
@@ -114,41 +114,6 @@ require_once "./clases/Conexion.php";
       <!--------page-content---------------->
 
       <div id="content">
-        <div class="top-navbar">
-          <div class="xp-topbar"></div>
-          <div class="xp-breadcrumbbar text-center">
-            <h4 class="page-title">Dashboard</h4>
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-            </ol>
-          </div>
-        </div>
-
-      <div class="container">
-        <div class="row justify-content-center py-5">
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/cimatario.svg" class="imagen-logos"/>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/lomas.svg"     class="imagen-logos"/>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/cimatario.svg" class="imagen-logos"/>
-            </div>
-          </div>
-
-
-
-        </div>
-      </div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
@@ -157,9 +122,9 @@ require_once "./clases/Conexion.php";
         </div>
         <div class="col-md-12 mb-3">
           <div class="card">
-            <div class="card-header">
+            <div class="card-header bg-blue__500">
               <div class="row">
-                <div class="col">
+                <div class="col text-white">
                   <span><img src="images/home.svg" width="25px"></i></span> Home/Comisioes 2023
                 </div>
 
@@ -169,7 +134,7 @@ require_once "./clases/Conexion.php";
             <div class="card-body">
               <div class="table-responsive">
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
-                  <thead class="bg__td">
+                  <thead class="bg__td bg-blue__400 text-white">
                     <tr>
 
                         

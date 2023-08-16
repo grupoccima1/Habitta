@@ -225,7 +225,7 @@ require_once "./clases/Conexion.php";
 
 
               </li>
-          <li class="dropdown">
+          <li class="dropdown activo">
             <a href="./hsbcl.php" data-toggle="collapse" aria-expanded="false" >
               <i class="material-icons"></i><span>HSBC Lomas</span></a>
 
@@ -274,41 +274,6 @@ require_once "./clases/Conexion.php";
       <!--------page-content---------------->
 
       <div id="content">
-        <div class="top-navbar">
-          <div class="xp-topbar"></div>
-          <div class="xp-breadcrumbbar text-center">
-            <h4 class="page-title">Dashboard</h4>
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-            </ol>
-          </div>
-        </div>
-       
-      <div class="container">
-        <div class="row justify-content-center py-5">
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/cimatario.svg" class="imagen-logos"/>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/lomas.svg"     class="imagen-logos"/>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/cimatario.svg" class="imagen-logos"/>
-            </div>
-          </div>
- 
-          
-           
-        </div>
-      </div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
@@ -317,9 +282,9 @@ require_once "./clases/Conexion.php";
         </div>
         <div class="col-md-12 mb-3">
           <div class="card">
-            <div class="card-header">
+            <div class="card-header bg-blue__500">
               <div class="row">
-                <div class="col">
+                <div class="col text-white">
                   <span><img src="images/home.svg" width="25px"></i></span> Home/Hsbc Lomas
                 </div>
   
@@ -329,7 +294,7 @@ require_once "./clases/Conexion.php";
             <div class="card-body">
               <div class="table-responsive">
               <table id="tabla" class="table table-striped data-table" style="width: 100%">
-                  <thead class="bg__td">
+                  <thead class="bg__td bg-blue__400 text-white"> 
                     <tr>
                    
                         <th class="th__texto" style="text-align:center;">Semana</th>                        
@@ -562,15 +527,7 @@ require_once "./clases/Conexion.php";
       <!---footer---->
 
 
-      </div> -->
-
-      <footer class="footer">
-        <div class="container-fluid">
-          <div class="footer-in">
-            <p class="mb-0">&copy 2020 Vishweb design - All Rights Reserved.</p>
-          </div>
-        </div>
-      </footer>
+      </div> 
       </div>
       </div>
 
