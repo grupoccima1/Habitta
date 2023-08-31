@@ -431,18 +431,113 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
     } 
 
 
+    public function insertarDatosMadre($datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->basemadre;
+            $respuesta = $coleccion->insertOne($datos);
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }
 
+    public function insertarDatosFlujo($datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> flujo;
+            $respuesta = $coleccion->insertOne($datos);
 
-    // public function insertarDatos($datos){
-    //     try {
-    //         $conexion = parent::conectar();
-    //         $coleccion = $conexion->new1;
-    //         $respuesta = $coleccion->isertOne($datos);
-    //         return $respuesta;
-    //     } catch (\Throwable $th) {
-    //         return $th->getMessage();
-    //     }
-    // }
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }
+
+    public function insertarDatosLiberados($datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> liberado;
+            $respuesta = $coleccion -> insertOne($datos);
+
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMesagge();
+        }
+    }
+
+    public function insertarDatosTabulador($datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> tabulador;
+            $respuesta = $coleccion -> insertOne($datos);
+
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function insertarDatosComisiones2020($datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> comision2020;
+            $respuesta = $coleccion -> insertOne($datos);
+
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessagge();
+        }
+    }
+
+    public function obtenerDocumentoMadre($id) {
+        try {
+            if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
+                throw new Exception('El ID no tiene el formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion->basemadre;
+            $datos = $coleccion->findOne(
+                                    array(
+                                        '_id' => new MongoDB\BSON\ObjectId($id)
+                                    )
+                                );
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }
+
+    public function actualizarMadre($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->basemadre;
+            $respuesta = $coleccion->updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]
+                                        );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }
+
+    public function eliminarMadre($id){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->basemadre;
+            $respuesta = $coleccion->deleteOne(
+                                            array(
+                                                "_id" => new MongoDB\BSON\ObjectId($id)
+                                            )   
+                                        );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }
 }
 
 ?>
