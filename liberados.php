@@ -380,6 +380,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Motivo estatus</th>
                         <th class="th__texto" style="text-align:center;">Resultado</th>
                         <th class="th__texto" style="text-align:center;">Fecha de liberacion</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">Eliminar</th>
   
                     </tr>
                   </thead>
@@ -442,6 +444,22 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->MOTIVO_ESTATUS;?> </td>
                           <td class="text-center"> <?php echo $item->RESULTADO;?> </td>
                           <td class="text-center"> <?php echo $item->FECHADELIBERACION;?> </td>
+                          <td class="text-center">
+                            <form action="./modulos/actualizar_Liberados.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./modulos/eiminar_Liberados.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-danger">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
                             </td>
                           </tr>
                           <?php } ?> 
@@ -492,6 +510,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Motivo estatus</th>
                         <th class="th__texto" style="text-align:center;">Resultado</th>
                         <th class="th__texto" style="text-align:center;">Fecha de liberacion</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">Eliminar</th>
                     </tr>
                   </tfoot>
                 </table>

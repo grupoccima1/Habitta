@@ -357,6 +357,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Cliente</th>
                         <th class="th__texto" style="text-align:center;">Correo</th>
                         <th class="th__texto" style="text-align:center;">1er mensualidad</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">Eliminar</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -397,6 +399,22 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->CLIENTE;?> </td>
                           <td class="text-center"> <?php echo $item->CORREO;?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->ER_MENSUALIDAD),2); ?> </td>
+                          <td class="text-center">
+                            <form action="./modulos/actualizar_Flujo.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./modulos/eiminar_Flujo.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-danger">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
 
                             </td>
                           </tr>
@@ -427,6 +445,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Cliente</th>
                         <th class="th__texto" style="text-align:center;">Correo</th>
                         <th class="th__texto" style="text-align:center;">1er mensualidad</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">Eliminar</th>
                     </tr>
                   </tfoot>
                 </table>

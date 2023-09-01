@@ -368,6 +368,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">LOTE_ANTERIOR</th>
                         <th class="th__texto" style="text-align:center;">TOTAL_DELA_VENTA</th>
                         <th class="th__texto" style="text-align:center;">X_TIPO_DE_REGIMEN</th>
+                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
 
 
 
@@ -423,10 +425,22 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->LOTE_ANTERIOR;?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->TOTAL_DELA_VENTA),2);?> </td>
                           <td class="text-center"> <?php echo $item->X_TIPO_DE_REGIMEN;?> </td>
-
-                          
-                          
-                         
+                          <td class="text-center">
+                            <form action="./modulos/actualizar_Comisiones2020.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./modulos/eiminar_Comisiones2020.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-danger">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>      
                           </tr>
                           <?php } ?> 
                   </tbody>
@@ -467,6 +481,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">LOTE_ANTERIOR</th>
                         <th class="th__texto" style="text-align:center;">TOTAL_DELA_VENTA</th>
                         <th class="th__texto" style="text-align:center;">X_TIPO_DE_REGIMEN</th>
+                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
 
                       
                     </tr>
