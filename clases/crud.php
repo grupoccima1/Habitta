@@ -486,7 +486,7 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
 
             return $respuesta;
         } catch (\Throwable $th) {
-            return $th -> getMessagge();
+            return $th -> getMessage();
         }
     }
 
@@ -508,6 +508,83 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
         }
     }
 
+    public function obtenerDocumentoFlujo($id){
+        try {
+            if(!preg_match('/^[a-f0-9]{24}$/i', $id)){
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> flujo;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+
+    public function obtenerDocumentoLiberados($id){
+        try {
+            if(!preg_match('/^[a-f0-9]{24}$/i', $id)){
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> liberado;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoTabulador($id){
+        try {
+            if(!preg_match('/^[a-f0-9]{24}$/i', $id)){
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> tabulador;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoComisiones2020($id){
+        try {
+            if(!preg_match('/^[a-f0-9]{24}$/i', $id)){
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> comision2020;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
     public function actualizarMadre($id, $datos){
         try {
             $conexion = parent::conectar();
@@ -521,6 +598,70 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
             return $respuesta;
         } catch (\Throwable $th) {
             return $th->getMessage();
+        }
+    }
+
+    public function actualizarFlujo($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> flujo;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function actualizarLiberados($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> liberado;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function actualizarTabulador($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> tabulador;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function actualizarComisiones2020($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> comision2020;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
         }
     }
 
