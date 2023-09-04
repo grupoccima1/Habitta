@@ -1,11 +1,8 @@
-<div class="card">
-  <div class="card-body">
-    <div class="container">
-    <div class="row">
-    <div class="col">
-    <div class= "card mt-4">
+
+<div class="container">
+<div class= "card mt-4">
     <div class= "card-body">
-        <h2> Agregar nuevo registro  </h2>
+        <h2 class="mb-3 fs-4 text-center"> Agregar nuevo registro  </h2>
         <form action="./insertarnico.php" method="post">
             <label for="OBSERVACION">OBSERVACION</label>
             <input type="text" class="form-control" id="OBSERVACION" name="OBSERVACION">
@@ -47,13 +44,11 @@
             <input type="text" class="form-control" id="CORREO" name="CORREO">
             <label for="TELEFONO">TELEFONO</label>
             <input type="text" class="form-control" id="TELEFONO" name="TELEFONO">
-            <button class="bt btn-primary mt-3">
-                      Agregar
-           </button>
+            <div class="d-flex justify-content-end">
+              <button class="btn btn-primary mt-3 px-5">Agregar</button>
+            </div>
                       
         </form>
-        </div>
-        </div>
-        </div>
+    </div>
   </div>
 </div>
