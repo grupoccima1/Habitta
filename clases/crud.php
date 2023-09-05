@@ -585,6 +585,82 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
         }
     }
 
+    public function obtenerDocumentoComisiones2021($id){
+        try {
+            if(!preg_match('/^[a-f0-9]{24}$/i', $id)){
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> comision2021;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoComisiones2022($id){
+        try {
+            if(!preg_match('/^[a-f0-9]{24}$/i', $id)){
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> comision2022;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoComisiones2023($id){
+        try {
+            if(!preg_match('/^[a-f0-9]{24}$/i', $id)){
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion->comision2023;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }
+
+    public function obtenerDocumentoAcumuladosSherpa($id){
+        try {
+            if(!preg_match('/^[a-f0-9]{24}$/i', $id)){
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> acumuladosherpa;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
     public function actualizarMadre($id, $datos){
         try {
             $conexion = parent::conectar();
@@ -659,6 +735,71 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
                                                 '$set' => $datos
                                             ]       
                                          );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function actualizarComisiones2021($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> comision2021;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function actualizarComisiones2022($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> comision2022;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function actualizarComisiones2023($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> comision2023;
+            $respuesta = $coleccion -> updateOne(
+                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                            );
+
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }               
+    }
+
+    public function actualizarAcumuladosSherpa($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> acumuladosherpa;
+            $respuesta = $coleccion -> updateOne(
+                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                            );
             return $respuesta;
         } catch (\Throwable $th) {
             return $th -> getMessage();
