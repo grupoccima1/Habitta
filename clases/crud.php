@@ -661,6 +661,79 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
         }
     }
 
+    public function obtenerDocumentoMadreHabitta($id){
+        try {
+            if(!preg_match('/^[a-f0-9]{24}$/i', $id)){
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> basemadrehabitta;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+
+            return $datos;
+        } catch (\Throwable $th) {
+            //throw $th;
+        }
+    }
+
+    public function obtenerDocumentoBillpocket($id){
+        try {
+            if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> billpocket;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoClientesMorosos($id){
+        try {
+            if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> clientesmorosos;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoEdosCuenta ($id){
+        try {
+            if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> estadodecuenta;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
     public function actualizarMadre($id, $datos){
         try {
             $conexion = parent::conectar();
@@ -804,6 +877,70 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
         } catch (\Throwable $th) {
             return $th -> getMessage();
         }
+    }
+
+    public function actualizarMadreHabitta($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> basemadrehabitta;
+            $respuesta = $coleccion -> updateOne(
+                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                            );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function actualizarBillpocket($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> billpocket;
+            $respuesta = $coleccion -> updateOne(
+                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+
+    public function actualizarClientesMorosos($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> clientesmorosos;
+            $respuesta = $coleccion -> updateOne(
+                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+
+    public function actualizarEdosCuenta($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> estadodecuenta;
+            $respuesta = $coleccion -> updateOne(
+                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
     }
 
     public function eliminarMadre($id){
