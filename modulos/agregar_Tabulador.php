@@ -26,9 +26,10 @@
                                 <label for="mensualidad">Mensualidad</label>
                                 <input type="text" name="mensualidad" id="mensualidad" class="form-control">
                             </div>
-
-                            <label for="pagado">Pagado</label>
-                            <input type="text" name="pagado" id="pagado" class="form-control">
+                            <div class="col-4 mb-2">
+                                <label for="pagado">Pagado</label>
+                                <input type="text" name="pagado" id="pagado" class="form-control">
+                            </div>
 
                             <label for="fecha_pago">Fecha Pago</label>
                             <input type="text" name="fecha_pago" id="fecha_pago" class="form-control">
