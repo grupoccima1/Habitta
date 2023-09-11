@@ -43,7 +43,7 @@
 
     $respuesta = $Crud ->actualizarAcumuladoComisiones($id, $datos);
 
-    if ($respuesta->getModifiedCount > 0 || $respuesta->getMatchedCount() > 0) {
+    if ($respuesta->getModifiedCount() > 0 || $respuesta->getMatchedCount() > 0) {
         header("location:../acumuladoComisiones.php");
     }else {
         print_r($respuesta);

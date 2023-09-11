@@ -240,6 +240,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">IMPORTE_A_COMISIONAR</th>
                         <th class="th__texto" style="text-align:center;">PCOMISION</th>
                         <th class="th__texto" style="text-align:center;">IMPORTE</th>
+                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
                   
 
 
@@ -269,6 +270,14 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->IMPORTE_A_COMISIONAR),2);?> </td>
                           <td class="text-center"> <?php echo $item->PCOMISION; ?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->IMPORTE),2);?> </td>
+                          <td class="text-center">
+                            <form action="./modulos/actualizar_ComisionesInternas.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
  
                           </tr>
                           <?php } ?> 
@@ -284,6 +293,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">IMPORTE_A_COMISIONAR</th>
                         <th class="th__texto" style="text-align:center;">PCOMISION</th>
                         <th class="th__texto" style="text-align:center;">IMPORTE</th>
+                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
                   
                        
                     </tr>

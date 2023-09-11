@@ -268,6 +268,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">AUTORIZO</th>
                         <th class="th__texto" style="text-align:center;">AÑO</th>
                         <th class="th__texto" style="text-align:center;">MONTO_PROYECTADO</th>
+                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
                         
 
 
@@ -327,6 +328,14 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->AUTORIZO;?> </td>
                           <td class="text-center"> <?php echo $item->AÑO;?> </td>
                           <td class="text-center"> <?php echo $item->MONTO_PROYECTADO;?> </td>
+                          <td class="text-center">
+                            <form action="./modulos/actualizar_CierreMensual.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
                          
                           </tr>
                           <?php } ?> 
@@ -367,6 +376,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">AUTORIZO</th>
                         <th class="th__texto" style="text-align:center;">AÑO</th>
                         <th class="th__texto" style="text-align:center;">MONTO_PROYECTADO</th>
+                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
                         
 
 

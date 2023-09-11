@@ -269,6 +269,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">ESTATUS</th>
                         <th class="th__texto" style="text-align:center;">LOTE_ANTERIOR</th>
                         <th class="th__texto" style="text-align:center;">TIPO</th>
+                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
 
                         
                     </tr>
@@ -323,6 +324,14 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->ESTATUS;?> </td>
                           <td class="text-center"> <?php echo $item->LOTE_ANTERIOR;?> </td>
                           <td class="text-center"> <?php echo $item->TIPO;?> </td>
+                          <td class="text-center">
+                            <form action="./modulos/actualizar_acumuladoComisiones.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
                          
                           </tr>
                           <?php } ?> 
@@ -364,6 +373,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">ESTATUS</th>
                         <th class="th__texto" style="text-align:center;">LOTE_ANTERIOR</th>
                         <th class="th__texto" style="text-align:center;">TIPO</th>
+                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
                     </tr>
                   </tfoot>
                 </table>

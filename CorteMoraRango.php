@@ -299,6 +299,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">octubre_2023</th>
                         <th class="th__texto" style="text-align:center;">noviembre_2023</th>
                         <th class="th__texto" style="text-align:center;">diciembre_2023</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
 
                       
                     
@@ -387,6 +388,14 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->octubre_2023;?> </td>
                           <td class="text-center"> <?php echo $item->noviembre_2023;?> </td>
                           <td class="text-center"> <?php echo $item->diciembre_2023;?> </td>
+                          <td class="text-center">
+                            <form action="./modulos/actualizar_CorteMR.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
                         
 
 
@@ -462,6 +471,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">octubre_2023</th>
                         <th class="th__texto" style="text-align:center;">noviembre_2023</th>
                         <th class="th__texto" style="text-align:center;">diciembre_2023</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
 
                        
                     </tr>

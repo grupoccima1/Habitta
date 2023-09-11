@@ -734,6 +734,132 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
         }
     }
 
+    public function obtenerDocumentoNico ($id){
+        try {
+            if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> nico;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoCierreMensual ($id){
+        try {
+            if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> cierreMensual;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoAcumuladoComisiones ($id){
+        try {
+            if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> AcumuladoComisiones;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoCorteMR ($id){
+        try {
+            if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> CorteMR;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoDevolucionesClientes ($id){
+        try {
+            if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> DevolucionesClientes;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoComisionesInternas ($id){
+        try {
+            if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> ComisionInternas;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoTableroResultados ($id){
+        try {
+            if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> TableroDeResultados;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
     public function actualizarMadre($id, $datos){
         try {
             $conexion = parent::conectar();
@@ -931,6 +1057,118 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
         try {
             $conexion = parent::conectar();
             $coleccion = $conexion -> estadodecuenta;
+            $respuesta = $coleccion -> updateOne(
+                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+
+    public function actualizarNico($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> nico;
+            $respuesta = $coleccion -> updateOne(
+                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+
+    public function actualizarCierreMensual($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> cierreMensual;
+            $respuesta = $coleccion -> updateOne(
+                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+
+    public function actualizarAcumuladoComisiones ($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> AcumuladoComisiones;
+            $respuesta = $coleccion -> updateOne(
+                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+
+    public function actualizarCorteMR($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> CorteMR;
+            $respuesta = $coleccion -> updateOne(
+                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+
+    public function actualizarDevolucionesClientes ($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> DevolucionesClientes;
+            $respuesta = $coleccion -> updateOne(
+                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+
+    public function actualizarComisionesInternas ($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> ComisionInternas;
+            $respuesta = $coleccion -> updateOne(
+                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+
+    public function actualizarTableroResultados ($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> TableroDeResultados;
             $respuesta = $coleccion -> updateOne(
                                                 ['id' => new MongoDB\BSON\ObjectId($id)],
                                                 [

@@ -16,7 +16,7 @@
                 <div class="col">
                     <a href="../TableroDeResultados.php">Regresar</a>
                     <h2>Actualizar Registro</h2>
-                    <form action="../procesos/actualizar_TableroResultados.php">
+                    <form action="./../procesos/actualizar_TableroResultados.php" method="POST">
                         <input type="text" name="id" id="id" hidden value="<?php echo $idMongo ?>">
                         <label for="giro">Giro</label>
                         <input type="text" name="giro" id="giro" class="form-control" value="<?php echo $datos->GIRO ?>">
