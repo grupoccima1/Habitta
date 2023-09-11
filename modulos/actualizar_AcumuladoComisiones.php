@@ -18,6 +18,8 @@
                         Regresar
                     </a>
                     <!-- cometario -->
+                    <!-- cometario -->
+
                     <h2>Actualizar Registro</h2>
                     <form action="../procesos/actualizar_AcumuladoComisiones.php" method="POST">
                         <input type="text" name="id" id="id" hidden value="<?php echo $idMongo ?>">
