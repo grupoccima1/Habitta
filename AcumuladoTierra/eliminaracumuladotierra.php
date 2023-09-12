@@ -2,7 +2,7 @@
    
     include "../clases/Conexion.php";
     include "./../AcumuladoTierra/crudacumuladotierra.php";
-
+    include "../header.php";
     $crudacumuladotierra = new crudacumuladotierra();
     $id = $_POST['id'];
 

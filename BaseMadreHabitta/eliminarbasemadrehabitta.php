@@ -2,7 +2,7 @@
    
     include "../clases/Conexion.php";
     include "./../BaseMadreHabitta/crudbasemadrehabitta.php";
-
+    include "../header.php";
     $crudbasemadrehabitta = new crudbasemadrehabitta();
     $id = $_POST['id'];
 
@@ -12,14 +12,13 @@
 <div class="container">
 <div class="row">
 <div class="card mt-4">
+    <div class="card-header">
+        <a href="../acumuladosherpa.php" class="btn btn-outline-info">
+            Regresar
+        </a>
+    </div>
   <div class="card-body">
-            <div class="col">
-
-                <a href="../acumuladosherpa.php" class="btn btn-outline-info">
-                    Regresar
-                </a>
-
-                <h2>Eliminar  Registro</h2>
+                <h2 class="mb-3 fs-4 text-center">Eliminar  Registro</h2>
                 
                 <table class="table table-bordered">
                     <thead>
@@ -113,17 +112,20 @@
                 </table>
                 <hr>
                 <div class="aler alert-danger" role="alert">
-                    <p>¿Estas seguro de eliminar este registro?</p>
+                    <h3 class="text-danger fs-5 text-center">¿Estas seguro de eliminar este registro?</h3>
                     <p>
                         Una vez eliminado no podras recuperarlo
                     </p>
+                    <div class="d-flex justify-content-end">
+                        <form class="me-2" action="./eliminar_basemadrehabitta.php" method="POST">
+                            <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
+                            <button class="btn btn-danger">
+                                Eliminar
+                            </button>                
+                        </form>
+                        <a href="../basemadrehabitta.php" class="btn btn-primary">Cancelar</a>
+                    </div>
                 </div>
-                <form action="./eliminar_basemadrehabitta.php" method="POST">
-                    <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
-                    <button class="btn btn-danger">
-                        Eliminar
-                    </button>                
-                </form>
             </div>
         </div>
     </div>

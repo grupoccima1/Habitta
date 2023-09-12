@@ -2,7 +2,7 @@
    
     include "../clases/Conexion.php";
     include "./../clientesmorosos/crudclientesmorosos.php";
-
+    include "../header.php";
     $crudclientesmorosos = new crudclientesmorosos();
     $id = $_POST['id'];
 
@@ -12,15 +12,14 @@
 <div class="container">
 <div class="row">
 <div class="card mt-4">
+    <div class="card-header">
+        <a href="../clientesMorosos.php" class="btn btn-outline-info">
+            Regresar
+        </a>
+    </div>
   <div class="card-body">
             <div class="col">
-
-                <a href="../clientesMorosos.php" class="btn btn-outline-info">
-                    Regresar
-                </a>
-
-                <h2>Eliminar  Registro</h2>
-                
+                <h2 class="mb-3 fs-4 text-center">Eliminar  Registro</h2>
                 <table class="table table-bordered">
                     <thead>
                                          
@@ -93,7 +92,7 @@
                 </table>
                 <hr>
                 <div class="aler alert-danger" role="alert">
-                    <p>¿Estas seguro de eliminar este registro?</p>
+                    <h3 class="">¿Estas seguro de eliminar este registro?</h3>
                     <p>
                         Una vez eliminado no podras recuperarlo
                     </p>

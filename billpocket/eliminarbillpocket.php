@@ -2,7 +2,8 @@
    
     include "../clases/Conexion.php";
     include "./../billpocket/crudbillpocket.php";
-
+    include "../header.php";
+    
     $crudbillpocket = new crudbillpocket();
     $id = $_POST['id'];
 
@@ -16,9 +17,7 @@
         <a href="../bilpocket.php" class="btn btn-outline-info"> Regresar </a>
     </div>
     <div class="card-body">
-            
             <h2 class="mb-3 fs-3 text-center">Eliminar  Registro</h2>
-            
             <table class="table table-bordered">
                 <thead>
                 <th class="th__texto" style="text-align:center;">Llave</th>                        
@@ -52,7 +51,7 @@
             </table>
             <hr>
             <div class="aler alert-danger" role="alert">
-                <h3 class="text-danger">¿Estas seguro de eliminar este registro?</h3>
+                <h3 class="text-danger fs-5 text-center">¿Estas seguro de eliminar este registro?</h3>
                 <p>
                     Una vez eliminado no podras recuperarlo
                 </p>
