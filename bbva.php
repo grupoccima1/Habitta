@@ -258,6 +258,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Llave estado de cuenta</th>
                         <th class="th__texto" style="text-align:center;">Clave</th>
                         <th class="th__texto" style="text-align:center;">Metodo de pago</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -300,6 +301,14 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->LLAVEEDOSDECUENTA; ?> </td>
                           <td class="text-center"> <?php echo $item->CLAVE;?> </td>
                           <td class="text-center"> <?php echo $item->METODODEPAGO;?> </td>
+                          <td class="text-center">
+                            <form action="./modulos/actualizar_Bbva.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
 
                             </td>
                           </tr>
@@ -332,6 +341,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Llave estado de cuenta</th>
                         <th class="th__texto" style="text-align:center;">Clave</th>
                         <th class="th__texto" style="text-align:center;">Metodo de pago</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
                     </tr>
                   </tfoot>
                 </table>

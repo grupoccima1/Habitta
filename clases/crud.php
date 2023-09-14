@@ -860,6 +860,100 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
         }
     }
 
+    public function obtenerDocumentoAcumuladoTierra ($id){
+        try {
+            if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> AcumuladoTierra;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoBonosReferidos($id){
+        try {
+            if(!preg_match('/^[a-f0-9]{24}$/i', $id)){
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> BonosReferidos;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoProyeccionesFlujo($id){
+        try {
+            if(!preg_match('/^[a-f0-9]{24}$/i', $id)){
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> ProyeccionHabitta;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoEdoCuentaDesarrollo($id){
+        try {
+            if(!preg_match('/^[a-f0-9]{24}$/i', $id)){
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> CuentaDesarrolloActualizado;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function obtenerDocumentoBbva($id){
+        try {
+            if(!preg_match('/^[a-f0-9]{24}$/i', $id)){
+                throw new Exception('El ID no tiene formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> bbva;
+            $datos = $coleccion -> findOne(
+                                        array(
+                                            '_id' => new MongoDB\BSON\ObjectId($id)
+                                        )
+                                        );
+
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
     public function actualizarMadre($id, $datos){
         try {
             $conexion = parent::conectar();
@@ -1179,6 +1273,86 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
         } catch (\Throwable $th) {
             return $th -> getMessage();
         }   
+    }
+
+    public function actualizarAcumuladoTierra ($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> AcumuladoTierra;
+            $respuesta = $coleccion -> updateOne(
+                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+
+    public function actualizarBonosReferidos($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> BonosReferidos;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function actualizarProyeccionesFlujo($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> ProyeccionHabitta;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function actualizarEdoCuentaDesarrollo($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> CuentaDesarrolloActualizado;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+
+    public function actualizarBbva($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> bbva;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
     }
 
     public function eliminarMadre($id){

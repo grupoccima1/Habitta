@@ -263,7 +263,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">CLÚSTER_numero1</th>
                         <th class="th__texto" style="text-align:center;">CLIENTE_numero1</th>
                         <th class="th__texto" style="text-align:center;">NOTA</th>
-                        
+                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
                       
 
 
@@ -314,7 +314,14 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->CLÚSTER_numero1; ?> </td>
                           <td class="text-center"> <?php echo $item->CLIENTE_numero1;?> </td>
                           <td class="text-center"> <?php echo $item->NOTA;?> </td>
-                           
+                          <td class="text-center">
+                            <form action="./modulos/actualizar_BonosReferidos.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
                          
                           </tr>
                           <?php } ?> 
@@ -351,6 +358,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">CLÚSTER_numero1</th>
                         <th class="th__texto" style="text-align:center;">CLIENTE_numero1</th>
                         <th class="th__texto" style="text-align:center;">NOTA</th>
+                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
                         
                       
                        

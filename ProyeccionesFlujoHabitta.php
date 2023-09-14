@@ -264,6 +264,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">SELVA</th>
                         <th class="th__texto" style="text-align:center;">LAGO</th>
                         <th class="th__texto" style="text-align:center;">MANGLAR</th>
+                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
 
                       
 
@@ -317,6 +318,14 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo "$".number_format($item->SELVA,2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format($item->LAGO,2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format($item->MANGLAR,2);?> </td>
+                          <td class="text-center">
+                            <form action="./modulos/actualizar_ProyeccionesFlujo.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>  
                         
                           
                          
@@ -357,6 +366,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">SELVA</th>
                         <th class="th__texto" style="text-align:center;">LAGO</th>
                         <th class="th__texto" style="text-align:center;">MANGLAR</th>
+                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
 
                        
                     </tr>
