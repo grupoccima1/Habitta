@@ -92,23 +92,26 @@
                 </table>
                 <hr>
                 <div class="aler alert-danger" role="alert">
-                    <h3 class="">¿Estas seguro de eliminar este registro?</h3>
+                    <h3 class="text-danger fs-5 text-center">¿Estas seguro de eliminar este registro?</h3>
                     <p>
                         Una vez eliminado no podras recuperarlo
                     </p>
+                    <div class="d-flex justify-content-end">
+                        <form class="me-2" action="./eliminar_clientesmorosos.php" method="POST">
+                            <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
+                            <button class="btn btn-danger">
+                                Eliminar
+                            </button>                
+                        </form>
+                        <form action="" method="POST">
+                            <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
+                            <button class="btn btn-warning">
+                                Modificar
+                            </button>                
+                        </form>
+                    </div>
                 </div>
-                <form action="./eliminar_clientesmorosos.php" method="POST">
-                    <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
-                    <button class="btn btn-danger">
-                        Eliminar
-                    </button>                
-                </form>
-                <form action="" method="POST">
-                    <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
-                    <button class="btn btn-warning">
-                        Modificar
-                    </button>                
-                </form>
+
             </div>
         </div>
     </div>

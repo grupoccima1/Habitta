@@ -2,7 +2,7 @@
    
     include "../clases/Conexion.php";
     include "./../CobranzaAcumulado/crudcobranzaacumulado.php";
-
+    include "../header.php"; 
     $crudcobranzaacumulado = new crudcobranzaacumulado();
     $id = $_POST['id'];
 
@@ -12,15 +12,14 @@
 <div class="container">
 <div class="row">
 <div class="card mt-4">
+    <div class="card-header">        
+        <a href="../Cobranza_Acumulado.php" class="btn btn-outline-info">
+            Regresar
+        </a>
+    </div>
   <div class="card-body">
             <div class="col">
-
-                <a href="../Cobranza_Acumulado.php" class="btn btn-outline-info">
-                    Regresar
-                </a>
-
-                <h2>Eliminar  Registro</h2>
-                
+                <h2 class="mb-3 fs-4 text-center">Eliminar  Registro</h2>
                 <table class="table table-bordered">
                     <thead>
                     <th class="th__texto" style="text-align:center;">Llave</th>                        
@@ -694,17 +693,20 @@
                 </table>
                 <hr>
                 <div class="aler alert-danger" role="alert">
-                    <p>¿Estas seguro de eliminar este registro?</p>
+                    <h3 class="text-danger">¿Estas seguro de eliminar este registro?</h3>
                     <p>
                         Una vez eliminado no podras recuperarlo
                     </p>
-                </div>
-                <form action="./eliminar_cobranzaacumulado.php" method="POST">
-                    <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
-                    <button class="btn btn-danger">
-                        Eliminar
-                    </button>                
-                </form>
+                    <div class="d-flex justify-content-end">
+                        <form class="me-2" action="./eliminar_cobranzaacumulado.php" method="POST">
+                            <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
+                            <button class="btn btn-danger">
+                                Eliminar
+                            </button>                
+                        </form>
+                        <a href="../Cobranza_Acumulado.php" class="bnt btn-secondary">Cancelar</a>
+                    </div>
+                </div> 
             </div>
         </div>
     </div>
