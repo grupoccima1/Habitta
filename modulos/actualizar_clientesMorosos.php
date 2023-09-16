@@ -14,7 +14,7 @@
         <div class="card mt-4">
             <div class="card-body">
                 <div class="col">
-                    <a href="../bilpocket.php">
+                    <a href="../clientesMorosos.php">
                         Regresar
                     </a>
                     <h2>Actualizar Registro</h2>

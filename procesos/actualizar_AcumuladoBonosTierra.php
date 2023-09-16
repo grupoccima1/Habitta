@@ -44,7 +44,7 @@
     $respuesta = $Crud ->actualizarAcumuladoTierra($id, $datos);
 
     if ($respuesta->getModifiedCount() > 0 || $respuesta->getMatchedCount() > 0) {
-        header("location:../AcumuladoBonosDeTierra.php");
+        header("location:../AcumuladosBonosDeTierra.php");
     }else {
         print_r($respuesta);
     }

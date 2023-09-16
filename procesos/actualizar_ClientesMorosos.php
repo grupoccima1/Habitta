@@ -8,7 +8,7 @@
     $datos = array(
         "CONTADOR" => $_POST['contador'],
         "LLAVE" => $_POST['llave'],
-        "DESARROLLO" => $_POST['desarollo'],
+        "DESARROLLO" => $_POST['desarrollo'],
         "LOTE" => $_POST['lote'],
         "CONDOMINIO" => $_POST['condominio'],
         "CLÚSTER" => $_POST['cluster'],
@@ -38,8 +38,8 @@
 
     $respuesta = $Crud -> actualizarClientesMorosos($id, $datos);
 
-    if ($respuesta->getModifiedCount() > 0 || $respusta->getMatchedCount() > 0) {
-        header("location:./clientesMorosos.php");
+    if ($respuesta->getModifiedCount() > 0 || $respuesta->getMatchedCount() > 0) {
+        header("location:../clientesMorosos.php");
     }else {
         print_r($respuesta);
     }

@@ -5,7 +5,7 @@
     $Crud = new Crud();
     $id = $_POST['id']; 
 
-    $datos=Array(
+    $datos = array(
         "LLAVE" => $_POST['llave'],
         "FECHA_DE_INGRESO" => $_POST['fecha_ingreso'],
         "LOTE" => $_POST['lote'],
@@ -41,11 +41,11 @@
         "LOTE_ANTERIOR" => $_POST['lote_anterior']
     );
 
-    $respuesta = $Crud ->actualizarAcumuladosSherpa($id, $datos);
+    $respuesta = $Crud->actualizarAcumuladoSherpa($id, $datos);
 
-    if ($respuesta->getModifiedCount > 0 || $respuesta->getMatchedCount() > 0) {
-        header("location:../acumuladosherpa.php");
+   if($respuesta->getModifiedCount() > 0 || $respuesta->getMatchedCount() > 0) {
+    header("location:../acumuladosherpa.php");
     }else {
-        print_r($respuesta);
+    print_r($respuesta);
     }
 ?>

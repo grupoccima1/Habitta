@@ -77,9 +77,9 @@
                         <label for="modelo_negocio">Modelo de Negocio</label>
                         <input type="text" name="modelo_negocio" id="modelo_negocio" class="form-control" value="<?php echo $datos->MODELO_DE_NEGOCIO ?>">
                         <label for="solicito1">Solicito</label>
-                        <input type="text" name="solicito" id="solicito" class="form-control" value="<?php echo $datos->SOLICITO ?>">
+                        <input type="text" name="solicito1" id="solicito1" class="form-control" value="<?php echo $datos->SOLICITO ?>">
                         <label for="autorizo1">Autorizo</label>
-                        <input type="text" name="autorizo" id="autorizo" class="form-control" value="<?php echo $datos->AUTORIZO ?>">
+                        <input type="text" name="autorizo1" id="autorizo1" class="form-control" value="<?php echo $datos->AUTORIZO ?>">
                         <label for="año">Año</label>
                         <input type="text" name="año" id="año" class="form-control" value="<?php echo $datos->AÑO ?>">
                         <label for="monto_proyectado">Monto Proyectado</label>

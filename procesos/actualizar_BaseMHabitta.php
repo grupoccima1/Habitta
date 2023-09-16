@@ -52,7 +52,7 @@
    $respuesta = $Crud->actualizarMadreHabitta($id, $datos);
 
    if($respuesta->getModifiedCount() > 0 || $respuesta->getMatchedCount() > 0) {
-    header("location:../basemadrehabbita.php");
+    header("location:../basemadrehabitta.php");
     }else {
     print_r($respuesta);
     }

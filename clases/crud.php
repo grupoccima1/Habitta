@@ -1083,48 +1083,49 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
         }               
     }
 
-    public function actualizarAcumuladosSherpa($id, $datos){
+    public function actualizarAcumuladoSherpa($id, $datos){
         try {
             $conexion = parent::conectar();
             $coleccion = $conexion -> acumuladosherpa;
             $respuesta = $coleccion -> updateOne(
-                                                ['id' => new MongoDB\BSON\ObjectId($id)],
-                                                [
-                                                    '$set' => $datos
-                                                ]
-                                            );
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
             return $respuesta;
         } catch (\Throwable $th) {
             return $th -> getMessage();
         }
     }
 
-    public function actualizarMadreHabitta($id,$datos){
+    public function actualizarMadreHabitta($id, $datos){
         try {
             $conexion = parent::conectar();
             $coleccion = $conexion -> basemadrehabitta;
             $respuesta = $coleccion -> updateOne(
-                                                ['id' => new MongoDB\BSON\ObjectId($id)],
-                                                [
-                                                    '$set' => $datos
-                                                ]
-                                            );
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
             return $respuesta;
         } catch (\Throwable $th) {
             return $th -> getMessage();
         }
     }
+
 
     public function actualizarBillpocket($id,$datos){
         try {
             $conexion = parent::conectar();
             $coleccion = $conexion -> billpocket;
             $respuesta = $coleccion -> updateOne(
-                                                ['id' => new MongoDB\BSON\ObjectId($id)],
-                                                [
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
                                                     '$set' => $datos
-                                                ]
-                                                );
+                                            ]
+                                            );
             return $respuesta;
         } catch (\Throwable $th) {
             return $th -> getMessage();
@@ -1136,7 +1137,7 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
             $conexion = parent::conectar();
             $coleccion = $conexion -> clientesmorosos;
             $respuesta = $coleccion -> updateOne(
-                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
                                                 [
                                                     '$set' => $datos
                                                 ]
@@ -1152,7 +1153,7 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
             $conexion = parent::conectar();
             $coleccion = $conexion -> estadodecuenta;
             $respuesta = $coleccion -> updateOne(
-                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
                                                 [
                                                     '$set' => $datos
                                                 ]
@@ -1168,7 +1169,7 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
             $conexion = parent::conectar();
             $coleccion = $conexion -> nico;
             $respuesta = $coleccion -> updateOne(
-                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
                                                 [
                                                     '$set' => $datos
                                                 ]
@@ -1184,7 +1185,7 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
             $conexion = parent::conectar();
             $coleccion = $conexion -> cierreMensual;
             $respuesta = $coleccion -> updateOne(
-                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
                                                 [
                                                     '$set' => $datos
                                                 ]
@@ -1200,7 +1201,7 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
             $conexion = parent::conectar();
             $coleccion = $conexion -> AcumuladoComisiones;
             $respuesta = $coleccion -> updateOne(
-                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
                                                 [
                                                     '$set' => $datos
                                                 ]
@@ -1216,7 +1217,7 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
             $conexion = parent::conectar();
             $coleccion = $conexion -> CorteMR;
             $respuesta = $coleccion -> updateOne(
-                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
                                                 [
                                                     '$set' => $datos
                                                 ]
@@ -1232,7 +1233,7 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
             $conexion = parent::conectar();
             $coleccion = $conexion -> DevolucionesClientes;
             $respuesta = $coleccion -> updateOne(
-                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
                                                 [
                                                     '$set' => $datos
                                                 ]
@@ -1248,7 +1249,7 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
             $conexion = parent::conectar();
             $coleccion = $conexion -> ComisionInternas;
             $respuesta = $coleccion -> updateOne(
-                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
                                                 [
                                                     '$set' => $datos
                                                 ]
@@ -1264,7 +1265,7 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
             $conexion = parent::conectar();
             $coleccion = $conexion -> TableroDeResultados;
             $respuesta = $coleccion -> updateOne(
-                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
                                                 [
                                                     '$set' => $datos
                                                 ]
@@ -1280,7 +1281,7 @@ class Crud extends Conexion { //la palabra clave "extends" indica que la clase "
             $conexion = parent::conectar();
             $coleccion = $conexion -> AcumuladoTierra;
             $respuesta = $coleccion -> updateOne(
-                                                ['id' => new MongoDB\BSON\ObjectId($id)],
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
                                                 [
                                                     '$set' => $datos
                                                 ]

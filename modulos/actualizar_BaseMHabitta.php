@@ -21,7 +21,7 @@
 
                 <h2>Actualizar Registro</h2>
 
-                <form action="../procesos/actualizar_BaseMHabita.php" method="POST">
+                <form action="../procesos/actualizar_BaseMHabitta.php" method="POST">
                     <input type="text" name="id" id="id" hidden value="<?php echo $idMongo ?>">
                     <label for="llave">Llave </label>
                     <input type="text" name="llave" id="llave" class="form-control"  value="<?php echo $datos->LLAVE ?>">

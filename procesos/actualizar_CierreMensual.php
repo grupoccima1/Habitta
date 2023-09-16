@@ -34,7 +34,7 @@
         "LLAVE_EDOS_DE_CUENTA" => $_POST ['llave_cuenta'],
         "METODO_DE_PAGO" => $_POST ['metodo_pago'],
         "MODELO_DE_NEGOCIO" => $_POST ['modelo_negocio'],
-        "SOLICITO" => $_POST ['solito1'],
+        "SOLICITO" => $_POST ['solicito1'],
         "AUTORIZO" => $_POST ['autorizo1'],
         "AÑO" => $_POST ['año'],
         "MONTO_PROYECTADO" => $_POST ['monto_proyectado']
