@@ -1,7 +1,6 @@
 <?php
 
 
-require_once "./../clases/Conexion.php";
 class crudcomisionesinternas extends Conexion {
 
 
@@ -16,6 +15,47 @@ class crudcomisionesinternas extends Conexion {
         }
     }
 
+    public function obtenerDocumentoComisionesInternas($id) {
+        try {
+            if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
+                throw new Exception('El ID no tiene el formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion->ComisionInternas;
+            $datos = $coleccion->findOne(
+                                    array(
+                                        '_id' => new MongoDB\BSON\ObjectId($id)
+                                    )
+                                );
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }
+    public function eliminarComisionesInternas($id){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->ComisionInternas;
+            $respuesta = $coleccion->deleteOne(
+                                            array(
+                                                "_id" => new MongoDB\BSON\ObjectId($id)
+                                            )   
+                                        );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }
 
+    public function mostrarDatosComisionesInternas(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->ComisionInternas;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
       }
 ?>
