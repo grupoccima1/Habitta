@@ -1,11 +1,11 @@
 <?php 
     include "../clases/conexion.php";
     include "./../BaseMadre/crud_BaseMadre.php";
-    $crudbasemadre = new crudbasemadre();
+    $crud = new Crud();
     $id = $_POST['id'];
 
 
-   $respuesta = $crudbasemadre->eliminarMadre($id);
+   $respuesta = $crud->eliminarMadre($id);
 
  
     if($respuesta->getDeletedCount()> 0){

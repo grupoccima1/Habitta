@@ -2,7 +2,7 @@
     include "../clases/Conexion.php";
     include "./../BaseMadre/crud_BaseMadre.php";
 
-    $crudbasemadre = new crudbasemadre();
+    $Crud = new Crud();
 
     $datos = array(
         "LLAVE" => $_POST['llave'], 
@@ -48,7 +48,7 @@
         "PRIMER_MENSUALIDAD" => $_POST['primera_mens']
     );
 
-   $respuesta = $crudbasemadre->insertarDatosMadre($datos);
+   $respuesta = $Crud->insertarDatosMadre($datos);
 
     if ($respuesta->getInsertedId() > 0) {
         header("location:../basemadre.php");

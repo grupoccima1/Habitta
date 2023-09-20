@@ -1,7 +1,7 @@
 
 <?php
-require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
+  require_once "./clases/Conexion.php";
+  require_once "./BaseMadre/crud_BaseMadre.php";
   $crud = new Crud();
   $datos = $crud->mostrarDatosmadre();
 ?>
@@ -446,7 +446,7 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->APARTADO_TELEGRAM;?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->PRIMER_MENSUALIDAD),2);?> </td>
                           <td class="text-center">
-                          <form action="./modulos/actualizar_BaseMadre.php" method="POST">
+                          <form action="./BaseMadre/modificar_BaseMadre.php" method="POST">
                             <input type="text" name="id" id="id" hidden value="<?php echo $item->_id?>">
                               <button class="btn btn-warning">
                                 <i class="fa-solid fa-user-pen"></i>
@@ -454,7 +454,7 @@ require_once "./clases/Conexion.php";
                             </form>
                           </td>
                           <td class="text-center">
-                          <form action="./modulos/eliminar_BaseMadre.php" method="POST">
+                          <form action="./BaseMadre/eliminarbasemadre.php" method="POST">
                             <input type="text" name="id" id="id" hidden value="<?php echo $item->_id?>">
                               <button class="btn btn-danger">
                                 <i class="fa-solid fa-user-xmark"></i>
