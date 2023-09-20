@@ -2,7 +2,7 @@
    
     include "../clases/Conexion.php";
     include "./../Comisiones2021/crudcomisiones2021.php";
-
+    include "../header.php";
     $crudcomisiones2021 = new crudcomisiones2021();
     $id = $_POST['id'];
 
@@ -12,48 +12,48 @@
 <div class="container">
 <div class="row">
 <div class="card mt-4">
-  <div class="card-body">
-            <div class="col">
-
-                <a href="../comisiones2021.php" class="btn btn-outline-info">
+    <div class="card-header">
+    <a href="../comisiones2021.php" class="btn btn-outline-info">
                     Regresar
                 </a>
 
-                <h2>Eliminar  Registro</h2>
-                
+    </div>
+  <div class="card-body">
+            <div class="col">                
+                <h2 class="mb-3 fs-4 text-center">Eliminar  Registro</h2>
                 <table class="table table-bordered">
                     <thead>
-                        <th class="th__texto" style="text-align:center;">Llave</th>                        
-                        <th class="th__texto" style="text-align:center;">FECHA_DE_INGRESO</th>
-                        <th class="th__texto" style="text-align:center;">LOTE</th>
-                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
-                        <th class="th__texto" style="text-align:center;">CLUSTER</th>
-                        <th class="th__texto" style="text-align:center;">DESARROLLO</th>
-                        <th class="th__texto" style="text-align:center;">PUESTO</th>
-                        <th class="th__texto" style="text-align:center;">COMISIONISTA</th>
-                        <th class="th__texto" style="text-align:center;">TOTAL_DE_LA_VENTA</th>
-                        <th class="th__texto" style="text-align:center;">ENGANCHE</th>
-                        <th class="th__texto" style="text-align:center;">%_COMISION</th>
-                        <th class="th__texto" style="text-align:center;">TOTAL_COMISION</th>
-                        <th class="th__texto" style="text-align:center;">DESCUENTO</th>
-                        <th class="th__texto" style="text-align:center;">A_PAGAR_EXTERNOS</th>
-                        <th class="th__texto" style="text-align:center;">SUBTOTAL</th>
-                        <th class="th__texto" style="text-align:center;">IVA</th>
-                        <th class="th__texto" style="text-align:center;">RETENCIONES_DE_IVA</th>
-                        <th class="th__texto" style="text-align:center;">RETENCIONES_ISR</th>                        
-                        <th class="th__texto" style="text-align:center;">TOTAL</th>
-                        <th class="th__texto" style="text-align:center;">PAGO</th>
-                        <th class="th__texto" style="text-align:center;">PAGADO</th>
-                        <th class="th__texto" style="text-align:center;">METODO_DE_PAGO</th>
-                        <th class="th__texto" style="text-align:center;">FECHA_PAGADA</th>
-                        <th class="th__texto" style="text-align:center;">NOMBRE_CORRECTO</th>
-                        <th class="th__texto" style="text-align:center;">SEMANA_PAGADA</th>
-                        <th class="th__texto" style="text-align:center;">SEMANA</th>
-                        <th class="th__texto" style="text-align:center;">X_TIPO_DE_REGIMEN</th>
-                        <th class="th__texto" style="text-align:center;">CUENTA</th>
-                        <th class="th__texto" style="text-align:center;">MOTIVO_DE_DESCUENTO</th>
-                        <th class="th__texto" style="text-align:center;">ESTATUS</th>
-                        <th class="th__texto" style="text-align:center;">LOTE_ANTERIOR</th>
+                        <th class="th__texto text-center">Llave</th>                        
+                        <th class="th__texto text-center">FECHA_DE_INGRESO</th>
+                        <th class="th__texto text-center">LOTE</th>
+                        <th class="th__texto text-center">CONDOMINIO</th>
+                        <th class="th__texto text-center">CLUSTER</th>
+                        <th class="th__texto text-center">DESARROLLO</th>
+                        <th class="th__texto text-center">PUESTO</th>
+                        <th class="th__texto text-center">COMISIONISTA</th>
+                        <th class="th__texto text-center">TOTAL_DE_LA_VENTA</th>
+                        <th class="th__texto text-center">ENGANCHE</th>
+                        <th class="th__texto text-center">%_COMISION</th>
+                        <th class="th__texto text-center">TOTAL_COMISION</th>
+                        <th class="th__texto text-center">DESCUENTO</th>
+                        <th class="th__texto text-center">A_PAGAR_EXTERNOS</th>
+                        <th class="th__texto text-center">SUBTOTAL</th>
+                        <th class="th__texto text-center">IVA</th>
+                        <th class="th__texto text-center">RETENCIONES_DE_IVA</th>
+                        <th class="th__texto text-center">RETENCIONES_ISR</th>                        
+                        <th class="th__texto text-center">TOTAL</th>
+                        <th class="th__texto text-center">PAGO</th>
+                        <th class="th__texto text-center">PAGADO</th>
+                        <th class="th__texto text-center">METODO_DE_PAGO</th>
+                        <th class="th__texto text-center">FECHA_PAGADA</th>
+                        <th class="th__texto text-center">NOMBRE_CORRECTO</th>
+                        <th class="th__texto text-center">SEMANA_PAGADA</th>
+                        <th class="th__texto text-center">SEMANA</th>
+                        <th class="th__texto text-center">X_TIPO_DE_REGIMEN</th>
+                        <th class="th__texto text-center">CUENTA</th>
+                        <th class="th__texto text-center">MOTIVO_DE_DESCUENTO</th>
+                        <th class="th__texto text-center">ESTATUS</th>
+                        <th class="th__texto text-center">LOTE_ANTERIOR</th>
                         
                         
                     </thead>
@@ -95,17 +95,20 @@
                 </table>
                 <hr>
                 <div class="aler alert-danger" role="alert">
-                    <p>¿Estas seguro de eliminar este registro?</p>
+                    <h3 class="text-danger fs-5 text-center">¿Estas seguro de eliminar este registro?</h3>
                     <p>
                         Una vez eliminado no podras recuperarlo
                     </p>
+                    <div class="d-flex justify-content-end">
+                        <form class="me-2"  action="./eliminar_comision2021.php" method="POST">
+                            <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
+                            <button class="btn btn-danger">
+                                Eliminar
+                            </button>                
+                        </form>
+                        <a href="../comisiones2021.php" class="btn btn-secondary">Cancelar</a>
+                    </div>
                 </div>
-                <form action="./eliminar_comision2021.php" method="POST">
-                    <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
-                    <button class="btn btn-danger">
-                        Eliminar
-                    </button>                
-                </form>
             </div>
         </div>
     </div>

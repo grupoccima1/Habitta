@@ -17,9 +17,7 @@
                     Regresar
                 </a>
             </div>
-
             <div class="card-body">
-                
                     <h2 class="mb-3 fs-4 text-center">Actualizar Registro</h2>
                     <form action="../procesos/actualizar_ClientesMorosos.php" method="POST">
                         <div class="row">

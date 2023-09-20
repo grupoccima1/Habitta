@@ -5,10 +5,8 @@
     include "../header.php";
     $crudbasemadre = new crudbasemadre();
     $id = $_POST['id'];
-
     $datos = $crudbasemadre -> obtenerDocumentoMadre($id);
 ?>
-
 <div class="container">
     <div class="row">
         <div class="card mt-4">
@@ -21,47 +19,47 @@
                 <h2 class=" mb-3 fs-4 text-center">Eliminar Registro</h2>
                 <table class="table table-bordered">
                     <thead>
-                        <th class="th__texto" style="text-align:center;">Llave</th>
-                        <th class="th__texto" style="text-align:center;">Lote</th>
-                        <th class="th__texto" style="text-align:center;">Condominio</th>
-                        <th class="th__texto" style="text-align:center;">Cluster</th>
-                        <th class="th__texto" style="text-align:center;">Desarrollo</th>
-                        <th class="th__texto" style="text-align:center;">Apartado telegram</th>
-                        <th class="th__texto" style="text-align:center;">Cliente</th>
-                        <th class="th__texto" style="text-align:center;">Rfc</th>
-                        <!-- <th class="th__texto" style="text-align:center;">Idcif</th> -->
-                        <th class="th__texto" style="text-align:center;">Uso de cfdi</th>
-                        <th class="th__texto" style="text-align:center;">Razon social</th>
-                        <th class="th__texto" style="text-align:center;">Domicilio fiscal</th>
-                        <th class="th__texto" style="text-align:center;">Telefono</th>
-                        <th class="th__texto" style="text-align:center;">Correo</th>
-                        <th class="th__texto" style="text-align:center;">M2</th>
-                        <th class="th__texto" style="text-align:center;">Total operacion</th>
-                        <th class="th__texto" style="text-align:center;">Enganche</th>
-                        <th class="th__texto" style="text-align:center;">Financiamiento</th>
-                        <th class="th__texto" style="text-align:center;">Firma contrato</th>
-                        <th class="th__texto" style="text-align:center;">Fin corrida</th>
-                        <th class="th__texto" style="text-align:center;">Total mensualidades</th>
-                        <th class="th__texto" style="text-align:center;">No 1er mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">1er mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">No 2da mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">2da mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">No 3ra mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">3er mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">Tipo de interes</th>
-                        <th class="th__texto" style="text-align:center;">Mensualidad de entrega</th>
-                        <th class="th__texto" style="text-align:center;">Inicio corrida</th>
-                        <th class="th__texto" style="text-align:center;">Fecha primer abono</th>
-                        <!-- <th class="th__texto" style="text-align:center;">Pagado</th> -->
-                        <th class="th__texto" style="text-align:center;">Deuda</th>
-                        <th class="th__texto" style="text-align:center;">Fecha Entrega Lote</th>
-                        <th class="th__texto" style="text-align:center;">Estatus cm</th>
-                        <th class="th__texto" style="text-align:center;">Link sat</th>
-                        <th class="th__texto" style="text-align:center;">Notas de pagos</th>
-                        <th class="th__texto" style="text-align:center;">Abono referido</th>
-                        <th class="th__texto" style="text-align:center;">Estatus</th>
-                        <th class="th__texto" style="text-align:center;">Motivo estatus</th>
-                        <th class="th__texto" style="text-align:center;">Resultado</th>
+                        <th class="th__texto text-center">Llave</th>
+                        <th class="th__texto text-center">Lote</th>
+                        <th class="th__texto text-center">Condominio</th>
+                        <th class="th__texto text-center">Cluster</th>
+                        <th class="th__texto text-center">Desarrollo</th>
+                        <th class="th__texto text-center">Apartado telegram</th>
+                        <th class="th__texto text-center">Cliente</th>
+                        <th class="th__texto text-center">Rfc</th>
+                        <!-- <th class="th__texto text-center">Idcif</th> -->
+                        <th class="th__texto text-center">Uso de cfdi</th>
+                        <th class="th__texto text-center">Razon social</th>
+                        <th class="th__texto text-center">Domicilio fiscal</th>
+                        <th class="th__texto text-center">Telefono</th>
+                        <th class="th__texto text-center">Correo</th>
+                        <th class="th__texto text-center">M2</th>
+                        <th class="th__texto text-center">Total operacion</th>
+                        <th class="th__texto text-center">Enganche</th>
+                        <th class="th__texto text-center">Financiamiento</th>
+                        <th class="th__texto text-center">Firma contrato</th>
+                        <th class="th__texto text-center">Fin corrida</th>
+                        <th class="th__texto text-center">Total mensualidades</th>
+                        <th class="th__texto text-center">No 1er mensualidad</th>
+                        <th class="th__texto text-center">1er mensualidad</th>
+                        <th class="th__texto text-center">No 2da mensualidad</th>
+                        <th class="th__texto text-center">2da mensualidad</th>
+                        <th class="th__texto text-center">No 3ra mensualidad</th>
+                        <th class="th__texto text-center">3er mensualidad</th>
+                        <th class="th__texto text-center">Tipo de interes</th>
+                        <th class="th__texto text-center">Mensualidad de entrega</th>
+                        <th class="th__texto text-center">Inicio corrida</th>
+                        <th class="th__texto text-center">Fecha primer abono</th>
+                        <!-- <th class="th__texto text-center">Pagado</th> -->
+                        <th class="th__texto text-center">Deuda</th>
+                        <th class="th__texto text-center">Fecha Entrega Lote</th>
+                        <th class="th__texto text-center">Estatus cm</th>
+                        <th class="th__texto text-center">Link sat</th>
+                        <th class="th__texto text-center">Notas de pagos</th>
+                        <th class="th__texto text-center">Abono referido</th>
+                        <th class="th__texto text-center">Estatus</th>
+                        <th class="th__texto text-center">Motivo estatus</th>
+                        <th class="th__texto text-center">Resultado</th>
                     </thead>
                     <tbody>
                         <tr>

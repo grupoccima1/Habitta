@@ -15,16 +15,16 @@
             <div class="card-header">
                 <a href="../catalogo.php" class="btn btn-outline-info">
                     Regresar
-                </a>
+                </a>    
             </div>
             <div class="card-body">
                 <h2 class="mb-3 fs-4 text-center">Eliminar Registro</h2>
                 <table class="table table-bordered">
                     <thead>
-                        <th class="th__texto" style="text-align:center;">Llave</th>
-                        <th class="th__texto" style="text-align:center;">Porcentaje 1</th>
-                        <th class="th__texto" style="text-align:center;">Porcentaje 2</th>
-                        <th class="th__texto" style="text-align:center;">Porcentaje 3</th>
+                        <th class="th__texto text-center">Llave</th>
+                        <th class="th__texto text-center">Porcentaje 1</th>
+                        <th class="th__texto text-center">Porcentaje 2</th>
+                        <th class="th__texto text-center">Porcentaje 3</th>
                     </thead>
                     <tbody>
                         <tr>

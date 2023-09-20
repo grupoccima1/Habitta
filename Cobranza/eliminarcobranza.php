@@ -22,13 +22,13 @@
 
                 <table class="table table-bordered">
                     <thead>
-                        <th class="th__texto" style="text-align:center;">Fecha</th>
-                        <th class="th__texto" style="text-align:center;">Motivo</th>
-                        <th class="th__texto" style="text-align:center;">Flujo</th>
-                        <th class="th__texto" style="text-align:center;">Fecha_1</th>
-                        <th class="th__texto" style="text-align:center;">Descripcion</th>
-                        <th class="th__texto" style="text-align:center;">A pagar</th>
-                        <th class="th__texto" style="text-align:center;">Pago</th>
+                        <th class="th__texto text-center">Fecha</th>
+                        <th class="th__texto text-center">Motivo</th>
+                        <th class="th__texto text-center">Flujo</th>
+                        <th class="th__texto text-center">Fecha_1</th>
+                        <th class="th__texto text-center">Descripcion</th>
+                        <th class="th__texto text-center">A pagar</th>
+                        <th class="th__texto text-center">Pago</th>
                     </thead>
                     <tbody>
                         <tr>

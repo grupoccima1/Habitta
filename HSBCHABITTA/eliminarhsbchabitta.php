@@ -2,7 +2,7 @@
    
     include "../clases/Conexion.php";
     include "./../HSBCHABITTA/crudhsbchabitta.php";
-
+    include "../header.php";
     $crudhsbchabitta = new crudhsbchabitta();
     $id = $_POST['id'];
 
@@ -12,40 +12,40 @@
 <div class="container">
 <div class="row">
 <div class="card mt-4">
-  <div class="card-body">
-            <div class="col">
-
-                <a href="../hsbch.php" class="btn btn-outline-info">
+    <div class="card-header">
+        
+    <a href="../hsbch.php" class="btn btn-outline-info">
                     Regresar
                 </a>
-
-                <h2>Eliminar  Registro</h2>
-                
+    </div>
+  <div class="card-body">
+            <div class="col">
+                <h2 class="mb-3 fs-4 text-center">Eliminar  Registro</h2>
                 <table class="table table-bordered">
                     <thead>
-                    <th class="th__texto" style="text-align:center;">Semana</th>                        
-                        <th class="th__texto" style="text-align:center;">Fecha</th>
-                        <th class="th__texto" style="text-align:center;">Beneficiario</th>
-                        <th class="th__texto" style="text-align:center;">Ingreso</th>
-                        <th class="th__texto" style="text-align:center;">Egreso</th>
-                        <th class="th__texto" style="text-align:center;">Saldo</th>
-                        <th class="th__texto" style="text-align:center;">Factura</th>
-                        <th class="th__texto" style="text-align:center;">Motivo</th>
-                        <th class="th__texto" style="text-align:center;">Mes</th>
-                        <th class="th__texto" style="text-align:center;">Desarrollo</th>
-                        <th class="th__texto" style="text-align:center;">Lote</th>
-                        <th class="th__texto" style="text-align:center;">Condominio</th>
-                        <th class="th__texto" style="text-align:center;">Cluster</th>
-                        <th class="th__texto" style="text-align:center;">Obra</th>
-                        <th class="th__texto" style="text-align:center;">Categoria</th>
-                        <th class="th__texto" style="text-align:center;">Subcategoria</th>                        
-                        <th class="th__texto" style="text-align:center;">Modelo de negocios</th>
-                        <th class="th__texto" style="text-align:center;">Flujo</th>
-                        <th class="th__texto" style="text-align:center;">Llave</th>
-                        <th class="th__texto" style="text-align:center;">Fecha correcta</th>
-                        <th class="th__texto" style="text-align:center;">Llave estado de cuenta</th>
-                        <th class="th__texto" style="text-align:center;">Clave</th>
-                        <th class="th__texto" style="text-align:center;">Metodo de pago</th>
+                        <th class="th__texto text-center">Semana</th>                        
+                        <th class="th__texto text-center">Fecha</th>
+                        <th class="th__texto text-center">Beneficiario</th>
+                        <th class="th__texto text-center">Ingreso</th>
+                        <th class="th__texto text-center">Egreso</th>
+                        <th class="th__texto text-center">Saldo</th>
+                        <th class="th__texto text-center">Factura</th>
+                        <th class="th__texto text-center">Motivo</th>
+                        <th class="th__texto text-center">Mes</th>
+                        <th class="th__texto text-center">Desarrollo</th>
+                        <th class="th__texto text-center">Lote</th>
+                        <th class="th__texto text-center">Condominio</th>
+                        <th class="th__texto text-center">Cluster</th>
+                        <th class="th__texto text-center">Obra</th>
+                        <th class="th__texto text-center">Categoria</th>
+                        <th class="th__texto text-center">Subcategoria</th>                        
+                        <th class="th__texto text-center">Modelo de negocios</th>
+                        <th class="th__texto text-center">Flujo</th>
+                        <th class="th__texto text-center">Llave</th>
+                        <th class="th__texto text-center">Fecha correcta</th>
+                        <th class="th__texto text-center">Llave estado de cuenta</th>
+                        <th class="th__texto text-center">Clave</th>
+                        <th class="th__texto text-center">Metodo de pago</th>
                         
                         
                     </thead>
@@ -79,23 +79,25 @@
                 </table>
                 <hr>
                 <div class="aler alert-danger" role="alert">
-                    <p>¿Estas seguro de eliminar este registro?</p>
+                    <h3 class="text-danger fs-5 text-center">¿Estas seguro de eliminar este registro?</h3>
                     <p>
                         Una vez eliminado no podras recuperarlo
                     </p>
+                    <div class="d-flex justify-content-end">
+                        <form class="me-2" action="./eliminar_hsbchabitta.php" method="POST">
+                            <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
+                            <button class="btn btn-danger">
+                                Eliminar
+                            </button>                
+                        </form>
+                        <form action="" method="POST">
+                            <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
+                            <button class="btn btn-warning">
+                                Modificar
+                            </button>                
+                        </form>
+                    </div>
                 </div>
-                <form action="./eliminar_hsbchabitta.php" method="POST">
-                    <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
-                    <button class="btn btn-danger">
-                        Eliminar
-                    </button>                
-                </form>
-                <form action="" method="POST">
-                    <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
-                    <button class="btn btn-warning">
-                        Modificar
-                    </button>                
-                </form>
             </div>
         </div>
     </div>

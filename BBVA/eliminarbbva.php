@@ -5,10 +5,8 @@
     include "../header.php";
     $crudbbva = new crudbbva();
     $id = $_POST['id'];
-
     $datos = $crudbbva -> obtenerDocumentoBBVA($id);
 ?>
-
 <div class="container">
     <div class="row">
         <div class="card mt-4">
@@ -19,29 +17,29 @@
                 <h2 class="mb-3 fs-4 text-center">Eliminar Registro</h2>
                 <table class="table table-bordered">
                     <thead>
-                        <th class="th__texto" style="text-align:center;">Semana</th>
-                        <th class="th__texto" style="text-align:center;">Fecha</th>
-                        <th class="th__texto" style="text-align:center;">Beneficiario</th>
-                        <th class="th__texto" style="text-align:center;">Ingreso</th>
-                        <th class="th__texto" style="text-align:center;">Egreso</th>
-                        <th class="th__texto" style="text-align:center;">Saldo</th>
-                        <th class="th__texto" style="text-align:center;">Factura</th>
-                        <th class="th__texto" style="text-align:center;">Motivo</th>
-                        <th class="th__texto" style="text-align:center;">Mes</th>
-                        <th class="th__texto" style="text-align:center;">Desarrollo</th>
-                        <th class="th__texto" style="text-align:center;">Lote</th>
-                        <th class="th__texto" style="text-align:center;">Condominio</th>
-                        <th class="th__texto" style="text-align:center;">Cluster</th>
-                        <th class="th__texto" style="text-align:center;">Obra</th>
-                        <th class="th__texto" style="text-align:center;">Categoria</th>
-                        <th class="th__texto" style="text-align:center;">Subcategoria</th>
-                        <th class="th__texto" style="text-align:center;">Modelo de negocios</th>
-                        <th class="th__texto" style="text-align:center;">Flujo</th>
-                        <th class="th__texto" style="text-align:center;">Llave</th>
-                        <th class="th__texto" style="text-align:center;">Fecha correcta</th>
-                        <th class="th__texto" style="text-align:center;">Llave estado de cuenta</th>
-                        <th class="th__texto" style="text-align:center;">Clave</th>
-                        <th class="th__texto" style="text-align:center;">Metodo de pago</th>
+                        <th class="th__texto text-center">Semana</th>
+                        <th class="th__texto text-center">Fecha</th>
+                        <th class="th__texto text-center">Beneficiario</th>
+                        <th class="th__texto text-center">Ingreso</th>
+                        <th class="th__texto text-center">Egreso</th>
+                        <th class="th__texto text-center">Saldo</th>
+                        <th class="th__texto text-center">Factura</th>
+                        <th class="th__texto text-center">Motivo</th>
+                        <th class="th__texto text-center">Mes</th>
+                        <th class="th__texto text-center">Desarrollo</th>
+                        <th class="th__texto text-center">Lote</th>
+                        <th class="th__texto text-center">Condominio</th>
+                        <th class="th__texto text-center">Cluster</th>
+                        <th class="th__texto text-center">Obra</th>
+                        <th class="th__texto text-center">Categoria</th>
+                        <th class="th__texto text-center">Subcategoria</th>
+                        <th class="th__texto text-center">Modelo de negocios</th>
+                        <th class="th__texto text-center">Flujo</th>
+                        <th class="th__texto text-center">Llave</th>
+                        <th class="th__texto text-center">Fecha correcta</th>
+                        <th class="th__texto text-center">Llave estado de cuenta</th>
+                        <th class="th__texto text-center">Clave</th>
+                        <th class="th__texto text-center">Metodo de pago</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -79,7 +77,7 @@
                     </p>
                 </div>
                 <div class="d-flex justify-content-end">
-                    <form class="ms-2" action="./eliminar_bbva.php" method="POST">
+                    <form class="me-2" action="./eliminar_bbva.php" method="POST">
                         <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
                         <button class="btn btn-danger">
                             Eliminar
@@ -87,7 +85,7 @@
                     </form>
                     <form action="" method="POST">
                         <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
-                        <button class="btn btn-warning">
+                        <button class="btn btn-secondary">
                             Modificar
                         </button>
                     </form>
