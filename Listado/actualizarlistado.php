@@ -1,7 +1,7 @@
 <?php 
     include "../clases/Conexion.php";
     include "./../Listado/crudlistado.php";
-
+    include "../header.php";
     $crudlistado = new crudlistado();
     $id = $_POST ['id'];
     $datos = $crudlistado -> obtenerDocumentoListado($id);

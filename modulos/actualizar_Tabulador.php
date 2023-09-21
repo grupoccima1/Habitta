@@ -2,13 +2,11 @@
     include "../header.php";
     include "../clases/Conexion.php";
     include "../clases/crud.php";
-
     $crud = new Crud();
     $id = $_POST['id'];
     $datos = $crud -> obtenerDocumentoTabulador($id);
     $idMongo = $datos -> _id;
 ?>
-
 <div class="container">
     <div class="row">
         <div class="card mt-4">

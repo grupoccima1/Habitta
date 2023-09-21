@@ -1,7 +1,7 @@
 <?php 
     include "../clases/Conexion.php";
     include "./../Catalogo/crudcatalogo.php";
-
+    include "../header.php"
     $crudcatalogo = new crudcatalogo();
     $id = $_POST ['id'];
     $datos = $crudcatalogo -> obtenerDocumentoCatalogo($id);

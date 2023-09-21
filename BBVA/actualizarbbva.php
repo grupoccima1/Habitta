@@ -1,14 +1,12 @@
 <?php 
     include "../clases/Conexion.php";
     include "./../BBVA/crudbbva.php";
-
+    include "../header.php";    
     $crudbbva = new crudbbva();
     $id = $_POST ['id'];
     $datos = $crudbbva -> obtenerDocumentoBBVA($id);
     $idMongo = $datos -> _id;
 ?>
-
-
 <div class="container">
     <div class="row">
         <div class="card mt-4">
@@ -66,7 +64,6 @@
                                 <label for="LOTE">LOTE</label>
                                 <input type="text" name="LOTE" id="LOTE" class="form-control" value="<?php echo $datos->LOTE ?>">
                             </div>
-
                             <div class="col-4 mb-2">
                                 <label for="CONDOMINIO">CONDOMINIO</label>
                                 <input type="text" name="CONDOMINIO" id="CONDOMINIO" class="form-control" value="<?php echo $datos->CONDOMINIO ?>">

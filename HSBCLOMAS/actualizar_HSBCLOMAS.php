@@ -1,7 +1,6 @@
 <?php
     include "../clases/Conexion.php";
     include "./../HSBCLOMAS/crudhsbclomas.php";
-
     $crudhsbclomas = new crudhsbclomas();
     $id = $_POST['id'];
 

@@ -1,7 +1,7 @@
 <?php 
     include "../clases/Conexion.php";
     include "./../Tabulador/crud_Tabulador.php";
-
+    include "../header.php";
     $crudtabulador = new crudtabulador();
     $id = $_POST ['id'];
     $datos = $crudtabulador -> obtenerDocumentoTabulador($id);

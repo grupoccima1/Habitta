@@ -1,14 +1,12 @@
 <?php 
+    include "../header.php";
     include "../clases/Conexion.php";
     include "../clases/crud.php";
-
     $crud = new crud();
     $id = $_POST ['id'];
     $datos = $crud -> obtenerDocumentoBillpocket($id);
     $idMongo = $datos -> _id;
 ?>
-
-
 <div class="container">
     <div class="row">
         <div class="card mt-4">

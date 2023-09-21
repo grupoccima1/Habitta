@@ -2,7 +2,6 @@
     include "../header.php";
     include "../clases/Conexion.php";
     include "../clases/crud.php";
-
     $crud = new Crud();
     $id = $_POST['id'];
     $datos = $crud -> obtenerDocumentoLiberados($id);

@@ -1,14 +1,12 @@
 <?php 
     include "../clases/Conexion.php";
     include "./../Estados/crudestados.php";
-
+    include "../header.php";
     $crudestados = new crudestados();
     $id = $_POST ['id'];
     $datos = $crudestados -> obtenerDocumentoEstados($id);
     $idMongo = $datos -> _id;
 ?>
-
-
 <div class="container">
     <div class="row">
         <div class="card mt-4">

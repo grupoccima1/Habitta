@@ -1,7 +1,7 @@
 <?php 
     include "../clases/Conexion.php";
     include "./../HSBCLOMAS/crudhsbclomas.php";
-
+    include "../header.php";
     $crudhsbclomas = new crudhsbclomas();
     $id = $_POST ['id'];
     $datos = $crudhsbclomas -> obtenerDocumentoHSBCLOMAS($id);

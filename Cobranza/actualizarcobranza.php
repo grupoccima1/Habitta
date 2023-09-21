@@ -1,14 +1,12 @@
 <?php 
     include "../clases/Conexion.php";
     include "./../Cobranza/crudcobranza.php";
-
+    include "../header.php";
     $crudcobranza = new crudcobranza();
     $id = $_POST ['id'];
     $datos = $crudcobranza -> obtenerDocumentoCobranza($id);
     $idMongo = $datos -> _id;
 ?>
-
-
 <div class="container">
     <div class="row">
         <div class="card mt-4">
@@ -50,7 +48,6 @@
                                 <label for="PAGO">PAGO</label>
                                 <input type="text" name="PAGO" id="PAGO" class="form-control" value="<?php echo $datos->PAGO ?>">
                             </div>
-                           
                         </div>
                         <button class="btn btn-primary mt-3">
                             <i class="fa-solid fa-floppy-disk"></i>Actualizar
