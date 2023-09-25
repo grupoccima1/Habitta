@@ -3,7 +3,7 @@
     include "../clases/Conexion.php";
     include "../BaseMadre/crud_BaseMadre.php"; 
 
-    $crud = new Crud();
+    $crud = new crudbasemadre();
     $id = $_POST['id'];
     $datos = $crud->obtenerDocumentoMadre($id);
     $idMongo = $datos->_id;

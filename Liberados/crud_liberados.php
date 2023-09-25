@@ -34,6 +34,7 @@ class crudliberados extends Conexion {
             return $th->getMessage();
         }
     }
+<<<<<<< HEAD
 
     public function actualizarLiberados($id, $datos){
         try {
@@ -51,6 +52,8 @@ class crudliberados extends Conexion {
         }
     }
     
+=======
+>>>>>>> 5ccd7b2a901cb555888b0325e6467b8998284a00
     public function eliminarLiberados($id){
         try {
             $conexion = parent::conectar();

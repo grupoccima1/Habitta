@@ -3,24 +3,22 @@
     include "../clases/Conexion.php";
     include "./../BaseMadre/crud_BaseMadre.php";
 
-    $crud = new Crud();
+    $crud = new crudbasemadre();
     $id = $_POST['id'];
 
     $datos = $crud -> obtenerDocumentoMadre($id);
 ?>
 
 <div class="container">
-<div class="row">
-<div class="card mt-4">
-  <div class="card-body">
-            <div class="col">
-
+    <div class="row">
+        <div class="card mt-4">
+            <div class="card-header">
                 <a href="../basemadre.php" class="btn btn-outline-info">
                     Regresar
                 </a>
-
-                <h2>Eliminar  Registro</h2>
-                
+            </div>
+            <div class="card-body">
+                <h2 class=" mb-3 fs-4 text-center">Eliminar Registro</h2>
                 <table class="table table-bordered">
                     <thead>
                         <th class="th__texto" style="text-align:center;">Llave</th>                        
@@ -117,21 +115,23 @@
                 </table>
                 <hr>
                 <div class="aler alert-danger" role="alert">
-                    <p>¿Estas seguro de eliminar este registro?</p>
+                    <h3 class="text-danger fs-5 text-center">¿Estas seguro de eliminar este registro?</h3>
                     <p>
                         Una vez eliminado no podras recuperarlo
                     </p>
+                    <div class="d-flex justify-content-end">
+                        <form class="me-2" action="./eliminar_basemadre.php" method="POST">
+                            <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
+                            <button class="btn btn-danger">
+                                Eliminar
+                            </button>
+                        </form>
+                        <a href="../basemadre.php" class="btn btn-secondary">Cancelar</a>
+                    </div>
                 </div>
-                <form action="./eliminar_basemadre.php" method="POST">
-                    <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
-                    <button class="btn btn-danger">
-                        Eliminar
-                    </button>                
-                </form>
             </div>
         </div>
     </div>
-  </div>
 </div>
 
 
