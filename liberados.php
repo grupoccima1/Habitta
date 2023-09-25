@@ -330,7 +330,7 @@ require_once "./clases/Conexion.php";
             <div class="card-body">
               <div class="table-responsive">
 
-                <a href="./modulos/agregar_Liberados.php" class="btn btn-primary">
+                <a href="./Liberados/agregar_Liberados.php" class="btn btn-primary">
                 Agregar registro 
                 </a>
                 <hr>

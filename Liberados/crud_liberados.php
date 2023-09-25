@@ -15,6 +15,7 @@ class crudliberados extends Conexion {
         }
 
       }
+      
       public function obtenerDocumentoLiberados($id) {
         try {
             if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
@@ -74,5 +75,5 @@ class crudliberados extends Conexion {
             return $th->getMessage();
         }
     }  
-      }
+}
 ?>

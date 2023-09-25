@@ -329,7 +329,7 @@ require_once "./clases/Conexion.php";
             <div class="card-body">
               <div class="table-responsive">
 
-                <a href="./modulos/agregar_Flujo.php" class="btn btn-primary">
+                <a href="./Flujo/agregar_Flujo.php" class="btn btn-primary">
                 Agregar registro 
                 </a>
                 <hr>

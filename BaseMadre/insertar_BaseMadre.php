@@ -2,7 +2,7 @@
     include "../clases/Conexion.php";
     include "./../BaseMadre/crud_BaseMadre.php";
 
-    $Crud = new Crud();
+    $Crud = new crudbasemadre();
 
     $datos = array(
         "LLAVE" => $_POST['llave'], 

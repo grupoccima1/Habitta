@@ -330,7 +330,7 @@
             </div>
             <div class="card-body">
               <div class="table-responsive">
-                <a href="./modulos/agregar_BaseMadre.php" class="btn btn-primary">
+                <a href="./BaseMadre/agregar_BaseMadre.php" class="btn btn-primary">
                 Agregar registro 
                 </a>
                 <hr>
