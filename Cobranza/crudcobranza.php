@@ -1,7 +1,7 @@
 <?php
 
 
-require_once "./../clases/Conexion.php";
+
 class crudcobranza extends Conexion {
 
 
@@ -15,7 +15,62 @@ class crudcobranza extends Conexion {
             return $th->getMessage();
         }
     }
+    public function obtenerDocumentoCobranza($id) {
+        try {
+            if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
+                throw new Exception('El ID no tiene el formato correcto');
+            }
+            $conexion = parent::conectar();
+            $coleccion = $conexion->cobranza;
+            $datos = $coleccion->findOne(
+                                    array(
+                                        '_id' => new MongoDB\BSON\ObjectId($id)
+                                    )
+                                );
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }
+    public function eliminarCobranza($id){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->cobranza;
+            $respuesta = $coleccion->deleteOne(
+                                            array(
+                                                "_id" => new MongoDB\BSON\ObjectId($id)
+                                            )   
+                                        );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }
 
-
+    public function mostrarDatoscobranza(){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion->cobranza;
+            $datos = $coleccion->find();
+            return $datos;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }  
+    public function actualizarCobranza($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion ->cobranza;
+            $respuesta = $coleccion -> updateOne(
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
       }
 ?>
