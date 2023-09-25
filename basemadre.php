@@ -2,7 +2,7 @@
 <?php
   require_once "./clases/Conexion.php";
   require_once "./BaseMadre/crud_BaseMadre.php";
-  $crud = new Crud();
+  $crud = new crudbasemadre();
   $datos = $crud->mostrarDatosmadre();
 ?>
 

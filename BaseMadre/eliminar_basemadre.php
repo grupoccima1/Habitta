@@ -1,7 +1,7 @@
 <?php 
     include "../clases/conexion.php";
     include "./../BaseMadre/crud_BaseMadre.php";
-    $crud = new Crud();
+    $crud = new crudbasemadre();
     $id = $_POST['id'];
 
 
