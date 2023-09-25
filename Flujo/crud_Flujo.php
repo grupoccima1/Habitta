@@ -14,6 +14,7 @@ class crudflujo extends Conexion {
             return $th->getMessage();
         }
     }
+    
     public function obtenerDocumentoFlujo($id) {
         try {
             if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
@@ -73,5 +74,5 @@ class crudflujo extends Conexion {
             return $th->getMessage();
         }
     }  
-      }
+}
 ?>
