@@ -256,7 +256,6 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">CLIENTE</th>
                         <th class="th__texto" style="text-align:center;">CORREO</th>
                         <th class="th__texto" style="text-align:center;">TELEFONO</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
 
                       
 
@@ -298,14 +297,6 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->CLIENTE;?> </td>
                           <td class="text-center"> <?php echo $item->CORREO;?> </td>
                           <td class="text-center"> <?php echo $item->TELEFONO;?> </td>
-                          <td class="text-center">
-                            <form action="./modulos/actualizar_Nico.php" method="POST">
-                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
-                              <button class="btn btn-warning">
-                                <i class="fa-solid fa-user-pen"></i>
-                              </button>
-                            </form>
-                          </td>
                          
                          
                           </tr>
@@ -335,7 +326,6 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">CLIENTE</th>
                         <th class="th__texto" style="text-align:center;">CORREO</th>
                         <th class="th__texto" style="text-align:center;">TELEFONO</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
                     </tr>
                   </tfoot>
                 </table>
