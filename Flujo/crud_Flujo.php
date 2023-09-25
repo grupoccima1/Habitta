@@ -1,7 +1,5 @@
 <?php
 
-
-
 class crudflujo extends Conexion {
 
 
@@ -33,7 +31,6 @@ class crudflujo extends Conexion {
             return $th->getMessage();
         }
     }
-<<<<<<< HEAD
 
     public function actualizarFlujo($id, $datos){
         try {
@@ -66,23 +63,6 @@ class crudflujo extends Conexion {
         }
     }
 
-=======
-    public function eliminarFlujo($id){
-        try {
-            $conexion = parent::conectar();
-            $coleccion = $conexion->flujo;
-            $respuesta = $coleccion->deleteOne(
-                                            array(
-                                                "_id" => new MongoDB\BSON\ObjectId($id)
-                                            )   
-                                        );
-            return $respuesta;
-        } catch (\Throwable $th) {
-            return $th->getMessage();
-        }
-    }
-
->>>>>>> 5ccd7b2a901cb555888b0325e6467b8998284a00
     public function mostrarDatosflujo(){
         try {
             $conexion = parent::conectar();
