@@ -1,7 +1,7 @@
 <?php 
     include "../clases/conexion.php";
     include "./../Flujo/crud_Flujo.php";
-    $crudflujo = new Crud();
+    $crudflujo = new crudflujo();
     $id = $_POST['id'];
 
 

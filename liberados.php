@@ -1,8 +1,8 @@
 
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./Liberados/crud_liberados.php";
+  $crud = new crudliberados();
   $datos = $crud->mostrarDatosliberado();
 ?>
 
@@ -445,7 +445,7 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->RESULTADO;?> </td>
                           <td class="text-center"> <?php echo $item->FECHADELIBERACION;?> </td>
                           <td class="text-center">
-                            <form action="./modulos/actualizar_Liberados.php" method="POST">
+                            <form action="./Liberados/modificar_Liberados.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
                                 <i class="fa-solid fa-user-pen"></i>
@@ -453,7 +453,7 @@ require_once "./clases/Conexion.php";
                             </form>
                           </td>
                           <td class="text-center">
-                            <form action="./modulos/eiminar_Liberados.php" method="POST">
+                            <form action="./Liberados/eliminarliberados.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
                                 <i class="fa-solid fa-user-pen"></i>

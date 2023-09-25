@@ -34,6 +34,23 @@ class crudliberados extends Conexion {
             return $th->getMessage();
         }
     }
+
+    public function actualizarLiberados($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> liberado;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+    
     public function eliminarLiberados($id){
         try {
             $conexion = parent::conectar();
