@@ -1,3 +1,5 @@
-vendor/
+#Descartar cambios en la carpeta de vendor
+vendor/*
 
+#Descartar cambios el archivo
 composer.lock
