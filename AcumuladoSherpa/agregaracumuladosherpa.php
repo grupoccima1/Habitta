@@ -3,7 +3,7 @@
   <div class="card mt-4">
     <div class="card-body">
       <h2 class="mb-3 fs-4 text-center"> Agregar nuevo registro </h2>
-      <form action="../procesos/insertaracumuladosherpa.php" method="post">
+      <form action="../AcumuladoSherpa/insertaracumuladosherpa.php" method="post">
         <div class="row mt-4">
           <div class="col-4 mb-2">
             <label for="LLAVE">LLAVE</label>

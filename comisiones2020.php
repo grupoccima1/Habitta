@@ -1,7 +1,7 @@
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./Comision2020/crud_Comisiones2020.php";
+  $crud = new crudcomisiones2020();
   $datos = $crud->mostrarDatoscomisiones2020();
 ?>
 
@@ -328,7 +328,7 @@ require_once "./clases/Conexion.php";
             <div class="card-body">
               <div class="table-responsive">
 
-              <a href="./modulos/agregar_Comisiones2020.php" class="btn btn-primary">
+              <a href="./Comision2020/agregar_Comisiones2020.php" class="btn btn-primary">
                 Agregar Registro
               </a>
               <hr>
@@ -426,7 +426,7 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->TOTAL_DELA_VENTA),2);?> </td>
                           <td class="text-center"> <?php echo $item->X_TIPO_DE_REGIMEN;?> </td>
                           <td class="text-center">
-                            <form action="./modulos/actualizar_Comisiones2020.php" method="POST">
+                            <form action="./Comision2020/modificar_Comisiones2020.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
                                 <i class="fa-solid fa-user-pen"></i>
@@ -434,7 +434,7 @@ require_once "./clases/Conexion.php";
                             </form>
                           </td>
                           <td class="text-center">
-                            <form action="./modulos/eiminar_Comisiones2020.php" method="POST">
+                            <form action="./Comision2020/eliminarcomisiones2020.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
                                 <i class="fa-solid fa-user-pen"></i>

@@ -1,7 +1,7 @@
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./clientesmorosos/crudclientesmorosos.php";
+  $crud = new crudclientesmorosos();
   $datos = $crud->mostrarDatoClientesMorosos();
 ?>
 
@@ -328,6 +328,10 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
+                <a href="./clientesmorosos/agregarclientesmorosos.php" class="btn btn-primary">
+                  Agregar Registro
+                </a>
+                <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td">
                     <tr>

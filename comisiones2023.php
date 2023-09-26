@@ -1,7 +1,7 @@
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./Comision2023/crudcomision2023.php";
+  $crud = new crudcomision2023();
   $datos = $crud->mostrarDatoscomisiones2023();
 ?>
 
@@ -327,6 +327,10 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
+              <a href="./Comision2023/agregarcomision2023.php" class="btn btn-primary">
+                  Agregar Registro
+                </a>
+                <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td">
                     <tr>
@@ -416,7 +420,7 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->ESTATUS;?> </td>
                           <td class="text-center"> <?php echo $item->LOTE_ANTERIOR;?> </td>
                           <td class="text-center">
-                            <form action="./modulos/actualizar_Comisiones2023.php" method="POST">
+                            <form action="./Comision2023/modificar_Comisiones2023.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
                                 <i class="fa-solid fa-user-pen"></i>
@@ -424,7 +428,7 @@ require_once "./clases/Conexion.php";
                             </form>
                           </td>
                           <td class="text-center">
-                            <form action="./modulos/eliminar_Comisiones2023.php" method="POST">
+                            <form action="./Comision2023/eliminarcomision2023.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
                                 <i class="fa-solid fa-user-pen"></i>

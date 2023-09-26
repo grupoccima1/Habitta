@@ -33,6 +33,23 @@ class crudbasemadrehabitta extends Conexion {
             return $th->getMessage();
         }
     }
+
+    public function actualizarMadreHabitta($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> basemadrehabitta;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+    
     public function eliminarBaseMadreHabitta($id){
         try {
             $conexion = parent::conectar();

@@ -22,7 +22,7 @@
         "SUBTOTAL" => $_POST['SUBTOTAL'],
         "IVA" => $_POST['IVA'],
         "RETENCIONES_DE_IVA" => $_POST['RETENCIONES_DE_IVA'],
-        "RETENCIONES_DE_ISR" => $_POST['RETENCIONES_DE_ISR'],
+        "RETENCIONES_ISR" => $_POST['RETENCIONES_DE_ISR'],
         "TOTAL" => $_POST['TOTAL'],
         "PAGO" => $_POST['PAGO'],
         "PAGADO" => $_POST['PAGADO'],
@@ -40,3 +40,9 @@
     );
 
    $respuesta = $crudcomisiones2021->insertarDatos($datos);
+
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../Comisiones2021.php");
+   }else {
+    print_r($respuesta);
+   }

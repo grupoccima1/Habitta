@@ -33,6 +33,23 @@ class crudcomisiones2021 extends Conexion {
             return $th->getMessage();
         }
     }
+
+    public function actualizarComisiones2021($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> comision2021;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+    
     public function eliminarComisiones2021($id){
         try {
             $conexion = parent::conectar();

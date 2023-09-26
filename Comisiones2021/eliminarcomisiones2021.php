@@ -100,7 +100,7 @@
                         Una vez eliminado no podras recuperarlo
                     </p>
                     <div class="d-flex justify-content-end">
-                        <form class="me-2"  action="./eliminar_comision2021.php" method="POST">
+                        <form class="me-2"  action="./eliminar_comisiones2021.php" method="POST">
                             <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
                             <button class="btn btn-danger">
                                 Eliminar

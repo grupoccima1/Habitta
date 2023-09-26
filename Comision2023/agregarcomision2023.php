@@ -86,6 +86,10 @@
             <input type="text" class="form-control" id="PAGO" name="PAGO">
           </div>
           <div class="col-4 mb-2">
+            <label for="NOTAS">NOTAS</label>
+            <input type="text" class="form-control" id="NOTAS" name="NOTAS">
+          </div>
+          <div class="col-4 mb-2">
             <label for="PAGADO">PAGADO</label>
             <input type="text" class="form-control" id="PAGADO" name="PAGADO">
           </div>

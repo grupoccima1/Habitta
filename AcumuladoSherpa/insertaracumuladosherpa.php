@@ -23,7 +23,7 @@
         "SUBTOTAL" => $_POST['SUBTOTAL'],
         "IVA" => $_POST['IVA'],
         "RETENCIONES_DE_IVA" => $_POST['RETENCIONES_DE_IVA'],
-        "RETENCIONES_DE_ISR" => $_POST['RETENCIONES_DE_ISR'],
+        "RETENCIONES_ISR" => $_POST['RETENCIONES_DE_ISR'],
         "TOTAL" => $_POST['TOTAL'],
         "PAGO" => $_POST['PAGO'],
         "NOTAS" => $_POST['NOTAS'],
@@ -43,7 +43,10 @@
 
    $respuesta = $crudacumuladosherpa->insertarDatos($datos);
 
-  
-    
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../acumuladosherpa.php");
+   }else {
+    print_r($respuesta);
+   }
 
 ?>

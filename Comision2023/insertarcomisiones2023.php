@@ -22,9 +22,10 @@
         "SUBTOTAL" => $_POST['SUBTOTAL'],
         "IVA" => $_POST['IVA'],
         "RETENCIONES_DE_IVA" => $_POST['RETENCIONES_DE_IVA'],
-        "RETENCIONES_DE_ISR" => $_POST['RETENCIONES_DE_ISR'],
+        "RETENCIONES_ISR" => $_POST['RETENCIONES_DE_ISR'],
         "TOTAL" => $_POST['TOTAL'],
         "PAGO" => $_POST['PAGO'],
+        "NOTAS" => $_POST['NOTAS'],
         "PAGADO" => $_POST['PAGADO'],
         "METODO_DE_PAGO" => $_POST['METODO_DE_PAGO'],
         "FECHA_PAGADA" => $_POST['FECHA_PAGADA'],
@@ -40,3 +41,9 @@
     );
 
    $respuesta = $crudcomision2023->insertarDatos($datos);
+
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../Comisiones2023.php");
+   }else {
+    print_r($respuesta);
+   }

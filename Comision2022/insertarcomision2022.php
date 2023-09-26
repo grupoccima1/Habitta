@@ -44,3 +44,9 @@
     );
 
    $respuesta = $crudcomision2022->insertarDatos($datos);
+
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../Comisiones2022.php");
+   }else {
+    print_r($respuesta);
+   }

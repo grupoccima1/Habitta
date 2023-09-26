@@ -1,8 +1,8 @@
 
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./Tabulador/crud_Tabulador.php";
+  $crud = new crudtabulador();
   $datos = $crud->mostrarDatostabulador();
 ?>
 
@@ -328,7 +328,7 @@ require_once "./clases/Conexion.php";
             <div class="card-body">
               <div class="table-responsive">
 
-                <a href="./modulos/agregar_Tabulador.php" class="btn btn-primary">
+                <a href="./Tabulador/agregar_Tabulador.php" class="btn btn-primary">
                 Agregar registro 
                 </a>
                 <hr>
@@ -405,7 +405,7 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->MONTO_INT_MOR),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->SUMA_DEUDA),2);?> </td>
                           <td class="text-center">
-                            <form action="./modulos/actualizar_Tabulador.php" method="POST">
+                            <form action="./Tabulador/actualizartabulador.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
                                 <i class="fa-solid fa-user-pen"></i>
@@ -413,7 +413,7 @@ require_once "./clases/Conexion.php";
                             </form>
                           </td>
                           <td class="text-center">
-                            <form action="./modulos/eiminar_Tabulador.php" method="POST">
+                            <form action="./Tabulador/eliminartabulador.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
                                 <i class="fa-solid fa-user-pen"></i>

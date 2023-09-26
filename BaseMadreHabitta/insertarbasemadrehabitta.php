@@ -21,11 +21,11 @@
         "FIRMA_CONTRATO" => $_POST['FIRMA_CONTRATO'],
         "FIN_CORRIDA" => $_POST['FIN_CORRIDA'],
         "TOTAL_MENSUALIDADES" => $_POST['TOTAL_MENSUALIDADES'],
-        "No_1ER_MENS" => $_POST['No_1ER_MENS'],
+        "NO_1ER_MENS" => $_POST['No_1ER_MENS'],
         "PRIMERA_MENSUALIDAD" => $_POST['PRIMERA_MENSUALIDAD'],
-        "No_2DA_MENS" => $_POST['No_2DA_MENS'],
+        "NO_2DA_MENS" => $_POST['No_2DA_MENS'],
         "SEGUNDA_MENSUALIDAD" => $_POST['SEGUNDA_MENSUALIDAD'],
-        "No_3ER_MENS" => $_POST['No_3ER_MENS'],
+        "NO_3ER_MENS" => $_POST['No_3ER_MENS'],
         "TERCER_MENSUALIDAD" => $_POST['TERCER_MENSUALIDAD'],
         "TIPO_DE_INTERES" => $_POST['TIPO_DE_INTERES'],
         "MENS_ENTREGA" => $_POST['MENS_ENTREGA'],
@@ -51,3 +51,9 @@
     );
 
    $respuesta = $crudbasemadrehabitta->insertarDatos($datos);
+
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../basemadrehabitta.php");
+   }else {
+    print_r($respuesta);
+   }

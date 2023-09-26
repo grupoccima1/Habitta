@@ -1,7 +1,7 @@
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./Comisiones2021/crudcomisiones2021.php";
+  $crud = new crudcomisiones2021();
   $datos = $crud->mostrarDatoscomisiones2021();
 ?>
 
@@ -327,7 +327,7 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
-                <a href="./modulos/agregar_Comisiones2021.php" class="btn btn-primary">
+                <a href="./Comisiones2021/agregarcomisiones2021.php" class="btn btn-primary">
                   Agregar Registro
                 </a>
                 <hr>
@@ -442,7 +442,7 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->ESTATUS;?> </td>
                           <td class="text-center"> <?php echo $item->LOTE_ANTERIOR;?> </td>
                           <td class="text-center">
-                            <form action="./modulos/actualizar_Comisiones2021.php" method="POST">
+                            <form action="./Comisiones2021/modificar_Comisiones2021.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
                                 <i class="fa-solid fa-user-pen"></i>
@@ -450,7 +450,7 @@ require_once "./clases/Conexion.php";
                             </form>
                           </td>
                           <td class="text-center">
-                            <form action="./modulos/eliminar_Comisiones2021.php" method="POST">
+                            <form action="./Comisiones2021/eliminarcomisiones2021.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
                                 <i class="fa-solid fa-user-pen"></i>

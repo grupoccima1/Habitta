@@ -1,7 +1,7 @@
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./BaseMadreHabitta/crudbasemadrehabitta.php";
+  $crud = new crudbasemadrehabitta();
   $datos = $crud->mostrarDatoBaseMadreHabitta();
 ?>
 
@@ -320,7 +320,7 @@ require_once "./clases/Conexion.php";
             <div class="card-header">
               <div class="row">
                 <div class="col">
-                  <span><img src="images/home.svg" width="25px"></i></span> Home/Base Madre Habiita
+                  <span><img src="images/home.svg" width="25px"></span> Home/Base Madre Habiita
                 </div>
 
               </div>
@@ -328,11 +328,15 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
+              <a href="./BaseMadreHabitta/agregarbasemadrehabitta.php" class="btn btn-primary">
+                Agregar registro 
+                </a>
+                <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td">
                     <tr>
 
-                    <th class="th__texto" style="text-align:center;">Llave</th>                        
+                        <th class="th__texto" style="text-align:center;">Llave</th>                        
                         <th class="th__texto" style="text-align:center;">LOTE</th>
                         <th class="th__texto" style="text-align:center;">CLIENTE</th>
                         <th class="th__texto" style="text-align:center;">RFC</th>
@@ -374,6 +378,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">APARTADO_TELEGRAM</th>
                         <th class="th__texto" style="text-align:center;">PRIMER_MENSUALIDAD</th>
                         <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
                       
 
 
@@ -441,10 +446,18 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->APARTADO_TELEGRAM;?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->PRIMER_MENSUALIDAD),2);?> </td>
                           <td class="text-center">
-                            <form action="./modulos/actualizar_BaseMHabitta.php" method="POST">
+                            <form action="./BaseMadreHabitta/modificar_BaseMHabitta.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
                                 <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./BaseMadreHabitta/eliminarbasemadrehabitta.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-danger">
+                                <i class="fa-solid fa-user-pen"><i>
                               </button>
                             </form>
                           </td>
@@ -457,7 +470,7 @@ require_once "./clases/Conexion.php";
                     <tr>
 
 
-                    <<th class="th__texto" style="text-align:center;">Llave</th>                        
+                        <th class="th__texto" style="text-align:center;">Llave</th>                        
                         <th class="th__texto" style="text-align:center;">LOTE</th>
                         <th class="th__texto" style="text-align:center;">CLIENTE</th>
                         <th class="th__texto" style="text-align:center;">RFC</th>
@@ -499,6 +512,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">APARTADO_TELEGRAM</th>
                         <th class="th__texto" style="text-align:center;">PRIMER_MENSUALIDAD</th>
                         <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
                       
 
 

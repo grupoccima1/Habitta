@@ -38,11 +38,11 @@
 
    $respuesta = $crudclientesmorosos->insertarDatos($datos);
 
-    //if ($respuesta->getInsertedId() > 0) {
-      //  header("location:../insertaracumuladosherpa.php");
-   // } else {
-     //   print_r($respuesta);
-   //}
+    if ($respuesta->getInsertedId() > 0) {
+       header("location:../clientesMorosos.php");
+   } else {
+       print_r($respuesta);
+   }
     
 
 ?>

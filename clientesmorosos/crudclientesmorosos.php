@@ -33,6 +33,23 @@ class crudclientesmorosos extends Conexion {
             return $th->getMessage();
         }
     }
+
+    public function actualizarClientesMorosos($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> clientesmorosos;
+            $respuesta = $coleccion -> updateOne(
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+    
     public function eliminarClientesMorosos($id){
         try {
             $conexion = parent::conectar();
