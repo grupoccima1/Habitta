@@ -20,7 +20,6 @@
                 <h2 class="mb-3 fs-3 text-center">Eliminar Registro</h2>
                 <table class="table table-bordered">
                     <thead>
-                        <th class="th__texto text-center">Llave</th>
                         <th class="th__texto text-center">NOMBRE_DE_CLIENTE</th>
                         <th class="th__texto text-center">DEPOSITO_DE_CLIENTE</th>
                         <th class="th__texto text-center">COMISION</th>
