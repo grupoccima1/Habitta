@@ -1,8 +1,8 @@
 <?php
     include "../header.php";
     include "../clases/Conexion.php";
-    include "../clases/crud.php";
-    $crud = new crud();
+    include "../CorteMR/crudcortemr.php";
+    $crud = new crudcortemr();
     $id = $_POST ['id'];
     $datos = $crud -> obtenerDocumentoCorteMR($id);
     $idMongo = $datos -> _id;
@@ -19,7 +19,7 @@
             </div>
             <div class="card-body">
                     <h2 class="mb-3 fs-4 text-center">Actualizar Registro</h2>
-                    <form action="../procesos/actualizar_CorteMR.php" method="POST">
+                    <form action="../CorteMR/actualizar_CorteMR.php" method="POST">
                         <div class="row">
                             <input type="text" name="id" id="id" hidden value="<?php echo $idMongo ?>">
                             <div class="col-4 mb-2">

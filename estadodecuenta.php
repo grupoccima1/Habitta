@@ -1,7 +1,7 @@
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./EstadoDeCuenta/crudestadodecuenta.php";
+  $crud = new crudestadodecuenta();
   $datos = $crud->mostrarEstadoDeCuentaDesarrollo();
 ?>
 
@@ -328,6 +328,10 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
+                <a href="./EstadoDeCuenta/agregarestadodecuenta.php" class="btn btn-primary">
+                  Agregar Registro
+                </a>
+                <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td">
                     <tr>
@@ -340,7 +344,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">VEREDAS_DE_LIRA</th>
                         <th class="th__texto" style="text-align:center;">PORTTO_BLANCO_SLP</th>
                         <th class="th__texto" style="text-align:center;">GENERAL</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>                      
+                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>                         
 
 
                     </tr>
@@ -369,9 +374,17 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo number_format(floatval($item->PORTTO_BLANCO_SLP),2); ?> </td>
                           <td class="text-center"> <?php echo number_format(floatval($item->GENERAL),2);?> </td>
                           <td class="text-center">
-                            <form action="./modulos/actualizar_EdosCuenta.php" method="POST">
+                            <form action="./EstadoDeCuenta/modificar_EdosCuenta.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./EstadoDeCuenta/eliminarestadodecuenta.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-danger">
                                 <i class="fa-solid fa-user-pen"></i>
                               </button>
                             </form>
@@ -391,6 +404,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">PORTTO_BLANCO_SLP</th>
                         <th class="th__texto" style="text-align:center;">GENERAL</th>
                         <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>   
                     </tr>
                   </tfoot>
                 </table>

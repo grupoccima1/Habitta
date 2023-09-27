@@ -1,7 +1,7 @@
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./DevolucionesClientes/cruddevolucionesclientes.php";
+  $crud = new cruddevolucionesclientes();
   $datos = $crud->mostrarDatosDevolucionesClientes();
 ?>
 
@@ -231,6 +231,10 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
+                <a href="./DevolucionesClientes/agregardevolucionesclientes.php" class="btn btn-primary">
+                  Agregar Registro
+                </a>
+                <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td bg-blue__400 text-white">
                     <tr>
@@ -246,6 +250,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">MONTO_DE_LA_OPERACIÓN</th>
                         <th class="th__texto" style="text-align:center;">DESARROLLO</th>
                         <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
                       
 
 
@@ -279,9 +284,17 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->MONTO_DE_LA_OPERACIÓN),2);?></td>
                           <td class="text-center"> <?php echo $item->DESARROLLO;?> </td>
                           <td class="text-center">
-                            <form action="./modulos/actualizar_DevolucionesClientes.php" method="POST">
+                            <form action="./DevolucionesClientes/modificar_DevolucionesClientes.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./DevolucionesClientes/eliminardevolucionesclientes.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-danger">
                                 <i class="fa-solid fa-user-pen"></i>
                               </button>
                             </form>
@@ -305,6 +318,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">MONTO_DE_LA_OPERACIÓN</th>
                         <th class="th__texto" style="text-align:center;">DESARROLLO</th>
                         <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
                          
                        
                     </tr>

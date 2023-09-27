@@ -1,8 +1,8 @@
 <?php 
     include "../header.php";
     include "../clases/Conexion.php";
-    include "../clases/crud.php";
-    $crud = new Crud();
+    include "../AcumuladoDeComisiones/crudacumuladocomisiones.php";
+    $crud = new crudacumuladocomisiones();
     $id = $_POST['id'];
     $datos = $crud -> obtenerDocumentoAcumuladoComisiones($id);
     $idMongo = $datos -> _id;
@@ -17,7 +17,7 @@
             </div>
             <div class="card-body">
                 <h2 class="mb-3 fs-4 text-center">Actualizar Registro</h2>
-                <form action="../procesos/actualizar_AcumuladoComisiones.php" method="POST">
+                <form action="../AcumuladoDeComisiones/actualizar_AcumuladoComisiones.php" method="POST">
                     <div class="row">
                         <input type="text" name="id" id="id" hidden value="<?php echo $idMongo ?>">
                         <div class="col-4 mb-2">

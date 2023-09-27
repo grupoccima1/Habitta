@@ -1,8 +1,8 @@
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
-  $datos = $crud->mostrarCierreMensualHabitta();
+  require_once "./CierreMensual/crudcierremensual.php";
+  $crud = new crudcierremensual();
+  $datos = $crud->mostrarDatosCierreMensualHabitta();
 ?>
 
 <!DOCTYPE html>
@@ -231,6 +231,10 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
+                <a href="./CierreMensual/agregarcierremensual.php" class="btn btn-primary">
+                  Agregar Registro
+                </a>
+                <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td bg-blue__500 text-white">
                     <tr>
@@ -269,6 +273,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">AÑO</th>
                         <th class="th__texto" style="text-align:center;">MONTO_PROYECTADO</th>
                         <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMIAR</th>
                         
 
 
@@ -329,9 +334,17 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->AÑO;?> </td>
                           <td class="text-center"> <?php echo $item->MONTO_PROYECTADO;?> </td>
                           <td class="text-center">
-                            <form action="./modulos/actualizar_CierreMensual.php" method="POST">
+                            <form action="./CierreMensual/modificar_CierreMensual.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./CierreMensual/eliminarcierremensual.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-danger">
                                 <i class="fa-solid fa-user-pen"></i>
                               </button>
                             </form>
@@ -377,6 +390,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">AÑO</th>
                         <th class="th__texto" style="text-align:center;">MONTO_PROYECTADO</th>
                         <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMIAR</th>
                         
 
 

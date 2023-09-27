@@ -78,12 +78,12 @@
                                 <td class="text-center"> <?php echo $datos->NEGOCIADO?> </td>
                                 <td class="text-center"> <?php echo $datos->DEPARTAMENTO;?> </td>
                                 <td class="text-center"> <?php echo $datos->AÑO;?> </td>
-                                <td class="text-center"> <?php echo $datos->empty_AE;?> </td>
+                                <!-- <td class="text-center"> <?php echo $datos->empty_AE;?> </td>
                                 <td class="text-center"> <?php echo $datos->empty_AF;?> </td>
                                 <td class="text-center"> <?php echo $datos->empty_AG;?> </td>
                                 <td class="text-center"> <?php echo $datos->empty_AH;?> </td>
                                 <td class="text-center"> <?php echo $datos->empty_AI;?> </td>
-                                <td class="text-center"> <?php echo $datos->empty_AJ;?> </td>
+                                <td class="text-center"> <?php echo $datos->empty_AJ;?> </td> -->
                             </tr>
                         </tbody>
                     </table>

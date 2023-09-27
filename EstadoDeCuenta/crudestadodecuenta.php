@@ -32,6 +32,23 @@ class crudestadodecuenta extends Conexion {
             return $th->getMessage();
         }
     }
+
+    public function actualizarEdosCuenta($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> estadodecuenta;
+            $respuesta = $coleccion -> updateOne(
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+    
     public function eliminarEstadoDeCuenta($id){
         try {
             $conexion = parent::conectar();

@@ -34,6 +34,23 @@ class crudacumuladodecomisiones extends Conexion {
             return $th->getMessage();
         }
     }
+
+    public function actualizarAcumuladoComisiones ($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> AcumuladoComisiones;
+            $respuesta = $coleccion -> updateOne(
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+    
     public function eliminarAcumuladoComisiones($id){
         try {
             $conexion = parent::conectar();

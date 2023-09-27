@@ -41,3 +41,10 @@
     );
 
    $respuesta = $crudacumuladodecomisiones->insertarDatos($datos);
+
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../acumuladoComisiones.php");
+   }else {
+    print_r($respuesta);
+   }
+   ?>

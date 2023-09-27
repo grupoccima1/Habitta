@@ -84,7 +84,6 @@
                             <th class="th__texto text-center">octubre_2023</th>
                             <th class="th__texto text-center">noviembre_2023</th>
                             <th class="th__texto text-center">diciembre_2023</th>
-                            <th class="th__texto text-center">diciembre_2023</th>
 
 
                         </thead>

@@ -1,7 +1,7 @@
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./CorteMR/crudcortemr.php";
+  $crud = new crudcortemr();
   $datos = $crud->mostrarCorteMR();
 ?>
 
@@ -231,6 +231,10 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
+                <a href="./CorteMR/agregarcortemr.php" class="btn btn-primary">
+                  Agregar Registro
+                </a>
+                <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td bg-blue__500 text-white">
                     <tr>
@@ -299,7 +303,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">octubre_2023</th>
                         <th class="th__texto" style="text-align:center;">noviembre_2023</th>
                         <th class="th__texto" style="text-align:center;">diciembre_2023</th>
-                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">MOFICIAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
 
                       
                     
@@ -389,9 +394,17 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->noviembre_2023;?> </td>
                           <td class="text-center"> <?php echo $item->diciembre_2023;?> </td>
                           <td class="text-center">
-                            <form action="./modulos/actualizar_CorteMR.php" method="POST">
+                            <form action="./CorteMR/modificar_CorteMR.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./CorteMR/eliminarcortemr.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-danger">
                                 <i class="fa-solid fa-user-pen"></i>
                               </button>
                             </form>
@@ -471,7 +484,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">octubre_2023</th>
                         <th class="th__texto" style="text-align:center;">noviembre_2023</th>
                         <th class="th__texto" style="text-align:center;">diciembre_2023</th>
-                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
 
                        
                     </tr>

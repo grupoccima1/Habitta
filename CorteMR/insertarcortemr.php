@@ -66,13 +66,18 @@
         "agosto_2023" => $_POST['agosto_2023'],
         "septiembre_2023" => $_POST['septiembre_2023'],
         "octubre_2023" => $_POST['octubre_2023'],
+        "noviembre_2023" => $_POST['noviembre_2023'],
         "diciembre_2023" => $_POST['diciembre_2023'],
         
     );
 
    $respuesta = $crudcortemr->insertarDatos($datos);
 
-  
+  if ($respuesta->getInsertedId() > 0) {
+    header("location:../CorteMoraRango.php");
+  }else {
+    print_r($respuesta);
+  }
     
 
 ?>

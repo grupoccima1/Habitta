@@ -13,12 +13,15 @@
         "MONTO" => $_POST['MONTO'],
         "BANCO" => $_POST['BANCO'],
         "MOTIVO" => $_POST['MOTIVO'],
-        "MONTO_DE_LA_OPERACION" => $_POST['MONTO_DE_LA_OPERACION'],
-        "DESARROLLO" => $_POST['DESARROLLO'], 
-        
-       
-        
+        "MONTO_DE_LA_OPERACIÓN" => $_POST['MONTO_DE_LA_OPERACION'],
+        "DESARROLLO" => $_POST['DESARROLLO']
     );
 
    $respuesta = $cruddevolucionesclientes->insertarDatos($datos);
+
+   if ($respuesta->getInsertedId() > 0 ) {
+    header("location:../Devoluciones_clientes.php");
+   }else {
+    print_r($respuesta);
+   }
 ?> 

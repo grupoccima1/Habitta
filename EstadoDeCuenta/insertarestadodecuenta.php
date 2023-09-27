@@ -20,4 +20,10 @@
 
    $respuesta = $crudestadodecuenta->insertarDatos($datos);
 
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../estadodecuenta.php");
+   }else {
+    print_r($respuesta);
+   }
+
    ?>

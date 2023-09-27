@@ -49,18 +49,18 @@
                             <tr>
                                 <td class="text-center"> <?php echo $datos->OBSERVACION; ?> </td>
                                 <td class="text-center"> <?php echo $datos->LLAVE;?> </td>
-                                <td class="text-center"> <?php echo $datos->RAZONSOCIAL;?> </td>
+                                <td class="text-center"> <?php echo $datos->RAZON_SOCIAL;?> </td>
                                 <td class="text-center"> <?php echo $datos->FECHA;?> </td>
                                 <td class="text-center"> <?php echo $datos->BENEFICIARIO;?> </td>
                                 <td class="text-center"> <?php echo $datos->RFC; ?> </td>
-                                <td class="text-center"> <?php echo $datos->USOCFDI;?> </td>
+                                <td class="text-center"> <?php echo $datos->USO_CFDI;?> </td>
                                 <td class="text-center"> <?php echo $datos->ABONO;?> </td>
                                 <td class="text-center"> <?php echo $datos->CARGO;?></td>
                                 <td class="text-center"> <?php echo $datos->FACTURA;?> </td>
                                 <td class="text-center"> <?php echo $datos->REAL;?> </td>
                                 <td class="text-center"> <?php echo $datos->MOTIVO;?> </td>
                                 <td class="text-center"> <?php echo $datos->CATEGORIA;?> </td>
-                                <td class="text-center"> <?php echo $datos->METODODEPAGO;?> </td>
+                                <td class="text-center"> <?php echo $datos->METODO_DE_PAGO;?> </td>
                                 <td class="text-center"> <?php echo $datos->SUBCATEGORIA;?> </td>
                                 <td class="text-center"> <?php echo $datos->FLUJO;?> </td>
                                 <td class="text-center"> <?php echo $datos->ORIGEN;?> </td>

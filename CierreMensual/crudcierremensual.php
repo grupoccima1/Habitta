@@ -31,6 +31,23 @@ class crudcierremensual extends Conexion {
             return $th->getMessage();
         }
     }
+
+    public function actualizarCierreMensual($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> cierreMensual;
+            $respuesta = $coleccion -> updateOne(
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+    
     public function eliminarCierreMensual($id){
         try {
             $conexion = parent::conectar();

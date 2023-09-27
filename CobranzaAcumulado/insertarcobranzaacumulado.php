@@ -335,7 +335,20 @@
         "septiembre_2045" => $_POST['septiembre_2045'],
         "octubre_2045" => $_POST['octubre_2045'],
         "noviembre_2045" => $_POST['noviembre_2045'],
-        "diciembre_2045" => $_POST['diciembre_2045'],
+        "diciembre_2045" => $_POST['diciembre_2045']
+    );
+
+
+        $respuesta = $crudcobranzaacumulado->insertarDatos($datos);
+
+        if ($respuesta->getInsertedId() > 0) {
+            header("location:../Cobranza_Acumulado.php");
+        }else {
+            print_r($respuesta);
+        }
+
+
+        ?>
     
     
     

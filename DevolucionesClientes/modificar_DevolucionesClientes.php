@@ -1,8 +1,8 @@
 <?php
     include "../header.php";
     include "../clases/Conexion.php";
-    include "../clases/crud.php";
-    $crud = new crud();
+    include "../DevolucionesClientes/cruddevolucionesclientes.php";
+    $crud = new cruddevolucionesclientes();
     $id = $_POST ['id'];
     $datos = $crud -> obtenerDocumentoDevolucionesClientes($id);
     $idMongo = $datos -> _id;
@@ -16,7 +16,7 @@
                         Regresar
                     </a>
                     <h2 class="mb-3 fs-4 text-center">Actualizar Registro</h2>
-                    <form action="../procesos/actualizar_DevolucionesClientes.php" method="POST">
+                    <form action="../DevolucionesClientes/actualizar_DevolucionesClientes.php" method="POST">
                         <input type="text" name="id" id="id" hidden value="<?php echo $idMongo ?>">
                         <div class="row">
                             <div class="col-4 mb-2">

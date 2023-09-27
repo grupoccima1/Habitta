@@ -41,4 +41,10 @@
     );
 
    $respuesta = $crudcierremensual->insertarDatos($datos);
+
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../cierreMensualHabitta.php");
+   }else {
+    print_r($respuesta);
+   }
    ?>
