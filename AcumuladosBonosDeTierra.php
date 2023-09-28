@@ -1,7 +1,7 @@
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./AcumuladoTierra/crudacumuladotierra.php";
+  $crud = new crudacumuladotierra();
   $datos = $crud->mostrarDatosAcumuladoDeTierra();
 ?>
 
@@ -230,6 +230,10 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
+                <a href="./AcumuladoTierra/agregaracumuladotierra.php" class="btn btn-primary">
+                  Agregar Registro
+                </a>
+                <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td bg-blue__400 text-white">
                     <tr>
@@ -268,6 +272,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">ESTATUS</th>
                         <th class="th__texto" style="text-align:center;">LOTE_ANTERIOR</th>
                         <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
 
 
                     </tr>
@@ -323,9 +328,17 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->ESTATUS;?> </td>
                           <td class="text-center"> <?php echo $item->LOTE_ANTERIOR;?> </td>
                           <td class="text-center">
-                            <form action="./modulos/actualizar_AcumuladoBonosTierra.php" method="POST">
+                            <form action="./AcumuladoTierra/modificar_AcumuladoBonosTierra.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./AcumuladoTierra/eliminaracumuladotierra.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-danger">
                                 <i class="fa-solid fa-user-pen"></i>
                               </button>
                             </form>
@@ -376,6 +389,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">ESTATUS</th>
                         <th class="th__texto" style="text-align:center;">LOTE_ANTERIOR</th>
                         <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
                        
                     </tr>
                   </tfoot>

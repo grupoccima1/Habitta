@@ -1,10 +1,10 @@
 <?php 
     include "../header.php";
     include "../clases/Conexion.php";
-    include "../clases/crud.php";
-    $crud = new crud();
+    include "../TableroDeResultados/crudtableroderesultados.php";
+    $crud = new crudtableroderesultados();
     $id = $_POST['id'];
-    $datos = $crud -> obtenerDocumentoTableroResultados($id);
+    $datos = $crud -> obtenerDocumentoTableroDeResultados($id);
     $idMongo = $datos -> _id;
 ?>
 
@@ -12,19 +12,11 @@
     <div class="row">
         <div class="card mt-4">
             <div class="card-header">
-                <a href="../TableroDeResultados.php">Regresar</a>
-            </div>
-            <div class="card-body">
-<<<<<<< HEAD
-                <div class="col">
+                <div class="card-body">
+                    <div class="col">
                     <a href="../TableroDeResultados.php">Regresar</a>
                     <h2>Actualizar Registro</h2>
-                    <form action="./../procesos/actualizar_TableroResultados.php" method="POST">
-=======
-                <h2 class="mb-3 fs-4 text-center">Actualizar Registro</h2>
-                <form action="../procesos/actualizar_TableroResultados.php">
-                    <div class="row">
->>>>>>> 5ccd7b2a901cb555888b0325e6467b8998284a00
+                    <form action="./../TableroDeResultados/actualizar_TableroResultados.php" method="POST">
                         <input type="text" name="id" id="id" hidden value="<?php echo $idMongo ?>">
                         <div class="col-4 mb-2">
                             <label for="giro">Giro</label>

@@ -1,9 +1,9 @@
 <?php 
     include "../header.php";
     include "../clases/Conexion.php";
-    include "../clases/crud.php";
+    include "../AcumuladoTierra/crudacumuladotierra.php";
 
-    $crud = new Crud();
+    $crud = new crudacumuladotierra();
     $id = $_POST['id'];
     $datos = $crud->obtenerDocumentoAcumuladoTierra($id);
     $idMongo = $datos->_id;
@@ -17,7 +17,7 @@
                         Regresar
                     </a>
                     <h2>Actualizar Registro</h2>
-                    <form action="../procesos/actualizar_AcumuladoBonosTierra.php" method="POST">
+                    <form action="../AcumuladoTierra/actualizar_AcumuladoBonosTierra.php" method="POST">
                         <input type="text" name="id" id="id" hidden value="<?php echo $idMongo ?>">
                         <label for="llave">Llave</label>
                         <input type="text" name="llave" id="llave" class="form-control"

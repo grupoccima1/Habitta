@@ -1,9 +1,9 @@
 <?php 
     include "../header.php";
     include "../clases/Conexion.php";
-    include "../clases/crud.php"; 
+    include "../BonosReferidos/crudbonosreferidos.php"; 
 
-    $crud = new Crud();
+    $crud = new crudbonosreferidos();
     $id = $_POST['id'];
     $datos = $crud->obtenerDocumentoBonosReferidos($id);
     $idMongo = $datos->_id;
@@ -21,7 +21,7 @@
 
                 <h2>Actualizar Registro</h2>
 
-                <form action="../procesos/actualizar_BonosReferidos.php" method="POST">
+                <form action="../BonosReferidos/actualizar_BonosReferidos.php" method="POST">
                     <input type="text" name="id" id="id" hidden value="<?php echo $idMongo ?>">
                     <label for="numero">Número </label>
                     <input type="text" name="numero" id="numero" class="form-control"  value="<?php echo $datos->NÚMERO ?>">

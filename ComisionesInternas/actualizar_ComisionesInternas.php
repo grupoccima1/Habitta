@@ -1,8 +1,8 @@
 <?php
     include "../clases/Conexion.php";
-    include "../clases/crud.php";
+    include "../ComisionesInternas/crudcomisionesinternas.php";
 
-    $Crud = new Crud();
+    $Crud = new crudcomisionesinternas();
     $id = $_POST['id'];
 
     $datos = array(

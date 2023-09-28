@@ -1,7 +1,7 @@
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./BonosReferidos/crudbonosreferidos.php";
+  $crud = new crudbonosreferidos();
   $datos = $crud->mostrarDatosBonosReferidos();
 ?>
 
@@ -230,6 +230,10 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
+                <a href="./BonosReferidos/agregarbonosreferidos.php" class="btn btn-primary">
+                  Agregar Registro
+                </a>
+                <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td bg-blue__400 text-white">
                     <tr>
@@ -264,6 +268,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">CLIENTE_numero1</th>
                         <th class="th__texto" style="text-align:center;">NOTA</th>
                         <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
                       
 
 
@@ -315,9 +320,17 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->CLIENTE_numero1;?> </td>
                           <td class="text-center"> <?php echo $item->NOTA;?> </td>
                           <td class="text-center">
-                            <form action="./modulos/actualizar_BonosReferidos.php" method="POST">
+                            <form action="./BonosReferidos/modificar_BonosReferidos.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./BonosReferidos/eliminarbonosreferidos.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-danger">
                                 <i class="fa-solid fa-user-pen"></i>
                               </button>
                             </form>
@@ -359,6 +372,7 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">CLIENTE_numero1</th>
                         <th class="th__texto" style="text-align:center;">NOTA</th>
                         <th class="th__texto" style="text-align:center;">MODIFICAR</th>
+                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
                         
                       
                        

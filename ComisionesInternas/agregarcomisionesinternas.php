@@ -14,8 +14,8 @@
               <input type="text" class="form-control" id="NOMBRE_DEL_CLIENTE" name="NOMBRE_DEL_CLIENTE">
             </div>
             <div class="col-4 mb-2">
-              <label for="FECHA_DE_APARATADO">FECHA DE APARTADO</label>
-              <input type="text" class="form-control" id="FECHA_DE_APARATADO" name="FECHA_DE_APARATADO">
+              <label for="FECHA_DE_APARTADO">FECHA DE APARTADO</label>
+              <input type="text" class="form-control" id="FECHA_DE_APARTADO" name="FECHA_DE_APARTADO">
             </div>
             <div class="col-4 mb-2">
               <label for="FECHA_ENTREGA_DE_CONTRATO">FECHA ENTREGA DE CONTRATO</label>

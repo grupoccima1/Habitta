@@ -16,11 +16,15 @@
         "DESARROLLO" => $_POST['DESARROLLO'],
         "U_POR_VENDER" => $_POST['U_POR_VENDER'], 
         "ESTATUS" => $_POST['ESTATUS'], 
-        "TOTAL_VENCIDOS" => $_POST['TOTAL_VENCIDOS'], 
-        
-       
-        
+        "TOTAL_VENCIDOS" => $_POST['TOTAL_VENCIDOS']
     );
 
    $respuesta = $crudtableroderesultados->insertarDatos($datos);
+
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../TableroDeResultados.php");
+   }else {
+    print_r($respuesta);
+   }
+   
    ?>

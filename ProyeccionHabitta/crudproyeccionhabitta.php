@@ -33,6 +33,23 @@ class crudproyeccionhabitta extends Conexion {
             return $th->getMessage();
         }
     }
+
+    public function actualizarProyeccionesFlujo($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> ProyeccionHabitta;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+    
     public function eliminarProyeccionHabitta($id){
         try {
             $conexion = parent::conectar();

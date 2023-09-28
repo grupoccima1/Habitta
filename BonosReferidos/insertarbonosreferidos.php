@@ -35,9 +35,14 @@
         "CONDOMINIO_numero1" => $_POST['CONDOMINIO_numero1'],
         "CLÚSTER_numero1" => $_POST['CLÚSTER_numero1'],
         "CLIENTE_numero1" => $_POST['CLIENTE_numero1'],
-        "NOTA" => $_POST['NOTA'],
-       
-        
+        "NOTA" => $_POST['NOTA'] 
     );
 
    $respuesta = $crudbonosreferidos->insertarDatos($datos);
+
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../BonosReferidos.php");
+   }else {
+    print_r($respuesta);
+   }
+   ?>

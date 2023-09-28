@@ -1,8 +1,8 @@
 <?php 
     include "../clases/Conexion.php";
-    include "../clases/crud.php";
+    include "../AcumuladoTierra/crudacumuladotierra.php";
 
-    $Crud = new Crud();
+    $Crud = new crudacumuladotierra();
     $id = $_POST['id']; 
 
     $datos = array(

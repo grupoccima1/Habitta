@@ -27,9 +27,7 @@
         "FECHACORRECTA" => $_POST['FECHACORRECTA'],
         "LLAVEEDOSDECUENTA" => $_POST['LLAVEEDOSDECUENTA'],
         "CLAVE" => $_POST['CLAVE'],
-        "METODODEPAGO" => $_POST['METODODEPAGO'],
-      
-        
+        "METODODEPAGO" => $_POST['METODODEPAGO']
     );
 
    $respuesta = $crudbbva->insertarDatos($datos);

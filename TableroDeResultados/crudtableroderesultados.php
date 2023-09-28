@@ -33,6 +33,23 @@ class crudtableroderesultados extends Conexion {
             return $th->getMessage();
         }
     }
+
+    public function actualizarTableroResultados ($id,$datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> TableroDeResultados;
+            $respuesta = $coleccion -> updateOne(
+                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                                [
+                                                    '$set' => $datos
+                                                ]
+                                                );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }   
+    }
+    
     public function eliminarTableroDeResultados($id){
         try {
             $conexion = parent::conectar();

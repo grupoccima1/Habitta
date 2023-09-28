@@ -23,7 +23,7 @@
         "SUBTOTAL" => $_POST['SUBTOTAL'],
         "IVA" => $_POST['IVA'],
         "RETENCIONES_DE_IVA" => $_POST['RETENCIONES_DE_IVA'],
-        "RETENCIONES_DE_ISR" => $_POST['RETENCIONES_DE_ISR'],
+        "RETENCIONES_ISR" => $_POST['RETENCIONES_DE_ISR'],
         "TOTAL" => $_POST['TOTAL'],
         "PAGO" => $_POST['PAGO'],
         "NOTAS" => $_POST['NOTAS'],
@@ -37,8 +37,15 @@
         "CUENTA" => $_POST['CUENTA'],
         "MOTIVO_DE_DESCUENTO" => $_POST['MOTIVO_DE_DESCUENTO'],
         "ESTATUS" => $_POST['ESTATUS'],
-        "LOTE_ANTERIOR" => $_POST['LOTE_ANTERIOR'],
-        
+        "LOTE_ANTERIOR" => $_POST['LOTE_ANTERIOR']
     );
 
    $respuesta = $crudacumuladotierra->insertarDatos($datos);
+
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../AcumuladosBonosDeTierra.php");
+   }else {
+    print_r($respuesta);
+   }
+
+   ?>

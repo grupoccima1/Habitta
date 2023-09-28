@@ -56,16 +56,15 @@
         "Fecha_2028" => $_POST['Fecha_2028'],
         "Fecha_2029" => $_POST['Fecha_2029'],
         "Fecha_2030" => $_POST['Fecha_2030'],
-        "Feha_2021" => $_POST['Feha_2021'],
-
-
-
-
-
-
-
-
-        
+        "Feha_2021" => $_POST['Feha_2021']  
     );
 
    $respuesta = $crudporyeccionhabitta->insertarDatos($datos);
+
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../ProyeccionesFlujoHabitta.php");
+   }else {
+    print_r($respuesta);
+   }
+
+   ?>
