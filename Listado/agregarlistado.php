@@ -27,8 +27,8 @@
             </div>
           </div>  
           <div class="d-flex justify-content-end">
-            <button class="bt btn-primary mt-3">
-                        Agregar
+            <button class="bt btn-primary mt-3 px-5">
+              Agregar
             </button>
           </div>  
                       

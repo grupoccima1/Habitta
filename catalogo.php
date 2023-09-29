@@ -1,8 +1,8 @@
 
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./Catalogo/crudcatalogo.php";
+  $crud = new crudcatalogo();
   $datos = $crud->mostrarDatoscatalogo();
 ?>
 
@@ -233,6 +233,10 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
+                <a href="./Catalogo/agregarcatalogo.php" class="btn btn-primary">
+                  Nuevo Registro
+                </a>
+                <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td bg-blue__400 text-white">
                     <tr>
@@ -241,6 +245,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Porcentaje 1</th>
                         <th class="th__texto" style="text-align:center;">Porcentaje 2</th>
                         <th class="th__texto" style="text-align:center;">Porcentaje 3</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">Eliminar</th>
   
                     </tr>
                   </thead>
@@ -265,6 +271,22 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->PORCENT1;?> </td>
                           <td class="text-center"> <?php echo $item->PORCENT2;?> </td>
                           <td class="text-center"> <?php echo $item->PORCENT3; ?> </td>
+                          <td class="text-center">
+                            <form action="./Catalogo/actualizarcatalogo.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./Catalogo/eliminarcatalogo.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-danger">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
 
                             
                           </tr>
@@ -278,6 +300,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Porcentaje 1</th>
                         <th class="th__texto" style="text-align:center;">Porcentaje 2</th>
                         <th class="th__texto" style="text-align:center;">Porcentaje 3</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">Eliminar</th>
 
                     </tr>
                   </tfoot>

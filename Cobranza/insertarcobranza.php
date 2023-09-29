@@ -11,15 +11,16 @@
         "FECHA_1" => $_POST['FECHA_1'],
         "DESCRIPCION" => $_POST['DESCRIPCION'], 
         "APAGAR" => $_POST['APAGAR'],
-        "PAGO" => $_POST['PAGO'],
-       
-       
-        
+        "PAGO" => $_POST['PAGO'] 
     );
 
    $respuesta = $crudcobranza->insertarDatos($datos);
 
-  
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../cobranza.php");
+   }else{
+    print_r($respuesta);
+   }
     
 
 ?>

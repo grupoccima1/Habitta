@@ -15,6 +15,7 @@ class crudhsbclomas extends Conexion {
             return $th->getMessage();
         }
     }
+    
     public function obtenerDocumentoHSBCLOMAS($id) {
         try {
             if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
@@ -32,6 +33,7 @@ class crudhsbclomas extends Conexion {
             return $th->getMessage();
         }
     }
+
     public function eliminarHSBCLOMAS($id){
         try {
             $conexion = parent::conectar();

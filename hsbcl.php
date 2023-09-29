@@ -1,8 +1,8 @@
 
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./HSBCLOMAS/crudhsbclomas.php";
+  $crud = new crudhsbclomas();
   $datos = $crud->mostrarDatoshsbc_lomas();
 ?>
 
@@ -293,6 +293,10 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
+                <a href="./HSBCLOMAS/agregarhsbclomas.php" class="btn btn-primary">
+                  Agregar Registro
+                </a>
+                <hr>
               <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td bg-blue__400 text-white"> 
                     <tr>
@@ -320,6 +324,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Llave estado de cuenta</th>
                         <th class="th__texto" style="text-align:center;">Clave</th>
                         <th class="th__texto" style="text-align:center;">Metodo de pago</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">Eliminar</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -362,10 +368,25 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->LLAVEEDOSDECUENTA; ?> </td>
                           <td class="text-center"> <?php echo $item->CLAVE;?> </td>
                           <td class="text-center"> <?php echo $item->METODODEPAGO;?> </td>
-
+                          <td class="text-center">
+                            <form action="./HSBCLOMAS/actualizarhsbclomas.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                                <button class="btn btn-warning">
+                                  <i class="fa-solid fa-user-pen"></i>
+                                </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./HSBCLOMAS/eliminarhsbclomas.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id?>">
+                                <button class="btn btn-danger">
+                                  <i class="fa-solid fa-user-pen"></i>
+                                </button>
+                            </form>
+                          </td>
                             </td>
                           </tr>
-                          <?php } ?> 
+                          <?php } ?>
                   </tbody>
                   <tfoot class="bg-blue">
                     <tr>
@@ -394,6 +415,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Llave estado de cuenta</th>
                         <th class="th__texto" style="text-align:center;">Clave</th>
                         <th class="th__texto" style="text-align:center;">Metodo de pago</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">Eliminar</th>
                     </tr>
                   </tfoot>
                 </table>

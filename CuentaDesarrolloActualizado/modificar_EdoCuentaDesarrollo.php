@@ -1,11 +1,11 @@
 <?php 
     include "../header.php";
     include "../clases/Conexion.php";
-    include "../clases/crud.php";
+    include "../CuentaDesarrolloActualizado/crudcuentapordesarrolloactualizado.php";
 
-    $crud = new Crud();
+    $crud = new crudcuentapordesarrolloactualizado();
     $id = $_POST['id'];
-    $datos = $crud -> obtenerDocumentoEdoCuentaDesarrollo($id);
+    $datos = $crud -> obtenerDocumentoCuentaDesarrolloActualizado($id);
     $idMongo = $datos -> _id;
 ?>
 
@@ -20,7 +20,7 @@
                 </a>
 
                 <h2>Actualizar Registro</h2>
-                <form action="../procesos/actualizar_EdoCuentaDesarrollo.php" method="POST">
+                <form action="../CuentaDesarrolloActualizado/actualizar_EdoCuentaDesarrollo.php" method="POST">
                     <input type="text" name="id" id="id" hidden value="<?php echo $idMongo ?>">
                     <label for="concepto">Concepto</label>
                     <input type="text" name="concepto" id="concepto" class="form-control" value="<?php echo $datos->CONCEPTO ?>">

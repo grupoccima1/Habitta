@@ -31,4 +31,10 @@
     );
 
    $respuesta = $crudbbva->insertarDatos($datos);
+
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../bbva.php");
+   }else {
+    print_r($respuesta);
+   }
    ?>

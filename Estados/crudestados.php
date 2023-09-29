@@ -33,6 +33,7 @@ class crudestados extends Conexion {
             return $th->getMessage();
         }
     }
+
     public function eliminarEstados($id){
         try {
             $conexion = parent::conectar();
@@ -57,7 +58,8 @@ class crudestados extends Conexion {
         } catch (\Throwable $th) {
             return $th->getMessage();
         }
-    }  
+    } 
+     
     public function actualizarEstados($id,$datos){
         try {
             $conexion = parent::conectar();

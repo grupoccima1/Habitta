@@ -32,6 +32,7 @@ class crudhsbchabitta extends Conexion {
             return $th->getMessage();
         }
     }
+
     public function eliminarHSBCHABITTA($id){
         try {
             $conexion = parent::conectar();
@@ -57,6 +58,7 @@ class crudhsbchabitta extends Conexion {
             return $th->getMessage();
         }
     } 
+    
     public function actualizarHSBCHABITTA($id,$datos){
         try {
             $conexion = parent::conectar();

@@ -9,15 +9,15 @@
         "MES" => $_POST['MES'],
         "AÑO" => $_POST['AÑO'],
         "MONTO" => $_POST['MONTO'],
-        "LLAVE_2" => $_POST['LLAVE_2'], 
-     
-       
-        
+        "LLAVE_2" => $_POST['LLAVE_2']
     );
 
    $respuesta = $crudlistado->insertarDatos($datos);
 
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../listado.php");
+   }else{
+    print_r($respuesta);
+   }
    
-    
-
 ?>

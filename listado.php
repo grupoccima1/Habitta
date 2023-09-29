@@ -1,8 +1,8 @@
 
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./Listado/crudlistado.php";
+  $crud = new crudlistado();
   $datos = $crud->mostrarDatoslistados();
 ?>
 
@@ -232,6 +232,10 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
+                <a href="./Listado/agregarlistado.php" class="btn btn-primary">
+                  Agregar Registro
+                </a>
+                <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td bg-blue__400 text-white">
                     <tr>
@@ -241,6 +245,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Año</th>
                         <th class="th__texto" style="text-align:center;">Monto</th>
                         <th class="th__texto" style="text-align:center;">Llave 2</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">Eliminar</th>
   
                     </tr>
                   </thead>
@@ -266,6 +272,22 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->AÑO;?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->MONTO),2); ?> </td>
                           <td class="text-center"> <?php echo $item->LLAVE_2;?> </td>
+                          <td class="text-center">
+                            <form action="./Listado/actualizarlistado.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./Listado/eliminarlistados.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-danger">
+                                <i class="fa-solid fa-user-pen"> </i>
+                              </button>
+                            </form>
+                          </td>
                           </tr>
                           <?php } ?> 
                   </tbody>
@@ -278,6 +300,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Año</th>
                         <th class="th__texto" style="text-align:center;">Monto</th>
                         <th class="th__texto" style="text-align:center;">Llave 2</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">Eliminar</th>
 
                     </tr>
                   </tfoot>

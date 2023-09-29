@@ -15,6 +15,7 @@ class crudcatalogo extends Conexion {
             return $th->getMessage();
         }
     }
+
     public function obtenerDocumentoCatalogo($id) {
         try {
             if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
@@ -32,6 +33,7 @@ class crudcatalogo extends Conexion {
             return $th->getMessage();
         }
     }
+
     public function eliminarCatalogo($id){
         try {
             $conexion = parent::conectar();
@@ -56,7 +58,8 @@ class crudcatalogo extends Conexion {
         } catch (\Throwable $th) {
             return $th->getMessage();
         }
-    }  
+    } 
+     
     public function actualizarCatalogo($id,$datos){
         try {
             $conexion = parent::conectar();

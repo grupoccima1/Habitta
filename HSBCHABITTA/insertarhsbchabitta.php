@@ -28,10 +28,14 @@
         "FECHACORRECTA" => $_POST['FECHACORRECTA'],
         "LLAVEEDOSDECUENTA" => $_POST['LLAVEEDOSDECUENTA'],
         "CLAVE" => $_POST['CLAVE'],
-        "METODODEPAGO" => $_POST['METODODEPAGO'],
-      
-        
+        "METODODEPAGO" => $_POST['METODODEPAGO']
     );
 
    $respuesta = $crudhsbchabitta->insertarDatos($datos);
+
+   if ($respuesta->getInsertedId() > 0) {
+    header("location:../hsbch.php");
+   }else{
+    print_r($respuesta);
+   }
    ?>

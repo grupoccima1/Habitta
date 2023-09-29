@@ -15,6 +15,7 @@ class crudlistado extends Conexion {
             return $th->getMessage();
         }
     }
+
     public function obtenerDocumentoListado($id) {
         try {
             if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
@@ -32,6 +33,7 @@ class crudlistado extends Conexion {
             return $th->getMessage();
         }
     }
+
     public function eliminarListado($id){
         try {
             $conexion = parent::conectar();
@@ -57,6 +59,7 @@ class crudlistado extends Conexion {
             return $th->getMessage();
         }
     }  
+
     public function actualizarListado($id,$datos){
         try {
             $conexion = parent::conectar();
@@ -73,5 +76,5 @@ class crudlistado extends Conexion {
         }   
     }
 
-      }
+}
 ?>

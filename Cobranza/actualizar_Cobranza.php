@@ -12,8 +12,7 @@
         "FECHA_1" => $_POST['FECHA_1'],
         "DESCRIPCION" => $_POST['DESCRIPCION'], 
         "APAGAR" => $_POST['APAGAR'],
-        "PAGO" => $_POST['PAGO'],
-      
+        "PAGO" => $_POST['PAGO']
     );
 
     $respuesta = $crudcobranza -> actualizarCobranza($id, $datos);

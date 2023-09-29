@@ -9,8 +9,7 @@
         "LLAVE" => $_POST['LLAVE'], 
         "PORCENT1" => $_POST['PORCENT1'],
         "PORCENT2" => $_POST['PORCENT2'],
-        "PORCENT3" => $_POST['PORCENT3'],
-      
+        "PORCENT3" => $_POST['PORCENT3']
     );
 
     $respuesta = $crudcatalogo -> actualizarcatalogo($id, $datos);

@@ -28,8 +28,7 @@
         "LLAVE2" => $_POST['LLAVE2'],
         "MENS_ADEU" => $_POST['MENS_ADEU'],
         "CALC_SOBRE" => $_POST['CALC_SOBRE'],
-        "MONTO_INT_MOR" => $_POST['MONTO_INT_MOR'],
-      
+        "MONTO_INT_MOR" => $_POST['MONTO_INT_MOR']   
     );
 
     $respuesta = $crudestados -> actualizarEstados($id, $datos);

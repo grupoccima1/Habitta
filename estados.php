@@ -1,8 +1,8 @@
 
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./Estados/crudestados.php";
+  $crud = new crudestados();
   $datos = $crud->mostrarDatosestados();
 ?>
 
@@ -232,6 +232,10 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
+                <a href="./Estados/agregarestados.php" class="btn btn-primary">
+                  Agregar Registro
+                </a>
+                <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td bg-blue__400 text-white">
                     <tr>
@@ -259,6 +263,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Mensualidad de adeudo</th>
                         <th class="th__texto" style="text-align:center;">Calculo sobre</th>
                         <th class="th__texto" style="text-align:center;">Monto de interes moratorio</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">Eliminar</th>
 
   
                     </tr>
@@ -303,6 +309,22 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->MENS_ADEU),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->CALC_SOBRE),2); ?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->MONTO_INT_MOR),2);?> </td>
+                          <td class="text-center">
+                            <form action="./Estados/actualizarestados.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./Estados/eliminarestados.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-danger">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
                             </td>
                           </tr>
                           <?php } ?> 
@@ -334,6 +356,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Mensualidad de adeudo</th>
                         <th class="th__texto" style="text-align:center;">Calculo sobre</th>
                         <th class="th__texto" style="text-align:center;">Monto de interes moratorio</th>
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">Eliminar</th>
                     </tr>
                   </tfoot>
                 </table>

@@ -33,6 +33,23 @@ class crudcuentapordesarrolloactualizado extends Conexion {
             return $th->getMessage();
         }
     }
+
+    public function actualizarEdoCuentaDesarrollo($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> CuentaDesarrolloActualizado;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+    
     public function eliminarCuentaDesarrolloActualizado($id){
         try {
             $conexion = parent::conectar();

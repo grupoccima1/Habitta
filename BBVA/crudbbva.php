@@ -33,6 +33,23 @@ class crudbbva extends Conexion {
             return $th->getMessage();
         }
     }
+
+    public function actualizarBbva($id, $datos){
+        try {
+            $conexion = parent::conectar();
+            $coleccion = $conexion -> bbva;
+            $respuesta = $coleccion -> updateOne(
+                                            ['_id' => new MongoDB\BSON\ObjectId($id)],
+                                            [
+                                                '$set' => $datos
+                                            ]       
+                                         );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th -> getMessage();
+        }
+    }
+    
     public function eliminarBBVA($id){
         try {
             $conexion = parent::conectar();
@@ -58,20 +75,6 @@ class crudbbva extends Conexion {
             return $th->getMessage();
         }
     }  
-    public function actualizarBBVA($id,$datos){
-        try {
-            $conexion = parent::conectar();
-            $coleccion = $conexion -> bbva;
-            $respuesta = $coleccion -> updateOne(
-                                                ['_id' => new MongoDB\BSON\ObjectId($id)],
-                                                [
-                                                    '$set' => $datos
-                                                ]
-                                                );
-            return $respuesta;
-        } catch (\Throwable $th) {
-            return $th -> getMessage();
-        }   
-    }
-      }
+    
+}
 ?>

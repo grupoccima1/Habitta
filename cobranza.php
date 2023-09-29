@@ -1,8 +1,8 @@
 
 <?php
 require_once "./clases/Conexion.php";
-  require_once "./clases/crud.php";
-  $crud = new Crud();
+  require_once "./Cobranza/crudcobranza.php";
+  $crud = new crudcobranza();
   $datos = $crud->mostrarDatoscobranza();
 ?>
 
@@ -230,6 +230,10 @@ require_once "./clases/Conexion.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
+                <a href="./Cobranza/agregarcobranza.php" class="btn btn-primary">
+                  Agregar Registro
+                </a>
+                <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td bg-blue__400 text-white">
                     <tr>
@@ -241,7 +245,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Descripcion</th>
                         <th class="th__texto" style="text-align:center;">A pagar</th>
                         <th class="th__texto" style="text-align:center;">Pago</th>
-                        
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">Eliminar</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -268,7 +273,22 @@ require_once "./clases/Conexion.php";
                           <td class="text-center"> <?php echo $item->DESCRIPCION;?> </td>
                           <td class="text-center"> <?php echo "$".number_format(floatval($item->APAGAR),2);?> </td>
                           <td class="text-center"> <?php echo "$".number_format($item->PAGO,2);?></td>
-                          
+                          <td class="text-center">
+                            <form action="./Cobranza/actualizarcobranza.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id?>">
+                              <button class="btn btn-warning">
+                                <i class="fa-solid fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
+                          <td class="text-center">
+                            <form action="./Cobranza/eliminarcobranza.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                              <button class="btn btn-danger">
+                                <i class="fa-solid  fa-user-pen"></i>
+                              </button>
+                            </form>
+                          </td>
                             </td>
                           </tr>
                           <?php } ?> 
@@ -284,7 +304,8 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">Descripcion</th>
                         <th class="th__texto" style="text-align:center;">A pagar</th>
                         <th class="th__texto" style="text-align:center;">Pago</th>
-                        
+                        <th class="th__texto" style="text-align:center;">Modificar</th>
+                        <th class="th__texto" style="text-align:center;">Eliminar</th>
                     </tr>
                   </tfoot>
                 </table>

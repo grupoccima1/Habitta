@@ -15,6 +15,7 @@ class crudcobranza extends Conexion {
             return $th->getMessage();
         }
     }
+
     public function obtenerDocumentoCobranza($id) {
         try {
             if (!preg_match('/^[a-f0-9]{24}$/i', $id)) {
@@ -32,6 +33,7 @@ class crudcobranza extends Conexion {
             return $th->getMessage();
         }
     }
+
     public function eliminarCobranza($id){
         try {
             $conexion = parent::conectar();
@@ -57,6 +59,7 @@ class crudcobranza extends Conexion {
             return $th->getMessage();
         }
     }  
+    
     public function actualizarCobranza($id,$datos){
         try {
             $conexion = parent::conectar();

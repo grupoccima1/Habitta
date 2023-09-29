@@ -10,7 +10,7 @@
         "MES" => $_POST['MES'],
         "AÑO" => $_POST['AÑO'],
         "MONTO" => $_POST['MONTO'],
-        "LLAVE_2" => $_POST['LLAVE_2'], 
+        "LLAVE_2" => $_POST['LLAVE_2']
     );
 
     $respuesta = $crudlistado -> actualizarListado($id, $datos);
