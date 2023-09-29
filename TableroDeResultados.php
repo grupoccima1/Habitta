@@ -290,7 +290,7 @@ require_once "./clases/Conexion.php";
                             <form action="./TableroDeResultados/modificar_TableroResultados.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
-                                <i class="fa-solid fa-user-pen"></i>
+                                 <img class="edit__icon" src="images/iconos/pen-solid.svg" alt="">
                               </button>
                             </form>
                           </td>
@@ -298,7 +298,7 @@ require_once "./clases/Conexion.php";
                             <form action="./TableroDeResultados/eliminartableroderesultados.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
-                                <i class="fa-solid fa-user-pen"></i>
+                                <img class="delete__icon" src="images/iconos/trash-solid.svg" alt="">
                               </button>
                             </form>
                           </td>
@@ -309,24 +309,21 @@ require_once "./clases/Conexion.php";
                           <?php } ?> 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-          
-                        <th class="th__texto" style="text-align:center;">GIRO</th>                        
-                        <th class="th__texto" style="text-align:center;">U_TOTALES</th>
-                        <th class="th__texto" style="text-align:center;">U_APARTADAS</th>
-                        <th class="th__texto" style="text-align:center;">U_PORVENDER</th>
-                        <th class="th__texto" style="text-align:center;">U_VENDIDAS</th>
-                        <th class="th__texto" style="text-align:center;">U_POR_CERRAR</th>
-                        <th class="th__texto" style="text-align:center;">U_POR_RECUPERAR</th>
-                        <th class="th__texto" style="text-align:center;">RECUPERADOS</th>
-                        <th class="th__texto" style="text-align:center;">DESARROLLO</th>
-                        <th class="th__texto" style="text-align:center;">U_POR_VENDER</th>
-                        <th class="th__texto" style="text-align:center;">ESTATUS</th>
-                        <th class="th__texto" style="text-align:center;">TOTAL_VENCIDOS</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
-                      
+                    <tr class="text-center">
+                        <th class="th__texto">GIRO</th>                        
+                        <th class="th__texto">U_TOTALES</th>
+                        <th class="th__texto">U_APARTADAS</th>
+                        <th class="th__texto">U_PORVENDER</th>
+                        <th class="th__texto">U_VENDIDAS</th>
+                        <th class="th__texto">U_POR_CERRAR</th>
+                        <th class="th__texto">U_POR_RECUPERAR</th>
+                        <th class="th__texto">RECUPERADOS</th>
+                        <th class="th__texto">DESARROLLO</th>
+                        <th class="th__texto">U_POR_VENDER</th>
+                        <th class="th__texto">ESTATUS</th>
+                        <th class="th__texto">TOTAL_VENCIDOS</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
                     </tr>
                   </tfoot>
                 </table>

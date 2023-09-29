@@ -372,7 +372,7 @@ require_once "./clases/Conexion.php";
                             <form action="./HSBCLOMAS/actualizarhsbclomas.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                                 <button class="btn btn-warning">
-                                  <i class="fa-solid fa-user-pen"></i>
+                                   <img class="edit__icon" src="images/iconos/pen-solid.svg" alt="">
                                 </button>
                             </form>
                           </td>
@@ -380,7 +380,7 @@ require_once "./clases/Conexion.php";
                             <form action="./HSBCLOMAS/eliminarhsbclomas.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id?>">
                                 <button class="btn btn-danger">
-                                  <i class="fa-solid fa-user-pen"></i>
+                                  <img class="delete__icon" src="images/iconos/trash-solid.svg" alt="">
                                 </button>
                             </form>
                           </td>

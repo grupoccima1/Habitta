@@ -277,7 +277,7 @@ require_once "./clases/Conexion.php";
                             <form action="./Cobranza/actualizarcobranza.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id?>">
                               <button class="btn btn-warning">
-                                <i class="fa-solid fa-user-pen"></i>
+                                 <img class="edit__icon" src="images/iconos/pen-solid.svg" alt="">
                               </button>
                             </form>
                           </td>

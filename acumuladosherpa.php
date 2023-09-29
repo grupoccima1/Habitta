@@ -6,7 +6,7 @@ require_once "./clases/Conexion.php";
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -327,10 +327,10 @@ require_once "./clases/Conexion.php";
 
             </div>
             <div class="card-body">
-              <div class="table-responsive">
               <a href="./AcumuladoSherpa/agregaracumuladosherpa.php" class="btn btn-primary">
                 Agregar Registro
               </a>
+              <div class="table-responsive">
               <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td">
@@ -430,7 +430,7 @@ require_once "./clases/Conexion.php";
                             <form action="./AcumuladoSherpa/modificar_AcumuladoSherpa.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
-                                <i class="fa-solid fa-user-pen"></i>
+                               <img class="edit__icon" src="images/iconos/pen-solid.svg" alt="">
                               </button>
                             </form>
                           </td>
@@ -438,7 +438,7 @@ require_once "./clases/Conexion.php";
                             <form action="./AcumuladoSherpa/eliminaracumuladosherpa.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
-                                <i class="fa-solid fa-user-pen"></i>
+                              <img class="delete__icon" src="images/iconos/trash-solid.svg" alt="">
                               </button>  
                           </form>
                           </td>

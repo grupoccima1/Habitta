@@ -866,3 +866,9 @@ width:100%;
   #sidebar .activo{
 	background-color:#254369;
   }
+  .edit__icon{
+	width: 1rem;
+  } 
+  .delete__icon{
+	width: 1rem;
+  } 
