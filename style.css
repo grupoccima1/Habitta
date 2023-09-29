@@ -202,13 +202,13 @@ overflow:auto;
   }
   
   
-    #sidebar:hover::-webkit-scrollbar{
+    /* #sidebar:hover::-webkit-scrollbar{
 	  display:block;
   }
   
    #sidebar:hover::-webkit-scrollbar-thumbs{
 	  display:block;
-  }
+  } */
   
   
   #sidebar .sidebar-header{
@@ -872,3 +872,8 @@ width:100%;
   .delete__icon{
 	width: 1rem;
   } 
+
+  #tabla{
+	width: 100%;
+	white-space: nowrap;
+  }

@@ -274,41 +274,7 @@ require_once "./clases/Conexion.php";
       <!--------page-content---------------->
 
       <div id="content">
-        <div class="top-navbar">
-          <div class="xp-topbar"></div>
-          <div class="xp-breadcrumbbar text-center">
-            <h4 class="page-title">Dashboard</h4>
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-            </ol>
-          </div>
-        </div>
 
-      <div class="container">
-        <div class="row justify-content-center py-5">
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/cimatario.svg" class="imagen-logos"/>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/lomas.svg"     class="imagen-logos"/>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/cimatario.svg" class="imagen-logos"/>
-            </div>
-          </div>
-
-
-
-        </div>
-      </div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
@@ -322,9 +288,7 @@ require_once "./clases/Conexion.php";
                 <div class="col">
                   <span><img src="images/home.svg" width="25px"></span> Home/Base Madre Habiita
                 </div>
-
               </div>
-
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -334,54 +298,50 @@ require_once "./clases/Conexion.php";
                 <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td">
-                    <tr>
-
-                        <th class="th__texto" style="text-align:center;">Llave</th>                        
-                        <th class="th__texto" style="text-align:center;">LOTE</th>
-                        <th class="th__texto" style="text-align:center;">CLIENTE</th>
-                        <th class="th__texto" style="text-align:center;">RFC</th>
-                        <th class="th__texto" style="text-align:center;">USO_CFDI</th>
-                        <th class="th__texto" style="text-align:center;">RAZON_SOCIAL</th>
-                        <th class="th__texto" style="text-align:center;">DOMICILIO_FISCAL</th>
-                        <th class="th__texto" style="text-align:center;">TELEFONO</th>
-                        <th class="th__texto" style="text-align:center;">CORREO</th>
-                        <th class="th__texto" style="text-align:center;">M2</th>
-                        <th class="th__texto" style="text-align:center;">TOTAL_OPERACION</th>
-                        <th class="th__texto" style="text-align:center;">ENGANCHE</th>
-                        <th class="th__texto" style="text-align:center;">FINANCIAMIENTO</th>
-                        <th class="th__texto" style="text-align:center;">FIRMA_CONTRATO</th>
-                        <th class="th__texto" style="text-align:center;">FIN_CORRIDA</th>
-                        <th class="th__texto" style="text-align:center;">TOTAL_MENSUALIDADES</th>
-                        <th class="th__texto" style="text-align:center;">NO_1ER_MENS</th>
-                        <th class="th__texto" style="text-align:center;">PRIMERA_MENSUALIDAD</th>                        
-                        <th class="th__texto" style="text-align:center;">NO_2DA_MENS</th>
-                        <th class="th__texto" style="text-align:center;">SEGUNDA_MENSUALIDAD</th>
-                        <th class="th__texto" style="text-align:center;">NO_3ER_MENS</th>
-                        <th class="th__texto" style="text-align:center;">TERCER_MENSUALIDAD</th>
-                        <th class="th__texto" style="text-align:center;">TIPO_DE_INTERES</th>
-                        <th class="th__texto" style="text-align:center;">MENS_ENTREGA</th>
-                        <th class="th__texto" style="text-align:center;">INICIO_CORRIDA</th>
-                        <th class="th__texto" style="text-align:center;">FECHA_PRIMER_ABONO</th>
-                        <th class="th__texto" style="text-align:center;">DEUDA</th>
-                        <th class="th__texto" style="text-align:center;">FECHA_ENTREGA_LOTE</th>
-                        <th class="th__texto" style="text-align:center;">ESTATUS_CM</th>
-                        <th class="th__texto" style="text-align:center;">LINK_SAT</th>
-                        <th class="th__texto" style="text-align:center;">NOTAS_DE_PAGOS</th>
-                        <th class="th__texto" style="text-align:center;">BONO_REFERIDO</th>
-                        <th class="th__texto" style="text-align:center;">ESTATUS</th>
-                        <th class="th__texto" style="text-align:center;">MOTIVO_ESTATUS</th>
-                        <th class="th__texto" style="text-align:center;">RESULTADO</th>
-                        <th class="th__texto" style="text-align:center;">FECHADELIBERACION</th>
-                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
-                        <th class="th__texto" style="text-align:center;">CLUSTER</th>
-                        <th class="th__texto" style="text-align:center;">DESARROLLO</th>
-                        <th class="th__texto" style="text-align:center;">APARTADO_TELEGRAM</th>
-                        <th class="th__texto" style="text-align:center;">PRIMER_MENSUALIDAD</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
-                      
-
-
+                    <tr class="text-center">
+                        <th class="th__texto">Llave</th>                        
+                        <th class="th__texto">LOTE</th>
+                        <th class="th__texto">CLIENTE</th>
+                        <th class="th__texto">RFC</th>
+                        <th class="th__texto">USO_CFDI</th>
+                        <th class="th__texto">RAZON_SOCIAL</th>
+                        <th class="th__texto">DOMICILIO_FISCAL</th>
+                        <th class="th__texto">TELEFONO</th>
+                        <th class="th__texto">CORREO</th>
+                        <th class="th__texto">M2</th>
+                        <th class="th__texto">TOTAL_OPERACION</th>
+                        <th class="th__texto">ENGANCHE</th>
+                        <th class="th__texto">FINANCIAMIENTO</th>
+                        <th class="th__texto">FIRMA_CONTRATO</th>
+                        <th class="th__texto">FIN_CORRIDA</th>
+                        <th class="th__texto">TOTAL_MENSUALIDADES</th>
+                        <th class="th__texto">NO_1ER_MENS</th>
+                        <th class="th__texto">PRIMERA_MENSUALIDAD</th>                        
+                        <th class="th__texto">NO_2DA_MENS</th>
+                        <th class="th__texto">SEGUNDA_MENSUALIDAD</th>
+                        <th class="th__texto">NO_3ER_MENS</th>
+                        <th class="th__texto">TERCER_MENSUALIDAD</th>
+                        <th class="th__texto">TIPO_DE_INTERES</th>
+                        <th class="th__texto">MENS_ENTREGA</th>
+                        <th class="th__texto">INICIO_CORRIDA</th>
+                        <th class="th__texto">FECHA_PRIMER_ABONO</th>
+                        <th class="th__texto">DEUDA</th>
+                        <th class="th__texto">FECHA_ENTREGA_LOTE</th>
+                        <th class="th__texto">ESTATUS_CM</th>
+                        <th class="th__texto">LINK_SAT</th>
+                        <th class="th__texto">NOTAS_DE_PAGOS</th>
+                        <th class="th__texto">BONO_REFERIDO</th>
+                        <th class="th__texto">ESTATUS</th>
+                        <th class="th__texto">MOTIVO_ESTATUS</th>
+                        <th class="th__texto">RESULTADO</th>
+                        <th class="th__texto">FECHADELIBERACION</th>
+                        <th class="th__texto">CONDOMINIO</th>
+                        <th class="th__texto">CLUSTER</th>
+                        <th class="th__texto">DESARROLLO</th>
+                        <th class="th__texto">APARTADO_TELEGRAM</th>
+                        <th class="th__texto">PRIMER_MENSUALIDAD</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -389,63 +349,49 @@ require_once "./clases/Conexion.php";
                           foreach($datos as $item) { //Foreach es un arreglo o una coleccion de datos uno por uno. 
                                                     //$Datos es una variable sobre la cual se hara la iteracion y $as asigna elementos  
                         ?>                          
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>
-  
-                                 
-                            </form>
-                          
-                            </td> --> 
-                         
-
-                          <td class="text-center"> <?php echo $item->LLAVE; ?> </td>  
-                          <td class="text-center"> <?php echo $item->LOTE;?> </td>
-                          <td class="text-center"> <?php echo $item->CLIENTE;?> </td>
-                          <td class="text-center"> <?php echo $item->RFC;?> </td>
-                          <td class="text-center"> <?php echo $item->USO_CFDI; ?> </td>
-                          <td class="text-center"> <?php echo $item->RAZON_SOCIAL;?> </td>
-                          <td class="text-center"> <?php echo $item->DOMICILIO_FISCAL;?> </td>
-                          <td class="text-center"> <?php echo $item->TELEFONO;?></td>
-                          <td class="text-center"> <?php echo $item->CORREO;?> </td>
-                          <td class="text-center"> <?php echo $item->M2;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->TOTAL_OPERACION),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->ENGANCHE),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->FINANCIAMIENTO),2);?> </td>
-                          <td class="text-center"> <?php echo $item->FIRMA_CONTRATO;?> </td>
-                          <td class="text-center"> <?php echo $item->FIN_CORRIDA;?> </td>
-                          <td class="text-center"> <?php echo $item->TOTAL_MENSUALIDADES;?> </td>
-                          <td class="text-center"> <?php echo $item->NO_1ER_MENS; ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->PRIMERA_MENSUALIDAD),2);?> </td>
-                          <td class="text-center"> <?php echo $item->NO_2DA_MENS; ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->SEGUNDA_MENSUALIDAD),2);?> </td>
-                          <td class="text-center"> <?php echo $item->NO_3ER_MENS; ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->TERCER_MENSUALIDAD),2);?> </td>
-                          <td class="text-center"> <?php echo $item->TIPO_DE_INTERES;?> </td>
-                          <td class="text-center"> <?php echo $item->MENS_ENTREGA;?> </td>
-                          <td class="text-center"> <?php echo $item->INICIO_CORRIDA;?> </td>
-                          <td class="text-center"> <?php echo $item->FECHA_PRIMER_ABONO; ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->DEUDA),2);?> </td>
-                          <td class="text-center"> <?php echo $item->FECHA_ENTREGA_LOTE;?> </td>
-                          <td class="text-center"> <?php echo $item->ESTATUS_CM;?> </td>
-                          <td class="text-center"> <?php echo $item->LINK_SAT;?></td>
-                          <td class="text-center"> <?php echo $item->NOTAS_DE_PAGOS;?></td>
-                          <td class="text-center"> <?php echo $item->BONO_REFERIDO; ?> </td>
-                          <td class="text-center"> <?php echo $item->ESTATUS;?> </td>
-                          <td class="text-center"> <?php echo $item->MOTIVO_ESTATUS;?> </td>
-                          <td class="text-center"> <?php echo $item->RESULTADO;?> </td>
-                          <td class="text-center"> <?php echo $item->FECHADELIBERACION;?> </td>
-                          <td class="text-center"> <?php echo $item->CONDOMINIO;?> </td>
-                          <td class="text-center"> <?php echo $item->CLUSTER;?> </td>
-                          <td class="text-center"> <?php echo $item->DESARROLLO;?> </td>
-                          <td class="text-center"> <?php echo $item->APARTADO_TELEGRAM;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->PRIMER_MENSUALIDAD),2);?> </td>
-                          <td class="text-center">
+                          <tr class="text-enter">
+                          <td> <?php echo $item->LLAVE; ?> </td>  
+                          <td> <?php echo $item->LOTE;?> </td>
+                          <td> <?php echo $item->CLIENTE;?> </td>
+                          <td> <?php echo $item->RFC;?> </td>
+                          <td> <?php echo $item->USO_CFDI; ?> </td>
+                          <td> <?php echo $item->RAZON_SOCIAL;?> </td>
+                          <td> <?php echo $item->DOMICILIO_FISCAL;?> </td>
+                          <td> <?php echo $item->TELEFONO;?></td>
+                          <td> <?php echo $item->CORREO;?> </td>
+                          <td> <?php echo $item->M2;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->TOTAL_OPERACION),2);?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->ENGANCHE),2);?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->FINANCIAMIENTO),2);?> </td>
+                          <td> <?php echo $item->FIRMA_CONTRATO;?> </td>
+                          <td> <?php echo $item->FIN_CORRIDA;?> </td>
+                          <td> <?php echo $item->TOTAL_MENSUALIDADES;?> </td>
+                          <td> <?php echo $item->NO_1ER_MENS; ?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->PRIMERA_MENSUALIDAD),2);?> </td>
+                          <td> <?php echo $item->NO_2DA_MENS; ?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->SEGUNDA_MENSUALIDAD),2);?> </td>
+                          <td> <?php echo $item->NO_3ER_MENS; ?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->TERCER_MENSUALIDAD),2);?> </td>
+                          <td> <?php echo $item->TIPO_DE_INTERES;?> </td>
+                          <td> <?php echo $item->MENS_ENTREGA;?> </td>
+                          <td> <?php echo $item->INICIO_CORRIDA;?> </td>
+                          <td> <?php echo $item->FECHA_PRIMER_ABONO; ?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->DEUDA),2);?> </td>
+                          <td> <?php echo $item->FECHA_ENTREGA_LOTE;?> </td>
+                          <td> <?php echo $item->ESTATUS_CM;?> </td>
+                          <td> <?php echo $item->LINK_SAT;?></td>
+                          <td> <?php echo $item->NOTAS_DE_PAGOS;?></td>
+                          <td> <?php echo $item->BONO_REFERIDO; ?> </td>
+                          <td> <?php echo $item->ESTATUS;?> </td>
+                          <td> <?php echo $item->MOTIVO_ESTATUS;?> </td>
+                          <td> <?php echo $item->RESULTADO;?> </td>
+                          <td> <?php echo $item->FECHADELIBERACION;?> </td>
+                          <td> <?php echo $item->CONDOMINIO;?> </td>
+                          <td> <?php echo $item->CLUSTER;?> </td>
+                          <td> <?php echo $item->DESARROLLO;?> </td>
+                          <td> <?php echo $item->APARTADO_TELEGRAM;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->PRIMER_MENSUALIDAD),2);?> </td>
+                          <td>
                             <form action="./BaseMadreHabitta/modificar_BaseMHabitta.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
@@ -453,7 +399,7 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-                          <td class="text-center">
+                          <td>
                             <form action="./BaseMadreHabitta/eliminarbasemadrehabitta.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
@@ -467,56 +413,50 @@ require_once "./clases/Conexion.php";
                           <?php } ?> 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                        <th class="th__texto" style="text-align:center;">Llave</th>                        
-                        <th class="th__texto" style="text-align:center;">LOTE</th>
-                        <th class="th__texto" style="text-align:center;">CLIENTE</th>
-                        <th class="th__texto" style="text-align:center;">RFC</th>
-                        <th class="th__texto" style="text-align:center;">USO_CFDI</th>
-                        <th class="th__texto" style="text-align:center;">RAZON_SOCIAL</th>
-                        <th class="th__texto" style="text-align:center;">DOMICILIO_FISCAL</th>
-                        <th class="th__texto" style="text-align:center;">TELEFONO</th>
-                        <th class="th__texto" style="text-align:center;">CORREO</th>
-                        <th class="th__texto" style="text-align:center;">M2</th>
-                        <th class="th__texto" style="text-align:center;">TOTAL_OPERACION</th>
-                        <th class="th__texto" style="text-align:center;">ENGANCHE</th>
-                        <th class="th__texto" style="text-align:center;">FINANCIAMIENTO</th>
-                        <th class="th__texto" style="text-align:center;">FIRMA_CONTRATO</th>
-                        <th class="th__texto" style="text-align:center;">FIN_CORRIDA</th>
-                        <th class="th__texto" style="text-align:center;">TOTAL_MENSUALIDADES</th>
-                        <th class="th__texto" style="text-align:center;">NO_1ER_MENS</th>
-                        <th class="th__texto" style="text-align:center;">PRIMERA_MENSUALIDAD</th>                        
-                        <th class="th__texto" style="text-align:center;">NO_2DA_MENS</th>
-                        <th class="th__texto" style="text-align:center;">SEGUNDA_MENSUALIDAD</th>
-                        <th class="th__texto" style="text-align:center;">NO_3ER_MENS</th>
-                        <th class="th__texto" style="text-align:center;">TERCER_MENSUALIDAD</th>
-                        <th class="th__texto" style="text-align:center;">TIPO_DE_INTERES</th>
-                        <th class="th__texto" style="text-align:center;">MENS_ENTREGA</th>
-                        <th class="th__texto" style="text-align:center;">INICIO_CORRIDA</th>
-                        <th class="th__texto" style="text-align:center;">FECHA_PRIMER_ABONO</th>
-                        <th class="th__texto" style="text-align:center;">DEUDA</th>
-                        <th class="th__texto" style="text-align:center;">FECHA_ENTREGA_LOTE</th>
-                        <th class="th__texto" style="text-align:center;">ESTATUS_CM</th>
-                        <th class="th__texto" style="text-align:center;">LINK_SAT</th>
-                        <th class="th__texto" style="text-align:center;">NOTAS_DE_PAGOS</th>
-                        <th class="th__texto" style="text-align:center;">BONO_REFERIDO</th>
-                        <th class="th__texto" style="text-align:center;">ESTATUS</th>
-                        <th class="th__texto" style="text-align:center;">MOTIVO_ESTATUS</th>
-                        <th class="th__texto" style="text-align:center;">RESULTADO</th>
-                        <th class="th__texto" style="text-align:center;">FECHADELIBERACION</th>
-                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
-                        <th class="th__texto" style="text-align:center;">CLUSTER</th>
-                        <th class="th__texto" style="text-align:center;">DESARROLLO</th>
-                        <th class="th__texto" style="text-align:center;">APARTADO_TELEGRAM</th>
-                        <th class="th__texto" style="text-align:center;">PRIMER_MENSUALIDAD</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
-                      
-
-
-                      
+                    <tr class="text-center">
+                        <th class="th__texto">Llave</th>                        
+                        <th class="th__texto">LOTE</th>
+                        <th class="th__texto">CLIENTE</th>
+                        <th class="th__texto">RFC</th>
+                        <th class="th__texto">USO_CFDI</th>
+                        <th class="th__texto">RAZON_SOCIAL</th>
+                        <th class="th__texto">DOMICILIO_FISCAL</th>
+                        <th class="th__texto">TELEFONO</th>
+                        <th class="th__texto">CORREO</th>
+                        <th class="th__texto">M2</th>
+                        <th class="th__texto">TOTAL_OPERACION</th>
+                        <th class="th__texto">ENGANCHE</th>
+                        <th class="th__texto">FINANCIAMIENTO</th>
+                        <th class="th__texto">FIRMA_CONTRATO</th>
+                        <th class="th__texto">FIN_CORRIDA</th>
+                        <th class="th__texto">TOTAL_MENSUALIDADES</th>
+                        <th class="th__texto">NO_1ER_MENS</th>
+                        <th class="th__texto">PRIMERA_MENSUALIDAD</th>                        
+                        <th class="th__texto">NO_2DA_MENS</th>
+                        <th class="th__texto">SEGUNDA_MENSUALIDAD</th>
+                        <th class="th__texto">NO_3ER_MENS</th>
+                        <th class="th__texto">TERCER_MENSUALIDAD</th>
+                        <th class="th__texto">TIPO_DE_INTERES</th>
+                        <th class="th__texto">MENS_ENTREGA</th>
+                        <th class="th__texto">INICIO_CORRIDA</th>
+                        <th class="th__texto">FECHA_PRIMER_ABONO</th>
+                        <th class="th__texto">DEUDA</th>
+                        <th class="th__texto">FECHA_ENTREGA_LOTE</th>
+                        <th class="th__texto">ESTATUS_CM</th>
+                        <th class="th__texto">LINK_SAT</th>
+                        <th class="th__texto">NOTAS_DE_PAGOS</th>
+                        <th class="th__texto">BONO_REFERIDO</th>
+                        <th class="th__texto">ESTATUS</th>
+                        <th class="th__texto">MOTIVO_ESTATUS</th>
+                        <th class="th__texto">RESULTADO</th>
+                        <th class="th__texto">FECHADELIBERACION</th>
+                        <th class="th__texto">CONDOMINIO</th>
+                        <th class="th__texto">CLUSTER</th>
+                        <th class="th__texto">DESARROLLO</th>
+                        <th class="th__texto">APARTADO_TELEGRAM</th>
+                        <th class="th__texto">PRIMER_MENSUALIDAD</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
                     </tr>
                   </tfoot>
                 </table>
@@ -642,23 +582,11 @@ require_once "./clases/Conexion.php";
             </div>
           </div>
         </div>
-
-
       </div>
-
-
       <!---footer---->
 
 
       </div> 
-
-      <footer class="footer">
-        <div class="container-fluid">
-          <div class="footer-in">
-            <p class="mb-0">&copy 2020 Vishweb design - All Rights Reserved.</p>
-          </div>
-        </div>
-      </footer>
       </div>
       </div>
 

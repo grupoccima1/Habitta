@@ -274,41 +274,6 @@ require_once "./clases/Conexion.php";
       <!--------page-content---------------->
 
       <div id="content">
-        <div class="top-navbar">
-          <div class="xp-topbar"></div>
-          <div class="xp-breadcrumbbar text-center">
-            <h4 class="page-title">Dashboard</h4>
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-            </ol>
-          </div>
-        </div>
-       
-      <div class="container">
-        <div class="row justify-content-center py-5">
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/cimatario.svg" class="imagen-logos"/>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/lomas.svg"     class="imagen-logos"/>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/cimatario.svg" class="imagen-logos"/>
-            </div>
-          </div>
- 
-          
-           
-        </div>
-      </div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
@@ -322,9 +287,7 @@ require_once "./clases/Conexion.php";
                 <div class="col">
                   <span><img src="images/home.svg" width="25px"></i></span> Home/Flujo
                 </div>
-  
               </div>
-  
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -333,73 +296,61 @@ require_once "./clases/Conexion.php";
                 Agregar registro 
                 </a>
                 <hr>
-                <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                <table id="tabla" class="table table-striped data-table">
                   <thead class="bg__td">
-                    <tr>                   
-                        <th class="th__texto" style="text-align:center;">Crear recibo</th>                        
-                        <th class="th__texto" style="text-align:center;">Notas</th>
-                        <th class="th__texto" style="text-align:center;">Enviado</th>
-                        <th class="th__texto" style="text-align:center;">Llave</th>
-                        <th class="th__texto" style="text-align:center;">Beneficiario</th>
-                        <th class="th__texto" style="text-align:center;">Factura</th>
-                        <th class="th__texto" style="text-align:center;">Fecha</th>
-                        <th class="th__texto" style="text-align:center;">Motivo</th>
-                        <th class="th__texto" style="text-align:center;">Categoria</th>
-                        <th class="th__texto" style="text-align:center;">Origen</th>
-                        <th class="th__texto" style="text-align:center;">Subcategoria</th>
-                        <th class="th__texto" style="text-align:center;">Mes</th>
-                        <th class="th__texto" style="text-align:center;">Año</th>
-                        <th class="th__texto" style="text-align:center;">Flujo2</th>
-                        <th class="th__texto" style="text-align:center;">Lote</th>
-                        <th class="th__texto" style="text-align:center;">Condominio</th>                        
-                        <th class="th__texto" style="text-align:center;">Cluster</th>
-                        <th class="th__texto" style="text-align:center;">Desarrollo</th>
-                        <th class="th__texto" style="text-align:center;">Cliente</th>
-                        <th class="th__texto" style="text-align:center;">Correo</th>
-                        <th class="th__texto" style="text-align:center;">1er mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">Modificar</th>
-                        <th class="th__texto" style="text-align:center;">Eliminar</th>
+                    <tr class="text-center">                   
+                        <th class="th__texto">Crear recibo</th>                        
+                        <th class="th__texto">Notas</th>
+                        <th class="th__texto">Enviado</th>
+                        <th class="th__texto">Llave</th>
+                        <th class="th__texto">Beneficiario</th>
+                        <th class="th__texto">Factura</th>
+                        <th class="th__texto">Fecha</th>
+                        <th class="th__texto">Motivo</th>
+                        <th class="th__texto">Categoria</th>
+                        <th class="th__texto">Origen</th>
+                        <th class="th__texto">Subcategoria</th>
+                        <th class="th__texto">Mes</th>
+                        <th class="th__texto">Año</th>
+                        <th class="th__texto">Flujo2</th>
+                        <th class="th__texto">Lote</th>
+                        <th class="th__texto">Condominio</th>                        
+                        <th class="th__texto">Cluster</th>
+                        <th class="th__texto">Desarrollo</th>
+                        <th class="th__texto">Cliente</th>
+                        <th class="th__texto">Correo</th>
+                        <th class="th__texto">1er mensualidad</th>
+                        <th class="th__texto">Modificar</th>
+                        <th class="th__texto">Eliminar</th>
                     </tr>
                   </thead>
                   <tbody>
                   <?php
                           foreach($datos as $item) {
                         ?>
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>
-  
-                                 
-                            </form>
-                          
-                            </td> --> 
-                          <td class="text-center"> <?php echo $item->CREAR_RECIBO; ?> </td>
-                          <td class="text-center"> <?php echo $item->NOTAS;?> </td>
-                          <td class="text-center"> <?php echo $item->ENVIADO;?> </td>
-                          <td class="text-center"> <?php echo $item->LLAVE; ?> </td>
-                          <td class="text-center"> <?php echo $item->BENEFICIARIO;?> </td>
-                          <td class="text-center"> <?php echo $item->FACTURA;?> </td>
-                          <td class="text-center"> <?php echo $item->FECHA;?></td>
-                          <td class="text-center"> <?php echo $item->MOTIVO;?> </td>
-                          <td class="text-center"> <?php echo $item->CATEGORIA;?> </td>
-                          <td class="text-center"> <?php echo $item->ORIGEN;?> </td>
-                          <td class="text-center"> <?php echo $item->SUBCATEGORIA;?> </td>
-                          <td class="text-center"> <?php echo $item->MES;?> </td>
-                          <td class="text-center"> <?php echo $item->AÑO;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->FLUJO2),2);?> </td>
-                          <td class="text-center"> <?php echo number_format(floatval($item->LOTE)); ?> </td>
-                          <td class="text-center"> <?php echo $item->CONDOMINIO;?> </td>
-                          <td class="text-center"> <?php echo $item->CLUSTER;?> </td>
-                          <td class="text-center"> <?php echo $item->DESARROLLO;?> </td>
-                          <td class="text-center"> <?php echo $item->CLIENTE;?> </td>
-                          <td class="text-center"> <?php echo $item->CORREO;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->ER_MENSUALIDAD),2); ?> </td>
-                          <td class="text-center">
+                        <tr class="text-center">
+                          <td> <?php echo $item->CREAR_RECIBO; ?> </td>
+                          <td> <?php echo $item->NOTAS;?> </td>
+                          <td> <?php echo $item->ENVIADO;?> </td>
+                          <td> <?php echo $item->LLAVE; ?> </td>
+                          <td> <?php echo $item->BENEFICIARIO;?> </td>
+                          <td> <?php echo $item->FACTURA;?> </td>
+                          <td> <?php echo $item->FECHA;?></td>
+                          <td> <?php echo $item->MOTIVO;?> </td>
+                          <td> <?php echo $item->CATEGORIA;?> </td>
+                          <td> <?php echo $item->ORIGEN;?> </td>
+                          <td> <?php echo $item->SUBCATEGORIA;?> </td>
+                          <td> <?php echo $item->MES;?> </td>
+                          <td> <?php echo $item->AÑO;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->FLUJO2),2);?> </td>
+                          <td> <?php echo number_format(floatval($item->LOTE)); ?> </td>
+                          <td> <?php echo $item->CONDOMINIO;?> </td>
+                          <td> <?php echo $item->CLUSTER;?> </td>
+                          <td> <?php echo $item->DESARROLLO;?> </td>
+                          <td> <?php echo $item->CLIENTE;?> </td>
+                          <td> <?php echo $item->CORREO;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->ER_MENSUALIDAD),2); ?> </td>
+                          <td>
                             <form action="./flujo/modificar_Flujo.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
@@ -407,7 +358,7 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-                          <td class="text-center">
+                          <td>
                             <form action="./Flujo/eliminarflujo.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
@@ -415,38 +366,34 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-
-                            </td>
-                          </tr>
+                        </tr>
                           <?php } ?> 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                    <th class="th__texto" style="text-align:center;">Crear recibo</th>                        
-                        <th class="th__texto" style="text-align:center;">Notas</th>
-                        <th class="th__texto" style="text-align:center;">Enviado</th>
-                        <th class="th__texto" style="text-align:center;">Llave</th>
-                        <th class="th__texto" style="text-align:center;">Beneficiario</th>
-                        <th class="th__texto" style="text-align:center;">Factura</th>
-                        <th class="th__texto" style="text-align:center;">Fecha</th>
-                        <th class="th__texto" style="text-align:center;">Motivo</th>
-                        <th class="th__texto" style="text-align:center;">Categoria</th>
-                        <th class="th__texto" style="text-align:center;">Origen</th>
-                        <th class="th__texto" style="text-align:center;">Subcategoria</th>
-                        <th class="th__texto" style="text-align:center;">Mes</th>
-                        <th class="th__texto" style="text-align:center;">Año</th>
-                        <th class="th__texto" style="text-align:center;">Flujo2</th>
-                        <th class="th__texto" style="text-align:center;">Lote</th>
-                        <th class="th__texto" style="text-align:center;">Condominio</th>                        
-                        <th class="th__texto" style="text-align:center;">Cluster</th>
-                        <th class="th__texto" style="text-align:center;">Desarrollo</th>
-                        <th class="th__texto" style="text-align:center;">Cliente</th>
-                        <th class="th__texto" style="text-align:center;">Correo</th>
-                        <th class="th__texto" style="text-align:center;">1er mensualidad</th>
-                        <th class="th__texto" style="text-align:center;">Modificar</th>
-                        <th class="th__texto" style="text-align:center;">Eliminar</th>
+                    <tr class="text-center">
+                    <th class="th__texto">Crear recibo</th>                        
+                        <th class="th__texto">Notas</th>
+                        <th class="th__texto">Enviado</th>
+                        <th class="th__texto">Llave</th>
+                        <th class="th__texto">Beneficiario</th>
+                        <th class="th__texto">Factura</th>
+                        <th class="th__texto">Fecha</th>
+                        <th class="th__texto">Motivo</th>
+                        <th class="th__texto">Categoria</th>
+                        <th class="th__texto">Origen</th>
+                        <th class="th__texto">Subcategoria</th>
+                        <th class="th__texto">Mes</th>
+                        <th class="th__texto">Año</th>
+                        <th class="th__texto">Flujo2</th>
+                        <th class="th__texto">Lote</th>
+                        <th class="th__texto">Condominio</th>                        
+                        <th class="th__texto">Cluster</th>
+                        <th class="th__texto">Desarrollo</th>
+                        <th class="th__texto">Cliente</th>
+                        <th class="th__texto">Correo</th>
+                        <th class="th__texto">1er mensualidad</th>
+                        <th class="th__texto">Modificar</th>
+                        <th class="th__texto">Eliminar</th>
                     </tr>
                   </tfoot>
                 </table>
@@ -580,15 +527,7 @@ require_once "./clases/Conexion.php";
       <!---footer---->
 
 
-      </div> -->
-
-      <footer class="footer">
-        <div class="container-fluid">
-          <div class="footer-in">
-            <p class="mb-0">&copy 2020 Vishweb design - All Rights Reserved.</p>
-          </div>
-        </div>
-      </footer>
+      </div>
       </div>
       </div>
 

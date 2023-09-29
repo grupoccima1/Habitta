@@ -206,10 +206,7 @@ require_once "./clases/Conexion.php";
           </li>
         </ul>
       </nav>
-
-
       <!--------page-content---------------->
-
       <div id="content">
       <div class="container-fluid">
         <div class="row">
@@ -224,9 +221,7 @@ require_once "./clases/Conexion.php";
                 <div class="col text-white">
                   <span><img src="images/home.svg" width="25px"></i></span> Home/Cobranza
                 </div>
-  
               </div>
-  
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -234,10 +229,9 @@ require_once "./clases/Conexion.php";
                   Agregar Registro
                 </a>
                 <hr>
-                <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                <table id="tabla" class="table table-striped data-table">
                   <thead class="bg__td bg-blue__400 text-white">
                     <tr>
-                   
                         <th class="th__texto" style="text-align:center;">Fecha</th>                        
                         <th class="th__texto" style="text-align:center;">Motivo</th>
                         <th class="th__texto" style="text-align:center;">Flujo</th>
@@ -253,27 +247,15 @@ require_once "./clases/Conexion.php";
                   <?php
                           foreach($datos as $item) {
                         ?>
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>
-  
-                                 
-                            </form>
-                          
-                            </td> --> 
-                          <td class="text-center"> <?php echo $item->FECHA; ?> </td>
-                          <td class="text-center"> <?php echo $item->MOTIVO;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->FLUJO,2);?> </td>
-                          <!-- <td class="text-center"> <?php echo $item->FECHA1 ?> </td> -->
-                          <td class="text-center"> <?php echo $item->DESCRIPCION;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->APAGAR),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->PAGO,2);?></td>
-                          <td class="text-center">
+                          <tr class="text-center">
+                          <td> <?php echo $item->FECHA; ?> </td>
+                          <td> <?php echo $item->MOTIVO;?> </td>
+                          <td> <?php echo "$".number_format($item->FLUJO,2);?> </td>
+                          <!-- <td> <?php echo $item->FECHA1 ?> </td> -->
+                          <td> <?php echo $item->DESCRIPCION;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->APAGAR),2);?> </td>
+                          <td> <?php echo "$".number_format($item->PAGO,2);?></td>
+                          <td>
                             <form action="./Cobranza/actualizarcobranza.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id?>">
                               <button class="btn btn-warning">
@@ -281,7 +263,7 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-                          <td class="text-center">
+                          <td>
                             <form action="./Cobranza/eliminarcobranza.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
@@ -294,18 +276,16 @@ require_once "./clases/Conexion.php";
                           <?php } ?> 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                    <th class="th__texto" style="text-align:center;">Fecha</th>                        
-                        <th class="th__texto" style="text-align:center;">Motivo</th>
-                        <th class="th__texto" style="text-align:center;">Flujo</th>
-                        <!-- <th class="th__texto" style="text-align:center;">Fecha (#)</th> -->
-                        <th class="th__texto" style="text-align:center;">Descripcion</th>
-                        <th class="th__texto" style="text-align:center;">A pagar</th>
-                        <th class="th__texto" style="text-align:center;">Pago</th>
-                        <th class="th__texto" style="text-align:center;">Modificar</th>
-                        <th class="th__texto" style="text-align:center;">Eliminar</th>
+                    <tr class="text-center">
+                        <th class="th__texto">Fecha</th>                        
+                        <th class="th__texto">Motivo</th>
+                        <th class="th__texto">Flujo</th>
+                        <!-- <th class="th__texto">Fecha (#)</th> -->
+                        <th class="th__texto">Descripcion</th>
+                        <th class="th__texto">A pagar</th>
+                        <th class="th__texto">Pago</th>
+                        <th class="th__texto">Modificar</th>
+                        <th class="th__texto">Eliminar</th>
                     </tr>
                   </tfoot>
                 </table>
@@ -431,14 +411,7 @@ require_once "./clases/Conexion.php";
             </div>
           </div>
         </div>
-
-
       </div>
-
-
-      <!---footer---->
-
-
       </div> 
       </div>
       </div>

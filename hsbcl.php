@@ -268,9 +268,6 @@ require_once "./clases/Conexion.php";
 
         </ul>
       </nav>
-
-
-
       <!--------page-content---------------->
 
       <div id="content">
@@ -287,9 +284,7 @@ require_once "./clases/Conexion.php";
                 <div class="col text-white">
                   <span><img src="images/home.svg" width="25px"></i></span> Home/Hsbc Lomas
                 </div>
-  
               </div>
-  
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -297,78 +292,65 @@ require_once "./clases/Conexion.php";
                   Agregar Registro
                 </a>
                 <hr>
-              <table id="tabla" class="table table-striped data-table" style="width: 100%">
+              <table id="tabla" class="table table-striped data-table">
                   <thead class="bg__td bg-blue__400 text-white"> 
-                    <tr>
-                   
-                        <th class="th__texto" style="text-align:center;">Semana</th>                        
-                        <th class="th__texto" style="text-align:center;">Fecha</th>
-                        <th class="th__texto" style="text-align:center;">Beneficiario</th>
-                        <th class="th__texto" style="text-align:center;">Ingreso</th>
-                        <th class="th__texto" style="text-align:center;">Egreso</th>
-                        <th class="th__texto" style="text-align:center;">Saldo</th>
-                        <th class="th__texto" style="text-align:center;">Factura</th>
-                        <th class="th__texto" style="text-align:center;">Motivo</th>
-                        <th class="th__texto" style="text-align:center;">Mes</th>
-                        <th class="th__texto" style="text-align:center;">Desarrollo</th>
-                        <th class="th__texto" style="text-align:center;">Lote</th>
-                        <th class="th__texto" style="text-align:center;">Condominio</th>
-                        <th class="th__texto" style="text-align:center;">Cluster</th>
-                        <th class="th__texto" style="text-align:center;">Obra</th>
-                        <th class="th__texto" style="text-align:center;">Categoria</th>
-                        <th class="th__texto" style="text-align:center;">Subcategoria</th>                        
-                        <th class="th__texto" style="text-align:center;">Modelo de negocios</th>
-                        <th class="th__texto" style="text-align:center;">Flujo</th>
-                        <th class="th__texto" style="text-align:center;">Llave</th>
-                        <th class="th__texto" style="text-align:center;">Fecha correcta</th>
-                        <th class="th__texto" style="text-align:center;">Llave estado de cuenta</th>
-                        <th class="th__texto" style="text-align:center;">Clave</th>
-                        <th class="th__texto" style="text-align:center;">Metodo de pago</th>
-                        <th class="th__texto" style="text-align:center;">Modificar</th>
-                        <th class="th__texto" style="text-align:center;">Eliminar</th>
+                    <tr class="text-center">
+                        <th class="th__texto">Semana</th>                        
+                        <th class="th__texto">Fecha</th>
+                        <th class="th__texto">Beneficiario</th>
+                        <th class="th__texto">Ingreso</th>
+                        <th class="th__texto">Egreso</th>
+                        <th class="th__texto">Saldo</th>
+                        <th class="th__texto">Factura</th>
+                        <th class="th__texto">Motivo</th>
+                        <th class="th__texto">Mes</th>
+                        <th class="th__texto">Desarrollo</th>
+                        <th class="th__texto">Lote</th>
+                        <th class="th__texto">Condominio</th>
+                        <th class="th__texto">Cluster</th>
+                        <th class="th__texto">Obra</th>
+                        <th class="th__texto">Categoria</th>
+                        <th class="th__texto">Subcategoria</th>                        
+                        <th class="th__texto">Modelo de negocios</th>
+                        <th class="th__texto">Flujo</th>
+                        <th class="th__texto">Llave</th>
+                        <th class="th__texto">Fecha correcta</th>
+                        <th class="th__texto">Llave estado de cuenta</th>
+                        <th class="th__texto">Clave</th>
+                        <th class="th__texto">Metodo de pago</th>
+                        <th class="th__texto">Modificar</th>
+                        <th class="th__texto">Eliminar</th>
                     </tr>
                   </thead>
                   <tbody>
                   <?php
                           foreach($datos as $item) {
                         ?>
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>
-  
-                                 
-                            </form>
-                          
-                            </td> --> 
-                          <td class="text-center"> <?php echo $item->SEMANA; ?> </td>
-                          <td class="text-center"> <?php echo $item->FECHA;?> </td>
-                          <td class="text-center"> <?php echo $item->BENEFICIARIO;?> </td>
-                          <td class="text-center"> <?php echo $item->INGRESO; ?> </td>
-                          <td class="text-center"> <?php echo $item->EGRESO;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->SALDO),2);?> </td>
-                          <td class="text-center"> <?php echo $item->FACTURA;?></td>
-                          <td class="text-center"> <?php echo $item->MOTIVO;?> </td>
-                          <td class="text-center"> <?php echo $item->MES;?> </td>
-                          <td class="text-center"> <?php echo $item->DESARROLLO;?> </td>
-                          <td class="text-center"> <?php echo $item->LOTE;?> </td>
-                          <td class="text-center"> <?php echo $item->CONDOMINIO;?> </td>
-                          <td class="text-center"> <?php echo $item->CLUSTER;?> </td>
-                          <td class="text-center"> <?php echo $item->OBRA;?> </td>
-                          <td class="text-center"> <?php echo $item->CATEGORIA; ?> </td>
-                          <td class="text-center"> <?php echo $item->SUBCATEGORIA;?> </td>
-                          <td class="text-center"> <?php echo $item->UNIDADDENEGOCIO;?> </td>
-                          <td class="text-center"> <?php echo $item->FLUJO;?> </td>
-                          <td class="text-center"> <?php echo $item->LLAVE;?> </td>
-                          <td class="text-center"> <?php echo $item->FECHACORRECTA;?> </td>
-                          <td class="text-center"> <?php echo $item->LLAVEEDOSDECUENTA; ?> </td>
-                          <td class="text-center"> <?php echo $item->CLAVE;?> </td>
-                          <td class="text-center"> <?php echo $item->METODODEPAGO;?> </td>
-                          <td class="text-center">
+                          <tr class="text-center">
+                          <td> <?php echo $item->SEMANA; ?> </td>
+                          <td> <?php echo $item->FECHA;?> </td>
+                          <td> <?php echo $item->BENEFICIARIO;?> </td>
+                          <td> <?php echo $item->INGRESO; ?> </td>
+                          <td> <?php echo $item->EGRESO;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->SALDO),2);?> </td>
+                          <td> <?php echo $item->FACTURA;?></td>
+                          <td> <?php echo $item->MOTIVO;?> </td>
+                          <td> <?php echo $item->MES;?> </td>
+                          <td> <?php echo $item->DESARROLLO;?> </td>
+                          <td> <?php echo $item->LOTE;?> </td>
+                          <td> <?php echo $item->CONDOMINIO;?> </td>
+                          <td> <?php echo $item->CLUSTER;?> </td>
+                          <td> <?php echo $item->OBRA;?> </td>
+                          <td> <?php echo $item->CATEGORIA; ?> </td>
+                          <td> <?php echo $item->SUBCATEGORIA;?> </td>
+                          <td> <?php echo $item->UNIDADDENEGOCIO;?> </td>
+                          <td> <?php echo $item->FLUJO;?> </td>
+                          <td> <?php echo $item->LLAVE;?> </td>
+                          <td> <?php echo $item->FECHACORRECTA;?> </td>
+                          <td> <?php echo $item->LLAVEEDOSDECUENTA; ?> </td>
+                          <td> <?php echo $item->CLAVE;?> </td>
+                          <td> <?php echo $item->METODODEPAGO;?> </td>
+                          <td>
                             <form action="./HSBCLOMAS/actualizarhsbclomas.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                                 <button class="btn btn-warning">
@@ -376,7 +358,7 @@ require_once "./clases/Conexion.php";
                                 </button>
                             </form>
                           </td>
-                          <td class="text-center">
+                          <td>
                             <form action="./HSBCLOMAS/eliminarhsbclomas.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id?>">
                                 <button class="btn btn-danger">
@@ -389,34 +371,32 @@ require_once "./clases/Conexion.php";
                           <?php } ?>
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                        <th class="th__texto" style="text-align:center;">Semana</th>                        
-                        <th class="th__texto" style="text-align:center;">Fecha</th>
-                        <th class="th__texto" style="text-align:center;">Beneficiario</th>
-                        <th class="th__texto" style="text-align:center;">Ingreso</th>
-                        <th class="th__texto" style="text-align:center;">Egreso</th>
-                        <th class="th__texto" style="text-align:center;">Saldo</th>
-                        <th class="th__texto" style="text-align:center;">Factura</th>
-                        <th class="th__texto" style="text-align:center;">Motivo</th>
-                        <th class="th__texto" style="text-align:center;">Mes</th>
-                        <th class="th__texto" style="text-align:center;">Desarrollo</th>
-                        <th class="th__texto" style="text-align:center;">Lote</th>
-                        <th class="th__texto" style="text-align:center;">Condominio</th>
-                        <th class="th__texto" style="text-align:center;">Cluster</th>
-                        <th class="th__texto" style="text-align:center;">Obra</th>
-                        <th class="th__texto" style="text-align:center;">Categoria</th>
-                        <th class="th__texto" style="text-align:center;">Subcategoria</th>                        
-                        <th class="th__texto" style="text-align:center;">Modelo de negocios</th>
-                        <th class="th__texto" style="text-align:center;">Flujo</th>
-                        <th class="th__texto" style="text-align:center;">Llave</th>
-                        <th class="th__texto" style="text-align:center;">Fecha correcta</th>
-                        <th class="th__texto" style="text-align:center;">Llave estado de cuenta</th>
-                        <th class="th__texto" style="text-align:center;">Clave</th>
-                        <th class="th__texto" style="text-align:center;">Metodo de pago</th>
-                        <th class="th__texto" style="text-align:center;">Modificar</th>
-                        <th class="th__texto" style="text-align:center;">Eliminar</th>
+                    <tr class="text-center">
+                        <th class="th__texto">Semana</th>                        
+                        <th class="th__texto">Fecha</th>
+                        <th class="th__texto">Beneficiario</th>
+                        <th class="th__texto">Ingreso</th>
+                        <th class="th__texto">Egreso</th>
+                        <th class="th__texto">Saldo</th>
+                        <th class="th__texto">Factura</th>
+                        <th class="th__texto">Motivo</th>
+                        <th class="th__texto">Mes</th>
+                        <th class="th__texto">Desarrollo</th>
+                        <th class="th__texto">Lote</th>
+                        <th class="th__texto">Condominio</th>
+                        <th class="th__texto">Cluster</th>
+                        <th class="th__texto">Obra</th>
+                        <th class="th__texto">Categoria</th>
+                        <th class="th__texto">Subcategoria</th>                        
+                        <th class="th__texto">Modelo de negocios</th>
+                        <th class="th__texto">Flujo</th>
+                        <th class="th__texto">Llave</th>
+                        <th class="th__texto">Fecha correcta</th>
+                        <th class="th__texto">Llave estado de cuenta</th>
+                        <th class="th__texto">Clave</th>
+                        <th class="th__texto">Metodo de pago</th>
+                        <th class="th__texto">Modificar</th>
+                        <th class="th__texto">Eliminar</th>
                     </tr>
                   </tfoot>
                 </table>
@@ -542,14 +522,8 @@ require_once "./clases/Conexion.php";
             </div>
           </div>
         </div>
-
-
       </div>
-
-
       <!---footer---->
-
-
       </div> 
       </div>
       </div>

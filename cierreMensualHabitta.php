@@ -225,9 +225,7 @@ require_once "./clases/Conexion.php";
                 <div class="col text-white">
                   <span><img src="images/home.svg" width="25px"></i></span> Home/Cierre Mensual Habitta
                 </div>
-
               </div>
-
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -235,105 +233,83 @@ require_once "./clases/Conexion.php";
                   Agregar Registro
                 </a>
                 <hr>
-                <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                <table id="tabla" class="table table-striped data-table">
                   <thead class="bg__td bg-blue__500 text-white">
-                    <tr>
-
-                        
-                        <th class="th__texto" style="text-align:center;">CIERRE_MES</th>                     
-                        <th class="th__texto" style="text-align:center;">FECHA</th> 
-                        <th class="th__texto" style="text-align:center;">BENEFICIARIO</th> 
-                        <th class="th__texto" style="text-align:center;">INGRESO</th>
-                        <th class="th__texto" style="text-align:center;">EGRESO</th>
-                        <th class="th__texto" style="text-align:center;">SALDO</th>
-                        <th class="th__texto" style="text-align:center;">FACTURA</th>
-                        <th class="th__texto" style="text-align:center;">REAL</th>
-                        <th class="th__texto" style="text-align:center;">MOTIVO</th>
-                        <th class="th__texto" style="text-align:center;">MES</th>
-                        <th class="th__texto" style="text-align:center;">DESARROLLO</th>
-                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
-                        <th class="th__texto" style="text-align:center;">CLUSTER</th>
-                        <th class="th__texto" style="text-align:center;">OBRA</th>
-                        <th class="th__texto" style="text-align:center;">CATEGORIA</th>
-                        <th class="th__texto" style="text-align:center;">SUBCATEGORIA</th>
-                        <th class="th__texto" style="text-align:center;">ORIGEN</th>
-                        <th class="th__texto" style="text-align:center;">SEMANA</th>
-                        <th class="th__texto" style="text-align:center;">SOLICITÓ</th>
-                        <th class="th__texto" style="text-align:center;">AUTORIZÓ</th>
-                        <th class="th__texto" style="text-align:center;">PRESUPUESTO</th>
-                        <th class="th__texto" style="text-align:center;">UNIDAD_DE_NEGOCIO</th>
-                        <th class="th__texto" style="text-align:center;">FLUJO</th>
-                        <th class="th__texto" style="text-align:center;">LLAVE</th>
-                        <th class="th__texto" style="text-align:center;">FECHA_CORRECTA</th>
-                        <th class="th__texto" style="text-align:center;">LLAVE_EDOS_DE_CUENTA</th>
-                        <th class="th__texto" style="text-align:center;">METODO_DE_PAGO</th>
-                        <th class="th__texto" style="text-align:center;">MODELO_DE_NEGOCIO</th>
-                        <th class="th__texto" style="text-align:center;">SOLICITO</th>
-                        <th class="th__texto" style="text-align:center;">AUTORIZO</th>
-                        <th class="th__texto" style="text-align:center;">AÑO</th>
-                        <th class="th__texto" style="text-align:center;">MONTO_PROYECTADO</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMIAR</th>
-                        
-
-
-                        
-
-                      
-
-
+                    <tr class="text-center">
+                        <th class="th__texto">CIERRE_MES</th>                     
+                        <th class="th__texto">FECHA</th> 
+                        <th class="th__texto">BENEFICIARIO</th> 
+                        <th class="th__texto">INGRESO</th>
+                        <th class="th__texto">EGRESO</th>
+                        <th class="th__texto">SALDO</th>
+                        <th class="th__texto">FACTURA</th>
+                        <th class="th__texto">REAL</th>
+                        <th class="th__texto">MOTIVO</th>
+                        <th class="th__texto">MES</th>
+                        <th class="th__texto">DESARROLLO</th>
+                        <th class="th__texto">CONDOMINIO</th>
+                        <th class="th__texto">CLUSTER</th>
+                        <th class="th__texto">OBRA</th>
+                        <th class="th__texto">CATEGORIA</th>
+                        <th class="th__texto">SUBCATEGORIA</th>
+                        <th class="th__texto">ORIGEN</th>
+                        <th class="th__texto">SEMANA</th>
+                        <th class="th__texto">SOLICITÓ</th>
+                        <th class="th__texto">AUTORIZÓ</th>
+                        <th class="th__texto">PRESUPUESTO</th>
+                        <th class="th__texto">UNIDAD_DE_NEGOCIO</th>
+                        <th class="th__texto">FLUJO</th>
+                        <th class="th__texto">LLAVE</th>
+                        <th class="th__texto">FECHA_CORRECTA</th>
+                        <th class="th__texto">LLAVE_EDOS_DE_CUENTA</th>
+                        <th class="th__texto">METODO_DE_PAGO</th>
+                        <th class="th__texto">MODELO_DE_NEGOCIO</th>
+                        <th class="th__texto">SOLICITO</th>
+                        <th class="th__texto">AUTORIZO</th>
+                        <th class="th__texto">AÑO</th>
+                        <th class="th__texto">MONTO_PROYECTADO</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMIAR</th>
                     </tr>
                   </thead>
                   <tbody>
                   <?php
                           foreach($datos as $item) {
                         ?>
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>
-  
-                                 
-                            </form>
-                          
-                            </td> --> 
-                          <td class="text-center"> <?php echo $item->CIERRE_MES; ?> </td> 
-                          <td class="text-center"> <?php echo $item->FECHA;?> </td> 
-                          <td class="text-center"> <?php echo $item->BENEFICIARIO;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->INGRESO),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->EGRESO),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->SALDO),2); ?> </td>
-                          <td class="text-center"> <?php echo $item->FACTURA;?> </td>
-                          <td class="text-center"> <?php echo $item->REAL;?> </td>
-                          <td class="text-center"> <?php echo $item->MOTIVO;?></td>
-                          <td class="text-center"> <?php echo $item->MES;?> </td>
-                          <td class="text-center"> <?php echo $item->DESARROLLO;?> </td>
-                          <td class="text-center"> <?php echo $item->CONDOMINIO;?> </td>
-                          <td class="text-center"> <?php echo $item->CLUSTER;?> </td>
-                          <td class="text-center"> <?php echo $item->OBRA;?> </td>
-                          <td class="text-center"> <?php echo $item->CATEGORIA;?> </td>
-                          <td class="text-center"> <?php echo $item->SUBCATEGORIA;?> </td>
-                          <td class="text-center"> <?php echo $item->ORIGEN;?> </td>
-                          <td class="text-center"> <?php echo $item->SEMANA;?> </td>
-                          <td class="text-center"> <?php echo $item->SOLICITÓ;?> </td>
-                          <td class="text-center"> <?php echo $item->AUTORIZÓ;?> </td>
-                          <td class="text-center"> <?php echo $item->PRESUPUESTO;?> </td>
-                          <td class="text-center"> <?php echo $item->UNIDAD_DE_NEGOCIO;?> </td>
-                          <td class="text-center"> <?php echo $item->FLUJO;?> </td>
-                          <td class="text-center"> <?php echo $item->LLAVE;?> </td>
-                          <td class="text-center"> <?php echo $item->FECHA_CORRECTA;?> </td>
-                          <td class="text-center"> <?php echo $item->LLAVE_EDOS_DE_CUENTA;?> </td>
-                          <td class="text-center"> <?php echo $item->METODO_DE_PAGO;?> </td>
-                          <td class="text-center"> <?php echo $item->MODELO_DE_NEGOCIO;?> </td>
-                          <td class="text-center"> <?php echo $item->SOLICITO;?> </td>
-                          <td class="text-center"> <?php echo $item->AUTORIZO;?> </td>
-                          <td class="text-center"> <?php echo $item->AÑO;?> </td>
-                          <td class="text-center"> <?php echo $item->MONTO_PROYECTADO;?> </td>
-                          <td class="text-center">
+                          <tr class="text-center">
+                          <td> <?php echo $item->CIERRE_MES; ?> </td> 
+                          <td> <?php echo $item->FECHA;?> </td> 
+                          <td> <?php echo $item->BENEFICIARIO;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->INGRESO),2);?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->EGRESO),2);?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->SALDO),2); ?> </td>
+                          <td> <?php echo $item->FACTURA;?> </td>
+                          <td> <?php echo $item->REAL;?> </td>
+                          <td> <?php echo $item->MOTIVO;?></td>
+                          <td> <?php echo $item->MES;?> </td>
+                          <td> <?php echo $item->DESARROLLO;?> </td>
+                          <td> <?php echo $item->CONDOMINIO;?> </td>
+                          <td> <?php echo $item->CLUSTER;?> </td>
+                          <td> <?php echo $item->OBRA;?> </td>
+                          <td> <?php echo $item->CATEGORIA;?> </td>
+                          <td> <?php echo $item->SUBCATEGORIA;?> </td>
+                          <td> <?php echo $item->ORIGEN;?> </td>
+                          <td> <?php echo $item->SEMANA;?> </td>
+                          <td> <?php echo $item->SOLICITÓ;?> </td>
+                          <td> <?php echo $item->AUTORIZÓ;?> </td>
+                          <td> <?php echo $item->PRESUPUESTO;?> </td>
+                          <td> <?php echo $item->UNIDAD_DE_NEGOCIO;?> </td>
+                          <td> <?php echo $item->FLUJO;?> </td>
+                          <td> <?php echo $item->LLAVE;?> </td>
+                          <td> <?php echo $item->FECHA_CORRECTA;?> </td>
+                          <td> <?php echo $item->LLAVE_EDOS_DE_CUENTA;?> </td>
+                          <td> <?php echo $item->METODO_DE_PAGO;?> </td>
+                          <td> <?php echo $item->MODELO_DE_NEGOCIO;?> </td>
+                          <td> <?php echo $item->SOLICITO;?> </td>
+                          <td> <?php echo $item->AUTORIZO;?> </td>
+                          <td> <?php echo $item->AÑO;?> </td>
+                          <td> <?php echo $item->MONTO_PROYECTADO;?> </td>
+                          <td>
                             <form action="./CierreMensual/modificar_CierreMensual.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
@@ -341,7 +317,7 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-                          <td class="text-center">
+                          <td>
                             <form action="./CierreMensual/eliminarcierremensual.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
@@ -354,46 +330,41 @@ require_once "./clases/Conexion.php";
                           <?php } ?> 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                        <th class="th__texto" style="text-align:center;">CIERRE_MES</th>                        
-                        <th class="th__texto" style="text-align:center;">FECHA</th>
-                        <th class="th__texto" style="text-align:center;">BENEFICIARIO</th>
-                        <th class="th__texto" style="text-align:center;">INGRESO</th>
-                        <th class="th__texto" style="text-align:center;">EGRESO</th>
-                        <th class="th__texto" style="text-align:center;">SALDO</th>
-                        <th class="th__texto" style="text-align:center;">FACTURA</th>
-                        <th class="th__texto" style="text-align:center;">REAL</th>
-                        <th class="th__texto" style="text-align:center;">MOTIVO</th>
-                        <th class="th__texto" style="text-align:center;">MES</th>
-                        <th class="th__texto" style="text-align:center;">DESARROLLO</th>
-                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
-                        <th class="th__texto" style="text-align:center;">CLUSTER</th>
-                        <th class="th__texto" style="text-align:center;">OBRA</th>
-                        <th class="th__texto" style="text-align:center;">CATEGORIA</th>
-                        <th class="th__texto" style="text-align:center;">SUBCATEGORIA</th>
-                        <th class="th__texto" style="text-align:center;">ORIGEN</th>
-                        <th class="th__texto" style="text-align:center;">SEMANA</th>
-                        <th class="th__texto" style="text-align:center;">SOLICITÓ</th>
-                        <th class="th__texto" style="text-align:center;">AUTORIZÓ</th>
-                        <th class="th__texto" style="text-align:center;">PRESUPUESTO</th>
-                        <th class="th__texto" style="text-align:center;">UNIDAD_DE_NEGOCIO</th>
-                        <th class="th__texto" style="text-align:center;">FLUJO</th>
-                        <th class="th__texto" style="text-align:center;">LLAVE</th>
-                        <th class="th__texto" style="text-align:center;">FECHA_CORRECTA</th>
-                        <th class="th__texto" style="text-align:center;">LLAVE_EDOS_DE_CUENTA</th>
-                        <th class="th__texto" style="text-align:center;">METODO_DE_PAGO</th>
-                        <th class="th__texto" style="text-align:center;">MODELO_DE_NEGOCIO</th>
-                        <th class="th__texto" style="text-align:center;">SOLICITO</th>
-                        <th class="th__texto" style="text-align:center;">AUTORIZO</th>
-                        <th class="th__texto" style="text-align:center;">AÑO</th>
-                        <th class="th__texto" style="text-align:center;">MONTO_PROYECTADO</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMIAR</th>
-                        
-
-
+                    <tr class="text-center">
+                        <th class="th__texto">CIERRE_MES</th>                        
+                        <th class="th__texto">FECHA</th>
+                        <th class="th__texto">BENEFICIARIO</th>
+                        <th class="th__texto">INGRESO</th>
+                        <th class="th__texto">EGRESO</th>
+                        <th class="th__texto">SALDO</th>
+                        <th class="th__texto">FACTURA</th>
+                        <th class="th__texto">REAL</th>
+                        <th class="th__texto">MOTIVO</th>
+                        <th class="th__texto">MES</th>
+                        <th class="th__texto">DESARROLLO</th>
+                        <th class="th__texto">CONDOMINIO</th>
+                        <th class="th__texto">CLUSTER</th>
+                        <th class="th__texto">OBRA</th>
+                        <th class="th__texto">CATEGORIA</th>
+                        <th class="th__texto">SUBCATEGORIA</th>
+                        <th class="th__texto">ORIGEN</th>
+                        <th class="th__texto">SEMANA</th>
+                        <th class="th__texto">SOLICITÓ</th>
+                        <th class="th__texto">AUTORIZÓ</th>
+                        <th class="th__texto">PRESUPUESTO</th>
+                        <th class="th__texto">UNIDAD_DE_NEGOCIO</th>
+                        <th class="th__texto">FLUJO</th>
+                        <th class="th__texto">LLAVE</th>
+                        <th class="th__texto">FECHA_CORRECTA</th>
+                        <th class="th__texto">LLAVE_EDOS_DE_CUENTA</th>
+                        <th class="th__texto">METODO_DE_PAGO</th>
+                        <th class="th__texto">MODELO_DE_NEGOCIO</th>
+                        <th class="th__texto">SOLICITO</th>
+                        <th class="th__texto">AUTORIZO</th>
+                        <th class="th__texto">AÑO</th>
+                        <th class="th__texto">MONTO_PROYECTADO</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMIAR</th>
                     </tr>
                   </tfoot>
                 </table>
@@ -519,14 +490,7 @@ require_once "./clases/Conexion.php";
             </div>
           </div>
         </div>
-
-
       </div>
-
-
-      <!---footer---->
-
-
       </div> 
       </div>
       </div>

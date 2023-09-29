@@ -234,92 +234,75 @@ require_once "./clases/Conexion.php";
                   Agregar Registro
                 </a>
                 <hr>
-                <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                <table id="tabla" class="table table-striped data-table">
                   <thead class="bg__td bg-blue__400 text-white">
-                    <tr>
-
-                        
-                        <th class="th__texto" style="text-align:center;">NÚMERO</th>                        
-                        <th class="th__texto" style="text-align:center;">CONDOMIO</th>
-                        <th class="th__texto" style="text-align:center;">CLUSTER</th>
-                        <th class="th__texto" style="text-align:center;">CLIENTE</th>
-                        <th class="th__texto" style="text-align:center;">PROMOCIÓN</th>
-                        <th class="th__texto" style="text-align:center;">ESTATUS_DÍAS</th>
-                        <th class="th__texto" style="text-align:center;">INICIO_DE_CORRIDA_CONTRATO_O_SIMULADOR</th>
-                        <th class="th__texto" style="text-align:center;">Columna1</th>
-                        <th class="th__texto" style="text-align:center;">APLICADO</th>
-                        <th class="th__texto" style="text-align:center;">APARTADO</th>
-                        <th class="th__texto" style="text-align:center;">FECHAS_DE_PAGO</th>
-                        <th class="th__texto" style="text-align:center;">ENGANCHE</th>                        
-                        <th class="th__texto" style="text-align:center;">TOTAL_PAGADO</th>
-                        <th class="th__texto" style="text-align:center;">Columna2</th>
-                        <th class="th__texto" style="text-align:center;">Columna3</th>
-                        <th class="th__texto" style="text-align:center;">Columna4</th>
-                        <th class="th__texto" style="text-align:center;">Columna5</th>
-                        <th class="th__texto" style="text-align:center;">Columna6</th>
-                        <th class="th__texto" style="text-align:center;">STATUS</th>
-                        <th class="th__texto" style="text-align:center;">SÍ_NO</th>
-                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
-                        <th class="th__texto" style="text-align:center;">CLÚSTER</th>
-                        <th class="th__texto" style="text-align:center;">BONO</th>                        
-                        <th class="th__texto" style="text-align:center;">LOTE_numero1</th>
-                        <th class="th__texto" style="text-align:center;">CONDOMINIO_numero1</th>
-                        <th class="th__texto" style="text-align:center;">CLÚSTER_numero1</th>
-                        <th class="th__texto" style="text-align:center;">CLIENTE_numero1</th>
-                        <th class="th__texto" style="text-align:center;">NOTA</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
-                      
-
-
+                    <tr class="text-center">
+                        <th class="th__texto">NÚMERO</th>                        
+                        <th class="th__texto">CONDOMIO</th>
+                        <th class="th__texto">CLUSTER</th>
+                        <th class="th__texto">CLIENTE</th>
+                        <th class="th__texto">PROMOCIÓN</th>
+                        <th class="th__texto">ESTATUS_DÍAS</th>
+                        <th class="th__texto">INICIO_DE_CORRIDA_CONTRATO_O_SIMULADOR</th>
+                        <th class="th__texto">Columna1</th>
+                        <th class="th__texto">APLICADO</th>
+                        <th class="th__texto">APARTADO</th>
+                        <th class="th__texto">FECHAS_DE_PAGO</th>
+                        <th class="th__texto">ENGANCHE</th>                        
+                        <th class="th__texto">TOTAL_PAGADO</th>
+                        <th class="th__texto">Columna2</th>
+                        <th class="th__texto">Columna3</th>
+                        <th class="th__texto">Columna4</th>
+                        <th class="th__texto">Columna5</th>
+                        <th class="th__texto">Columna6</th>
+                        <th class="th__texto">STATUS</th>
+                        <th class="th__texto">SÍ_NO</th>
+                        <th class="th__texto">CONDOMINIO</th>
+                        <th class="th__texto">CLÚSTER</th>
+                        <th class="th__texto">BONO</th>                        
+                        <th class="th__texto">LOTE_numero1</th>
+                        <th class="th__texto">CONDOMINIO_numero1</th>
+                        <th class="th__texto">CLÚSTER_numero1</th>
+                        <th class="th__texto">CLIENTE_numero1</th>
+                        <th class="th__texto">NOTA</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
                     </tr>
                   </thead>
                   <tbody>
                   <?php
                           foreach($datos as $item) {
                         ?>
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>
-  
-                                 
-                            </form>
-                          
-                            </td> --> 
-                          <td class="text-center"> <?php echo $item->NÚMERO; ?> </td>
-                          <td class="text-center"> <?php echo $item->CONDOMIO;?> </td>
-                          <td class="text-center"> <?php echo $item->CLUSTER;?> </td>
-                          <td class="text-center"> <?php echo $item->CLIENTE;?> </td>
-                          <td class="text-center"> <?php echo $item->PROMOCIÓN;?> </td>
-                          <td class="text-center"> <?php echo $item->ESTATUS_DÍAS; ?> </td>
-                          <td class="text-center"> <?php echo $item->INICIO_DE_CORRIDA_CONTRATO_O_SIMULADOR;?> </td>
-                          <td class="text-center"> <?php echo $item->Columna1;?> </td>
-                          <td class="text-center"> <?php echo $item->APLICADO;?> </td>
-                          <td class="text-center"> <?php echo $item->APARTADO;?></td>
-                          <td class="text-center"> <?php echo $item->FECHAS_DE_PAGO;?> </td>
-                          <td class="text-center"> <?php echo $item->ENGANCHE;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->TOTAL_PAGADO),2); ?> </td>
-                          <td class="text-center"> <?php echo $item->Columna2;?> </td>
-                          <td class="text-center"> <?php echo $item->Columna3;?> </td>
-                          <td class="text-center"> <?php echo $item->Columna4;?> </td>
-                          <td class="text-center"> <?php echo $item->Columna5;?> </td>
-                          <td class="text-center"> <?php echo $item->Columna6;?> </td>
-                          <td class="text-center"> <?php echo $item->STATUS;?> </td>
-                          <td class="text-center"> <?php echo $item->SÍ_NO;?></td>
-                          <td class="text-center"> <?php echo $item->CONDOMINIO; ?> </td>
-                          <td class="text-center"> <?php echo $item->CLÚSTER;?> </td>
-                          <td class="text-center"> <?php echo $item->BONO;?> </td>
-                          <td class="text-center"> <?php echo $item->LOTE_numero1;?> </td>
-                          <td class="text-center"> <?php echo $item->CONDOMINIO_numero1;?> </td>
-                          <td class="text-center"> <?php echo $item->CLÚSTER_numero1; ?> </td>
-                          <td class="text-center"> <?php echo $item->CLIENTE_numero1;?> </td>
-                          <td class="text-center"> <?php echo $item->NOTA;?> </td>
-                          <td class="text-center">
+                          <tr class="text-center">
+                          <td> <?php echo $item->NÚMERO; ?> </td>
+                          <td> <?php echo $item->CONDOMIO;?> </td>
+                          <td> <?php echo $item->CLUSTER;?> </td>
+                          <td> <?php echo $item->CLIENTE;?> </td>
+                          <td> <?php echo $item->PROMOCIÓN;?> </td>
+                          <td> <?php echo $item->ESTATUS_DÍAS; ?> </td>
+                          <td> <?php echo $item->INICIO_DE_CORRIDA_CONTRATO_O_SIMULADOR;?> </td>
+                          <td> <?php echo $item->Columna1;?> </td>
+                          <td> <?php echo $item->APLICADO;?> </td>
+                          <td> <?php echo $item->APARTADO;?></td>
+                          <td> <?php echo $item->FECHAS_DE_PAGO;?> </td>
+                          <td> <?php echo $item->ENGANCHE;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->TOTAL_PAGADO),2); ?> </td>
+                          <td> <?php echo $item->Columna2;?> </td>
+                          <td> <?php echo $item->Columna3;?> </td>
+                          <td> <?php echo $item->Columna4;?> </td>
+                          <td> <?php echo $item->Columna5;?> </td>
+                          <td> <?php echo $item->Columna6;?> </td>
+                          <td> <?php echo $item->STATUS;?> </td>
+                          <td> <?php echo $item->SÍ_NO;?></td>
+                          <td> <?php echo $item->CONDOMINIO; ?> </td>
+                          <td> <?php echo $item->CLÚSTER;?> </td>
+                          <td> <?php echo $item->BONO;?> </td>
+                          <td> <?php echo $item->LOTE_numero1;?> </td>
+                          <td> <?php echo $item->CONDOMINIO_numero1;?> </td>
+                          <td> <?php echo $item->CLÚSTER_numero1; ?> </td>
+                          <td> <?php echo $item->CLIENTE_numero1;?> </td>
+                          <td> <?php echo $item->NOTA;?> </td>
+                          <td>
                             <form action="./BonosReferidos/modificar_BonosReferidos.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
@@ -327,7 +310,7 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-                          <td class="text-center">
+                          <td>
                             <form action="./BonosReferidos/eliminarbonosreferidos.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
@@ -340,39 +323,37 @@ require_once "./clases/Conexion.php";
                           <?php } ?> 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                        <th class="th__texto" style="text-align:center;">NÚMERO</th>                        
-                        <th class="th__texto" style="text-align:center;">CONDOMIO</th>
-                        <th class="th__texto" style="text-align:center;">CLUSTER</th>
-                        <th class="th__texto" style="text-align:center;">CLIENTE</th>
-                        <th class="th__texto" style="text-align:center;">PROMOCIÓN</th>
-                        <th class="th__texto" style="text-align:center;">ESTATUS_DÍAS</th>
-                        <th class="th__texto" style="text-align:center;">INICIO_DE_CORRIDA_CONTRATO_O_SIMULADOR</th>
-                        <th class="th__texto" style="text-align:center;">Columna1</th>
-                        <th class="th__texto" style="text-align:center;">APLICADO</th>
-                        <th class="th__texto" style="text-align:center;">APARTADO</th>
-                        <th class="th__texto" style="text-align:center;">FECHAS_DE_PAGO</th>
-                        <th class="th__texto" style="text-align:center;">ENGANCHE</th>                        
-                        <th class="th__texto" style="text-align:center;">TOTAL_PAGADO</th>
-                        <th class="th__texto" style="text-align:center;">Columna2</th>
-                        <th class="th__texto" style="text-align:center;">Columna3</th>
-                        <th class="th__texto" style="text-align:center;">Columna4</th>
-                        <th class="th__texto" style="text-align:center;">Columna5</th>
-                        <th class="th__texto" style="text-align:center;">Columna6</th>
-                        <th class="th__texto" style="text-align:center;">STATUS</th>
-                        <th class="th__texto" style="text-align:center;">SÍ_NO</th>
-                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
-                        <th class="th__texto" style="text-align:center;">CLÚSTER</th>
-                        <th class="th__texto" style="text-align:center;">BONO</th>                        
-                        <th class="th__texto" style="text-align:center;">LOTE_numero1</th>
-                        <th class="th__texto" style="text-align:center;">CONDOMINIO_numero1</th>
-                        <th class="th__texto" style="text-align:center;">CLÚSTER_numero1</th>
-                        <th class="th__texto" style="text-align:center;">CLIENTE_numero1</th>
-                        <th class="th__texto" style="text-align:center;">NOTA</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
+                    <tr class="text-center">
+                        <th class="th__texto">NÚMERO</th>                        
+                        <th class="th__texto">CONDOMIO</th>
+                        <th class="th__texto">CLUSTER</th>
+                        <th class="th__texto">CLIENTE</th>
+                        <th class="th__texto">PROMOCIÓN</th>
+                        <th class="th__texto">ESTATUS_DÍAS</th>
+                        <th class="th__texto">INICIO_DE_CORRIDA_CONTRATO_O_SIMULADOR</th>
+                        <th class="th__texto">Columna1</th>
+                        <th class="th__texto">APLICADO</th>
+                        <th class="th__texto">APARTADO</th>
+                        <th class="th__texto">FECHAS_DE_PAGO</th>
+                        <th class="th__texto">ENGANCHE</th>                        
+                        <th class="th__texto">TOTAL_PAGADO</th>
+                        <th class="th__texto">Columna2</th>
+                        <th class="th__texto">Columna3</th>
+                        <th class="th__texto">Columna4</th>
+                        <th class="th__texto">Columna5</th>
+                        <th class="th__texto">Columna6</th>
+                        <th class="th__texto">STATUS</th>
+                        <th class="th__texto">SÍ_NO</th>
+                        <th class="th__texto">CONDOMINIO</th>
+                        <th class="th__texto">CLÚSTER</th>
+                        <th class="th__texto">BONO</th>                        
+                        <th class="th__texto">LOTE_numero1</th>
+                        <th class="th__texto">CONDOMINIO_numero1</th>
+                        <th class="th__texto">CLÚSTER_numero1</th>
+                        <th class="th__texto">CLIENTE_numero1</th>
+                        <th class="th__texto">NOTA</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
                         
                       
                        
@@ -501,14 +482,7 @@ require_once "./clases/Conexion.php";
             </div>
           </div>
         </div>
-
-
       </div>
-
-
-      <!---footer---->
-
-
       </div> 
       </div>
       </div>

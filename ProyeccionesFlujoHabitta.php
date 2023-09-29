@@ -223,9 +223,7 @@ require_once "./clases/Conexion.php";
                 <div class="col text-white">
                   <span><img src="images/home.svg" width="25px"></i></span> Home/Proyecciones de Flujo Habitta
                 </div>
-
               </div>
-
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -233,97 +231,79 @@ require_once "./clases/Conexion.php";
                   Agregar Registro
                 </a>
                 <hr>
-                <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                <table id="tabla" class="table table-striped data-table">
                   <thead class="bg__td bg-blue__400 text-white">
-                    <tr>
-
-                        
-                        <th class="th__texto" style="text-align:center;">MES</th>                        
-                        <th class="th__texto" style="text-align:center;">fecha_2020</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2021</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2022</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2023</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2024</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2025</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2026</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2027</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2028</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2029</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2030</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2031</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2032</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2033</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2034</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2035</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2036</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2037</th>
-                        <th class="th__texto" style="text-align:center;">fecha_general</th>
-                        <th class="th__texto" style="text-align:center;">DESIERTO</th>
-                        <th class="th__texto" style="text-align:center;">ESTEPA</th>
-                        <th class="th__texto" style="text-align:center;">PARAMO</th>
-                        <th class="th__texto" style="text-align:center;">TAIGA</th>
-                        <th class="th__texto" style="text-align:center;">BOSQUE</th>
-                        <th class="th__texto" style="text-align:center;">LOMAS</th>
-                        <th class="th__texto" style="text-align:center;">Total_general</th>
-                        <th class="th__texto" style="text-align:center;">SELVA</th>
-                        <th class="th__texto" style="text-align:center;">LAGO</th>
-                        <th class="th__texto" style="text-align:center;">MANGLAR</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
-
-                      
-
-
+                    <tr class="text-center">
+                        <th class="th__texto">MES</th>                        
+                        <th class="th__texto">fecha_2020</th>
+                        <th class="th__texto">fecha_2021</th>
+                        <th class="th__texto">fecha_2022</th>
+                        <th class="th__texto">fecha_2023</th>
+                        <th class="th__texto">fecha_2024</th>
+                        <th class="th__texto">fecha_2025</th>
+                        <th class="th__texto">fecha_2026</th>
+                        <th class="th__texto">fecha_2027</th>
+                        <th class="th__texto">fecha_2028</th>
+                        <th class="th__texto">fecha_2029</th>
+                        <th class="th__texto">fecha_2030</th>
+                        <th class="th__texto">fecha_2031</th>
+                        <th class="th__texto">fecha_2032</th>
+                        <th class="th__texto">fecha_2033</th>
+                        <th class="th__texto">fecha_2034</th>
+                        <th class="th__texto">fecha_2035</th>
+                        <th class="th__texto">fecha_2036</th>
+                        <th class="th__texto">fecha_2037</th>
+                        <th class="th__texto">fecha_general</th>
+                        <th class="th__texto">DESIERTO</th>
+                        <th class="th__texto">ESTEPA</th>
+                        <th class="th__texto">PARAMO</th>
+                        <th class="th__texto">TAIGA</th>
+                        <th class="th__texto">BOSQUE</th>
+                        <th class="th__texto">LOMAS</th>
+                        <th class="th__texto">Total_general</th>
+                        <th class="th__texto">SELVA</th>
+                        <th class="th__texto">LAGO</th>
+                        <th class="th__texto">MANGLAR</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
                     </tr>
                   </thead>
                   <tbody>
                   <?php
                           foreach($datos as $item) {
                         ?>
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>
-  
-                                 
-                            </form>
-                          
-                            </td> --> 
-                          <td class="text-center"> <?php echo $item->MES;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2020,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2021,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2022,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2023,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2024,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2025,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2026,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2027,2);?></td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2028,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2029,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2030,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2031,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2032,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2033,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2034,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2035,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2036,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_2037,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->fecha_general,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->DESIERTO,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->ESTEPA,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->PARAMO,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->TAIGA,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->BOSQUE,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->LOMAS,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->Total_general,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->SELVA,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->LAGO,2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format($item->MANGLAR,2);?> </td>
-                          <td class="text-center">
+                          <tr class="text-center">
+                          <td> <?php echo $item->MES;?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2020,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2021,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2022,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2023,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2024,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2025,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2026,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2027,2);?></td>
+                          <td> <?php echo "$".number_format($item->fecha_2028,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2029,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2030,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2031,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2032,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2033,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2034,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2035,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2036,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_2037,2);?> </td>
+                          <td> <?php echo "$".number_format($item->fecha_general,2);?> </td>
+                          <td> <?php echo "$".number_format($item->DESIERTO,2);?> </td>
+                          <td> <?php echo "$".number_format($item->ESTEPA,2);?> </td>
+                          <td> <?php echo "$".number_format($item->PARAMO,2);?> </td>
+                          <td> <?php echo "$".number_format($item->TAIGA,2);?> </td>
+                          <td> <?php echo "$".number_format($item->BOSQUE,2);?> </td>
+                          <td> <?php echo "$".number_format($item->LOMAS,2);?> </td>
+                          <td> <?php echo "$".number_format($item->Total_general,2);?> </td>
+                          <td> <?php echo "$".number_format($item->SELVA,2);?> </td>
+                          <td> <?php echo "$".number_format($item->LAGO,2);?> </td>
+                          <td> <?php echo "$".number_format($item->MANGLAR,2);?> </td>
+                          <td>
                             <form action="./ProyeccionHabitta/modificar_ProyeccionesFlujo.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
@@ -331,7 +311,7 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-                          <td class="text-center">
+                          <td>
                             <form action="./ProyeccionHabitta/eliminarproyeccioneshabitta.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
@@ -339,50 +319,43 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>  
-                        
-                          
-                         
                           </tr>
                           <?php } ?> 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                        <th class="th__texto" style="text-align:center;">MES</th>                        
-                        <th class="th__texto" style="text-align:center;">fecha_2020</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2021</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2022</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2023</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2024</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2025</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2026</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2027</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2028</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2029</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2030</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2031</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2032</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2033</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2034</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2035</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2036</th>
-                        <th class="th__texto" style="text-align:center;">fecha_2037</th>
-                        <th class="th__texto" style="text-align:center;">fecha_general</th>
-                        <th class="th__texto" style="text-align:center;">DESIERTO</th>
-                        <th class="th__texto" style="text-align:center;">ESTEPA</th>
-                        <th class="th__texto" style="text-align:center;">PARAMO</th>
-                        <th class="th__texto" style="text-align:center;">TAIGA</th>
-                        <th class="th__texto" style="text-align:center;">BOSQUE</th>
-                        <th class="th__texto" style="text-align:center;">LOMAS</th>
-                        <th class="th__texto" style="text-align:center;">Total_general</th>
-                        <th class="th__texto" style="text-align:center;">SELVA</th>
-                        <th class="th__texto" style="text-align:center;">LAGO</th>
-                        <th class="th__texto" style="text-align:center;">MANGLAR</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
-
-                       
+                    <tr class="text-center">
+                        <th class="th__texto">MES</th>                        
+                        <th class="th__texto">fecha_2020</th>
+                        <th class="th__texto">fecha_2021</th>
+                        <th class="th__texto">fecha_2022</th>
+                        <th class="th__texto">fecha_2023</th>
+                        <th class="th__texto">fecha_2024</th>
+                        <th class="th__texto">fecha_2025</th>
+                        <th class="th__texto">fecha_2026</th>
+                        <th class="th__texto">fecha_2027</th>
+                        <th class="th__texto">fecha_2028</th>
+                        <th class="th__texto">fecha_2029</th>
+                        <th class="th__texto">fecha_2030</th>
+                        <th class="th__texto">fecha_2031</th>
+                        <th class="th__texto">fecha_2032</th>
+                        <th class="th__texto">fecha_2033</th>
+                        <th class="th__texto">fecha_2034</th>
+                        <th class="th__texto">fecha_2035</th>
+                        <th class="th__texto">fecha_2036</th>
+                        <th class="th__texto">fecha_2037</th>
+                        <th class="th__texto">fecha_general</th>
+                        <th class="th__texto">DESIERTO</th>
+                        <th class="th__texto">ESTEPA</th>
+                        <th class="th__texto">PARAMO</th>
+                        <th class="th__texto">TAIGA</th>
+                        <th class="th__texto">BOSQUE</th>
+                        <th class="th__texto">LOMAS</th>
+                        <th class="th__texto">Total_general</th>
+                        <th class="th__texto">SELVA</th>
+                        <th class="th__texto">LAGO</th>
+                        <th class="th__texto">MANGLAR</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
                     </tr>
                   </tfoot>
                 </table>

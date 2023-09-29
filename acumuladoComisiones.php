@@ -205,12 +205,7 @@ require_once "./clases/Conexion.php";
           </li>
         </ul>
       </nav>
-
-
-
-
       <!--------page-content---------------->
-
       <div id="content">
       <div class="container-fluid">
         <div class="row">

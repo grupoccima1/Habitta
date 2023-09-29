@@ -260,11 +260,7 @@ require_once "./clases/Conexion.php";
           <li class="dropdown">
             <a href="./tabulador.php" data-toggle="collapse" aria-expanded="false" >
               <i class="material-icons"></i><span>Tabulador</span></a>
-
           </li>
-
-
-
         </ul>
       </nav>
 
@@ -274,41 +270,7 @@ require_once "./clases/Conexion.php";
       <!--------page-content---------------->
 
       <div id="content">
-        <div class="top-navbar">
-          <div class="xp-topbar"></div>
-          <div class="xp-breadcrumbbar text-center">
-            <h4 class="page-title">Dashboard</h4>
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-            </ol>
-          </div>
-        </div>
 
-      <div class="container">
-        <div class="row justify-content-center py-5">
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/cimatario.svg" class="imagen-logos"/>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/lomas.svg"     class="imagen-logos"/>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/cimatario.svg" class="imagen-logos"/>
-            </div>
-          </div>
-
-
-
-        </div>
-      </div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
@@ -322,9 +284,7 @@ require_once "./clases/Conexion.php";
                 <div class="col">
                   <span><img src="images/home.svg" width="25px"></i></span> Home/Estados de cuenta
                 </div>
-
               </div>
-
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -332,48 +292,33 @@ require_once "./clases/Conexion.php";
                   Agregar Registro
                 </a>
                 <hr>
-                <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                <table id="tabla" class="table table-striped data-table">
                   <thead class="bg__td">
-                    <tr>
-
-                        
-                        <th class="th__texto" style="text-align:center;">CONCEPTO</th>                        
-                        <th class="th__texto" style="text-align:center;">PORTTO_BLANCO_CIM</th>
-                        <th class="th__texto" style="text-align:center;">LOMAS_DE_PORTTO_BLANCO</th>
-                        <th class="th__texto" style="text-align:center;">PORTTO_BLANCO_BERNAL</th>
-                        <th class="th__texto" style="text-align:center;">VEREDAS_DE_LIRA</th>
-                        <th class="th__texto" style="text-align:center;">PORTTO_BLANCO_SLP</th>
-                        <th class="th__texto" style="text-align:center;">GENERAL</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>                         
-
-
+                    <tr class="text-center">
+                        <th class="th__texto">CONCEPTO</th>                        
+                        <th class="th__texto">PORTTO_BLANCO_CIM</th>
+                        <th class="th__texto">LOMAS_DE_PORTTO_BLANCO</th>
+                        <th class="th__texto">PORTTO_BLANCO_BERNAL</th>
+                        <th class="th__texto">VEREDAS_DE_LIRA</th>
+                        <th class="th__texto">PORTTO_BLANCO_SLP</th>
+                        <th class="th__texto">GENERAL</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>                         
                     </tr>
                   </thead>
                   <tbody>
                   <?php
                           foreach($datos as $item) {
                         ?>
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>
-                                 
-                            </form>
-                          
-                            </td> --> 
-                          <td class="text-center"> <?php echo $item->CONCEPTO; ?> </td>
-                          <td class="text-center"> <?php echo number_format(floatval($item->PORTTO_BLANCO_CIM),2);?> </td>
-                          <td class="text-center"> <?php echo number_format(floatval($item->LOMAS_DE_PORTTO_BLANCO),2);?> </td>
-                          <td class="text-center"> <?php echo number_format(floatval($item->PORTTO_BLANCO_BERNAL),2);?> </td>
-                          <td class="text-center"> <?php echo number_format(floatval($item->VEREDAS_DE_LIRA),2);?> </td>
-                          <td class="text-center"> <?php echo number_format(floatval($item->PORTTO_BLANCO_SLP),2); ?> </td>
-                          <td class="text-center"> <?php echo number_format(floatval($item->GENERAL),2);?> </td>
-                          <td class="text-center">
+                          <tr class="text-center">
+                          <td> <?php echo $item->CONCEPTO; ?> </td>
+                          <td> <?php echo number_format(floatval($item->PORTTO_BLANCO_CIM),2);?> </td>
+                          <td> <?php echo number_format(floatval($item->LOMAS_DE_PORTTO_BLANCO),2);?> </td>
+                          <td> <?php echo number_format(floatval($item->PORTTO_BLANCO_BERNAL),2);?> </td>
+                          <td> <?php echo number_format(floatval($item->VEREDAS_DE_LIRA),2);?> </td>
+                          <td> <?php echo number_format(floatval($item->PORTTO_BLANCO_SLP),2); ?> </td>
+                          <td> <?php echo number_format(floatval($item->GENERAL),2);?> </td>
+                          <td>
                             <form action="./EstadoDeCuenta/modificar_EdosCuenta.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
@@ -381,7 +326,7 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-                          <td class="text-center">
+                          <td>
                             <form action="./EstadoDeCuenta/eliminarestadodecuenta.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
@@ -393,18 +338,16 @@ require_once "./clases/Conexion.php";
                           <?php } ?> 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                        <th class="th__texto" style="text-align:center;">CONCEPTO</th>                        
-                        <th class="th__texto" style="text-align:center;">PORTTO_BLANCO_CIM</th>
-                        <th class="th__texto" style="text-align:center;">LOMAS_DE_PORTTO_BLANCO</th>
-                        <th class="th__texto" style="text-align:center;">PORTTO_BLANCO_BERNAL</th>
-                        <th class="th__texto" style="text-align:center;">VEREDAS_DE_LIRA</th>
-                        <th class="th__texto" style="text-align:center;">PORTTO_BLANCO_SLP</th>
-                        <th class="th__texto" style="text-align:center;">GENERAL</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>   
+                    <tr class="text-center">
+                        <th class="th__texto">CONCEPTO</th>                        
+                        <th class="th__texto">PORTTO_BLANCO_CIM</th>
+                        <th class="th__texto">LOMAS_DE_PORTTO_BLANCO</th>
+                        <th class="th__texto">PORTTO_BLANCO_BERNAL</th>
+                        <th class="th__texto">VEREDAS_DE_LIRA</th>
+                        <th class="th__texto">PORTTO_BLANCO_SLP</th>
+                        <th class="th__texto">GENERAL</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>   
                     </tr>
                   </tfoot>
                 </table>
@@ -530,23 +473,10 @@ require_once "./clases/Conexion.php";
             </div>
           </div>
         </div>
-
-
       </div>
-
-
       <!---footer---->
 
-
       </div> 
-
-      <footer class="footer">
-        <div class="container-fluid">
-          <div class="footer-in">
-            <p class="mb-0">&copy 2020 Vishweb design - All Rights Reserved.</p>
-          </div>
-        </div>
-      </footer>
       </div>
       </div>
 

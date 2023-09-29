@@ -205,10 +205,6 @@ require_once "./clases/Conexion.php";
           </li>
         </ul>
       </nav>
-
-
-
-
       <!--------page-content---------------->
 
       <div id="content">
@@ -235,55 +231,39 @@ require_once "./clases/Conexion.php";
                   Agregar Registro
                 </a>
                 <hr>
-                <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                <table id="tabla" class="table table-striped data-table">
                   <thead class="bg__td bg-blue__400 text-white">
-                    <tr>
-
-                        <th class="th__texto" style="text-align:center;">No</th>                        
-                        <th class="th__texto" style="text-align:center;">FECHA</th>
-                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
-                        <th class="th__texto" style="text-align:center;">LLAVE</th>
-                        <th class="th__texto" style="text-align:center;">CLIENTE</th>
-                        <th class="th__texto" style="text-align:center;">MONTO</th>
-                        <th class="th__texto" style="text-align:center;">BANCO</th>
-                        <th class="th__texto" style="text-align:center;">MOTIVO</th>
-                        <th class="th__texto" style="text-align:center;">MONTO_DE_LA_OPERACIÓN</th>
-                        <th class="th__texto" style="text-align:center;">DESARROLLO</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
-                      
-
-
+                    <tr class="text-center">
+                        <th class="th__texto">No</th>                        
+                        <th class="th__texto">FECHA</th>
+                        <th class="th__texto">CONDOMINIO</th>
+                        <th class="th__texto">LLAVE</th>
+                        <th class="th__texto">CLIENTE</th>
+                        <th class="th__texto">MONTO</th>
+                        <th class="th__texto">BANCO</th>
+                        <th class="th__texto">MOTIVO</th>
+                        <th class="th__texto">MONTO_DE_LA_OPERACIÓN</th>
+                        <th class="th__texto">DESARROLLO</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
                     </tr>
                   </thead>
                   <tbody>
                   <?php
                           foreach($datos as $item) {
                         ?>
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>
-  
-                                 
-                            </form>
-                          
-                            </td> --> 
-                          <td class="text-center"> <?php echo $item->No; ?> </td>
-                          <td class="text-center"> <?php echo $item->FECHA;?> </td>
-                          <td class="text-center"> <?php echo $item->CONDOMINIO;?> </td>
-                          <td class="text-center"> <?php echo $item->LLAVE;?> </td>
-                          <td class="text-center"> <?php echo $item->CLIENTE;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->MONTO),2); ?> </td>
-                          <td class="text-center"> <?php echo $item->BANCO;?> </td>
-                          <td class="text-center"> <?php echo $item->MOTIVO;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->MONTO_DE_LA_OPERACIÓN),2);?></td>
-                          <td class="text-center"> <?php echo $item->DESARROLLO;?> </td>
-                          <td class="text-center">
+                          <tr class="text-center">
+                          <td> <?php echo $item->No; ?> </td>
+                          <td> <?php echo $item->FECHA;?> </td>
+                          <td> <?php echo $item->CONDOMINIO;?> </td>
+                          <td> <?php echo $item->LLAVE;?> </td>
+                          <td> <?php echo $item->CLIENTE;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->MONTO),2); ?> </td>
+                          <td> <?php echo $item->BANCO;?> </td>
+                          <td> <?php echo $item->MOTIVO;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->MONTO_DE_LA_OPERACIÓN),2);?></td>
+                          <td> <?php echo $item->DESARROLLO;?> </td>
+                          <td>
                             <form action="./DevolucionesClientes/modificar_DevolucionesClientes.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
@@ -291,7 +271,7 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-                          <td class="text-center">
+                          <td>
                             <form action="./DevolucionesClientes/eliminardevolucionesclientes.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
@@ -304,23 +284,19 @@ require_once "./clases/Conexion.php";
                           <?php } ?> 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                        <th class="th__texto" style="text-align:center;">No</th>                        
-                        <th class="th__texto" style="text-align:center;">FECHA</th>
-                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
-                        <th class="th__texto" style="text-align:center;">LLAVE</th>
-                        <th class="th__texto" style="text-align:center;">CLIENTE</th>
-                        <th class="th__texto" style="text-align:center;">MONTO</th>
-                        <th class="th__texto" style="text-align:center;">BANCO</th>
-                        <th class="th__texto" style="text-align:center;">MOTIVO</th>
-                        <th class="th__texto" style="text-align:center;">MONTO_DE_LA_OPERACIÓN</th>
-                        <th class="th__texto" style="text-align:center;">DESARROLLO</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
-                         
-                       
+                    <tr class="text-center">
+                        <th class="th__texto">No</th>                        
+                        <th class="th__texto">FECHA</th>
+                        <th class="th__texto">CONDOMINIO</th>
+                        <th class="th__texto">LLAVE</th>
+                        <th class="th__texto">CLIENTE</th>
+                        <th class="th__texto">MONTO</th>
+                        <th class="th__texto">BANCO</th>
+                        <th class="th__texto">MOTIVO</th>
+                        <th class="th__texto">MONTO_DE_LA_OPERACIÓN</th>
+                        <th class="th__texto">DESARROLLO</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
                     </tr>
                   </tfoot>
                 </table>
@@ -446,14 +422,8 @@ require_once "./clases/Conexion.php";
             </div>
           </div>
         </div>
-
-
       </div>
-
-
       <!---footer---->
-
-
       </div> 
 
       </div>

@@ -235,56 +235,33 @@ require_once "./clases/Conexion.php";
                   Agregar Registro
                 </a>
                 <hr>
-                <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                <table id="tabla" class="table table-striped data-table">
                   <thead class="bg__td bg-blue__400 text-white">
-                    <tr>
-
-                        
-
-                        <th class="th__texto" style="text-align:center;">CONCEPTO</th>                        
-                        <th class="th__texto" style="text-align:center;">PORTTO_BLANCO_CIM</th>
-                        <th class="th__texto" style="text-align:center;">LOMAS_DE_PORTTO_BLANCO</th>
-                        <th class="th__texto" style="text-align:center;">PORTTO_BLANCO_BERNAL</th>
-                        <th class="th__texto" style="text-align:center;">VEREDAS_DE_LIRA</th>
-                        <th class="th__texto" style="text-align:center;">PORTTO_BLANCO_SLP</th>
-                        <th class="th__texto" style="text-align:center;">GENERAL</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
-
-                       
-                      
-
-
+                    <tr class="text-center">
+                        <th class="th__texto">CONCEPTO</th>                        
+                        <th class="th__texto">PORTTO_BLANCO_CIM</th>
+                        <th class="th__texto">LOMAS_DE_PORTTO_BLANCO</th>
+                        <th class="th__texto">PORTTO_BLANCO_BERNAL</th>
+                        <th class="th__texto">VEREDAS_DE_LIRA</th>
+                        <th class="th__texto">PORTTO_BLANCO_SLP</th>
+                        <th class="th__texto">GENERAL</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
                     </tr>
                   </thead>
                   <tbody>
                   <?php
                           foreach($datos as $item) {
-                //             foreach($datos as $item => $valor) {
-                //               // Verificar si el valor del campo es numérico antes de formatearlo
-                //      if (is_numeric($valor)) {
-                //    // Si es numérico, entonces formatearlo con dos decimales
-                //     $datos->$campo = number_format(floatval($valor), 2);
-                //    }
-                //   // Si no es numérico, dejar el valor sin cambios
-                //  }
-
-                //  // Actualizar el documento en la colección con los campos formateados (si corresponde)
-                //  $datos->updateMany(['_id' => $datos->_id], $datos);
-                //  }
-              
-                     
-
                         ?>
-                          <tr> 
-                            <td class="text-center"> <?php echo $item->CONCEPTO;?> </td>
-                            <td class="text-center"> <?php echo number_format(floatval($item->PORTTO_BLANCO_CIM),2);?> </td>
-                            <td class="text-center"> <?php echo number_format(floatval($item->LOMAS_DE_PORTTO_BLANCO),2);?> </td>
-                            <td class="text-center"> <?php echo number_format(floatval($item->PORTTO_BLANCO_BERNAL),2);?> </td>
-                            <td class="text-center"> <?php echo number_format(floatval($item->VEREDAS_DE_LIRA),2);?> </td>
-                            <td class="text-center"> <?php echo number_format(floatval($item->PORTTO_BLANCO_SLP),2);?> </td>
-                            <td class="text-center"> <?php echo number_format(floatval($item->GENERAL),2);?> </td>
-                            <td class="text-center">
+                          <tr class="text-center"> 
+                            <td> <?php echo $item->CONCEPTO;?> </td>
+                            <td> <?php echo number_format(floatval($item->PORTTO_BLANCO_CIM),2);?> </td>
+                            <td> <?php echo number_format(floatval($item->LOMAS_DE_PORTTO_BLANCO),2);?> </td>
+                            <td> <?php echo number_format(floatval($item->PORTTO_BLANCO_BERNAL),2);?> </td>
+                            <td> <?php echo number_format(floatval($item->VEREDAS_DE_LIRA),2);?> </td>
+                            <td> <?php echo number_format(floatval($item->PORTTO_BLANCO_SLP),2);?> </td>
+                            <td> <?php echo number_format(floatval($item->GENERAL),2);?> </td>
+                            <td>
                               <form action="./CuentaDesarrolloActualizado/modificar_EdoCuentaDesarrollo.php" method="POST">
                                 <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                                   <button class="btn btn-warning">
@@ -292,7 +269,7 @@ require_once "./clases/Conexion.php";
                                   </button>
                               </form>
                             </td>
-                          <td class="text-center">
+                          <td>
                             <form action="./CuentaDesarrolloActualizado/eliminarcuentadesarrolloactualizado.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
@@ -306,18 +283,16 @@ require_once "./clases/Conexion.php";
 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                        <th class="th__texto" style="text-align:center;">CONCEPTO</th>                        
-                        <th class="th__texto" style="text-align:center;">PORTTO_BLANCO_CIM</th>
-                        <th class="th__texto" style="text-align:center;">LOMAS_DE_PORTTO_BLANCO</th>
-                        <th class="th__texto" style="text-align:center;">PORTTO_BLANCO_BERNAL</th>
-                        <th class="th__texto" style="text-align:center;">VEREDAS_DE_LIRA</th>
-                        <th class="th__texto" style="text-align:center;">PORTTO_BLANCO_SLP</th>
-                        <th class="th__texto" style="text-align:center;">GENERAL</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
+                    <tr class="text-center">
+                        <th class="th__texto">CONCEPTO</th>                        
+                        <th class="th__texto">PORTTO_BLANCO_CIM</th>
+                        <th class="th__texto">LOMAS_DE_PORTTO_BLANCO</th>
+                        <th class="th__texto">PORTTO_BLANCO_BERNAL</th>
+                        <th class="th__texto">VEREDAS_DE_LIRA</th>
+                        <th class="th__texto">PORTTO_BLANCO_SLP</th>
+                        <th class="th__texto">GENERAL</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
                        
                     </tr>
                   </tfoot>

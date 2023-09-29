@@ -224,9 +224,7 @@ require_once "./clases/Conexion.php";
                 <div class="col text-white">
                   <span><img src="images/home.svg" width="25px"></i></span> Home/Tablero de Resultados
                 </div>
-
               </div>
-
             </div>
             <div class="card-body">
               <div class="table-responsive">

@@ -235,8 +235,7 @@ require_once "./clases/Conexion.php";
                 <hr>
                 <table id="tabla" class="table table-striped data-table" style="width: 100%">
                   <thead class="bg__td bg-blue__400 text-white ">
-                    <tr>
-
+                    <tr class="text-center">
                         <th class="th__texto" style="text-align:center;">LLAVE</th>                        
                         <th class="th__texto" style="text-align:center;">NOMBRE_DEL_CLIENTE</th>
                         <th class="th__texto" style="text-align:center;">FECHA_DE_APARTADO</th>
@@ -246,36 +245,21 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto" style="text-align:center;">IMPORTE</th>
                         <th class="th__texto" style="text-align:center;">MODIFICAR</th>
                         <th class="th__texto" style="text-align:center;">ELIMINAR</th>
-                  
-
-
                     </tr>
                   </thead>
                   <tbody>
                   <?php
                           foreach($datos as $item) {
                         ?>
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>
-  
-                                 
-                            </form>
-                          
-                            </td> --> 
-                          <td class="text-center"> <?php echo $item->LLAVE; ?> </td>
-                          <td class="text-center"> <?php echo $item->NOMBRE_DEL_CLIENTE;?> </td>
-                          <td class="text-center"> <?php echo $item->FECHA_DE_APARTADO;?> </td>
-                          <td class="text-center"> <?php echo $item->FECHA_ENTREGA_DE_CONTRATO;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->IMPORTE_A_COMISIONAR),2);?> </td>
-                          <td class="text-center"> <?php echo $item->PCOMISION; ?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->IMPORTE),2);?> </td>
-                          <td class="text-center">
+                          <tr class="text-center"> 
+                          <td> <?php echo $item->LLAVE; ?> </td>
+                          <td> <?php echo $item->NOMBRE_DEL_CLIENTE;?> </td>
+                          <td> <?php echo $item->FECHA_DE_APARTADO;?> </td>
+                          <td> <?php echo $item->FECHA_ENTREGA_DE_CONTRATO;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->IMPORTE_A_COMISIONAR),2);?> </td>
+                          <td> <?php echo $item->PCOMISION; ?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->IMPORTE),2);?> </td>
+                          <td>
                             <form action="./ComisionesInternas/modificar_ComisionesInternas.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
@@ -283,7 +267,7 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-                          <td class="text-center">
+                          <td>
                             <form action="./ComisionesInternas/eliminarcomisionesinternas.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
@@ -291,23 +275,20 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
- 
                           </tr>
                           <?php } ?> 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                        <th class="th__texto" style="text-align:center;">LLAVE</th>                        
-                        <th class="th__texto" style="text-align:center;">NOMBRE_DEL_CLIENTE</th>
-                        <th class="th__texto" style="text-align:center;">FECHA_DE_APARTADO</th>
-                        <th class="th__texto" style="text-align:center;">FECHA_ENTREGA_DE_CONTRATO</th>
-                        <th class="th__texto" style="text-align:center;">IMPORTE_A_COMISIONAR</th>
-                        <th class="th__texto" style="text-align:center;">PCOMISION</th>
-                        <th class="th__texto" style="text-align:center;">IMPORTE</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
+                    <tr class="text-center">
+                        <th class="th__texto">LLAVE</th>                        
+                        <th class="th__texto">NOMBRE_DEL_CLIENTE</th>
+                        <th class="th__texto">FECHA_DE_APARTADO</th>
+                        <th class="th__texto">FECHA_ENTREGA_DE_CONTRATO</th>
+                        <th class="th__texto">IMPORTE_A_COMISIONAR</th>
+                        <th class="th__texto">PCOMISION</th>
+                        <th class="th__texto">IMPORTE</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
                   
                        
                     </tr>

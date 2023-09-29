@@ -226,9 +226,7 @@ require_once "./clases/Conexion.php";
                 <div class="col text-white">
                   <span><img src="images/home.svg" width="25px"></i></span> Home/Listado
                 </div>
-  
               </div>
-  
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -236,43 +234,29 @@ require_once "./clases/Conexion.php";
                   Agregar Registro
                 </a>
                 <hr>
-                <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                <table id="tabla" class="table table-striped data-table">
                   <thead class="bg__td bg-blue__400 text-white">
-                    <tr>
-                   
-                        <th class="th__texto" style="text-align:center;">Llave</th>                        
-                        <th class="th__texto" style="text-align:center;">Mes</th>
-                        <th class="th__texto" style="text-align:center;">Año</th>
-                        <th class="th__texto" style="text-align:center;">Monto</th>
-                        <th class="th__texto" style="text-align:center;">Llave 2</th>
-                        <th class="th__texto" style="text-align:center;">Modificar</th>
-                        <th class="th__texto" style="text-align:center;">Eliminar</th>
-  
+                    <tr class="text-center">
+                        <th class="th__texto">Llave</th>                        
+                        <th class="th__texto">Mes</th>
+                        <th class="th__texto">Año</th>
+                        <th class="th__texto">Monto</th>
+                        <th class="th__texto">Llave 2</th>
+                        <th class="th__texto">Modificar</th>
+                        <th class="th__texto">Eliminar</th>
                     </tr>
                   </thead>
                   <tbody>
                   <?php
                           foreach($datos as $item) {
                         ?>
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>
-  
-                                 
-                            </form>
-                          
-                            </td> --> 
-                            <td class="text-center"> <?php echo $item->LLAVE; ?> </td>
-                          <td class="text-center"> <?php echo $item->MES;?> </td>
-                          <td class="text-center"> <?php echo $item->AÑO;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->MONTO),2); ?> </td>
-                          <td class="text-center"> <?php echo $item->LLAVE_2;?> </td>
-                          <td class="text-center">
+                        <tr class="text-center">
+                          <td> <?php echo $item->LLAVE; ?> </td>
+                          <td> <?php echo $item->MES;?> </td>
+                          <td> <?php echo $item->AÑO;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->MONTO),2); ?> </td>
+                          <td> <?php echo $item->LLAVE_2;?> </td>
+                          <td>
                             <form action="./Listado/actualizarlistado.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
@@ -280,7 +264,7 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-                          <td class="text-center">
+                          <td>
                             <form action="./Listado/eliminarlistados.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
@@ -288,21 +272,18 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-                          </tr>
-                          <?php } ?> 
+                        </tr>
+                  <?php } ?> 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                    <th class="th__texto" style="text-align:center;">Llave</th>                        
-                        <th class="th__texto" style="text-align:center;">Mes</th>
-                        <th class="th__texto" style="text-align:center;">Año</th>
-                        <th class="th__texto" style="text-align:center;">Monto</th>
-                        <th class="th__texto" style="text-align:center;">Llave 2</th>
-                        <th class="th__texto" style="text-align:center;">Modificar</th>
-                        <th class="th__texto" style="text-align:center;">Eliminar</th>
-
+                    <tr class="text-center">
+                        <th class="th__texto">Llave</th>                        
+                        <th class="th__texto">Mes</th>
+                        <th class="th__texto">Año</th>
+                        <th class="th__texto">Monto</th>
+                        <th class="th__texto">Llave 2</th>
+                        <th class="th__texto">Modificar</th>
+                        <th class="th__texto">Eliminar</th>
                     </tr>
                   </tfoot>
                 </table>

@@ -267,48 +267,8 @@ require_once "./clases/Conexion.php";
 
         </ul>
       </nav>
-
-
-
-
       <!--------page-content---------------->
-
       <div id="content">
-        <div class="top-navbar">
-          <div class="xp-topbar"></div>
-          <div class="xp-breadcrumbbar text-center">
-            <h4 class="page-title">Dashboard</h4>
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-            </ol>
-          </div>
-        </div>
-
-      <div class="container">
-        <div class="row justify-content-center py-5">
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/cimatario.svg" class="imagen-logos"/>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/lomas.svg"     class="imagen-logos"/>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="logo_cimatario">
-              <img src="images/cimatario.svg" class="imagen-logos"/>
-            </div>
-          </div>
-
-
-
-        </div>
-      </div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
@@ -322,9 +282,7 @@ require_once "./clases/Conexion.php";
                 <div class="col">
                   <span><img src="images/home.svg" width="25px"></i></span> Home/Clientes Morosos
                 </div>
-
               </div>
-
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -332,88 +290,73 @@ require_once "./clases/Conexion.php";
                   Agregar Registro
                 </a>
                 <hr>
-                <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                <table id="tabla" class="table table-striped data-table">
                   <thead class="bg__td">
-                    <tr>
-
-                        
-                        <th class="th__texto" style="text-align:center;">CONTADOR</th>                        
-                        <th class="th__texto" style="text-align:center;">LLAVE</th>
-                        <th class="th__texto" style="text-align:center;">DESARROLLO</th>
-                        <th class="th__texto" style="text-align:center;">LOTE</th>
-                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
-                        <th class="th__texto" style="text-align:center;">CLUSTER</th>
-                        <th class="th__texto" style="text-align:center;">FECHA</th>
-                        <th class="th__texto" style="text-align:center;">CLIENTES</th>
-                        <th class="th__texto" style="text-align:center;">PRECIO_DEL_LOTE</th>
-                        <th class="th__texto" style="text-align:center;">MONTO_MENS</th>
-                        <th class="th__texto" style="text-align:center;">MENSUALIDAD</th>
-                        <th class="th__texto" style="text-align:center;">INTERES</th>
-                        <th class="th__texto" style="text-align:center;">TIPO_DE_INTES</th>
-                        <th class="th__texto" style="text-align:center;">I_NEGOCIADO</th>
-                        <th class="th__texto" style="text-align:center;">REAL</th>
-                        <th class="th__texto" style="text-align:center;">MENS_PAGADA</th>
-                        <th class="th__texto" style="text-align:center;">MEN_ADEUDADA</th>
-                        <th class="th__texto" style="text-align:center;">FECHA_DE_ACUERDO</th>
-                        <th class="th__texto" style="text-align:center;">MEDIO</th>
-                        <th class="th__texto" style="text-align:center;">PLAZOS</th>
-                        <th class="th__texto" style="text-align:center;">INICIO</th>
-                        <th class="th__texto" style="text-align:center;">FIN</th>
-                        <th class="th__texto" style="text-align:center;">ESTATUS_DE_INTERES</th>
-                        <th class="th__texto" style="text-align:center;">COMENTARIO</th>
-                        <th class="th__texto" style="text-align:center;">NEGOCIADO</th>
-                        <th class="th__texto" style="text-align:center;">DEPARTAMENTO</th>
-                        <th class="th__texto" style="text-align:center;">AÑO</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
-
+                    <tr class="text-center">
+                        <th class="th__texto">CONTADOR</th>                        
+                        <th class="th__texto">LLAVE</th>
+                        <th class="th__texto">DESARROLLO</th>
+                        <th class="th__texto">LOTE</th>
+                        <th class="th__texto">CONDOMINIO</th>
+                        <th class="th__texto">CLUSTER</th>
+                        <th class="th__texto">FECHA</th>
+                        <th class="th__texto">CLIENTES</th>
+                        <th class="th__texto">PRECIO_DEL_LOTE</th>
+                        <th class="th__texto">MONTO_MENS</th>
+                        <th class="th__texto">MENSUALIDAD</th>
+                        <th class="th__texto">INTERES</th>
+                        <th class="th__texto">TIPO_DE_INTES</th>
+                        <th class="th__texto">I_NEGOCIADO</th>
+                        <th class="th__texto">REAL</th>
+                        <th class="th__texto">MENS_PAGADA</th>
+                        <th class="th__texto">MEN_ADEUDADA</th>
+                        <th class="th__texto">FECHA_DE_ACUERDO</th>
+                        <th class="th__texto">MEDIO</th>
+                        <th class="th__texto">PLAZOS</th>
+                        <th class="th__texto">INICIO</th>
+                        <th class="th__texto">FIN</th>
+                        <th class="th__texto">ESTATUS_DE_INTERES</th>
+                        <th class="th__texto">COMENTARIO</th>
+                        <th class="th__texto">NEGOCIADO</th>
+                        <th class="th__texto">DEPARTAMENTO</th>
+                        <th class="th__texto">AÑO</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
                     </tr>
                   </thead>
                   <tbody>
                   <?php
                           foreach($datos as $item) {
                         ?>
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>
-  
-                                 
-                            </form>
-                          
-                            </td> --> 
-                          <td class="text-center"> <?php echo $item->CONTADOR; ?> </td>
-                          <td class="text-center"> <?php echo $item->LLAVE;?> </td>
-                          <td class="text-center"> <?php echo $item->DESARROLLO;?> </td>
-                          <td class="text-center"> <?php echo $item->LOTE;?> </td>
-                          <td class="text-center"> <?php echo $item->CONDOMINIO;?> </td>
-                          <td class="text-center"> <?php echo $item->CLÚSTER; ?> </td>
-                          <td class="text-center"> <?php echo $item->FECHA;?> </td>
-                          <td class="text-center"> <?php echo $item->CLIENTE;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->PRECIO_DEL_LOTE),2);?></td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->MONTO_MENS),2);?> </td>
-                          <td class="text-center"> <?php echo $item->MENSUALIDAD;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->INTERES),2);?> </td>
-                          <td class="text-center"> <?php echo $item->TIPO_DE_INTES;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->I_NEGOCIADO),2);?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->REAL),2);?> </td>
-                          <td class="text-center"> <?php echo $item->MENS_PAGADA;?> </td>
-                          <td class="text-center"> <?php echo "$".number_format(floatval($item->MEN_ADEUDADA),2);?> </td>
-                          <td class="text-center"> <?php echo $item->FECHA_DE_ACUERDO;?> </td>
-                          <td class="text-center"> <?php echo $item->MEDIO;?> </td>
-                          <td class="text-center"> <?php echo $item->PLAZOS;?> </td>
-                          <td class="text-center"> <?php echo $item->INICIO;?> </td>
-                          <td class="text-center"> <?php echo $item->FIN;?> </td>
-                          <td class="text-center"> <?php echo $item->ESTATUS_DE_INTERES;?> </td>
-                          <td class="text-center"> <?php echo $item->COMENTARIO;?> </td>
-                          <td class="text-center"> <?php echo $item->NEGOCIADO?> </td>
-                          <td class="text-center"> <?php echo $item->DEPARTAMENTO;?> </td>
-                          <td class="text-center"> <?php echo $item->AÑO;?> </td>
-                          <td class="text-center">
+                          <tr class="text-center">
+                          <td> <?php echo $item->CONTADOR; ?> </td>
+                          <td> <?php echo $item->LLAVE;?> </td>
+                          <td> <?php echo $item->DESARROLLO;?> </td>
+                          <td> <?php echo $item->LOTE;?> </td>
+                          <td> <?php echo $item->CONDOMINIO;?> </td>
+                          <td> <?php echo $item->CLÚSTER; ?> </td>
+                          <td> <?php echo $item->FECHA;?> </td>
+                          <td> <?php echo $item->CLIENTE;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->PRECIO_DEL_LOTE),2);?></td>
+                          <td> <?php echo "$".number_format(floatval($item->MONTO_MENS),2);?> </td>
+                          <td> <?php echo $item->MENSUALIDAD;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->INTERES),2);?> </td>
+                          <td> <?php echo $item->TIPO_DE_INTES;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->I_NEGOCIADO),2);?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->REAL),2);?> </td>
+                          <td> <?php echo $item->MENS_PAGADA;?> </td>
+                          <td> <?php echo "$".number_format(floatval($item->MEN_ADEUDADA),2);?> </td>
+                          <td> <?php echo $item->FECHA_DE_ACUERDO;?> </td>
+                          <td> <?php echo $item->MEDIO;?> </td>
+                          <td> <?php echo $item->PLAZOS;?> </td>
+                          <td> <?php echo $item->INICIO;?> </td>
+                          <td> <?php echo $item->FIN;?> </td>
+                          <td> <?php echo $item->ESTATUS_DE_INTERES;?> </td>
+                          <td> <?php echo $item->COMENTARIO;?> </td>
+                          <td> <?php echo $item->NEGOCIADO?> </td>
+                          <td> <?php echo $item->DEPARTAMENTO;?> </td>
+                          <td> <?php echo $item->AÑO;?> </td>
+                          <td>
                             <form action="./clientesmorosos/modificar_clientesMorosos.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
@@ -421,7 +364,7 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-                          <td class="text-center">
+                          <td>
                             <form action="./clientesmorosos/eliminarclientesmorosos.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
@@ -435,38 +378,36 @@ require_once "./clases/Conexion.php";
                           <?php } ?> 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                    <th class="th__texto" style="text-align:center;">CONTADOR</th>                        
-                        <th class="th__texto" style="text-align:center;">LLAVE</th>
-                        <th class="th__texto" style="text-align:center;">DESARROLLO</th>
-                        <th class="th__texto" style="text-align:center;">LOTE</th>
-                        <th class="th__texto" style="text-align:center;">CONDOMINIO</th>
-                        <th class="th__texto" style="text-align:center;">CLUSTER</th>
-                        <th class="th__texto" style="text-align:center;">FECHA</th>
-                        <th class="th__texto" style="text-align:center;">CLIENTES</th>
-                        <th class="th__texto" style="text-align:center;">PRECIO_DEL_LOTE</th>
-                        <th class="th__texto" style="text-align:center;">MONTO_MENS</th>
-                        <th class="th__texto" style="text-align:center;">MENSUALIDAD</th>
-                        <th class="th__texto" style="text-align:center;">INTERES</th>
-                        <th class="th__texto" style="text-align:center;">TIPO_DE_INTES</th>
-                        <th class="th__texto" style="text-align:center;">I_NEGOCIADO</th>
-                        <th class="th__texto" style="text-align:center;">REAL</th>
-                        <th class="th__texto" style="text-align:center;">MENS_PAGADA</th>
-                        <th class="th__texto" style="text-align:center;">MEN_ADEUDADA</th>
-                        <th class="th__texto" style="text-align:center;">FECHA_DE_ACUERDO</th>
-                        <th class="th__texto" style="text-align:center;">MEDIO</th>
-                        <th class="th__texto" style="text-align:center;">PLAZOS</th>
-                        <th class="th__texto" style="text-align:center;">INICIO</th>
-                        <th class="th__texto" style="text-align:center;">FIN</th>
-                        <th class="th__texto" style="text-align:center;">ESTATUS_DE_INTERES</th>
-                        <th class="th__texto" style="text-align:center;">COMENTARIO</th>
-                        <th class="th__texto" style="text-align:center;">NEGOCIADO</th>
-                        <th class="th__texto" style="text-align:center;">DEPARTAMENTO</th>
-                        <th class="th__texto" style="text-align:center;">AÑO</th>
-                        <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                        <th class="th__texto" style="text-align:center;">ELIMINAR</th>
+                    <tr class="text-center">
+                    <th class="th__texto">CONTADOR</th>                        
+                        <th class="th__texto">LLAVE</th>
+                        <th class="th__texto">DESARROLLO</th>
+                        <th class="th__texto">LOTE</th>
+                        <th class="th__texto">CONDOMINIO</th>
+                        <th class="th__texto">CLUSTER</th>
+                        <th class="th__texto">FECHA</th>
+                        <th class="th__texto">CLIENTES</th>
+                        <th class="th__texto">PRECIO_DEL_LOTE</th>
+                        <th class="th__texto">MONTO_MENS</th>
+                        <th class="th__texto">MENSUALIDAD</th>
+                        <th class="th__texto">INTERES</th>
+                        <th class="th__texto">TIPO_DE_INTES</th>
+                        <th class="th__texto">I_NEGOCIADO</th>
+                        <th class="th__texto">REAL</th>
+                        <th class="th__texto">MENS_PAGADA</th>
+                        <th class="th__texto">MEN_ADEUDADA</th>
+                        <th class="th__texto">FECHA_DE_ACUERDO</th>
+                        <th class="th__texto">MEDIO</th>
+                        <th class="th__texto">PLAZOS</th>
+                        <th class="th__texto">INICIO</th>
+                        <th class="th__texto">FIN</th>
+                        <th class="th__texto">ESTATUS_DE_INTERES</th>
+                        <th class="th__texto">COMENTARIO</th>
+                        <th class="th__texto">NEGOCIADO</th>
+                        <th class="th__texto">DEPARTAMENTO</th>
+                        <th class="th__texto">AÑO</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
 
                     </tr>
                   </tfoot>
@@ -593,23 +534,8 @@ require_once "./clases/Conexion.php";
             </div>
           </div>
         </div>
-
-
       </div>
-
-
-      <!---footer---->
-
-
       </div> 
-
-      <footer class="footer">
-        <div class="container-fluid">
-          <div class="footer-in">
-            <p class="mb-0">&copy 2020 Vishweb design - All Rights Reserved.</p>
-          </div>
-        </div>
-      </footer>
       </div>
       </div>
 

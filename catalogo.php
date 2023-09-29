@@ -206,14 +206,8 @@ require_once "./clases/Conexion.php";
           </li>
         </ul>
       </nav>
-
-
-
-
       <!--------page-content---------------->
-
       <div id="content">
-      
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
@@ -227,9 +221,7 @@ require_once "./clases/Conexion.php";
                 <div class="col text-white">
                   <span><img src="images/home.svg" width="25px"></i></span> Home/Catalogo
                 </div>
-  
               </div>
-  
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -237,41 +229,27 @@ require_once "./clases/Conexion.php";
                   Nuevo Registro
                 </a>
                 <hr>
-                <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                <table id="tabla" class="table table-striped data-table">
                   <thead class="bg__td bg-blue__400 text-white">
-                    <tr>
-                   
-                        <th class="th__texto" style="text-align:center;">Llave</th>                        
-                        <th class="th__texto" style="text-align:center;">Porcentaje 1</th>
-                        <th class="th__texto" style="text-align:center;">Porcentaje 2</th>
-                        <th class="th__texto" style="text-align:center;">Porcentaje 3</th>
-                        <th class="th__texto" style="text-align:center;">Modificar</th>
-                        <th class="th__texto" style="text-align:center;">Eliminar</th>
-  
+                    <tr class="text-center">
+                        <th class="th__texto">Llave</th>                        
+                        <th class="th__texto">Porcentaje 1</th>
+                        <th class="th__texto">Porcentaje 2</th>
+                        <th class="th__texto">Porcentaje 3</th>
+                        <th class="th__texto">Modificar</th>
+                        <th class="th__texto">Eliminar</th>
                     </tr>
                   </thead>
                   <tbody>
                   <?php
                           foreach($datos as $item) {
                         ?>
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>
-  
-                                 
-                            </form>
-                          
-                            </td> --> 
-                            <td class="text-center"> <?php echo $item->LLAVE; ?> </td>
-                          <td class="text-center"> <?php echo $item->PORCENT1;?> </td>
-                          <td class="text-center"> <?php echo $item->PORCENT2;?> </td>
-                          <td class="text-center"> <?php echo $item->PORCENT3; ?> </td>
-                          <td class="text-center">
+                          <tr class="text-center"> 
+                            <td><?php echo $item->LLAVE; ?> </td>
+                          <td><?php echo $item->PORCENT1;?> </td>
+                          <td><?php echo $item->PORCENT2;?> </td>
+                          <td><?php echo $item->PORCENT3; ?> </td>
+                          <td>
                             <form action="./Catalogo/actualizarcatalogo.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-warning">
@@ -279,7 +257,7 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-                          <td class="text-center">
+                          <td>
                             <form action="./Catalogo/eliminarcatalogo.php" method="POST">
                               <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                               <button class="btn btn-danger">
@@ -287,22 +265,17 @@ require_once "./clases/Conexion.php";
                               </button>
                             </form>
                           </td>
-
-                            
                           </tr>
-                          <?php } ?> 
+                  <?php } ?> 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                        <th class="th__texto" style="text-align:center;">Llave</th>                        
-                        <th class="th__texto" style="text-align:center;">Porcentaje 1</th>
-                        <th class="th__texto" style="text-align:center;">Porcentaje 2</th>
-                        <th class="th__texto" style="text-align:center;">Porcentaje 3</th>
-                        <th class="th__texto" style="text-align:center;">Modificar</th>
-                        <th class="th__texto" style="text-align:center;">Eliminar</th>
-
+                    <tr class="text-center">
+                        <th class="th__texto">Llave</th>                        
+                        <th class="th__texto">Porcentaje 1</th>
+                        <th class="th__texto">Porcentaje 2</th>
+                        <th class="th__texto">Porcentaje 3</th>
+                        <th class="th__texto">Modificar</th>
+                        <th class="th__texto">Eliminar</th>
                     </tr>
                   </tfoot>
                 </table>
@@ -404,9 +377,6 @@ require_once "./clases/Conexion.php";
             </div>
           </div>
         </div>
-
-
-
         <!-- Delete Modal HTML -->
         <div id="deleteEmployeeModal" class="modal fade">
           <div class="modal-dialog">
@@ -428,14 +398,7 @@ require_once "./clases/Conexion.php";
             </div>
           </div>
         </div>
-
-
       </div>
-
-
-      <!---footer---->
-
-
       </div> 
       </div>
       </div>

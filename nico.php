@@ -205,12 +205,7 @@ require_once "./clases/Conexion.php";
           </li>
         </ul>
       </nav>
-
-
-
-
       <!--------page-content---------------->
-
       <div id="content">
       <div class="container-fluid">
         <div class="row">
@@ -225,107 +220,85 @@ require_once "./clases/Conexion.php";
                 <div class="col text-white">
                   <span><img src="images/home.svg" width="25px"></i></span> Home / Comisioes 2023
                 </div>
-
               </div>
-
             </div>
             <div class="card-body">
               <div class="table-responsive">
-                <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                <table id="tabla" class="table table-striped data-table">
                   <thead class="bg__td bg-blue__500 text-white" >
-                    <tr>
-
-                        
-                        <th class="th__texto" style="text-align:center;">OBSERVACION</th>                        
-                        <th class="th__texto" style="text-align:center;">LLAVE</th>
-                        <th class="th__texto" style="text-align:center;">RAZON_SOCIAL</th>
-                        <th class="th__texto" style="text-align:center;">FECHA</th>
-                        <th class="th__texto" style="text-align:center;">BENEFICIARIO</th>
-                        <th class="th__texto" style="text-align:center;">RFC</th>
-                        <th class="th__texto" style="text-align:center;">USO_CFDI</th>
-                        <th class="th__texto" style="text-align:center;">ABONO</th>
-                        <th class="th__texto" style="text-align:center;">CARGO</th>
-                        <th class="th__texto" style="text-align:center;">FACTURA</th>
-                        <th class="th__texto" style="text-align:center;">REAL</th>
-                        <th class="th__texto" style="text-align:center;">MOTIVO</th>
-                        <th class="th__texto" style="text-align:center;">CATEGORIA</th>
-                        <th class="th__texto" style="text-align:center;">METODO_DE_PAGO</th>
-                        <th class="th__texto" style="text-align:center;">SUBCATEGORIA</th>
-                        <th class="th__texto" style="text-align:center;">FLUJO</th>
-                        <th class="th__texto" style="text-align:center;">ORIGEN</th>
-                        <th class="th__texto" style="text-align:center;">CLIENTE</th>
-                        <th class="th__texto" style="text-align:center;">CORREO</th>
-                        <th class="th__texto" style="text-align:center;">TELEFONO</th>
-
-                      
-
-
+                    <tr class="text-center">                        
+                        <th class="th__texto">OBSERVACION</th>                        
+                        <th class="th__texto">LLAVE</th>
+                        <th class="th__texto">RAZON_SOCIAL</th>
+                        <th class="th__texto">FECHA</th>
+                        <th class="th__texto">BENEFICIARIO</th>
+                        <th class="th__texto">RFC</th>
+                        <th class="th__texto">USO_CFDI</th>
+                        <th class="th__texto">ABONO</th>
+                        <th class="th__texto">CARGO</th>
+                        <th class="th__texto">FACTURA</th>
+                        <th class="th__texto">REAL</th>
+                        <th class="th__texto">MOTIVO</th>
+                        <th class="th__texto">CATEGORIA</th>
+                        <th class="th__texto">METODO_DE_PAGO</th>
+                        <th class="th__texto">SUBCATEGORIA</th>
+                        <th class="th__texto">FLUJO</th>
+                        <th class="th__texto">ORIGEN</th>
+                        <th class="th__texto">CLIENTE</th>
+                        <th class="th__texto">CORREO</th>
+                        <th class="th__texto">TELEFONO</th>
                     </tr>
                   </thead>
                   <tbody>
                   <?php
                           foreach($datos as $item) {
                         ?>
-                          <tr>
-                            <!-- <td class="text-center">
-                            <form action="../BaseDetalle/formulario.php" method="POST">
-                                 Ocultar Boton -->
-                                <!-- <input type="text" hidden value="" name="id">
-                                <button class="border__none">
-                                  <input type="text" hidden value="" name="id">
-                                </button>     
-                            </form>
-                          
-                            </td> --> 
-                          <td class="text-center"> <?php echo $item->OBSERVACION; ?> </td>
-                          <td class="text-center"> <?php echo $item->LLAVE;?> </td>
-                          <td class="text-center"> <?php echo $item->RAZON_SOCIAL;?> </td>
-                          <td class="text-center"> <?php echo $item->FECHA;?> </td>
-                          <td class="text-center"> <?php echo $item->BENEFICIARIO;?> </td>
-                          <td class="text-center"> <?php echo $item->RFC; ?> </td>
-                          <td class="text-center"> <?php echo $item->USO_CFDI;?> </td>
-                          <td class="text-center"> <?php echo $item->ABONO;?> </td>
-                          <td class="text-center"> <?php echo $item->CARGO;?></td>
-                          <td class="text-center"> <?php echo $item->FACTURA;?> </td>
-                          <td class="text-center"> <?php echo $item->REAL;?> </td>
-                          <td class="text-center"> <?php echo $item->MOTIVO;?> </td>
-                          <td class="text-center"> <?php echo $item->CATEGORIA;?> </td>
-                          <td class="text-center"> <?php echo $item->METODO_DE_PAGO;?> </td>
-                          <td class="text-center"> <?php echo $item->SUBCATEGORIA;?> </td>
-                          <td class="text-center"> <?php echo $item->FLUJO;?> </td>
-                          <td class="text-center"> <?php echo $item->ORIGEN;?> </td>
-                          <td class="text-center"> <?php echo $item->CLIENTE;?> </td>
-                          <td class="text-center"> <?php echo $item->CORREO;?> </td>
-                          <td class="text-center"> <?php echo $item->TELEFONO;?> </td>
-                         
-                         
+                          <tr class="text-center">
+                          <td> <?php echo $item->OBSERVACION; ?> </td>
+                          <td> <?php echo $item->LLAVE;?> </td>
+                          <td> <?php echo $item->RAZON_SOCIAL;?> </td>
+                          <td> <?php echo $item->FECHA;?> </td>
+                          <td> <?php echo $item->BENEFICIARIO;?> </td>
+                          <td> <?php echo $item->RFC; ?> </td>
+                          <td> <?php echo $item->USO_CFDI;?> </td>
+                          <td> <?php echo $item->ABONO;?> </td>
+                          <td> <?php echo $item->CARGO;?></td>
+                          <td> <?php echo $item->FACTURA;?> </td>
+                          <td> <?php echo $item->REAL;?> </td>
+                          <td> <?php echo $item->MOTIVO;?> </td>
+                          <td> <?php echo $item->CATEGORIA;?> </td>
+                          <td> <?php echo $item->METODO_DE_PAGO;?> </td>
+                          <td> <?php echo $item->SUBCATEGORIA;?> </td>
+                          <td> <?php echo $item->FLUJO;?> </td>
+                          <td> <?php echo $item->ORIGEN;?> </td>
+                          <td> <?php echo $item->CLIENTE;?> </td>
+                          <td> <?php echo $item->CORREO;?> </td>
+                          <td> <?php echo $item->TELEFONO;?> </td>
                           </tr>
                           <?php } ?> 
                   </tbody>
                   <tfoot class="bg-blue">
-                    <tr>
-
-
-                        <th class="th__texto" style="text-align:center;">OBSERVACION</th>                        
-                        <th class="th__texto" style="text-align:center;">LLAVE</th>
-                        <th class="th__texto" style="text-align:center;">RAZON_SOCIAL</th>
-                        <th class="th__texto" style="text-align:center;">FECHA</th>
-                        <th class="th__texto" style="text-align:center;">BENEFICIARIO</th>
-                        <th class="th__texto" style="text-align:center;">RFC</th>
-                        <th class="th__texto" style="text-align:center;">USO_CFDI</th>
-                        <th class="th__texto" style="text-align:center;">ABONO</th>
-                        <th class="th__texto" style="text-align:center;">CARGO</th>
-                        <th class="th__texto" style="text-align:center;">FACTURA</th>
-                        <th class="th__texto" style="text-align:center;">REAL</th>
-                        <th class="th__texto" style="text-align:center;">MOTIVO</th>
-                        <th class="th__texto" style="text-align:center;">CATEGORIA</th>
-                        <th class="th__texto" style="text-align:center;">METODO_DE_PAGO</th>
-                        <th class="th__texto" style="text-align:center;">SUBCATEGORIA</th>
-                        <th class="th__texto" style="text-align:center;">FLUJO</th>
-                        <th class="th__texto" style="text-align:center;">ORIGEN</th>
-                        <th class="th__texto" style="text-align:center;">CLIENTE</th>
-                        <th class="th__texto" style="text-align:center;">CORREO</th>
-                        <th class="th__texto" style="text-align:center;">TELEFONO</th>
+                    <tr class="text-center">
+                        <th class="th__texto">OBSERVACION</th>                        
+                        <th class="th__texto">LLAVE</th>
+                        <th class="th__texto">RAZON_SOCIAL</th>
+                        <th class="th__texto">FECHA</th>
+                        <th class="th__texto">BENEFICIARIO</th>
+                        <th class="th__texto">RFC</th>
+                        <th class="th__texto">USO_CFDI</th>
+                        <th class="th__texto">ABONO</th>
+                        <th class="th__texto">CARGO</th>
+                        <th class="th__texto">FACTURA</th>
+                        <th class="th__texto">REAL</th>
+                        <th class="th__texto">MOTIVO</th>
+                        <th class="th__texto">CATEGORIA</th>
+                        <th class="th__texto">METODO_DE_PAGO</th>
+                        <th class="th__texto">SUBCATEGORIA</th>
+                        <th class="th__texto">FLUJO</th>
+                        <th class="th__texto">ORIGEN</th>
+                        <th class="th__texto">CLIENTE</th>
+                        <th class="th__texto">CORREO</th>
+                        <th class="th__texto">TELEFONO</th>
                     </tr>
                   </tfoot>
                 </table>
@@ -460,14 +433,6 @@ require_once "./clases/Conexion.php";
 
 
       </div> 
-
-      <footer class="footer">
-        <div class="container-fluid">
-          <div class="footer-in">
-            <p class="mb-0">&copy 2020 Vishweb design - All Rights Reserved.</p>
-          </div>
-        </div>
-      </footer>
       </div>
       </div>
 
