@@ -1,12 +1,11 @@
 <?php
-require_once "./clases/Conexion.php";
+  require_once "./clases/Conexion.php";
   require_once "./clases/crud.php";
   $crud = new Crud();
   $datos = $crud->mostrarDatosbonosFebrero();
 ?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -20,299 +19,90 @@ require_once "./clases/Conexion.php";
   <body>
     <div class="wrapper">
       <div class="body-overlay"></div>
-
-       <!-- Sidebar  -->
-       <nav id="sidebar">
-        <div class="sidebar-header">
-          <h3><img src="images/habitta.svg" class="img-fluid"/></h3>
-        </div>
-        <ul class="list-unstyled components">
-          <li class="active">
-            <a href="index.php" class="dashboard"><img src="images/home.svg" width="20px"><span>Inicio</span></a>
-          </li>
-
-          <li class="">
-            <a  class="dashboard"><span>Principales</span></a>
-          </li>
-          <li class="dropdown">
-            <a href="./basemadre.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Base Madre</span></a>
-
-          </li>
-          <li class="dropdown">
-            <a href="./flujo.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Flujo</span></a>
-
-          </li>
-          <li class="dropdown">
-            <a href="./liberados.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Liberado</span></a>
-
-          </li>
-
-          <li class="">
-            <a href="#" class="dashboard"><span>Bancos</span></a>
-          </li>
-
-          <li class="dropdown">
-            <a href="./bbva.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>BBVA</span></a>
-
-
-              </li>
-          <li class="dropdown">
-            <a href="./hsbcl.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>HSBC Lomas</span></a>
-
-          </li>
-          <li class="dropdown">
-            <a href="./hsbch.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>HSBC Habitta</span></a>
-
-          </li>
-          <li class="">
-            <a href="#" class="dashboard"><span>Estados de cuenta</span></a>
-          </li>
-          <li class="dropdown">
-            <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Cobranza</span></a>
-
-          </li>
-          <li class="dropdown">
-            <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Listado</span></a>
-
-          </li>
-          <li class="dropdown">
-            <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Estados de cuenta</span></a>
-
-          </li>
-          <li class="dropdown">
-            <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Catalogo</span></a>
-
-          </li>
-          <li class="dropdown">
-            <a href="./cobranza.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Tabulador</span></a>
-
-          </li>
-          <li class="dropdown">
-            <a href="./comisiones2023.php" data-toggle="collapse" aria-expanded="false" >
-              <i class="material-icons"></i><span>Comisiones 2023</span></a>
-
-          </li>
-        </ul>
-      </nav>
+      <!-- Sidebar  -->
+      <?php include "./sidebar.php"; ?> 
       <!--------page-content---------------->
       <div id="content">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>Bienvenido</h2>
-          </div>
-        </div>
-        <div class="col-md-12 mb-3">
-          <div class="card">
-            <div class="card-header">
-              <div class="row">
-                <div class="col">
-                  <span><img src="images/home.svg" width="25px"></i></span> Home/Comisioes 2023
-                </div>
-
-              </div>
-
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Bienvenido</h2>
             </div>
-            <div class="card-body">
-              <div class="table-responsive">
-                <table id="tabla" class="table table-striped data-table">
-                  <thead class="bg__td">
-                    <tr class="text-center">                        
-                        <th class="th__texto">NOMBRE_DE_CLIENTE</th>                        
-                        <th class="th__texto">DEPOSITO_DE_CLIENTE</th>
-                        <th class="th__texto">COMISION</th>
-                        <th class="th__texto">DEPOSITO_EN_BANCO</th>
-                        <th class="th__texto">TIPO_DE_PAGO</th>
-                        <th class="th__texto">FOLIO</th>
-                        <th class="th__texto">TIPO_DE_TARJETA</th>
-                        <th class="th__texto">TPVAFILIADA</th>
-                        <th class="th__texto">FECHADE_DEPOSITO</th>
-                        <th class="th__texto">AÑO</th>
-                        <th class="th__texto">BANCO</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                  <?php
-                          foreach($datos as $item) {
-                        ?>
-                          <tr class="text-center">
-                          <td><?php echo $item->NOMBRE_DE_CLIENTE; ?> </td>
-                          <td><?php echo $item->DEPOSITO_DE_CLIENTE;?> </td>
-                          <td><?php echo $item->COMISION;?> </td>
-                          <td><?php echo $item->DEPOSITO_EN_BANCO;?> </td>
-                          <td><?php echo $item->TIPO_DE_PAGO;?> </td>
-                          <td><?php echo $item->FOLIO; ?> </td>
-                          <td><?php echo $item->TIPO_DE_TARJETA;?> </td>
-                          <td><?php echo $item->TPVAFILIADA;?> </td>
-                          <td><?php echo $item->FECHADE_DEPOSITO;?></td>
-                          <td><?php echo $item->AÑO;?> </td>
-                          <td><?php echo $item->BANCO;?> </td>
-                          </tr>
-                          <?php } ?> 
-                  </tbody>
-                  <tfoot class="bg-blue">
-                    <tr class="text-center">
-                        <th class="th__texto">NOMBRE_DE_CLIENTE</th>                        
-                        <th class="th__texto">DEPOSITO_DE_CLIENTE</th>
-                        <th class="th__texto">COMISION</th>
-                        <th class="th__texto">DEPOSITO_EN_BANCO</th>
-                        <th class="th__texto">TIPO_DE_PAGO</th>
-                        <th class="th__texto">FOLIO</th>
-                        <th class="th__texto">TIPO_DE_TARJETA</th>
-                        <th class="th__texto">TPVAFILIADA</th>
-                        <th class="th__texto">FECHADE_DEPOSITO</th>
-                        <th class="th__texto">AÑO</th>
-                        <th class="th__texto">BANCO</th>
-                       
-                    </tr>
-                  </tfoot>
-                </table>
-                
-                <!-- <div class="row">
-                  <div class="col-sm-12 col-md-5">
-                    <div class="dataTables_info" id="example_info" role="status" aria-live="polite"></div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="card">
+              <div class="card-header">
+                <div class="row">
+                  <div class="col">
+                    <span><img src="images/home.svg" width="25px"></i></span> Home/Comisioes 2023
                   </div>
-                  <div class="col-sm-12 col-md-7">
-                    <div class="dataTables_paginate paging_simple_numbers" id="example_paginate">
-                      <ul class="pagination">
-                        <li class="paginate_button page-item previous disabled" id="example_previous"><a href="#"
-                            aria-controls="example" data-dt-idx="0" tabindex="0" class="page-link">Siguiente</a></li>
-                        <li class="paginate_button page-item active"><a href="#" aria-controls="example" data-dt-idx="1"
-                            tabindex="0" class="page-link">1</a></li>
-                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="2"
-                            tabindex="0" class="page-link">2</a></li>
-                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="3"
-                            tabindex="0" class="page-link">3</a></li>
-                        <li class="paginate_button page-item next" id="example_next"><a href="#" aria-controls="example"
-                            data-dt-idx="7" tabindex="0" class="page-link">Next</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div> -->
-
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table id="tabla" class="table table-striped data-table">
+                    <thead class="bg__td">
+                      <tr class="text-center">                        
+                          <th class="th__texto">NOMBRE_DE_CLIENTE</th>                        
+                          <th class="th__texto">DEPOSITO_DE_CLIENTE</th>
+                          <th class="th__texto">COMISION</th>
+                          <th class="th__texto">DEPOSITO_EN_BANCO</th>
+                          <th class="th__texto">TIPO_DE_PAGO</th>
+                          <th class="th__texto">FOLIO</th>
+                          <th class="th__texto">TIPO_DE_TARJETA</th>
+                          <th class="th__texto">TPVAFILIADA</th>
+                          <th class="th__texto">FECHADE_DEPOSITO</th>
+                          <th class="th__texto">AÑO</th>
+                          <th class="th__texto">BANCO</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                            foreach($datos as $item) {
+                          ?>
+                            <tr class="text-center">
+                            <td><?php echo $item->NOMBRE_DE_CLIENTE; ?> </td>
+                            <td><?php echo $item->DEPOSITO_DE_CLIENTE;?> </td>
+                            <td><?php echo $item->COMISION;?> </td>
+                            <td><?php echo $item->DEPOSITO_EN_BANCO;?> </td>
+                            <td><?php echo $item->TIPO_DE_PAGO;?> </td>
+                            <td><?php echo $item->FOLIO; ?> </td>
+                            <td><?php echo $item->TIPO_DE_TARJETA;?> </td>
+                            <td><?php echo $item->TPVAFILIADA;?> </td>
+                            <td><?php echo $item->FECHADE_DEPOSITO;?></td>
+                            <td><?php echo $item->AÑO;?> </td>
+                            <td><?php echo $item->BANCO;?> </td>
+                            </tr>
+                            <?php } ?> 
+                    </tbody>
+                    <tfoot class="bg-blue">
+                      <tr class="text-center">
+                          <th class="th__texto">NOMBRE_DE_CLIENTE</th>                        
+                          <th class="th__texto">DEPOSITO_DE_CLIENTE</th>
+                          <th class="th__texto">COMISION</th>
+                          <th class="th__texto">DEPOSITO_EN_BANCO</th>
+                          <th class="th__texto">TIPO_DE_PAGO</th>
+                          <th class="th__texto">FOLIO</th>
+                          <th class="th__texto">TIPO_DE_TARJETA</th>
+                          <th class="th__texto">TPVAFILIADA</th>
+                          <th class="th__texto">FECHADE_DEPOSITO</th>
+                          <th class="th__texto">AÑO</th>
+                          <th class="th__texto">BANCO</th>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </div>  
       </div>
-
-
-
-        <div id="addEmployeeModal" class="modal fade">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <form>
-                <div class="modal-header">
-                  <h4 class="modal-title">Add Employee</h4>
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                </div>
-                <div class="modal-body">
-                  <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" class="form-control" required>
-                  </div>
-                  <div class="form-group">
-                    <label>Email</label>
-                    <input type="email" class="form-control" required>
-                  </div>
-                  <div class="form-group">
-                    <label>Address</label>
-                    <textarea class="form-control" required></textarea>
-                  </div>
-                  <div class="form-group">
-                    <label>Phone</label>
-                    <input type="text" class="form-control" required>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
-                  <input type="submit" class="btn btn-success" value="Add">
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <!-- Edit Modal HTML -->
-        <div id="editEmployeeModal" class="modal fade">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <form>
-                <div class="modal-header">
-                  <h4 class="modal-title">Edit Employee</h4>
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                </div>
-                <div class="modal-body">
-                  <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" class="form-control" required>
-                  </div>
-                  <div class="form-group">
-                    <label>Email</label>
-                    <input type="email" class="form-control" required>
-                  </div>
-                  <div class="form-group">
-                    <label>Address</label>
-                    <textarea class="form-control" required></textarea>
-                  </div>
-                  <div class="form-group">
-                    <label>Phone</label>
-                    <input type="text" class="form-control" required>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
-                  <input type="submit" class="btn btn-info" value="Save">
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <!-- Delete Modal HTML -->
-        <div id="deleteEmployeeModal" class="modal fade">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <form>
-                <div class="modal-header">
-                  <h4 class="modal-title">Delete Employee</h4>
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                </div>
-                <div class="modal-body">
-                  <p>Are you sure you want to delete these Records?</p>
-                  <p class="text-warning"><small>This action cannot be undone.</small></p>
-                </div>
-                <div class="modal-footer">
-                  <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
-                  <input type="submit" class="btn btn-danger" value="Delete">
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-
-  
-      </div>
-      </div> 
-      </div>
-      </div>
-
-
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.2/dist/chart.min.js"></script>
-      <script src="js/jquery-3.5.1.js"></script>
-      <script src="js/jquery.dataTables.min.js"></script>
-      <script src="js/dataTables.bootstrap5.min.js"></script>
-      <script src="js/script.js"></script>
-      </body>
-
-      </html>
+    </div> 
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.2/dist/chart.min.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.bootstrap5.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
