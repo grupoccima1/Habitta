@@ -26,7 +26,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
-              <h2>Bienvenido</h2>
+              <h2>Proyecciones de Flujo Habitta</h2>
             </div>
           </div>
           <div class="col-md-12 mb-3">
@@ -34,7 +34,7 @@
               <div class="card-header bg-blue__500">
                 <div class="row">
                   <div class="col text-white">
-                    <span><img src="images/home.svg" width="25px"></i></span> Home/Proyecciones de Flujo Habitta
+                   <img class="icon-home me-2" src="images/home.svg">  Home/Proyecciones de Flujo Habitta
                   </div>
                 </div>
               </div>

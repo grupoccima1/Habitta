@@ -26,7 +26,7 @@ require_once "./clases/Conexion.php";
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
-              <h2>Bienvenido</h2>
+              <h2>Billpocket</h2>
             </div>
           </div>
           <div class="col-md-12 mb-3">
@@ -34,87 +34,63 @@ require_once "./clases/Conexion.php";
               <div class="card-header bg-blue__500">
                 <div class="row">
                   <div class="col text-white">
-                    <span><img src="images/home.svg" width="25px"></i></span> Home/Comisioes 2023
+                   <img class="icon-home me-2" src="images/home.svg">  Home/Billpocket
                   </div>
-
                 </div>
-
               </div>
               <div class="card-body">
                 <div class="table-responsive">
-                  <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                  <table id="tabla" class="table table-striped data-table">
                     <thead class="bg__td bg-blue__400 text-white">
-                      <tr>
-
-                          
-                          <th class="th__texto" style="text-align:center;">NOMBRE_DE_CLIENTE</th>                        
-                          <th class="th__texto" style="text-align:center;">DEPOSITO_DE_CLIENTE</th>
-                          <th class="th__texto" style="text-align:center;">COMISION</th>
-                          <th class="th__texto" style="text-align:center;">DEPOSITO_EN_BANCO</th>
-                          <th class="th__texto" style="text-align:center;">TIPO_DE_PAGO</th>
-                          <th class="th__texto" style="text-align:center;">FOLIO</th>
-                          <th class="th__texto" style="text-align:center;">TIPO_DE_TARJETA</th>
-                          <th class="th__texto" style="text-align:center;">TPVAFILIADA</th>
-                          <th class="th__texto" style="text-align:center;">FECHADE_DEPOSITO</th>
-                          <th class="th__texto" style="text-align:center;">AÑO</th>
-                          <th class="th__texto" style="text-align:center;">BANCO</th>
-                        
-
-
+                      <tr class="text-center">
+                          <th class="th__texto">NOMBRE_DE_CLIENTE</th>                        
+                          <th class="th__texto">DEPOSITO_DE_CLIENTE</th>
+                          <th class="th__texto">COMISION</th>
+                          <th class="th__texto">DEPOSITO_EN_BANCO</th>
+                          <th class="th__texto">TIPO_DE_PAGO</th>
+                          <th class="th__texto">FOLIO</th>
+                          <th class="th__texto">TIPO_DE_TARJETA</th>
+                          <th class="th__texto">TPVAFILIADA</th>
+                          <th class="th__texto">FECHADE_DEPOSITO</th>
+                          <th class="th__texto">AÑO</th>
+                          <th class="th__texto">BANCO</th>
                       </tr>
                     </thead>
                     <tbody>
                     <?php
                             foreach($datos as $item) {
                           ?>
-                            <tr>
-                              <!-- <td class="text-center">
-                              <form action="../BaseDetalle/formulario.php" method="POST">
-                                  Ocultar Boton -->
-                                  <!-- <input type="text" hidden value="" name="id">
-                                  <button class="border__none">
-                                    <input type="text" hidden value="" name="id">
-                                  </button>
-    
-                                  
-                              </form>
-                            
-                              </td> --> 
-                            <td class="text-center"> <?php echo $item->NOMBRE_DE_CLIENTE; ?> </td>
-                            <td class="text-center"> <?php echo $item->DEPOSITO_DE_CLIENTE;?> </td>
-                            <td class="text-center"> <?php echo $item->COMISION;?> </td>
-                            <td class="text-center"> <?php echo $item->DEPOSITO_EN_BANCO;?> </td>
-                            <td class="text-center"> <?php echo $item->TIPO_DE_PAGO;?> </td>
-                            <td class="text-center"> <?php echo $item->FOLIO; ?> </td>
-                            <td class="text-center"> <?php echo $item->TIPO_DE_TARJETA;?> </td>
-                            <td class="text-center"> <?php echo $item->TPVAFILIADA;?> </td>
-                            <td class="text-center"> <?php echo $item->FECHADE_DEPOSITO;?></td>
-                            <td class="text-center"> <?php echo $item->AÑO;?> </td>
-                            <td class="text-center"> <?php echo $item->BANCO;?> </td>
-                          
+                            <tr class="text-center">
+                            <td> <?php echo $item->NOMBRE_DE_CLIENTE; ?> </td>
+                            <td> <?php echo $item->DEPOSITO_DE_CLIENTE;?> </td>
+                            <td> <?php echo $item->COMISION;?> </td>
+                            <td> <?php echo $item->DEPOSITO_EN_BANCO;?> </td>
+                            <td> <?php echo $item->TIPO_DE_PAGO;?> </td>
+                            <td> <?php echo $item->FOLIO; ?> </td>
+                            <td> <?php echo $item->TIPO_DE_TARJETA;?> </td>
+                            <td> <?php echo $item->TPVAFILIADA;?> </td>
+                            <td> <?php echo $item->FECHADE_DEPOSITO;?></td>
+                            <td> <?php echo $item->AÑO;?> </td>
+                            <td> <?php echo $item->BANCO;?> </td>
                             </tr>
                             <?php } ?> 
                     </tbody>
                     <tfoot class="bg-blue">
-                      <tr>
-
-
-                          <th class="th__texto" style="text-align:center;">NOMBRE_DE_CLIENTE</th>                        
-                          <th class="th__texto" style="text-align:center;">DEPOSITO_DE_CLIENTE</th>
-                          <th class="th__texto" style="text-align:center;">COMISION</th>
-                          <th class="th__texto" style="text-align:center;">DEPOSITO_EN_BANCO</th>
-                          <th class="th__texto" style="text-align:center;">TIPO_DE_PAGO</th>
-                          <th class="th__texto" style="text-align:center;">FOLIO</th>
-                          <th class="th__texto" style="text-align:center;">TIPO_DE_TARJETA</th>
-                          <th class="th__texto" style="text-align:center;">TPVAFILIADA</th>
-                          <th class="th__texto" style="text-align:center;">FECHADE_DEPOSITO</th>
-                          <th class="th__texto" style="text-align:center;">AÑO</th>
-                          <th class="th__texto" style="text-align:center;">BANCO</th>
-                        
+                      <tr class="text-center">
+                          <th class="th__texto">NOMBRE_DE_CLIENTE</th>                        
+                          <th class="th__texto">DEPOSITO_DE_CLIENTE</th>
+                          <th class="th__texto">COMISION</th>
+                          <th class="th__texto">DEPOSITO_EN_BANCO</th>
+                          <th class="th__texto">TIPO_DE_PAGO</th>
+                          <th class="th__texto">FOLIO</th>
+                          <th class="th__texto">TIPO_DE_TARJETA</th>
+                          <th class="th__texto">TPVAFILIADA</th>
+                          <th class="th__texto">FECHADE_DEPOSITO</th>
+                          <th class="th__texto">AÑO</th>
+                          <th class="th__texto">BANCO</th>
                       </tr>
                     </tfoot>
                   </table>
-                  
                 </div>
               </div>
             </div>

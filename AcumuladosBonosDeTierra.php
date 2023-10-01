@@ -26,7 +26,7 @@ require_once "./clases/Conexion.php";
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-12">
-                <h2>Bienvenido</h2>
+                <h2>Acumulados Bonos de Tierra</h2>
               </div>
             </div>
             <div class="col-md-12 mb-3">
@@ -34,7 +34,7 @@ require_once "./clases/Conexion.php";
                 <div class="card-header bg-blue__500">
                   <div class="row">
                     <div class="col text-white">
-                      <span><img src="images/home.svg" width="25px"></i></span> Home/Acumulados Bonos de Tierra
+                     <img class="icon-home me-2" src="images/home.svg">  Home/Acumulados Bonos de Tierra
                     </div>
                   </div>
                 </div>
@@ -43,7 +43,7 @@ require_once "./clases/Conexion.php";
                     <a href="./AcumuladoTierra/agregaracumuladotierra.php" class="btn btn-primary">
                       Agregar Registro
                     </a>
-                    <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                    <table id="tabla" class="table table-striped data-table">
                       <thead class="bg__td bg-blue__400 text-white">
                         <tr class="text-center">
                             <th class="th__texto">Llave</th>                        

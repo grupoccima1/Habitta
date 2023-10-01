@@ -36,7 +36,7 @@ require_once "./clases/Conexion.php";
               <div class="card-header bg-blue__500">
                 <div class="row">
                   <div class="col text-white">  
-                    <span><img src="images/home.svg" width="25px"></i></span> Home/Bancos/Bbva
+                   <img class="icon-home me-2" src="images/home.svg">  Home/Bancos/Bbva
                   </div>
                 </div>
               </div>

@@ -31,10 +31,10 @@ require_once "./clases/Conexion.php";
           </div>
           <div class="col-md-12 mb-3">
             <div class="card">
-              <div class="card-header">
+              <div class="card-header bg-blue__500">
                 <div class="row">
-                  <div class="col">
-                    <span><img src="images/home.svg" width="25px"></i></span> Home/Bill Pocket
+                  <div class="col text-white">
+                   <img class="icon-home me-2" src="images/home.svg">  Home/Bill Pocket
                   </div>
                 </div>
               </div>
@@ -44,7 +44,7 @@ require_once "./clases/Conexion.php";
                     Agregar Registro
                   </a>
                   <hr>
-                  <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                  <table id="tabla" class="table table-striped data-table">
                     <thead class="bg__td">
                       <tr class="text-center">
                         <th>NOMBRE_DE_CLIENTE</th>
@@ -68,11 +68,9 @@ require_once "./clases/Conexion.php";
                           ?>
                       <tr class="text-center">
                         <td> <?php echo $item->NOMBRE_DE_CLIENTE; ?> </td>
-                        <td> <?php echo "$".number_format(floatval($item->DEPOSITO_DE_CLIENTE),2);?>
-                        </td>
+                        <td> <?php echo "$".number_format(floatval($item->DEPOSITO_DE_CLIENTE),2);?></td>
                         <td> <?php echo "$".number_format(floatval($item->COMISION),2);?> </td>
-                        <td> <?php echo "$".number_format(floatval($item->DEPOSITO_EN_BANCO),2);?>
-                        </td>
+                        <td> <?php echo "$".number_format(floatval($item->DEPOSITO_EN_BANCO),2);?></td>
                         <td> <?php echo $item->TIPO_DE_PAGO;?> </td>
                         <td> <?php echo $item->FOLIO; ?> </td>
                         <td> <?php echo $item->TIPO_DE_TARJETA;?> </td>
@@ -115,7 +113,6 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto">BANCO</th>
                         <th class="th__texto">MODIFICAR</th>
                         <th class="th__texto">ELIMINAR</th>
-
                       </tr>
                     </tfoot>
                   </table>
@@ -133,5 +130,4 @@ require_once "./clases/Conexion.php";
     <script src="js/dataTables.bootstrap5.min.js"></script>
     <script src="js/script.js"></script>
   </body>
-
 </html>

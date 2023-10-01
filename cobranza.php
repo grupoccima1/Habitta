@@ -26,7 +26,7 @@ require_once "./clases/Conexion.php";
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
-              <h2>Bienvenido</h2>
+              <h2>Cobranza</h2>
             </div>
           </div>
           <div class="col-md-12 mb-3">
@@ -34,7 +34,7 @@ require_once "./clases/Conexion.php";
               <div class="card-header bg-blue__500">
                 <div class="row">
                   <div class="col text-white">
-                    <span><img src="images/home.svg" width="25px"></i></span> Home/Cobranza
+                   <img class="icon-home me-2" src="images/home.svg">  Home/Cobranza
                   </div>
                 </div>
               </div>

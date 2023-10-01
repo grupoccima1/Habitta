@@ -26,15 +26,15 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
-              <h2>Bienvenido</h2>
+              <h2>Liberados</h2>
             </div>
           </div>
           <div class="col-md-12 mb-3">
             <div class="card">
-              <div class="card-header">
+              <div class="card-header bg-blue__500">
                 <div class="row">
-                  <div class="col">
-                    <span><img src="images/home.svg" width="25px"></i></span> Home/Liberados
+                  <div class="col text-white">
+                   <img class="icon-home me-2" src="images/home.svg">  Home/Liberados
                   </div>
                 </div>
               </div>
@@ -47,7 +47,6 @@
                   <table id="tabla" class="table table-striped data-table">
                     <thead class="bg__td">
                       <tr class="text-center">
-                      
                           <th class="th__texto">Llave</th>                        
                           <th class="th__texto">Lote</th>
                           <th class="th__texto">Condominio</th>

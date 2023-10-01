@@ -26,7 +26,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
-              <h2>Bienvenido</h2>
+              <h2>Comisiones Internas</h2>
             </div>
           </div>
           <div class="col-md-12 mb-3">
@@ -34,7 +34,7 @@
               <div class="card-header bg-blue__500">
                 <div class="row">
                   <div class="col text-white" >
-                    <span><img src="images/home.svg" width="25px"></i></span> Home/Comisiones Internas
+                   <img class="icon-home me-2" src="images/home.svg">  Home/Comisiones Internas
                   </div>
                 </div>
               </div>
@@ -44,18 +44,18 @@
                     Agregar Registro
                   </a>
                   <hr>
-                  <table id="tabla" class="table table-striped data-table" style="width: 100%">
+                  <table id="tabla" class="table table-striped data-table">
                     <thead class="bg__td bg-blue__400 text-white ">
                       <tr class="text-center">
-                          <th class="th__texto" style="text-align:center;">LLAVE</th>                        
-                          <th class="th__texto" style="text-align:center;">NOMBRE_DEL_CLIENTE</th>
-                          <th class="th__texto" style="text-align:center;">FECHA_DE_APARTADO</th>
-                          <th class="th__texto" style="text-align:center;">FECHA_ENTREGA_DE_CONTRATO</th>
-                          <th class="th__texto" style="text-align:center;">IMPORTE_A_COMISIONAR</th>
-                          <th class="th__texto" style="text-align:center;">PCOMISION</th>
-                          <th class="th__texto" style="text-align:center;">IMPORTE</th>
-                          <th class="th__texto" style="text-align:center;">MODIFICAR</th>
-                          <th class="th__texto" style="text-align:center;">ELIMINAR</th>
+                          <th class="th__texto">LLAVE</th>                        
+                          <th class="th__texto">NOMBRE_DEL_CLIENTE</th>
+                          <th class="th__texto">FECHA_DE_APARTADO</th>
+                          <th class="th__texto">FECHA_ENTREGA_DE_CONTRATO</th>
+                          <th class="th__texto">IMPORTE_A_COMISIONAR</th>
+                          <th class="th__texto">PCOMISION</th>
+                          <th class="th__texto">IMPORTE</th>
+                          <th class="th__texto">MODIFICAR</th>
+                          <th class="th__texto">ELIMINAR</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -100,8 +100,6 @@
                           <th class="th__texto">IMPORTE</th>
                           <th class="th__texto">MODIFICAR</th>
                           <th class="th__texto">ELIMINAR</th>
-                    
-                        
                       </tr>
                     </tfoot>
                   </table>

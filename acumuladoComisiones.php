@@ -33,7 +33,7 @@ require_once "./clases/Conexion.php";
               <div class="card-header bg-blue__500">
                 <div class="row">
                   <div class="col text-white">
-                    <span><img src="images/home.svg" width="25px"></i></span> Home/Acumulado de Comisiones
+                    <img src="images/home.svg" width="25px">Home/Acumulado de Comisiones
                   </div>
                 </div>
               </div>
@@ -42,6 +42,7 @@ require_once "./clases/Conexion.php";
                   <a href="./AcumuladoDeComisiones/agregaracumuladodecomisiones.php" class="btn btn-primary">
                     Agregar Registro
                   </a>
+                  <hr>
                   <table id="tabla" class="table table-striped data-table">
                     <thead class="bg__td bg-blue__400 text-white">
                       <tr class="text-center">

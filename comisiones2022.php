@@ -26,15 +26,15 @@ require_once "./clases/Conexion.php";
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
-              <h2>Bienvenido</h2>
+              <h2>Comisiones 2022</h2>
             </div>
           </div>
           <div class="col-md-12 mb-3">
             <div class="card">
-              <div class="card-header">
+              <div class="card-header bg-blue__500" >
                 <div class="row">
-                  <div class="col">
-                    <span><img src="images/home.svg" width="25px"></i></span> Home/Comisiones 2022
+                  <div class="col text-white">
+                   <img class="icon-home me-2" src="images/home.svg">  Home/Comisiones 2022
                   </div>
                 </div>
               </div>
