@@ -41,7 +41,7 @@
               <div class="card-body">
                 <div class="table-responsive">
                   <table id="tabla" class="table table-striped data-table">
-                    <thead class="bg__td">
+                    <thead class="bg__td bg-blue__400 text-white">
                       <tr class="text-center">                        
                           <th class="th__texto">NOMBRE_DE_CLIENTE</th>                        
                           <th class="th__texto">DEPOSITO_DE_CLIENTE</th>

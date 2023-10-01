@@ -138,7 +138,6 @@ require_once "./clases/Conexion.php";
                                 </button>
                               </form>
                             </td>
-                          
                             </tr>
                             <?php } ?> 
                     </tbody>
@@ -184,7 +183,6 @@ require_once "./clases/Conexion.php";
                   </table>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>

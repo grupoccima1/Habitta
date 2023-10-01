@@ -45,7 +45,7 @@
                   </a>
                   <hr>
                   <table id="tabla" class="table table-striped data-table">
-                    <thead class="bg__td">
+                    <thead class="bg__td bg-blue__400 text-white">
                       <tr class="text-center">
                           <th class="th__texto">Llave</th>                        
                           <th class="th__texto">Lote</th>
@@ -91,8 +91,7 @@
                           <th class="th__texto">Apartado telegram</th>
                           <th class="th__texto">Primer Mensualidad</th>
                           <th>Modificar</th>
-                          <th>Eliminar</th>
-                          
+                          <th>Eliminar</th>                          
                       </tr>
                     </thead>
                     <tbody>
@@ -212,7 +211,6 @@
                       </tr>
                     </tfoot>
                   </table>
-                  
                 </div>
               </div>
             </div>

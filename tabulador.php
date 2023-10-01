@@ -45,7 +45,7 @@
                   </a>
                   <hr>
                   <table id="tabla" class="table table-striped data-table">
-                    <thead class="bg__td">
+                    <thead class="bg__td bg-blue__400 text-white">
                       <tr class="text-center">
                           <th class="th__texto">Periodo</th>                        
                           <th class="th__texto">Fecha</th>
