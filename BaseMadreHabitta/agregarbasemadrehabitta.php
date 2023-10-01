@@ -5,10 +5,10 @@
         <h2 class="mb-3 fs-4 text-center"> Agregar nuevo registro  </h2>
         <form action="./insertarbasemadrehabitta.php" method="post">
           <div class="row">
-          <div class="col-4 mb-2">
-            <label for="LLAVE">LLAVE</label>
-              <input type="text" class="form-control" id="LLAVE" name="LLAVE">
-          </div>  
+            <div class="col-4 mb-2">
+              <label for="LLAVE">LLAVE</label>
+                <input type="text" class="form-control" id="LLAVE" name="LLAVE">
+            </div>  
             <div class="col-4 mb-2">
               <label for="LOTE">LOTE</label>
               <input type="text" class="form-control" id="LOTE" name="LOTE">
@@ -171,11 +171,13 @@
             </div>
           </div>
           <div class="d-flex justify-content-end">
-            <button class="btn btn-primary mt-3 px-5">
-                       Agregar
+            <button class="me-2 btn btn-primary mt-3 px-5">
+              Agregar
             </button>
-          </div>
-                      
+            <a href="../basemadrehabitta.php" class="btn btn-secondary mt-3 px-5">
+              Cancelar
+            </a>
+          </div>  
         </form>
     </div>
     </div>

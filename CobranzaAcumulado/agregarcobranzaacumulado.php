@@ -1,6 +1,6 @@
 <?php include "../header.php"; ?>
 <div class="container">
-<div class= "card mt-4">
+  <div class= "card mt-4">
     <div class= "card-body">
         <h2 class="mb-3 fs-4 text-center"> Agregar nuevo registro  </h2>
         <form action="./insertarcobranzaacumulado.php" method="post">
@@ -1330,14 +1330,15 @@
               <input type="text" class="form-control" id="diciembre_2045" name="diciembre_2045">
             </div>
           </div>
-            <div class="d-flex justify-content-end">
-              <button class="btn btn-primary mt-3 px-5">
-                         Agregar
-              </button>
-
-            </div>
-                      
+          <div class="d-flex justify-content-end">
+            <button class="me-2 btn btn-primary mt-3 px-5">
+              Agregar
+            </button>
+            <a href="../Cobranza_Acumulado.php" class="btn btn-secondary mt-3 px-5">
+              Cancelar
+            </a>
+          </div> 
         </form>
     </div>
-    </div>
+  </div>
 </div>

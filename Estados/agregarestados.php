@@ -1,14 +1,14 @@
 <?php include "../header.php"; ?>
 <div class="container">
-<div class= "card mt-4">
+  <div class= "card mt-4">
     <div class= "card-body">
         <h2 class="mb-3 fs-4 text-center"> Agregar nuevo registro  </h2>
         <form action="./insertarestados.php" method="post">
           <div class="row">
-          <div class="col-4 mb-2">
-            <label for="SourceName">SourceName</label>
-              <input type="text" class="form-control" id="SourceName" name="SourceName">
-          </div>  
+            <div class="col-4 mb-2">
+              <label for="SourceName">SourceName</label>
+                <input type="text" class="form-control" id="SourceName" name="SourceName">
+            </div>  
             <div class="col-4 mb-2">
               <label for="PERIODO">PERIODO</label>
               <input type="text" class="form-control" id="PERIODO" name="PERIODO">
@@ -98,13 +98,15 @@
               <input type="text" class="form-control" id="MONTO_INT_MOR" name="MONTO_INT_MOR">
             </div>
           </div>
-            <div class="d-flex justify-content-end">
-              <button class="btn btn-primary mt-3 px-5">
-                         Agregar
-              </button>
-                         
-            </div> 
+          <div class="d-flex justify-content-end">
+            <button class="me-2 btn btn-primary mt-3 px-5">
+              Agregar
+            </button>
+            <a href="../estados.php" class="btn btn-secondary mt-3 px-5">
+              Cancelar
+            </a>        
+          </div> 
         </form>
     </div>
-    </div>
+  </div>
 </div>

@@ -141,14 +141,15 @@
             <label for="TIPO">TIPO</label>
             <input type="text" class="form-control" id="TIPO" name="TIPO">
           </div>
-          <div class="d-flex mb-2">
+          <div class="d-flex justify-content-end">
+            <button class="me-2 btn btn-primary mt-3 px-5">
+              Agregar
+            </button>
+            <a href="../acumuladoComisiones.php" class="btn btn-secondary mt-3 px-5">
+              Cancelar
+            </a>
           </div>
-          <button class="btn btn-primary mt-3 px-5">
-            Agregar
-          </button>
-
         </div>
-
       </form>
     </div>
   </div>

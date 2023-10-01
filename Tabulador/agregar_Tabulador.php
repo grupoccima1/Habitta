@@ -1,23 +1,15 @@
 <?php include "../header.php"; ?>
-
 <div class="container">
-<div class="row">
-<div class="card mt-4">
-  <div class="card-body">
-            <div class="col">
-
-                <a href="../tabulador.php" class="btn btn-outline-info">
-                    Regresar
-                </a>
-
+    <div class="row">
+        <div class="card mt-4">
+            <div class="card-body">
                 <h2 class="mb-3 fs-4 text-center">Nuevo Registro</h2>
-
                 <form action="./insertar_Tabulador.php" method="post">
                     <div class="row">
-                    <div class="col-4 mb-2">
-                        <label for="periodo">Periodo </label>
-                        <input type="text" name="periodo" id="periodo" class="form-control">
-                    </div>    
+                        <div class="col-4 mb-2">
+                            <label for="periodo">Periodo </label>
+                            <input type="text" name="periodo" id="periodo" class="form-control">
+                        </div>
                         <div class="col-4 mb-2">
                             <label for="fecha">Fecha</label>
                             <input type="text" name="fecha" id="fecha" class="form-control">
@@ -108,16 +100,16 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-end">
-                        <button class="btn btn-primary mt-3 px-5">
-                            <i class="fa-solid fa-floppy-disk"></i> Agregar
+                        <button class="me-2 btn btn-primary mt-3 px-5">
+                            Agregar
                         </button>
-
+                        <a href="../tabulador.php" class="btn btn-secondary mt-3 px-5">
+                            Cancelar
+                        </a>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-  </div>
 </div>
-
 <?php include "../script.php"; ?>

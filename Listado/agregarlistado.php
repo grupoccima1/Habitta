@@ -1,6 +1,6 @@
 <?php include "../header.php"; ?>
 <div class="container">
-<div class= "card mt-4">
+  <div class= "card mt-4">
     <div class= "card-body">
         <h2> Agregar nuevo registro  </h2>
         <form action="./insertarlistado.php" method="post">
@@ -27,12 +27,14 @@
             </div>
           </div>  
           <div class="d-flex justify-content-end">
-            <button class="bt btn-primary mt-3 px-5">
+            <button class="me-2 btn btn-primary mt-3 px-5">
               Agregar
             </button>
+            <a href="../listado.php" class="btn btn-secondary mt-3 px-5">
+              Cancelar
+            </a>
           </div>  
-                      
         </form>
     </div>
-    </div>
+  </div>
 </div>

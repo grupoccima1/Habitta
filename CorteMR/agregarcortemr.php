@@ -1,14 +1,14 @@
 <?php include "../header.php"; ?>
 <div class="container">
-<div class= "card mt-4">
+  <div class= "card mt-4">
     <div class= "card-body">
         <h2 class="mb-3 fs-4 text-center"> Agregar nuevo registro  </h2>
         <form action="./insertarcortemr.php" method="post">
           <div class="row">
-          <div class="col-4 mb-2">
-            <label for="RANGO_DE_MOROSIDAD">RANGO DE MOROSIDAD</label>
+            <div class="col-4 mb-2">
+              <label for="RANGO_DE_MOROSIDAD">RANGO DE MOROSIDAD</label>
               <input type="text" class="form-control" id="RANGO_DE_MOROSIDAD" name="RANGO_DE_MOROSIDAD">
-          </div>  
+            </div>  
             <div class="col-4 mb-2">
               <label for="NUM_DE_CLIENTES">NUMERO DE CLIENTES</label>
               <input type="text" class="form-control" id="NUM_DE_CLIENTES" name="NUM_DE_CLIENTES">
@@ -258,14 +258,15 @@
               <input type="text" class="form-control" id="diciembre_2023" name="diciembre_2023">
             </div>
           </div>
-            <div class="d-flex justify-content-end">
-              <button class="btn btn-primary mt-3 px-5">
-                         Agregar
-              </button>
-
-            </div>
-                      
+          <div class="d-flex justify-content-end">
+            <button class="me-2 btn btn-primary mt-3 px-5">
+              Agregar
+            </button>
+            <a href="../CorteMoraRango.php" class="btn btn-secondary mt-3 px-5">
+              Cancelar
+            </a>
+          </div>
         </form>
       </div>
-    </div>
+  </div>
 </div>

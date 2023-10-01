@@ -147,11 +147,13 @@
               </div>
             </div>
             <div class="d-flex justify-content-end">
-              <button class="btn btn-primary mt-3 px-4">
-                         Agregar
+              <button class="me-2 btn btn-primary mt-3 px-4">
+                Agregar
               </button>
-            </div>
-                        
+              <a href="../acumuladosherpa.php" class="btn btn-secondary mt-3 px-5">
+                Cancelar
+              </a>
+            </div>      
           </form>
       </div>
   </div>

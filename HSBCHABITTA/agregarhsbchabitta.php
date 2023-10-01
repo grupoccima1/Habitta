@@ -1,14 +1,14 @@
 <?php include "../header.php"; ?>
 <div class="container">
-<div class= "card mt-4">
+  <div class= "card mt-4">
     <div class= "card-body">
         <h2 class="mb-3 fs-4 text-center"> Agregar nuevo registro  </h2>
         <form action="./insertarhsbchabitta.php" method="post">
           <div class="row">
-          <div class="col-4 mb-2">
-            <label for="SEMANA">SEMANA</label>
-              <input type="text" class="form-control" id="SEMANA" name="SEMANA">
-          </div>  
+            <div class="col-4 mb-2">
+              <label for="SEMANA">SEMANA</label>
+                <input type="text" class="form-control" id="SEMANA" name="SEMANA">
+            </div>  
             <div class="col-4 mb-2">
               <label for="FECHA">FECHA</label>
               <input type="text" class="form-control" id="FECHA" name="FECHA">
@@ -103,11 +103,13 @@
             </div>
           </div>
           <div class="d-flex justify-content-end">
-            <button class="btn btn-primary mt-3 px-5">
-                       Agregar
+            <button class="me-2 btn btn-primary mt-3 px-5">
+              Agregar
             </button>
-          </div>
-                      
+            <a href="../hsbch.php" class="btn btn-secondary mt-3 px-5">
+              Cancelar
+            </a>
+          </div>            
         </form>
     </div>
   </div>

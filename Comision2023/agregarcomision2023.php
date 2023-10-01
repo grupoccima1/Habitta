@@ -135,10 +135,12 @@
           </div>
         </div>
         <div class="d-flex justify-content-end">
-          <button class="btn btn-primary mt-3 px-5">
+          <button class="me-2 btn btn-primary mt-3 px-5">
             Agregar
           </button>
-
+          <a href="../comisiones2023.php" class="btn btn-secondary mt-3 px-5">
+            Cancelar
+          </a>
         </div>
 
       </form>

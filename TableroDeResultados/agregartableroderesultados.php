@@ -1,6 +1,6 @@
 <?php include "../header.php"; ?>
 <div class="container">
-<div class= "card mt-4">
+  <div class= "card mt-4">
     <div class= "card-body">
         <h2 class="mb-3 fs-4 text-center"> Agregar nuevo registro  </h2>
         <form action="./insertartableroderesultados.php" method="post">
@@ -59,9 +59,12 @@
             </div>
           </div>
             <div class="d-flex justify-content-end">
-              <button class="btn btn-primary mt-3 px-5">Agregar</button>
+              <button class="me-2 btn btn-primary mt-3 px-5">Agregar</button>
+              <a href="../acumuladosherpa.php" class="btn btn-secondary mt-3 px-5">
+                Cancelar
+              </a>
             </div>     
         </form>
     </div>
-    </div>
+  </div>
 </div>
