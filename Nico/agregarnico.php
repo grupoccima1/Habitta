@@ -88,7 +88,7 @@
           </div>
           <div class="d-flex justify-content-end">
             <button class="me-2 btn btn-primary mt-3 px-5">Agregar</button>
-            <a href="../nico.php" class="btn btn-secondary mt-3 px-5">
+            <a href="../Ejercicio_nico.php" class="btn btn-secondary mt-3 px-5">
               Cancelar
             </a>
           </div>      

@@ -83,7 +83,7 @@
                                     Eliminar
                                 </button>
                             </form>
-                            <a href="../nico.php" class="btn btn-secondary">Cancelar</a>
+                            <a href="../Ejercicio_nico.php" class="btn btn-secondary">Cancelar</a>
                         </div>
                     </div>
                 </div>
