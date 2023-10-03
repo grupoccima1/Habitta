@@ -33,7 +33,7 @@
    $respuesta = $crudnico->insertarDatos($datos);
 
    if ($respuesta -> getInsertedId() > 0) {
-    header("location:../Nico.php");
+    header("location:../Ejercicio_nico.php");
    }else {
     print_r($respuesta);
    }

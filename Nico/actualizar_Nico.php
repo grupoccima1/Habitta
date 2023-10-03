@@ -31,7 +31,7 @@
     $respuesta = $crud -> actualizarNico($id,$datos);
 
     if ($respuesta->getModifiedCount() > 0 || $respuesta->getMatchedCount() > 0) {
-        header("location:../Nico.php");
+        header("location:../Ejercicio_nico.php");
     }else {
         print_r($respuesta);
     }

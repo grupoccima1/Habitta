@@ -59,7 +59,7 @@
                 <span>Liberado</span></a>
             </li>
             <li class="dropdown">
-            <a href="./Nico.php" data-toggle="collapse" aria-expanded="false" >
+            <a href="./Ejercicio_nico.php" data-toggle="collapse" aria-expanded="false" >
                 <span>Nico</span></a>
             </li>  
             <li class="dropdown">

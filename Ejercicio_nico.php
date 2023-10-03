@@ -84,7 +84,7 @@ require_once "./clases/Conexion.php";
                   <i class="material-icons"></i><span>Liberado</span></a>
               </li>
               <li class="dropdown activo">
-                <a href="./Nico.php" data-toggle="collapse" aria-expanded="false" >
+                <a href="./Ejercicio_nico.php" data-toggle="collapse" aria-expanded="false" >
                   <i class="material-icons"></i><span>Nico</span></a>
               </li>  
               <li class="dropdown">
@@ -295,6 +295,7 @@ require_once "./clases/Conexion.php";
                           </td>
                           <td class="text-center">
                             <form action="./Nico/eliminarnico.php" method="POST">
+                              <input type="text" name="id" id="id" hidden value="<?php echo $item -> _id ?>">
                               <button class="btn btn-danger">
                                 <img class="delete__icon" src="images/iconos/trash-solid.svg" alt="">
                               </button>

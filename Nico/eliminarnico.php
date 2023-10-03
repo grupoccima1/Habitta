@@ -13,7 +13,7 @@
         <div class="card mt-4">
             <div class="card-header">
 
-                <a href="../nico.php" class="btn btn-outline-info">
+                <a href="../Ejercicio_nico.php" class="btn btn-outline-info">
                     Regresar
                 </a>
             </div>

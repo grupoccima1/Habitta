@@ -9,7 +9,7 @@
 
  
     if($respuesta->getDeletedCount()> 0){
-        header("location:../nico.php");
+        header("location:../Ejercicio_nico.php");
     }else{
         print_r($respuesta);
     }
