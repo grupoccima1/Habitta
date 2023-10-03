@@ -1,8 +1,8 @@
 <?php 
     include "../clases/Conexion.php";
-    include "../AcumuladoDeComisiones/crudacumuladocomisiones.php";
+    include "../AcumuladoDeComisiones/crudacumuladodecomisiones.php";
 
-    $Crud = new crudacumuladocomisiones();
+    $Crud = new crudacumuladodecomisiones();
     $id = $_POST['id']; 
 
     $datos=Array(

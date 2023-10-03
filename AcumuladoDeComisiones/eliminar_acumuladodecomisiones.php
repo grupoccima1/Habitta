@@ -5,7 +5,7 @@
     $id = $_POST['id'];
 
 
-   $respuesta = $crudacumuladodecomisiones->eliminaracumuladodecomisiones($id);
+   $respuesta = $crudacumuladodecomisiones->eliminarAcumuladoComisiones($id);
 
  
     if($respuesta->getDeletedCount()> 0){

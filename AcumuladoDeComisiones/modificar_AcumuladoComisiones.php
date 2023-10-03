@@ -1,8 +1,8 @@
 <?php 
     include "../header.php";
     include "../clases/Conexion.php";
-    include "../AcumuladoDeComisiones/crudacumuladocomisiones.php";
-    $crud = new crudacumuladocomisiones();
+    include "../AcumuladoDeComisiones/crudacumuladodecomisiones.php";
+    $crud = new crudacumuladodecomisiones();
     $id = $_POST['id'];
     $datos = $crud -> obtenerDocumentoAcumuladoComisiones($id);
     $idMongo = $datos -> _id;

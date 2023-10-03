@@ -139,7 +139,7 @@ require_once "./clases/Conexion.php";
                             <td> <?php echo $item->DESARROLLO;?> </td>
                             <td> <?php echo $item->APARTADO_TELEGRAM;?> </td>
                             <td> <?php echo "$".number_format(floatval($item->PRIMER_MENSUALIDAD),2);?> </td>
-                            <td>
+                            <td class="text-center">
                               <form action="./BaseMadreHabitta/modificar_BaseMHabitta.php" method="POST">
                                 <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                                 <button class="btn btn-warning">
@@ -147,7 +147,7 @@ require_once "./clases/Conexion.php";
                                 </button>
                               </form>
                             </td>
-                            <td>
+                            <td class="text-center">
                               <form action="./BaseMadreHabitta/eliminarbasemadrehabitta.php" method="POST">
                                 <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
                                 <button class="btn btn-danger">
