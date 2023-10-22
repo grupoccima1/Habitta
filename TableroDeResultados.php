@@ -52,13 +52,13 @@
                           <th class="th__texto">U_APARTADAS</th>
                           <th class="th__texto">U_PORVENDER</th>
                           <th class="th__texto">U_VENDIDAS</th>
-                          <th class="th__texto">U_POR_CERRAR</th>
-                          <th class="th__texto">U_POR_RECUPERAR</th>
-                          <th class="th__texto">RECUPERADOS</th>
-                          <th class="th__texto">DESARROLLO</th>
-                          <th class="th__texto">U_POR_VENDER</th>
-                          <th class="th__texto">ESTATUS</th>
-                          <th class="th__texto">TOTAL_VENCIDOS</th>
+                          <th class="d-none th__texto">U_POR_CERRAR</th>
+                          <th class="d-none th__texto">U_POR_RECUPERAR</th>
+                          <th class="d-none th__texto">RECUPERADOS</th>
+                          <th class="d-none th__texto">DESARROLLO</th>
+                          <th class="d-none th__texto">U_POR_VENDER</th>
+                          <th class="d-none th__texto">ESTATUS</th>
+                          <th class="d-none th__texto">TOTAL_VENCIDOS</th>
                           <th class="th__texto">MODIFICAR</th>
                           <th class="th__texto">ELIMINAR</th>
                       </tr>
@@ -73,13 +73,13 @@
                             <td> <?php echo number_format($item->U_APARTADAS,2);?> </td>
                             <td> <?php echo number_format($item->U_PORVENDER,2);?> </td>
                             <td> <?php echo number_format($item->U_VENDIDAS,2);?> </td>
-                            <td> <?php echo number_format($item->U_POR_CERRAR,2); ?> </td>
-                            <td> <?php echo number_format($item->U_POR_RECUPERAR,2);?> </td>
-                            <td> <?php echo number_format($item->RECUPERADOS,2);?> </td>
-                            <td> <?php echo $item->DESARROLLO;?></td>
-                            <td> <?php echo number_format($item->U_POR_VENDER,2);?> </td>
-                            <td> <?php echo $item->ESTATUS;?> </td>
-                            <td> <?php echo number_format($item->TOTAL_VENCIDOS,2);?> </td>
+                            <td class="d-none"> <?php echo number_format($item->U_POR_CERRAR,2); ?> </td>
+                            <td class="d-none"> <?php echo number_format($item->U_POR_RECUPERAR,2);?> </td>
+                            <td class="d-none"> <?php echo number_format($item->RECUPERADOS,2);?> </td>
+                            <td class="d-none"> <?php echo $item->DESARROLLO;?></td>
+                            <td class="d-none"> <?php echo number_format($item->U_POR_VENDER,2);?> </td>
+                            <td class="d-none"> <?php echo $item->ESTATUS;?> </td>
+                            <td class="d-none"> <?php echo number_format($item->TOTAL_VENCIDOS,2);?> </td>
                             <td>
                               <form action="./TableroDeResultados/modificar_TableroResultados.php" method="POST">
                                 <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
@@ -106,13 +106,13 @@
                           <th class="th__texto">U_APARTADAS</th>
                           <th class="th__texto">U_PORVENDER</th>
                           <th class="th__texto">U_VENDIDAS</th>
-                          <th class="th__texto">U_POR_CERRAR</th>
-                          <th class="th__texto">U_POR_RECUPERAR</th>
-                          <th class="th__texto">RECUPERADOS</th>
-                          <th class="th__texto">DESARROLLO</th>
-                          <th class="th__texto">U_POR_VENDER</th>
-                          <th class="th__texto">ESTATUS</th>
-                          <th class="th__texto">TOTAL_VENCIDOS</th>
+                          <th class="d-none th__texto">U_POR_CERRAR</th>
+                          <th class="d-none th__texto">U_POR_RECUPERAR</th>
+                          <th class="d-none th__texto">RECUPERADOS</th>
+                          <th class="d-none th__texto">DESARROLLO</th>
+                          <th class="d-none th__texto">U_POR_VENDER</th>
+                          <th class="d-none th__texto">ESTATUS</th>
+                          <th class="d-none th__texto">TOTAL_VENCIDOS</th>
                           <th class="th__texto">MODIFICAR</th>
                           <th class="th__texto">ELIMINAR</th>
                       </tr>
@@ -125,7 +125,6 @@
         </div>
       </div> 
     </div>
-  
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.2/dist/chart.min.js"></script>
     <script src="js/jquery-3.5.1.js"></script>
@@ -133,5 +132,4 @@
     <script src="js/dataTables.bootstrap5.min.js"></script>
     <script src="js/script.js"></script>
   </body>
-
 </html>

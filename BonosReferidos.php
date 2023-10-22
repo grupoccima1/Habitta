@@ -52,29 +52,29 @@ require_once "./clases/Conexion.php";
                           <th class="th__texto">CLUSTER</th>
                           <th class="th__texto">CLIENTE</th>
                           <th class="th__texto">PROMOCIÓN</th>
-                          <th class="th__texto">ESTATUS_DÍAS</th>
-                          <th class="th__texto">INICIO_DE_CORRIDA_CONTRATO_O_SIMULADOR</th>
-                          <th class="th__texto">Columna1</th>
-                          <th class="th__texto">APLICADO</th>
-                          <th class="th__texto">APARTADO</th>
-                          <th class="th__texto">FECHAS_DE_PAGO</th>
-                          <th class="th__texto">ENGANCHE</th>                        
-                          <th class="th__texto">TOTAL_PAGADO</th>
-                          <th class="th__texto">Columna2</th>
-                          <th class="th__texto">Columna3</th>
-                          <th class="th__texto">Columna4</th>
-                          <th class="th__texto">Columna5</th>
-                          <th class="th__texto">Columna6</th>
-                          <th class="th__texto">STATUS</th>
-                          <th class="th__texto">SÍ_NO</th>
-                          <th class="th__texto">CONDOMINIO</th>
-                          <th class="th__texto">CLÚSTER</th>
-                          <th class="th__texto">BONO</th>                        
-                          <th class="th__texto">LOTE_numero1</th>
-                          <th class="th__texto">CONDOMINIO_numero1</th>
-                          <th class="th__texto">CLÚSTER_numero1</th>
-                          <th class="th__texto">CLIENTE_numero1</th>
-                          <th class="th__texto">NOTA</th>
+                          <th class="d-none th__texto">ESTATUS_DÍAS</th>
+                          <th class="d-none th__texto">INICIO_DE_CORRIDA_CONTRATO_O_SIMULADOR</th>
+                          <th class="d-none th__texto">Columna1</th>
+                          <th class="d-none th__texto">APLICADO</th>
+                          <th class="d-none th__texto">APARTADO</th>
+                          <th class="d-none th__texto">FECHAS_DE_PAGO</th>
+                          <th class="d-none th__texto">ENGANCHE</th>                        
+                          <th class="d-none th__texto">TOTAL_PAGADO</th>
+                          <th class="d-none th__texto">Columna2</th>
+                          <th class="d-none th__texto">Columna3</th>
+                          <th class="d-none th__texto">Columna4</th>
+                          <th class="d-none th__texto">Columna5</th>
+                          <th class="d-none th__texto">Columna6</th>
+                          <th class="d-none th__texto">STATUS</th>
+                          <th class="d-none th__texto">SÍ_NO</th>
+                          <th class="d-none th__texto">CONDOMINIO</th>
+                          <th class="d-none th__texto">CLÚSTER</th>
+                          <th class="d-none th__texto">BONO</th>                        
+                          <th class="d-none th__texto">LOTE_numero1</th>
+                          <th class="d-none th__texto">CONDOMINIO_numero1</th>
+                          <th class="d-none th__texto">CLÚSTER_numero1</th>
+                          <th class="d-none th__texto">CLIENTE_numero1</th>
+                          <th class="d-none th__texto">NOTA</th>
                           <th class="th__texto">MODIFICAR</th>
                           <th class="th__texto">ELIMINAR</th>
                       </tr>
@@ -89,29 +89,29 @@ require_once "./clases/Conexion.php";
                             <td> <?php echo $item->CLUSTER;?> </td>
                             <td> <?php echo $item->CLIENTE;?> </td>
                             <td> <?php echo $item->PROMOCIÓN;?> </td>
-                            <td> <?php echo $item->ESTATUS_DÍAS; ?> </td>
-                            <td> <?php echo $item->INICIO_DE_CORRIDA_CONTRATO_O_SIMULADOR;?> </td>
-                            <td> <?php echo $item->Columna1;?> </td>
-                            <td> <?php echo $item->APLICADO;?> </td>
-                            <td> <?php echo $item->APARTADO;?></td>
-                            <td> <?php echo $item->FECHAS_DE_PAGO;?> </td>
-                            <td> <?php echo $item->ENGANCHE;?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->TOTAL_PAGADO),2); ?> </td>
-                            <td> <?php echo $item->Columna2;?> </td>
-                            <td> <?php echo $item->Columna3;?> </td>
-                            <td> <?php echo $item->Columna4;?> </td>
-                            <td> <?php echo $item->Columna5;?> </td>
-                            <td> <?php echo $item->Columna6;?> </td>
-                            <td> <?php echo $item->STATUS;?> </td>
-                            <td> <?php echo $item->SÍ_NO;?></td>
-                            <td> <?php echo $item->CONDOMINIO; ?> </td>
-                            <td> <?php echo $item->CLÚSTER;?> </td>
-                            <td> <?php echo $item->BONO;?> </td>
-                            <td> <?php echo $item->LOTE_numero1;?> </td>
-                            <td> <?php echo $item->CONDOMINIO_numero1;?> </td>
-                            <td> <?php echo $item->CLÚSTER_numero1; ?> </td>
-                            <td> <?php echo $item->CLIENTE_numero1;?> </td>
-                            <td> <?php echo $item->NOTA;?> </td>
+                            <td class="d-none" > <?php echo $item->ESTATUS_DÍAS; ?> </td>
+                            <td class="d-none" > <?php echo $item->INICIO_DE_CORRIDA_CONTRATO_O_SIMULADOR;?> </td>
+                            <td class="d-none" > <?php echo $item->Columna1;?> </td>
+                            <td class="d-none" > <?php echo $item->APLICADO;?> </td>
+                            <td class="d-none" > <?php echo $item->APARTADO;?></td>
+                            <td class="d-none" > <?php echo $item->FECHAS_DE_PAGO;?> </td>
+                            <td class="d-none" > <?php echo $item->ENGANCHE;?> </td>
+                            <td class="d-none" > <?php echo "$".number_format(floatval($item->TOTAL_PAGADO),2); ?> </td>
+                            <td class="d-none" > <?php echo $item->Columna2;?> </td>
+                            <td class="d-none" > <?php echo $item->Columna3;?> </td>
+                            <td class="d-none" > <?php echo $item->Columna4;?> </td>
+                            <td class="d-none" > <?php echo $item->Columna5;?> </td>
+                            <td class="d-none" > <?php echo $item->Columna6;?> </td>
+                            <td class="d-none" > <?php echo $item->STATUS;?> </td>
+                            <td class="d-none" > <?php echo $item->SÍ_NO;?></td>
+                            <td class="d-none" > <?php echo $item->CONDOMINIO; ?> </td>
+                            <td class="d-none" > <?php echo $item->CLÚSTER;?> </td>
+                            <td class="d-none" > <?php echo $item->BONO;?> </td>
+                            <td class="d-none" > <?php echo $item->LOTE_numero1;?> </td>
+                            <td class="d-none" > <?php echo $item->CONDOMINIO_numero1;?> </td>
+                            <td class="d-none" > <?php echo $item->CLÚSTER_numero1; ?> </td>
+                            <td class="d-none" > <?php echo $item->CLIENTE_numero1;?> </td>
+                            <td class="d-none" > <?php echo $item->NOTA;?> </td>
                             <td>
                               <form action="./BonosReferidos/modificar_BonosReferidos.php" method="POST">
                                 <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
@@ -139,29 +139,29 @@ require_once "./clases/Conexion.php";
                           <th class="th__texto">CLUSTER</th>
                           <th class="th__texto">CLIENTE</th>
                           <th class="th__texto">PROMOCIÓN</th>
-                          <th class="th__texto">ESTATUS_DÍAS</th>
-                          <th class="th__texto">INICIO_DE_CORRIDA_CONTRATO_O_SIMULADOR</th>
-                          <th class="th__texto">Columna1</th>
-                          <th class="th__texto">APLICADO</th>
-                          <th class="th__texto">APARTADO</th>
-                          <th class="th__texto">FECHAS_DE_PAGO</th>
-                          <th class="th__texto">ENGANCHE</th>                        
-                          <th class="th__texto">TOTAL_PAGADO</th>
-                          <th class="th__texto">Columna2</th>
-                          <th class="th__texto">Columna3</th>
-                          <th class="th__texto">Columna4</th>
-                          <th class="th__texto">Columna5</th>
-                          <th class="th__texto">Columna6</th>
-                          <th class="th__texto">STATUS</th>
-                          <th class="th__texto">SÍ_NO</th>
-                          <th class="th__texto">CONDOMINIO</th>
-                          <th class="th__texto">CLÚSTER</th>
-                          <th class="th__texto">BONO</th>                        
-                          <th class="th__texto">LOTE_numero1</th>
-                          <th class="th__texto">CONDOMINIO_numero1</th>
-                          <th class="th__texto">CLÚSTER_numero1</th>
-                          <th class="th__texto">CLIENTE_numero1</th>
-                          <th class="th__texto">NOTA</th>
+                          <th class="d-none th__texto">ESTATUS_DÍAS</th>
+                          <th class="d-none th__texto">INICIO_DE_CORRIDA_CONTRATO_O_SIMULADOR</th>
+                          <th class="d-none th__texto">Columna1</th>
+                          <th class="d-none th__texto">APLICADO</th>
+                          <th class="d-none th__texto">APARTADO</th>
+                          <th class="d-none th__texto">FECHAS_DE_PAGO</th>
+                          <th class="d-none th__texto">ENGANCHE</th>                        
+                          <th class="d-none th__texto">TOTAL_PAGADO</th>
+                          <th class="d-none th__texto">Columna2</th>
+                          <th class="d-none th__texto">Columna3</th>
+                          <th class="d-none th__texto">Columna4</th>
+                          <th class="d-none th__texto">Columna5</th>
+                          <th class="d-none th__texto">Columna6</th>
+                          <th class="d-none th__texto">STATUS</th>
+                          <th class="d-none th__texto">SÍ_NO</th>
+                          <th class="d-none th__texto">CONDOMINIO</th>
+                          <th class="d-none th__texto">CLÚSTER</th>
+                          <th class="d-none th__texto">BONO</th>                        
+                          <th class="d-none th__texto">LOTE_numero1</th>
+                          <th class="d-none th__texto">CONDOMINIO_numero1</th>
+                          <th class="d-none th__texto">CLÚSTER_numero1</th>
+                          <th class="d-none th__texto">CLIENTE_numero1</th>
+                          <th class="d-none th__texto">NOTA</th>
                           <th class="th__texto">MODIFICAR</th>
                           <th class="th__texto">ELIMINAR</th>
                       </tr>

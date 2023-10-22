@@ -52,22 +52,22 @@
                           <th class="th__texto">Enviado</th>
                           <th class="th__texto">Llave</th>
                           <th class="th__texto">Beneficiario</th>
-                          <th class="th__texto">Factura</th>
-                          <th class="th__texto">Fecha</th>
-                          <th class="th__texto">Motivo</th>
-                          <th class="th__texto">Categoria</th>
-                          <th class="th__texto">Origen</th>
-                          <th class="th__texto">Subcategoria</th>
-                          <th class="th__texto">Mes</th>
-                          <th class="th__texto">Año</th>
-                          <th class="th__texto">Flujo2</th>
-                          <th class="th__texto">Lote</th>
-                          <th class="th__texto">Condominio</th>                        
-                          <th class="th__texto">Cluster</th>
-                          <th class="th__texto">Desarrollo</th>
-                          <th class="th__texto">Cliente</th>
-                          <th class="th__texto">Correo</th>
-                          <th class="th__texto">1er mensualidad</th>
+                          <th class="d-none th__texto">Factura</th>
+                          <th class="d-none th__texto">Fecha</th>
+                          <th class="d-none th__texto">Motivo</th>
+                          <th class="d-none th__texto">Categoria</th>
+                          <th class="d-none th__texto">Origen</th>
+                          <th class="d-none th__texto">Subcategoria</th>
+                          <th class="d-none th__texto">Mes</th>
+                          <th class="d-none th__texto">Año</th>
+                          <th class="d-none th__texto">Flujo2</th>
+                          <th class="d-none th__texto">Lote</th>
+                          <th class="d-none th__texto">Condominio</th>                        
+                          <th class="d-none th__texto">Cluster</th>
+                          <th class="d-none th__texto">Desarrollo</th>
+                          <th class="d-none th__texto">Cliente</th>
+                          <th class="d-none th__texto">Correo</th>
+                          <th class="d-none th__texto">1er mensualidad</th>
                           <th class="th__texto">Modificar</th>
                           <th class="th__texto">Eliminar</th>
                       </tr>
@@ -81,23 +81,23 @@
                             <td> <?php echo $item->NOTAS;?> </td>
                             <td> <?php echo $item->ENVIADO;?> </td>
                             <td> <?php echo $item->LLAVE; ?> </td>
-                            <td> <?php echo $item->BENEFICIARIO;?> </td>
-                            <td> <?php echo $item->FACTURA;?> </td>
-                            <td> <?php echo $item->FECHA;?></td>
-                            <td> <?php echo $item->MOTIVO;?> </td>
-                            <td> <?php echo $item->CATEGORIA;?> </td>
-                            <td> <?php echo $item->ORIGEN;?> </td>
-                            <td> <?php echo $item->SUBCATEGORIA;?> </td>
-                            <td> <?php echo $item->MES;?> </td>
-                            <td> <?php echo $item->AÑO;?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->FLUJO2),2);?> </td>
-                            <td> <?php echo number_format(floatval($item->LOTE)); ?> </td>
-                            <td> <?php echo $item->CONDOMINIO;?> </td>
-                            <td> <?php echo $item->CLUSTER;?> </td>
-                            <td> <?php echo $item->DESARROLLO;?> </td>
-                            <td> <?php echo $item->CLIENTE;?> </td>
-                            <td> <?php echo $item->CORREO;?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->ER_MENSUALIDAD),2); ?> </td>
+                            <td class="d-none"> <?php echo $item->BENEFICIARIO;?> </td>
+                            <td class="d-none"> <?php echo $item->FACTURA;?> </td>
+                            <td class="d-none"> <?php echo $item->FECHA;?></td>
+                            <td class="d-none"> <?php echo $item->MOTIVO;?> </td>
+                            <td class="d-none"> <?php echo $item->CATEGORIA;?> </td>
+                            <td class="d-none"> <?php echo $item->ORIGEN;?> </td>
+                            <td class="d-none"> <?php echo $item->SUBCATEGORIA;?> </td>
+                            <td class="d-none"> <?php echo $item->MES;?> </td>
+                            <td class="d-none"> <?php echo $item->AÑO;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->FLUJO2),2);?> </td>
+                            <td class="d-none"> <?php echo number_format(floatval($item->LOTE)); ?> </td>
+                            <td class="d-none"> <?php echo $item->CONDOMINIO;?> </td>
+                            <td class="d-none"> <?php echo $item->CLUSTER;?> </td>
+                            <td class="d-none"> <?php echo $item->DESARROLLO;?> </td>
+                            <td class="d-none"> <?php echo $item->CLIENTE;?> </td>
+                            <td class="d-none"> <?php echo $item->CORREO;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->ER_MENSUALIDAD),2); ?> </td>
                             <td>
                               <form action="./flujo/modificar_Flujo.php" method="POST">
                                 <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
@@ -119,27 +119,27 @@
                     </tbody>
                     <tfoot class="bg-blue">
                       <tr class="text-center">
-                      <th class="th__texto">Crear recibo</th>                        
+                          <th class="th__texto">Crear recibo</th>                        
                           <th class="th__texto">Notas</th>
                           <th class="th__texto">Enviado</th>
                           <th class="th__texto">Llave</th>
                           <th class="th__texto">Beneficiario</th>
-                          <th class="th__texto">Factura</th>
-                          <th class="th__texto">Fecha</th>
-                          <th class="th__texto">Motivo</th>
-                          <th class="th__texto">Categoria</th>
-                          <th class="th__texto">Origen</th>
-                          <th class="th__texto">Subcategoria</th>
-                          <th class="th__texto">Mes</th>
-                          <th class="th__texto">Año</th>
-                          <th class="th__texto">Flujo2</th>
-                          <th class="th__texto">Lote</th>
-                          <th class="th__texto">Condominio</th>                        
-                          <th class="th__texto">Cluster</th>
-                          <th class="th__texto">Desarrollo</th>
-                          <th class="th__texto">Cliente</th>
-                          <th class="th__texto">Correo</th>
-                          <th class="th__texto">1er mensualidad</th>
+                          <th class="d-none th__texto">Factura</th>
+                          <th class="d-none th__texto">Fecha</th>
+                          <th class="d-none th__texto">Motivo</th>
+                          <th class="d-none th__texto">Categoria</th>
+                          <th class="d-none th__texto">Origen</th>
+                          <th class="d-none th__texto">Subcategoria</th>
+                          <th class="d-none th__texto">Mes</th>
+                          <th class="d-none th__texto">Año</th>
+                          <th class="d-none th__texto">Flujo2</th>
+                          <th class="d-none th__texto">Lote</th>
+                          <th class="d-none th__texto">Condominio</th>                        
+                          <th class="d-none th__texto">Cluster</th>
+                          <th class="d-none th__texto">Desarrollo</th>
+                          <th class="d-none th__texto">Cliente</th>
+                          <th class="d-none th__texto">Correo</th>
+                          <th class="d-none th__texto">1er mensualidad</th>
                           <th class="th__texto">Modificar</th>
                           <th class="th__texto">Eliminar</th>
                       </tr>

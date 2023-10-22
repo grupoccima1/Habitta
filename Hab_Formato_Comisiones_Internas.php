@@ -52,8 +52,8 @@
                           <th class="th__texto">FECHA_DE_APARTADO</th>
                           <th class="th__texto">FECHA_ENTREGA_DE_CONTRATO</th>
                           <th class="th__texto">IMPORTE_A_COMISIONAR</th>
-                          <th class="th__texto">PCOMISION</th>
-                          <th class="th__texto">IMPORTE</th>
+                          <th class="d-none th__texto">PCOMISION</th>
+                          <th class="d-none th__texto">IMPORTE</th>
                           <th class="th__texto">MODIFICAR</th>
                           <th class="th__texto">ELIMINAR</th>
                       </tr>
@@ -68,8 +68,8 @@
                             <td> <?php echo $item->FECHA_DE_APARTADO;?> </td>
                             <td> <?php echo $item->FECHA_ENTREGA_DE_CONTRATO;?> </td>
                             <td> <?php echo "$".number_format(floatval($item->IMPORTE_A_COMISIONAR),2);?> </td>
-                            <td> <?php echo $item->PCOMISION; ?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->IMPORTE),2);?> </td>
+                            <td class="d-none"> <?php echo $item->PCOMISION; ?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->IMPORTE),2);?> </td>
                             <td>
                               <form action="./ComisionesInternas/modificar_ComisionesInternas.php" method="POST">
                                 <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
@@ -96,8 +96,8 @@
                           <th class="th__texto">FECHA_DE_APARTADO</th>
                           <th class="th__texto">FECHA_ENTREGA_DE_CONTRATO</th>
                           <th class="th__texto">IMPORTE_A_COMISIONAR</th>
-                          <th class="th__texto">PCOMISION</th>
-                          <th class="th__texto">IMPORTE</th>
+                          <th class="d-none th__texto">PCOMISION</th>
+                          <th class="d-none th__texto">IMPORTE</th>
                           <th class="th__texto">MODIFICAR</th>
                           <th class="th__texto">ELIMINAR</th>
                       </tr>

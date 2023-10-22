@@ -52,32 +52,32 @@
                           <th class="th__texto">LOTE</th>
                           <th class="th__texto">CONDOMINIO</th>
                           <th class="th__texto">CLUSTER</th>
-                          <th class="th__texto">DESARROLLO</th>
-                          <th class="th__texto">PUESTO</th>
-                          <th class="th__texto">COMISIONISTA</th>
-                          <th class="th__texto">TOTAL_DE_LA_VENTA</th>
-                          <th class="th__texto">ENGANCHE</th>
-                          <th class="th__texto">%_COMISION</th>
-                          <th class="th__texto">TOTAL_COMISION</th>
-                          <th class="th__texto">DESCUENTO</th>
-                          <th class="th__texto">A_PAGAR_EXTERNOS</th>
-                          <th class="th__texto">SUBTOTAL</th>
-                          <th class="th__texto">IVA</th>
-                          <th class="th__texto">RETENCIONES_DE_IVA</th>
-                          <th class="th__texto">RETENCIONES_ISR</th>                        
-                          <th class="th__texto">TOTAL</th>
-                          <th class="th__texto">PAGO</th>
-                          <th class="th__texto">PAGADO</th>
-                          <th class="th__texto">METODO_DE_PAGO</th>
-                          <th class="th__texto">FECHA_PAGADA</th>
-                          <th class="th__texto">NOMBRE_CORRECTO</th>
-                          <th class="th__texto">SEMANA_PAGADA</th>
-                          <th class="th__texto">SEMANA</th>
-                          <th class="th__texto">X_TIPO_DE_REGIMEN</th>
-                          <th class="th__texto">CUENTA</th>
-                          <th class="th__texto">MOTIVO_DE_DESCUENTO</th>
-                          <th class="th__texto">ESTATUS</th>
-                          <th class="th__texto">LOTE_ANTERIOR</th>
+                          <th class="d-none th__texto">DESARROLLO</th>
+                          <th class="d-none th__texto">PUESTO</th>
+                          <th class="d-none th__texto">COMISIONISTA</th>
+                          <th class="d-none th__texto">TOTAL_DE_LA_VENTA</th>
+                          <th class="d-none th__texto">ENGANCHE</th>
+                          <th class="d-none th__texto">%_COMISION</th>
+                          <th class="d-none th__texto">TOTAL_COMISION</th>
+                          <th class="d-none th__texto">DESCUENTO</th>
+                          <th class="d-none th__texto">A_PAGAR_EXTERNOS</th>
+                          <th class="d-none th__texto">SUBTOTAL</th>
+                          <th class="d-none th__texto">IVA</th>
+                          <th class="d-none th__texto">RETENCIONES_DE_IVA</th>
+                          <th class="d-none th__texto">RETENCIONES_ISR</th>                        
+                          <th class="d-none th__texto">TOTAL</th>
+                          <th class="d-none th__texto">PAGO</th>
+                          <th class="d-none th__texto">PAGADO</th>
+                          <th class="d-none th__texto">METODO_DE_PAGO</th>
+                          <th class="d-none th__texto">FECHA_PAGADA</th>
+                          <th class="d-none th__texto">NOMBRE_CORRECTO</th>
+                          <th class="d-none th__texto">SEMANA_PAGADA</th>
+                          <th class="d-none th__texto">SEMANA</th>
+                          <th class="d-none th__texto">X_TIPO_DE_REGIMEN</th>
+                          <th class="d-none th__texto">CUENTA</th>
+                          <th class="d-none th__texto">MOTIVO_DE_DESCUENTO</th>
+                          <th class="d-none th__texto">ESTATUS</th>
+                          <th class="d-none th__texto">LOTE_ANTERIOR</th>
                           <th class="th__texto">MODIFICAR</th>
                           <th class="th__texto">ELIMINAR</th>
                       </tr>
@@ -92,32 +92,32 @@
                             <td> <?php echo $item->LOTE;?> </td>
                             <td> <?php echo $item->CONDOMINIO;?> </td>
                             <td> <?php echo $item->CLUSTER;?> </td>
-                            <td> <?php echo $item->DESARROLLO; ?> </td>
-                            <td> <?php echo $item->PUESTO;?> </td>
-                            <td> <?php echo $item->COMISIONISTA;?> </td>
-                            <td> <?php echo "$".number_format(floatval( $item->TOTAL_DE_LA_VENTA),2);?></td>
-                            <td> <?php echo "$".number_format(floatval($item->ENGANCHE),2);?> </td>
-                            <td> <?php echo $item->PCOMISION;?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->TOTAL_COMISION),2);?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->DESCUENTO),2);?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->A_PAGAR_EXTERNOS),2);?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->SUBTOTAL),2);?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->IVA),2);?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->RETENCIONES_DE_IVA),2); ?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->RETENCIONES_ISR),2);?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->TOTAL),2);?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->PAGO),2);?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->PAGADO),2);?> </td>
-                            <td> <?php echo $item->METODO_DE_PAGO; ?> </td>
-                            <td> <?php echo $item->FECHA_PAGADA;?> </td>
-                            <td> <?php echo $item->NOMBRE_CORRECTO;?> </td>
-                            <td> <?php echo $item->SEMANA_PAGADA; ?> </td>
-                            <td> <?php echo $item->SEMANA;?> </td>
-                            <td> <?php echo $item->X_TIPO_DE_REGIMEN;?></td>
-                            <td> <?php echo $item->CUENTA;?></td>
-                            <td> <?php echo $item->MOTIVO_DE_DESCUENTO; ?> </td>
-                            <td> <?php echo $item->ESTATUS;?> </td>
-                            <td> <?php echo $item->LOTE_ANTERIOR;?> </td>
+                            <td class="d-none"> <?php echo $item->DESARROLLO; ?> </td>
+                            <td class="d-none"> <?php echo $item->PUESTO;?> </td>
+                            <td class="d-none"> <?php echo $item->COMISIONISTA;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval( $item->TOTAL_DE_LA_VENTA),2);?></td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->ENGANCHE),2);?> </td>
+                            <td class="d-none"> <?php echo $item->PCOMISION;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->TOTAL_COMISION),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->DESCUENTO),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->A_PAGAR_EXTERNOS),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->SUBTOTAL),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->IVA),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->RETENCIONES_DE_IVA),2); ?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->RETENCIONES_ISR),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->TOTAL),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->PAGO),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->PAGADO),2);?> </td>
+                            <td class="d-none"> <?php echo $item->METODO_DE_PAGO; ?> </td>
+                            <td class="d-none"> <?php echo $item->FECHA_PAGADA;?> </td>
+                            <td class="d-none"> <?php echo $item->NOMBRE_CORRECTO;?> </td>
+                            <td class="d-none"> <?php echo $item->SEMANA_PAGADA; ?> </td>
+                            <td class="d-none"> <?php echo $item->SEMANA;?> </td>
+                            <td class="d-none"> <?php echo $item->X_TIPO_DE_REGIMEN;?></td>
+                            <td class="d-none"> <?php echo $item->CUENTA;?></td>
+                            <td class="d-none"> <?php echo $item->MOTIVO_DE_DESCUENTO; ?> </td>
+                            <td class="d-none"> <?php echo $item->ESTATUS;?> </td>
+                            <td class="d-none"> <?php echo $item->LOTE_ANTERIOR;?> </td>
                             <td>
                               <form action="./Comisiones2021/modificar_Comisiones2021.php" method="POST">
                                 <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">

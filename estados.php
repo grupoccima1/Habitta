@@ -52,24 +52,24 @@
                           <th class="th__texto">Fecha</th>
                           <th class="th__texto">Saldo inicial</th>
                           <th class="th__texto">Mensualidad</th>
-                          <th class="th__texto">Pagado</th>
-                          <th class="th__texto">Interes de financiamiento</th>
-                          <th class="th__texto">Abono a capital</th>
-                          <th class="th__texto">Saldo final</th>
-                          <th class="th__texto">Interes gen</th>
-                          <th class="th__texto">Interes int</th>
-                          <!-- <th class="th__texto">Interes acumulado mora</th> -->
-                          <th class="th__texto">Interes neg</th>
-                          <th class="th__texto">Estatus</th>
-                          <th class="th__texto">Observacion</th>
-                          <th class="th__texto">Debe interes</th>
-                          <th class="th__texto">Fecha pago</th>                            
-                          <th class="th__texto">Indicador fecha</th>
-                          <th class="th__texto">Porcentaje de interes</th>
-                          <th class="th__texto">Llave 2</th>
-                          <th class="th__texto">Mensualidad de adeudo</th>
-                          <th class="th__texto">Calculo sobre</th>
-                          <th class="th__texto">Monto de interes moratorio</th>
+                          <th class="d-none th__texto">Pagado</th>
+                          <th class="d-none th__texto">Interes de financiamiento</th>
+                          <th class="d-none th__texto">Abono a capital</th>
+                          <th class="d-none th__texto">Saldo final</th>
+                          <th class="d-none th__texto">Interes gen</th>
+                          <th class="d-none th__texto">Interes int</th>
+                          <!-- <th class="d-none th__texto">Interes acumulado mora</th> -->
+                          <th class="d-none th__texto">Interes neg</th>
+                          <th class="d-none th__texto">Estatus</th>
+                          <th class="d-none th__texto">Observacion</th>
+                          <th class="d-none th__texto">Debe interes</th>
+                          <th class="d-none th__texto">Fecha pago</th>                            
+                          <th class="d-none th__texto">Indicador fecha</th>
+                          <th class="d-none th__texto">Porcentaje de interes</th>
+                          <th class="d-none th__texto">Llave 2</th>
+                          <th class="d-none th__texto">Mensualidad de adeudo</th>
+                          <th class="d-none th__texto">Calculo sobre</th>
+                          <th class="d-none th__texto">Monto de interes moratorio</th>
                           <th class="th__texto">Modificar</th>
                           <th class="th__texto">Eliminar</th>  
                       </tr>
@@ -84,24 +84,24 @@
                             <td> <?php echo $item->FECHA;?> </td> 
                             <td> <?php echo "$".number_format(floatval($item->SALDOINICIAL),2);?> </td>
                             <td> <?php echo "$".number_format(floatval($item->MENSUALIDAD),2);?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->PAGADO),2); ?> </td>
-                            <td> <?php echo $item->INTERESFINANCIAMIENTO;?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->ABONO_CAPITAL),2);?></td>
-                            <td> <?php echo "$".number_format(floatval($item->SALDO_FINAL),2);?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->INT_GEN),2);?> </td>
-                            <td> <?php echo $item->INT_INT;?> </td>
-                            <!-- <td> <?php echo $item->INT_ACUMMORA;?> </td> -->
-                            <td> <?php echo $item->INT_NEG;?> </td>
-                            <td> <?php echo $item->ESTATUS;?> </td>
-                            <td> <?php echo $item->OBSERVACION; ?> </td>
-                            <td> <?php echo $item->DEBE_INTERES;?> </td>
-                            <td> <?php echo $item->FECHA_PAGO;?> </td>
-                            <td> <?php echo $item->INDICADOR_FECHA;?> </td>
-                            <td> <?php echo $item->PORCENT_INT;?> </td>
-                            <td> <?php echo $item->LLAVE2;?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->MENS_ADEU),2);?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->CALC_SOBRE),2); ?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->MONTO_INT_MOR),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->PAGADO),2); ?> </td>
+                            <td class="d-none"> <?php echo $item->INTERESFINANCIAMIENTO;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->ABONO_CAPITAL),2);?></td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->SALDO_FINAL),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->INT_GEN),2);?> </td>
+                            <td class="d-none"> <?php echo $item->INT_INT;?> </td>
+                            <!-- <td class="d-none"> <?php echo $item->INT_ACUMMORA;?> </td> -->
+                            <td class="d-none"> <?php echo $item->INT_NEG;?> </td>
+                            <td class="d-none"> <?php echo $item->ESTATUS;?> </td>
+                            <td class="d-none"> <?php echo $item->OBSERVACION; ?> </td>
+                            <td class="d-none"> <?php echo $item->DEBE_INTERES;?> </td>
+                            <td class="d-none"> <?php echo $item->FECHA_PAGO;?> </td>
+                            <td class="d-none"> <?php echo $item->INDICADOR_FECHA;?> </td>
+                            <td class="d-none"> <?php echo $item->PORCENT_INT;?> </td>
+                            <td class="d-none"> <?php echo $item->LLAVE2;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->MENS_ADEU),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->CALC_SOBRE),2); ?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->MONTO_INT_MOR),2);?> </td>
                             <td>
                               <form action="./Estados/actualizarestados.php" method="POST">
                                 <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
@@ -129,24 +129,24 @@
                           <th class="th__texto">Fecha</th>
                           <th class="th__texto">Saldo inicial</th>
                           <th class="th__texto">Mensualidad</th>
-                          <th class="th__texto">Pagado</th>
-                          <th class="th__texto">Interes de financiamiento</th>
-                          <th class="th__texto">Abono a capital</th>
-                          <th class="th__texto">Saldo final</th>
-                          <th class="th__texto">Interes gen</th>
-                          <th class="th__texto">Interes int</th>
-                          <!-- <th class="th__texto">Interes acumulado mora</th> -->
-                          <th class="th__texto">Interes neg</th>
-                          <th class="th__texto">Estatus</th>
-                          <th class="th__texto">Observacion</th>
-                          <th class="th__texto">Debe interes</th>    
-                          <th class="th__texto">Fecha pago</th>                     
-                          <th class="th__texto">Indicador fecha</th>
-                          <th class="th__texto">Porcentaje de interes</th>
-                          <th class="th__texto">Llave 2</th>
-                          <th class="th__texto">Mensualidad de adeudo</th>
-                          <th class="th__texto">Calculo sobre</th>
-                          <th class="th__texto">Monto de interes moratorio</th>
+                          <th class="d-none th__texto">Pagado</th>
+                          <th class="d-none th__texto">Interes de financiamiento</th>
+                          <th class="d-none th__texto">Abono a capital</th>
+                          <th class="d-none th__texto">Saldo final</th>
+                          <th class="d-none th__texto">Interes gen</th>
+                          <th class="d-none th__texto">Interes int</th>
+                          <!-- <th class="d-none th__texto">Interes acumulado mora</th> -->
+                          <th class="d-none th__texto">Interes neg</th>
+                          <th class="d-none th__texto">Estatus</th>
+                          <th class="d-none th__texto">Observacion</th>
+                          <th class="d-none th__texto">Debe interes</th>    
+                          <th class="d-none th__texto">Fecha pago</th>                     
+                          <th class="d-none th__texto">Indicador fecha</th>
+                          <th class="d-none th__texto">Porcentaje de interes</th>
+                          <th class="d-none th__texto">Llave 2</th>
+                          <th class="d-none th__texto">Mensualidad de adeudo</th>
+                          <th class="d-none th__texto">Calculo sobre</th>
+                          <th class="d-none th__texto">Monto de interes moratorio</th>
                           <th class="th__texto">Modificar</th>
                           <th class="th__texto">Eliminar</th>
                       </tr>
