@@ -72,7 +72,45 @@ class crudbasemadre extends Conexion {
             return $th->getMessage();
         }
     }
-
+    public function obtenerllave() {
+        try {
+            $conexion = $this->conectar(); // Usamos $this para llamar al método de la clase padre
+            $coleccion = $conexion->basemadre;
+    
+            $pipeline = [
+                [
+                    '$project' => [
+                        'LOTE' => 1,
+                        'CONDOMINIO' => 1,
+                        'CLUSTER' => 1,
+                    ]
+                ],
+                [
+                    '$addFields' => [
+                        'LLAVE' => [
+                            '$concat' => ['$LOTE', ' ', '$CONDOMINIO', ' ', '$CLUSTER']
+                        ]
+                    ]
+                ]
+            ];
+    
+            $cursor = $coleccion->aggregate($pipeline);
+    
+            foreach ($cursor as $result) {
+                $llave = $result['LLAVE'];
+    
+                // Actualizar el documento en la colección con la nueva llave
+                $coleccion->updateOne(
+                    ['_id' => $result['_id']],
+                    ['$set' => ['LLAVE' => $llave]]
+                );
+            }
+    
+            return "Llenado automático (concatenación de llave) realizado con éxito.";
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }
 
 }
 ?>
