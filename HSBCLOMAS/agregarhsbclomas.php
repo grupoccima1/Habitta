@@ -10,9 +10,10 @@
                 <input type="text" class="form-control" id="SEMANA" name="SEMANA">
             </div>  
             <div class="col-4 mb-2">
-              <label for="FECHA">FECHA</label>
-              <input type="text" class="form-control" id="FECHA" name="FECHA">
+            <label for="FECHA">FECHA</label>
+           <input type="date" class="form-control" id="FECHA" name="FECHA">
             </div>
+
             <div class="col-4 mb-2">
               <label for="BENEFICIARIO">BENEFICIARIO</label>
               <input type="text" class="form-control" id="BENEFICIARIO" name="BENEFICIARIO">
@@ -114,3 +115,110 @@
     </div>
   </div>
 </div>
+<!-- Agrega esto a la sección head de tu HTML o al final del body -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Obtén referencias a los campos de entrada
+    const motivoInput = document.getElementById("MOTIVO");
+    const mesInput = document.getElementById("MES");
+
+    // Agrega un evento "input" al campo de motivo
+    motivoInput.addEventListener("input", actualizarMes);
+
+    // Función para actualizar el campo de mes
+    function actualizarMes() {
+      // Obtiene el valor del campo de motivo
+      const motivo = motivoInput.value.toUpperCase();
+
+      // Lista de meses del año
+      const meses = [
+        "ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO",
+        "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"
+      ];
+
+      // Busca el mes en el motivo
+      const mesEncontrado = meses.find(mes => motivo.includes(mes));
+
+      // Actualiza el campo de mes
+      mesInput.value = mesEncontrado || "";
+    }
+  });
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtén referencias a los campos relevantes
+    const motivoInput = document.getElementById("MOTIVO");
+    const desarrolloInput = document.getElementById("DESARROLLO");
+
+    // Agrega un evento "input" al campo de MOTIVO
+    motivoInput.addEventListener("input", actualizarDesarrollo);
+
+    // Función para actualizar el campo de DESARROLLO
+    function actualizarDesarrollo() {
+        const motivo = motivoInput.value.toUpperCase();
+
+        // Palabras clave para DESARROLLO
+        const palabrasClave = ["PBC", "PBB", "LPB", "VL"];
+
+        // Busca la primera coincidencia en el motivo
+        const coincidencia = palabrasClave.find(palabra => motivo.includes(palabra));
+
+        // Asigna la coincidencia al campo de DESARROLLO
+        desarrolloInput.value = coincidencia || "";
+    }
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtén referencias a los campos relevantes
+    const motivoInput = document.getElementById("MOTIVO");
+    const condominioInput = document.getElementById("CONDOMINIO");
+
+    // Agrega un evento "input" al campo de MOTIVO
+    motivoInput.addEventListener("input", llenadoAutomaticoCondominio);
+
+    // Función para el llenado automático del campo CONDOMINIO
+    function llenadoAutomaticoCondominio() {
+        const motivo = motivoInput.value.toUpperCase();
+
+        // Palabras clave para CONDOMINIO
+        const palabrasClaveCondominio = ["ESTEPA", "TAIGA", "PARAMO", "SELVA", "LAGO", "BOSQUE", "MANGLAR", "ARRECIFE", "LOMAS", "ZAFIRO", "AMATISTA", "MALAQUITA", "CEDRO", "SABINO", "OPALO", "TAMUL"];
+
+        // Busca la primera coincidencia en el motivo
+        const coincidenciaCondominio = palabrasClaveCondominio.find(palabra => motivo.includes(palabra));
+
+        // Asigna la coincidencia al campo de CONDOMINIO
+        condominioInput.value = coincidenciaCondominio || "";
+    }
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtén referencias a los campos relevantes
+    const motivoInput = document.getElementById("MOTIVO");
+    const condominioInput = document.getElementById("CONDOMINIO");
+    const clusterInput = document.getElementById("CLUSTER");
+
+    // Agrega eventos "input" a los campos de MOTIVO y CONDOMINIO
+    motivoInput.addEventListener("input", actualizarCluster);
+
+    // Función para actualizar el campo CLUSTER
+    function actualizarCluster() {
+        const condominio = condominioInput.value;
+
+        // Llenado automático condicional para el campo CLUSTER
+        if (condominio !== "") {
+            const motivo = motivoInput.value;
+            // Extrae el último carácter del motivo
+            const ultimoCaracter = motivo.charAt(motivo.length - 1);
+
+            // Asigna el último carácter al campo CLUSTER
+            clusterInput.value = ultimoCaracter;
+        } else {
+            // Si no hay CONDOMINIO, limpia el campo CLUSTER
+            clusterInput.value = "";
+        }
+    }
+});
+</script>
