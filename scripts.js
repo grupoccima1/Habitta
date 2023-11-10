@@ -31,3 +31,31 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 })
 });
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtén referencias a los campos relevantes
+    const loteInput = document.getElementById("lote");
+    const condominioInput = document.getElementById("condominio");
+    const clusterInput = document.getElementById("cluster");
+    const llaveInput = document.getElementById("llave"); // Campo de llave
+
+    // Agrega un evento "input" a los campos relevantes
+    loteInput.addEventListener("input", actualizarLLAVE);
+    condominioInput.addEventListener("input", actualizarLLAVE);
+    clusterInput.addEventListener("input", actualizarLLAVE);
+
+    // Función para actualizar la LLAVE
+    function actualizarLLAVE() {
+        // Genera la LLAVE concatenando los valores de los campos
+        const llave = `${loteInput.value} ${condominioInput.value} ${clusterInput.value}`;
+        
+        // Asigna la LLAVE generada al campo de entrada LLAVE
+        llaveInput.value = llave;
+    }
+});
+
+
+
+
