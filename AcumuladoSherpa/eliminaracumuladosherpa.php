@@ -1,11 +1,10 @@
 <?php 
-   
     include "../clases/Conexion.php";
     include "./../AcumuladoSherpa/crudacumuladosherpa.php";
     include "../header.php";
     $crudacumuladosherpa = new crudacumuladosherpa();
     $id = $_POST['id'];
-    $datos = $crudacumuladosherpa -> obtenerDocumentoSherpa($id);
+    $datos = $crudacumuladosherpa->obtenerDocumentoSherpa($id);
 ?>
 
 <div class="container">
@@ -21,88 +20,86 @@
                 <table class="table table-bordered">
                     <thead>
                         <th class="th__texto text-center">Llave</th>
-                        <th class="th__texto text-center">FECHA_DE_INGRESO</th>
-                        <th class="th__texto text-center">LOTE</th>
-                        <th class="th__texto text-center">CONDOMINIO</th>
-                        <th class="th__texto text-center">CLUSTER</th>
-                        <th class="th__texto text-center">DESARROLLO</th>
-                        <th class="th__texto text-center">PUESTO</th>
-                        <th class="th__texto text-center">COMISIONISTA</th>
-                        <th class="th__texto text-center">TOTAL_DE_LA_VENTA</th>
-                        <th class="th__texto text-center">ENGANCHE</th>
-                        <th class="th__texto text-center">%_COMISION</th>
-                        <th class="th__texto text-center">TOTAL_COMISION</th>
-                        <th class="th__texto text-center">DESCUENTO</th>
-                        <th class="th__texto text-center">DESC</th>
-                        <th class="th__texto text-center">A_PAGAR_EXTERNOS</th>
-                        <th class="th__texto text-center">SUBTOTAL</th>
+                        <th class="th__texto text-center">Fecha de Ingreso</th>
+                        <th class="th__texto text-center">Lote</th>
+                        <th class="th__texto text-center">Condominio</th>
+                        <th class="th__texto text-center">Cluster</th>
+                        <th class="th__texto text-center">Desarrollo</th>
+                        <th class="th__texto text-center">Puesto</th>
+                        <th class="th__texto text-center">Comisionista</th>
+                        <th class="th__texto text-center">Total de la Venta</th>
+                        <th class="th__texto text-center">Enganche</th>
+                        <th class="th__texto text-center">% Comisión</th>
+                        <th class="th__texto text-center">Total Comisión</th>
+                        <th class="th__texto text-center">Descuento</th>
+                        <th class="th__texto text-center">Desc</th>
+                        <th class="th__texto text-center">A Pagar Externos</th>
+                        <th class="th__texto text-center">Subtotal</th>
                         <th class="th__texto text-center">IVA</th>
-                        <th class="th__texto text-center">RETENCIONES_DE_IVA</th>
-                        <th class="th__texto text-center">RETENCIONES_ISR</th>
-                        <th class="th__texto text-center">TOTAL</th>
-                        <th class="th__texto text-center">PAGO</th>
-                        <th class="th__texto text-center">NOTAS</th>
-                        <th class="th__texto text-center">PAGADO</th>
-                        <th class="th__texto text-center">METODO_DE_PAGO</th>
-                        <th class="th__texto text-center">FECHA_PAGADA</th>
-                        <th class="th__texto text-center">NOMBRE_CORRECTO</th>
-                        <th class="th__texto text-center">SEMANA_PAGADA</th>
-                        <th class="th__texto text-center">SEMANA</th>
-                        <th class="th__texto text-center">X_TIPO_DE_REGIMEN</th>
-                        <th class="th__texto text-center">CUENTA</th>
-                        <th class="th__texto text-center">MOTIVO_DE_DESCUENTO</th>
-                        <th class="th__texto text-center">ESTATUS</th>
-                        <th class="th__texto text-center">LOTE_ANTERIOR</th>
-
-
+                        <th class="th__texto text-center">Retenciones de IVA</th>
+                        <th class="th__texto text-center">Retenciones ISR</th>
+                        <th class="th__texto text-center">Total</th>
+                        <th class="th__texto text-center">Pago</th>
+                        <th class="th__texto text-center">Notas</th>
+                        <th class="th__texto text-center">Pagado</th>
+                        <th class="th__texto text-center">Método de Pago</th>
+                        <th class="th__texto text-center">Fecha Pagada</th>
+                        <th class="th__texto text-center">Nombre Correcto</th>
+                        <th class="th__texto text-center">Semana Pagada</th>
+                        <th class="th__texto text-center">Semana</th>
+                        <th class="th__texto text-center">X Tipo de Régimen</th>
+                        <th class="th__texto text-center">Cuenta</th>
+                        <th class="th__texto text-center">Motivo de Descuento</th>
+                        <th class="th__texto text-center">Estatus</th>
+                        <th class="th__texto text-center">Lote Anterior</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="text-center"> <?php echo $datos->LLAVE; ?></td>
-                            <td class="text-center"> <?php echo $datos->FECHA_DE_INGRESO;?> </td>
-                            <td class="text-center"> <?php echo $datos->LOTE;?> </td>
-                            <td class="text-center"> <?php echo $datos->CONDOMINIO;?> </td>
-                            <td class="text-center"> <?php echo $datos->CLUSTER;?> </td>
-                            <td class="text-center"> <?php echo $datos->DESARROLLO; ?> </td>
-                            <td class="text-center"> <?php echo $datos->PUESTO;?> </td>
-                            <td class="text-center"> <?php echo $datos->COMISIONISTA;?> </td>
-                            <td class="text-center"> <?php echo $datos->TOTAL_DE_LA_VENTA;?></td>
-                            <td class="text-center"> <?php echo $datos->ENGANCHE;?> </td>
-                            <td class="text-center"> <?php echo $datos->PCOMISION;?> </td>
-                            <td class="text-center"> <?php echo $datos->TOTAL_COMISION;?> </td>
-                            <td class="text-center"> <?php echo $datos->DESCUENTO;?> </td>
-                            <td class="text-center"> <?php echo $datos->DESC;?> </td>
-                            <td class="text-center"> <?php echo $datos->A_PAGAR_EXTERNOS;?> </td>
-                            <td class="text-center"> <?php echo $datos->SUBTOTAL;?> </td>
-                            <td class="text-center"> <?php echo $datos->IVA;?> </td>
-                            <td class="text-center"> <?php echo $datos->RETENCIONES_DE_IVA; ?> </td>
-                            <td class="text-center"> <?php echo $datos->RETENCIONES_ISR;?> </td>
-                            <td class="text-center"> <?php echo $datos->TOTAL;?> </td>
-                            <td class="text-center"> <?php echo $datos->PAGO;?> </td>
-                            <td class="text-center"> <?php echo $datos->NOTAS;?> </td>
-                            <td class="text-center"> <?php echo $datos->PAGADO;?> </td>
-                            <td class="text-center"> <?php echo $datos->METODO_DE_PAGO; ?> </td>
-                            <td class="text-center"> <?php echo $datos->FECHA_PAGADA;?> </td>
-                            <td class="text-center"> <?php echo $datos->NOMBRE_CORRECTO;?> </td>
-                            <td class="text-center"> <?php echo $datos->SEMANA_PAGADA; ?> </td>
-                            <td class="text-center"> <?php echo $datos->SEMANA;?> </td>
-                            <td class="text-center"> <?php echo $datos->X_TIPO_DE_REGIMEN;?></td>
-                            <td class="text-center"> <?php echo $datos->CUENTA;?></td>
-                            <td class="text-center"> <?php echo $datos->MOTIVO_DE_DESCUENTO; ?> </td>
-                            <td class="text-center"> <?php echo $datos->ESTATUS;?> </td>
-                            <td class="text-center"> <?php echo $datos->LOTE_ANTERIOR;?> </td>
+                            <td class="text-center"> <?php echo $datos['llave']; ?></td>
+                            <td class="text-center"> <?php echo $datos['fecha_de_ingreso'];?> </td>
+                            <td class="text-center"> <?php echo $datos['lote'];?> </td>
+                            <td class="text-center"> <?php echo $datos['condominio'];?> </td>
+                            <td class="text-center"> <?php echo $datos['cluster'];?> </td>
+                            <td class="text-center"> <?php echo $datos['desarrollo']; ?> </td>
+                            <td class="text-center"> <?php echo $datos['puesto'];?> </td>
+                            <td class="text-center"> <?php echo $datos['comisionista'];?> </td>
+                            <td class="text-center"> <?php echo $datos['total_de_la_venta'];?></td>
+                            <td class="text-center"> <?php echo $datos['enganche'];?> </td>
+                            <td class="text-center"> <?php echo $datos['p_comision'];?> </td>
+                            <td class="text-center"> <?php echo $datos['total_comision'];?> </td>
+                            <td class="text-center"> <?php echo $datos['descuento'];?> </td>
+                            <td class="text-center"> <?php echo $datos['desc'];?> </td>
+                            <td class="text-center"> <?php echo $datos['a_pagar_externos'];?> </td>
+                            <td class="text-center"> <?php echo $datos['subtotal'];?> </td>
+                            <td class="text-center"> <?php echo $datos['iva'];?> </td>
+                            <td class="text-center"> <?php echo $datos['retenciones_de_iva']; ?> </td>
+                            <td class="text-center"> <?php echo $datos['retenciones_isr'];?> </td>
+                            <td class="text-center"> <?php echo $datos['total'];?> </td>
+                            <td class="text-center"> <?php echo $datos['pago'];?> </td>
+                            <td class="text-center"> <?php echo $datos['notas'];?> </td>
+                            <td class="text-center"> <?php echo $datos['pagado'];?> </td>
+                            <td class="text-center"> <?php echo $datos['metodo_de_pago']; ?> </td>
+                            <td class="text-center"> <?php echo $datos['fecha_pagada'];?> </td>
+                            <td class="text-center"> <?php echo $datos['nombre_correcto'];?> </td>
+                            <td class="text-center"> <?php echo $datos['semana_pagada']; ?> </td>
+                            <td class="text-center"> <?php echo $datos['semana'];?> </td>
+                            <td class="text-center"> <?php echo $datos['x_tipo_de_regimen'];?></td>
+                            <td class="text-center"> <?php echo $datos['cuenta'];?></td>
+                            <td class="text-center"> <?php echo $datos['motivo_de_descuento']; ?> </td>
+                            <td class="text-center"> <?php echo $datos['estatus'];?> </td>
+                            <td class="text-center"> <?php echo $datos['lote_anterior'];?> </td>
                         </tr>
                     </tbody>
                 </table>
                 <hr>
-                <div class="aler alert-danger" role="alert">
-                    <h3 class="text-danger fs-5 text-center">¿Estas seguro de eliminar este registro?</h3>
+                <div class="alert alert-danger" role="alert">
+                    <h3 class="text-danger fs-5 text-center">¿Estás seguro de eliminar este registro?</h3>
                     <p>
-                        Una vez eliminado no podras recuperarlo
+                        Una vez eliminado no podrás recuperarlo.
                     </p>
                     <div class="d-flex justify-content-center">
                         <form class="me-2" action="./eliminar_acumuladosherpa.php" method="POST">
-                            <input type="text" name="id" value="<?php echo $datos->_id;?>" hidden>
+                            <input type="text" name="id" value="<?php echo $datos['id'];?>" hidden>
                             <button class="btn btn-danger">
                                 Eliminar
                             </button>
@@ -114,8 +111,5 @@
         </div>
     </div>
 </div>
-</div>
 
-
-
-<?php 
+<?php include "../script.php"; ?>

@@ -85,61 +85,62 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <?php
-                          foreach($datos as $item) {
-                        ?>
-                    <tr class="text-center">
-                      <td> <?php echo $item->LLAVE; ?> </td>
-                      <td> <?php echo $item->FECHA_DE_INGRESO;?> </td>
-                      <td> <?php echo $item->LOTE;?> </td>
-                      <td> <?php echo $item->CONDOMINIO;?> </td>
-                      <td> <?php echo $item->CLUSTER;?> </td>
-                      <td> <?php echo $item->DESARROLLO; ?> </td>
-                      <td> <?php echo $item->PUESTO;?> </td>
-                      <td> <?php echo $item->COMISIONISTA;?> </td>
-                      <td> <?php echo "$".number_format(floatval($item->TOTAL_DE_LA_VENTA),2);?></td>
-                      <td> <?php echo "$".number_format(floatval($item->ENGANCHE),2);?> </td>
-                      <td> <?php echo number_format($item->PCOMISION,2);?> </td>
-                      <td> <?php echo "$".number_format(floatval($item->TOTAL_COMISION),2);?> </td>
-                      <td> <?php echo "$".number_format(floatval($item->DESCUENTO),2);?> </td>
-                      <td> <?php echo "$".number_format(floatval($item->DESC),2);?> </td>
-                      <td> <?php echo "$".number_format(floatval($item->A_PAGAR_EXTERNOS),2);?></td>
-                      <td> <?php echo "$".number_format(floatval($item->SUBTOTAL),2);?> </td>
-                      <td> <?php echo "$".number_format(floatval($item->IVA),2);?> </td>
-                      <td> <?php echo "$".number_format(floatval($item->RETENCIONES_DE_IVA),2); ?></td>
-                      <td> <?php echo "$".number_format(floatval($item->RETENCIONES_ISR),2);?> </td>
-                      <td> <?php echo "$".number_format(floatval($item->TOTAL),2);?> </td>
-                      <td> <?php echo "$".number_format(floatval($item->PAGO),2);?> </td>
-                      <td> <?php echo $item->NOTAS;?> </td>
-                      <td> <?php echo "$".number_format(floatval($item->PAGADO),2);?> </td>
-                      <td> <?php echo $item->METODO_DE_PAGO; ?> </td>
-                      <td> <?php echo $item->FECHA_PAGADA;?> </td>
-                      <td> <?php echo $item->NOMBRE_CORRECTO;?> </td>
-                      <td> <?php echo $item->SEMANA_PAGADA; ?> </td>
-                      <td> <?php echo $item->SEMANA;?> </td>
-                      <td> <?php echo $item->X_TIPO_DE_REGIMEN;?></td>
-                      <td> <?php echo $item->CUENTA;?></td>
-                      <td> <?php echo $item->MOTIVO_DE_DESCUENTO; ?> </td>
-                      <td> <?php echo $item->ESTATUS;?> </td>
-                      <td> <?php echo $item->LOTE_ANTERIOR;?> </td>
-                      <td>
-                        <form action="./AcumuladoSherpa/modificar_AcumuladoSherpa.php" method="POST">
-                          <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
-                          <button class="btn btn-warning">
-                            <img class="edit__icon" src="images/iconos/pen-solid.svg" alt="">
-                          </button>
-                        </form>
-                      </td>
-                      <td>
-                        <form action="./AcumuladoSherpa/eliminaracumuladosherpa.php" method="POST">
-                          <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
-                          <button class="btn btn-danger">
-                            <img class="delete__icon" src="images/iconos/trash-solid.svg" alt="">
-                          </button>
-                        </form>
-                      </td>
-                    </tr>
-                    <?php } ?>
+                  <?php
+foreach ($datos as $item) {
+?>
+    <tr class="text-center">
+        <td> <?php echo $item['llave'] ?? ''; ?> </td>
+        <td> <?php echo $item['fecha_de_ingreso'] ?? ''; ?> </td>
+        <td> <?php echo $item['lote'] ?? ''; ?> </td>
+        <td> <?php echo $item['condominio'] ?? ''; ?> </td>
+        <td> <?php echo $item['cluster'] ?? ''; ?> </td>
+        <td> <?php echo $item['desarrollo'] ?? ''; ?> </td>
+        <td> <?php echo $item['puesto'] ?? ''; ?> </td>
+        <td> <?php echo $item['comisionista'] ?? ''; ?> </td>
+        <td> <?php echo isset($item['total_de_la_venta']) ? "$" . number_format(floatval($item['total_de_la_venta']), 2) : ''; ?> </td>
+        <td> <?php echo isset($item['enganche']) ? "$" . number_format(floatval($item['enganche']), 2) : ''; ?> </td>
+        <td> <?php echo isset($item['p_comision']) ? number_format($item['p_comision'], 2) : ''; ?> </td>
+        <td> <?php echo isset($item['total_comision']) ? "$" . number_format(floatval($item['total_comision']), 2) : ''; ?> </td>
+        <td> <?php echo isset($item['descuento']) ? "$" . number_format(floatval($item['descuento']), 2) : ''; ?> </td>
+        <td> <?php echo isset($item['desc']) ? "$" . number_format(floatval($item['desc']), 2) : ''; ?> </td>
+        <td> <?php echo isset($item['a_pagar_externos']) ? "$" . number_format(floatval($item['a_pagar_externos']), 2) : ''; ?> </td>
+        <td> <?php echo isset($item['subtotal']) ? "$" . number_format(floatval($item['subtotal']), 2) : ''; ?> </td>
+        <td> <?php echo isset($item['iva']) ? "$" . number_format(floatval($item['iva']), 2) : ''; ?> </td>
+        <td> <?php echo isset($item['retenciones_de_iva']) ? "$" . number_format(floatval($item['retenciones_de_iva']), 2) : ''; ?> </td>
+        <td> <?php echo isset($item['retenciones_isr']) ? "$" . number_format(floatval($item['retenciones_isr']), 2) : ''; ?> </td>
+        <td> <?php echo isset($item['total']) ? "$" . number_format(floatval($item['total']), 2) : ''; ?> </td>
+        <td> <?php echo isset($item['pago']) ? "$" . number_format(floatval($item['pago']), 2) : ''; ?> </td>
+        <td> <?php echo $item['notas'] ?? ''; ?> </td>
+        <td> <?php echo isset($item['pagado']) ? "$" . number_format(floatval($item['pagado']), 2) : ''; ?> </td>
+        <td> <?php echo $item['metodo_de_pago'] ?? ''; ?> </td>
+        <td> <?php echo $item['fecha_pagada'] ?? ''; ?> </td>
+        <td> <?php echo $item['nombre_correcto'] ?? ''; ?> </td>
+        <td> <?php echo $item['semana_pagada'] ?? ''; ?> </td>
+        <td> <?php echo $item['semana'] ?? ''; ?> </td>
+        <td> <?php echo $item['x_tipo_de_regimen'] ?? ''; ?> </td>
+        <td> <?php echo $item['cuenta'] ?? ''; ?> </td>
+        <td> <?php echo $item['motivo_de_descuento'] ?? ''; ?> </td>
+        <td> <?php echo $item['estatus'] ?? ''; ?> </td>
+        <td> <?php echo $item['lote_anterior'] ?? ''; ?> </td>
+        <td>
+            <form action="./AcumuladoSherpa/modificar_AcumuladoSherpa.php" method="POST">
+                <input type="text" name="id" id="id" hidden value="<?php echo $item['id'] ?? ''; ?>">
+                <button class="btn btn-warning">
+                    <img class="edit__icon" src="images/iconos/pen-solid.svg" alt="">
+                </button>
+            </form>
+        </td>
+        <td>
+            <form action="./AcumuladoSherpa/eliminaracumuladosherpa.php" method="POST">
+                <input type="text" name="id" id="id" hidden value="<?php echo $item['id'] ?? ''; ?>">
+                <button class="btn btn-danger">
+                    <img class="delete__icon" src="images/iconos/trash-solid.svg" alt="">
+                </button>
+            </form>
+        </td>
+    </tr>
+<?php } ?>
+
                   </tbody>
                   <tfoot class="bg-blue">
                     <tr class="text-center">

@@ -37,12 +37,16 @@
                    <img class="icon-home me-2" src="images/home.svg">  Home/Base Madre
                   </div>
                 </div>
+                <div class="col text-end">
+                    <a href="./BaseMadre/cargar_csv.php" class="btn btn-success mt-2">Cargar archivo</a>
+                </div>
               </div>
               <div class="card-body">
                 <div class="table-responsive">
                   <a href="./BaseMadre/agregar_BaseMadre.php" class="btn btn-primary">
                   Agregar registro 
                   </a>
+                  
                   <hr>
                   <table id="tabla" class="table table-striped data-table">
                     <thead class="bg__td bg-blue__400 text-white">

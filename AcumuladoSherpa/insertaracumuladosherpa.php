@@ -1,52 +1,57 @@
-<?php 
-    include "./../clases/Conexion.php";
-    include "./../AcumuladoSherpa/crudacumuladosherpa.php";
+<?php
+include "./../clases/Conexion.php";
+include "./../AcumuladoSherpa/crudacumuladosherpa.php";
 
-    $crudacumuladosherpa = new crudacumuladosherpa();
+$crudacumuladosherpa = new crudacumuladosherpa();
 
-    $datos = array(
-        "LLAVE" => $_POST['LLAVE'], 
-        "FECHA_DE_INGRESO" => $_POST['FECHA_DE_INGRESO'],
-        "LOTE" => $_POST['LOTE'],
-        "CONDOMINIO" => $_POST['CONDOMINIO'],
-        "CLUSTER" => $_POST['CLUSTER'], 
-        "DESARROLLO" => $_POST['DESARROLLO'],
-        "PUESTO" => $_POST['PUESTO'],
-        "COMISIONISTA" => $_POST['COMISIONISTA'],
-        "TOTAL_DE_LA_VENTA" => $_POST['TOTAL_DE_LA_VENTA'], 
-        "ENGANCHE" => $_POST['ENGANCHE'],
-        "PCOMISION" => $_POST['PCOMISION'],
-        "TOTAL_COMISION" => $_POST['TOTAL_COMISION'],
-        "DESCUENTO" => $_POST['DESCUENTO'], 
-        "DESC" => $_POST['DESC'],
-        "A_PAGAR_EXTERNOS" => $_POST['A_PAGAR_EXTERNOS'],
-        "SUBTOTAL" => $_POST['SUBTOTAL'],
-        "IVA" => $_POST['IVA'],
-        "RETENCIONES_DE_IVA" => $_POST['RETENCIONES_DE_IVA'],
-        "RETENCIONES_ISR" => $_POST['RETENCIONES_DE_ISR'],
-        "TOTAL" => $_POST['TOTAL'],
-        "PAGO" => $_POST['PAGO'],
-        "NOTAS" => $_POST['NOTAS'],
-        "PAGADO" => $_POST['PAGADO'],
-        "METODO_DE_PAGO" => $_POST['METODO_DE_PAGO'],
-        "FECHA_PAGADA" => $_POST['FECHA_PAGADA'],
-        "NOMBRE_CORRECTO" => $_POST['NOMBRE_CORRECTO'],
-        "SEMANA_PAGADA" => $_POST['SEMANA_PAGADA'],
-        "SEMANA" => $_POST['SEMANA'],
-        "X_TIPO_DE_REGIMEN" => $_POST['X_TIPO_DE_REGIMEN'],
-        "CUENTA" => $_POST['CUENTA'],
-        "MOTIVO_DE_DESCUENTO" => $_POST['MOTIVO_DE_DESCUENTO'],
-        "ESTATUS" => $_POST['ESTATUS'],
-        "LOTE_ANTERIOR" => $_POST['LOTE_ANTERIOR'],
-        
-    );
+$datos = array(
+    "llave" => $_POST['llave'],
+    "fecha_de_ingreso" => $_POST['fecha_de_ingreso'],
+    "lote" => $_POST['lote'],
+    "condominio" => $_POST['condominio'],
+    "cluster" => $_POST['cluster'],
+    "desarrollo" => $_POST['desarrollo'],
+    "puesto" => $_POST['puesto'],
+    "comisionista" => $_POST['comisionista'],
+    "total_de_la_venta" => $_POST['total_de_la_venta'],
+    "enganche" => $_POST['enganche'],
+    "p_comision" => $_POST['p_comision'],
+    "total_comision" => $_POST['total_comision'],
+    "descuento" => $_POST['descuento'],
+    "desc" => $_POST['desc'],
+    "a_pagar_externos" => $_POST['a_pagar_externos'],
+    "subtotal" => $_POST['subtotal'],
+    "iva" => $_POST['iva'],
+    "retenciones_de_iva" => $_POST['retenciones_de_iva'],
+    "retenciones_isr" => $_POST['retenciones_isr'],
+    "total" => $_POST['total'],
+    "pago" => $_POST['pago'],
+    "notas" => $_POST['notas'],
+    "pagado" => $_POST['pagado'],
+    "metodo_de_pago" => $_POST['metodo_de_pago'],
+    "fecha_pagada" => $_POST['fecha_pagada'],
+    "nombre_correcto" => $_POST['nombre_correcto'],
+    "semana_pagada" => $_POST['semana_pagada'],
+    "semana" => $_POST['semana'],
+    "x_tipo_de_regimen" => $_POST['x_tipo_de_regimen'],
+    "cuenta" => $_POST['cuenta'],
+    "motivo_de_descuento" => $_POST['motivo_de_descuento'],
+    "estatus" => $_POST['estatus'],
+    "lote_anterior" => $_POST['lote_anterior'],
+);
 
-   $respuesta = $crudacumuladosherpa->insertarDatos($datos);
+try {
+    $respuesta = $crudacumuladosherpa->insertarDatos($datos);
 
-   if ($respuesta->getInsertedId() > 0) {
-    header("location:../acumuladosherpa.php");
-   }else {
-    print_r($respuesta);
-   }
-
+    if ($respuesta->success && $respuesta->insertedId > 0) {
+        header("location:../acumuladosherpa.php");
+        exit; // Terminar el script después de redireccionar
+    } else {
+        throw new Exception('Error al insertar datos');
+    }
+} catch (Exception $e) {
+    // Puedes loggear la excepción o mostrar un mensaje más amigable al usuario
+    error_log("Hubo un error: " . $e->getMessage(), 0);
+    echo "Hubo un error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde.";
+}
 ?>

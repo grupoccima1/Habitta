@@ -328,5 +328,34 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtén referencias a los campos de entrada
+    const rfcInput = document.getElementById("rfc");
+    const usoCfdiInput = document.getElementById("uso_cfdi");
+    const linkSatInput = document.getElementById("link");
+
+    // Agrega un evento "input" a los campos relevantes
+    rfcInput.addEventListener("input", generarEnlace);
+    usoCfdiInput.addEventListener("input", generarEnlace);
+
+    // Función para generar el enlace SAT
+    function generarEnlace() {
+        const rfc = rfcInput.value;
+        const usoCfdi = usoCfdiInput.value;
+
+        // Enlace base
+        const enlaceBase = 'https://siat.sat.gob.mx/app/qr/faces/pages/mobile/validadorqr.jsf?D1=10&D2=1&D3=';
+
+        // Construir el enlace final
+        const enlaceFinal = enlaceBase + usoCfdi + '_' + rfc;
+
+        // Mostrar el enlace en el campo de texto
+        linkSatInput.value = enlaceFinal;
+    }
+});
+</script>
+
+
 
 <? include "../script.js"; 

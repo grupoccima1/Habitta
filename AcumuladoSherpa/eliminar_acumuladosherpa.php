@@ -1,16 +1,21 @@
 <?php 
     include "../clases/conexion.php";
     include "./../AcumuladoSherpa/crudacumuladosherpa.php";
+
     $crudacumuladosherpa = new crudacumuladosherpa();
-    $id = $_POST['id'];
+    
+    if (isset($_POST['id'])) {
+        $id = $_POST['id'];
 
+        $respuesta = $crudacumuladosherpa->eliminarSherpa($id);
 
-   $respuesta = $crudacumuladosherpa->eliminarSherpa($id);
-
- 
-    if($respuesta->getDeletedCount()> 0){
-        header("location:../acumuladosherpa.php");
-    }else{
-        print_r($respuesta);
+        if ($respuesta === true) {
+            header("location:../acumuladosherpa.php");
+            exit();
+        } else {
+            echo "Error al eliminar el registro: " . $respuesta;
+        }
+    } else {
+        echo "ID no proporcionado para la eliminación.";
     }
 ?>

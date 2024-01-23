@@ -1,4 +1,5 @@
 <?php
+require_once $_SERVER['DOCUMENT_ROOT'] . "/Habitta/clases/Conexion.php";
 class crudbasemadre extends Conexion {
     
     public function mostrarDatosmadre(){ //Esta haciendo una conexion con la base de datos 

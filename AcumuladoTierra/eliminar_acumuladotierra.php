@@ -2,15 +2,19 @@
     include "../clases/conexion.php";
     include "./../AcumuladoTierra/crudacumuladotierra.php";
     $crudacumuladotierra = new crudacumuladotierra();
-    $id = $_POST['id'];
-
+    if (isset($_POST['id'])) {
+        $id = $_POST['id'];
 
    $respuesta = $crudacumuladotierra->eliminarAcumuladoTierra($id);
 
  
-    if($respuesta->getDeletedCount()> 0){
+   if ($respuesta === true) {
         header("location:../AcumuladosBonosDeTierra.php");
-    }else{
-        print_r($respuesta);
+        exit();
+    } else {
+        echo "Error al eliminar el registro: " . $respuesta;
     }
+} else {
+    echo "ID no proporcionado para la eliminación.";
+}
 ?>

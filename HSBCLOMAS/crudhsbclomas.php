@@ -1,7 +1,6 @@
 <?php
 
 
-
 class crudhsbclomas extends Conexion {
 
 
@@ -74,5 +73,10 @@ class crudhsbclomas extends Conexion {
             return $th -> getMessage();
         }   
     }
+   
+
       }
+
+
+      
 ?>
