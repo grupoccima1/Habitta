@@ -47,19 +47,19 @@ require_once "./clases/Conexion.php";
                   <table id="tabla" class="table table-striped data-table">
                     <thead class="bg__td bg-blue__400 text-white">
                       <tr class="text-center">
-                        <th>NOMBRE_DE_CLIENTE</th>
-                        <th>DEPOSITO_DE_CLIENTE</th>
-                        <th>COMISION</th>
-                        <th>DEPOSITO_EN_BANCO</th>
-                        <th>TIPO_DE_PAGO</th>
-                        <th>FOLIO</th>
-                        <th>TIPO_DE_TARJETA</th>
-                        <th>TPVAFILIADA</th>
-                        <th>FECHADE_DEPOSITO</th>
-                        <th>AÑO</th>
-                        <th>BANCO</th>
-                        <th>MODIFICAR</th>
-                        <th>ELIMINAR</th>
+                        <th class="th__texto">NOMBRE_DE_CLIENTE</th>
+                        <th class="th__texto">DEPOSITO_DE_CLIENTE</th>
+                        <th class="th__texto">COMISION</th>
+                        <th class="th__texto">DEPOSITO_EN_BANCO</th>
+                        <th class="th__texto">TIPO_DE_PAGO</th>
+                        <th class="d-none th__texto">FOLIO</th>
+                        <th class="d-none th__texto">TIPO_DE_TARJETA</th>
+                        <th class="d-none th__texto">TPVAFILIADA</th>
+                        <th class="d-none th__texto">FECHADE_DEPOSITO</th>
+                        <th class="d-none th__texto">AÑO</th>
+                        <th class="d-none th__texto">BANCO</th>
+                        <th class="th__texto">MODIFICAR</th>
+                        <th class="th__texto">ELIMINAR</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -72,12 +72,12 @@ require_once "./clases/Conexion.php";
                         <td> <?php echo "$".number_format(floatval($item->COMISION),2);?> </td>
                         <td> <?php echo "$".number_format(floatval($item->DEPOSITO_EN_BANCO),2);?></td>
                         <td> <?php echo $item->TIPO_DE_PAGO;?> </td>
-                        <td> <?php echo $item->FOLIO; ?> </td>
-                        <td> <?php echo $item->TIPO_DE_TARJETA;?> </td>
-                        <td> <?php echo $item->TPVAFILIADA;?> </td>
-                        <td> <?php echo $item->FECHADE_DEPOSITO;?></td>
-                        <td> <?php echo $item->AÑO;?> </td>
-                        <td> <?php echo $item->BANCO;?> </td>
+                        <td class="d-none"> <?php echo $item->FOLIO; ?> </td>
+                        <td class="d-none"> <?php echo $item->TIPO_DE_TARJETA;?> </td>
+                        <td class="d-none"> <?php echo $item->TPVAFILIADA;?> </td>
+                        <td class="d-none"> <?php echo $item->FECHADE_DEPOSITO;?></td>
+                        <td class="d-none"> <?php echo $item->AÑO;?> </td>
+                        <td class="d-none"> <?php echo $item->BANCO;?> </td>
                         <td>
                           <form action="./billpocket/modificar_Billpocket.php" method="POST">
                             <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
@@ -105,12 +105,12 @@ require_once "./clases/Conexion.php";
                         <th class="th__texto">COMISION</th>
                         <th class="th__texto">DEPOSITO_EN_BANCO</th>
                         <th class="th__texto">TIPO_DE_PAGO</th>
-                        <th class="th__texto">FOLIO</th>
-                        <th class="th__texto">TIPO_DE_TARJETA</th>
-                        <th class="th__texto">TPVAFILIADA</th>
-                        <th class="th__texto">FECHADE_DEPOSITO</th>
-                        <th class="th__texto">AÑO</th>
-                        <th class="th__texto">BANCO</th>
+                        <th class="d-none th__texto">FOLIO</th>
+                        <th class="d-none th__texto">TIPO_DE_TARJETA</th>
+                        <th class="d-none th__texto">TPVAFILIADA</th>
+                        <th class="d-none th__texto">FECHADE_DEPOSITO</th>
+                        <th class="d-none th__texto">AÑO</th>
+                        <th class="d-none th__texto">BANCO</th>
                         <th class="th__texto">MODIFICAR</th>
                         <th class="th__texto">ELIMINAR</th>
                       </tr>

@@ -450,24 +450,9 @@ overflow:auto;
 	visibility:visible;
 }
 
-
-	 .dropdown-menu{
-			 border:0;
-			 box-shadow:0 2px 5px 0 rgb(0 0 0 / 26%);
-			 transform:translate3d(0, -20px , 0);
-			 visibility:hidden;
-			 position:absolute!important;
-			 transition:all  150ms linear;
-			 display:block;
-			 min-width:15rem;
-			 right:0;
-			 left:auto;
-			 opacity:0;
-		 }	 
-
-  .small-menu{
-	  min-width:10rem;
-  }
+.small-menu{
+	min-width:10rem;
+}
 
 .dropdown-menu li > a {
     font-size: 13px;
@@ -860,7 +845,7 @@ width:100%;
 	width: 1rem;
   } 
 
-  #tabla{
+  .data-table{
 	width: 100%;
 	white-space: nowrap;
   }

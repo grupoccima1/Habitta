@@ -52,24 +52,24 @@
                           <th class="th__texto">Beneficiario</th>
                           <th class="th__texto">Ingreso</th>
                           <th class="th__texto">Egreso</th>
-                          <th class="th__texto">Saldo</th>
-                          <th class="th__texto">Factura</th>
-                          <th class="th__texto">Motivo</th>
-                          <th class="th__texto">Mes</th>
-                          <th class="th__texto">Desarrollo</th>
-                          <th class="th__texto">Lote</th>
-                          <th class="th__texto">Condominio</th>
-                          <th class="th__texto">Cluster</th>
-                          <th class="th__texto">Obra</th>
-                          <th class="th__texto">Categoria</th>
-                          <th class="th__texto">Subcategoria</th>                        
-                          <th class="th__texto">Modelo de negocios</th>
-                          <th class="th__texto">Flujo</th>
-                          <th class="th__texto">Llave</th>
-                          <th class="th__texto">Fecha correcta</th>
-                          <th class="th__texto">Llave estado de cuenta</th>
-                          <th class="th__texto">Clave</th>
-                          <th class="th__texto">Metodo de pago</th>
+                          <th class="d-none th__texto">Saldo</th>
+                          <th class="d-none th__texto">Factura</th>
+                          <th class="d-none th__texto">Motivo</th>
+                          <th class="d-none th__texto">Mes</th>
+                          <th class="d-none th__texto">Desarrollo</th>
+                          <th class="d-none th__texto">Lote</th>
+                          <th class="d-none th__texto">Condominio</th>
+                          <th class="d-none th__texto">Cluster</th>
+                          <th class="d-none th__texto">Obra</th>
+                          <th class="d-none th__texto">Categoria</th>
+                          <th class="d-none th__texto">Subcategoria</th>                        
+                          <th class="d-none th__texto">Modelo de negocios</th>
+                          <th class="d-none th__texto">Flujo</th>
+                          <th class="d-none th__texto">Llave</th>
+                          <th class="d-none th__texto">Fecha correcta</th>
+                          <th class="d-none th__texto">Llave estado de cuenta</th>
+                          <th class="d-none th__texto">Clave</th>
+                          <th class="d-none th__texto">Metodo de pago</th>
                           <th class="th__texto">Modificar</th>
                           <th class="th__texto">Eliminar</th>
                       </tr>
@@ -84,24 +84,24 @@
                             <td> <?php echo $item->BENEFICIARIO;?> </td>
                             <td> <?php echo $item->INGRESO; ?> </td>
                             <td> <?php echo $item->EGRESO;?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->SALDO),2);?> </td>
-                            <td> <?php echo $item->FACTURA;?></td>
-                            <td> <?php echo $item->MOTIVO;?> </td>
-                            <td> <?php echo $item->MES;?> </td>
-                            <td> <?php echo $item->DESARROLLO;?> </td>
-                            <td> <?php echo $item->LOTE;?> </td>
-                            <td> <?php echo $item->CONDOMINIO;?> </td>
-                            <td> <?php echo $item->CLUSTER;?> </td>
-                            <td> <?php echo $item->OBRA;?> </td>
-                            <td> <?php echo $item->CATEGORIA; ?> </td>
-                            <td> <?php echo $item->SUBCATEGORIA;?> </td>
-                            <td> <?php echo $item->UNIDADDENEGOCIO;?> </td>
-                            <td> <?php echo $item->FLUJO;?> </td>
-                            <td> <?php echo $item->LLAVE;?> </td>
-                            <td> <?php echo $item->FECHACORRECTA;?> </td>
-                            <td> <?php echo $item->LLAVEEDOSDECUENTA; ?> </td>
-                            <td> <?php echo $item->CLAVE;?> </td>
-                            <td> <?php echo $item->METODODEPAGO;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->SALDO),2);?> </td>
+                            <td class="d-none"> <?php echo $item->FACTURA;?></td>
+                            <td class="d-none"> <?php echo $item->MOTIVO;?> </td>
+                            <td class="d-none"> <?php echo $item->MES;?> </td>
+                            <td class="d-none"> <?php echo $item->DESARROLLO;?> </td>
+                            <td class="d-none"> <?php echo $item->LOTE;?> </td>
+                            <td class="d-none"> <?php echo $item->CONDOMINIO;?> </td>
+                            <td class="d-none"> <?php echo $item->CLUSTER;?> </td>
+                            <td class="d-none"> <?php echo $item->OBRA;?> </td>
+                            <td class="d-none"> <?php echo $item->CATEGORIA; ?> </td>
+                            <td class="d-none"> <?php echo $item->SUBCATEGORIA;?> </td>
+                            <td class="d-none"> <?php echo $item->UNIDADDENEGOCIO;?> </td>
+                            <td class="d-none"> <?php echo $item->FLUJO;?> </td>
+                            <td class="d-none"> <?php echo $item->LLAVE;?> </td>
+                            <td class="d-none"> <?php echo $item->FECHACORRECTA;?> </td>
+                            <td class="d-none"> <?php echo $item->LLAVEEDOSDECUENTA; ?> </td>
+                            <td class="d-none"> <?php echo $item->CLAVE;?> </td>
+                            <td class="d-none"> <?php echo $item->METODODEPAGO;?> </td>
                             <td>
                               <form action="./HSBCLOMAS/actualizarhsbclomas.php" method="POST">
                                 <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
@@ -129,24 +129,24 @@
                           <th class="th__texto">Beneficiario</th>
                           <th class="th__texto">Ingreso</th>
                           <th class="th__texto">Egreso</th>
-                          <th class="th__texto">Saldo</th>
-                          <th class="th__texto">Factura</th>
-                          <th class="th__texto">Motivo</th>
-                          <th class="th__texto">Mes</th>
-                          <th class="th__texto">Desarrollo</th>
-                          <th class="th__texto">Lote</th>
-                          <th class="th__texto">Condominio</th>
-                          <th class="th__texto">Cluster</th>
-                          <th class="th__texto">Obra</th>
-                          <th class="th__texto">Categoria</th>
-                          <th class="th__texto">Subcategoria</th>                        
-                          <th class="th__texto">Modelo de negocios</th>
-                          <th class="th__texto">Flujo</th>
-                          <th class="th__texto">Llave</th>
-                          <th class="th__texto">Fecha correcta</th>
-                          <th class="th__texto">Llave estado de cuenta</th>
-                          <th class="th__texto">Clave</th>
-                          <th class="th__texto">Metodo de pago</th>
+                          <th class="d-none th__texto">Saldo</th>
+                          <th class="d-none th__texto">Factura</th>
+                          <th class="d-none th__texto">Motivo</th>
+                          <th class="d-none th__texto">Mes</th>
+                          <th class="d-none th__texto">Desarrollo</th>
+                          <th class="d-none th__texto">Lote</th>
+                          <th class="d-none th__texto">Condominio</th>
+                          <th class="d-none th__texto">Cluster</th>
+                          <th class="d-none th__texto">Obra</th>
+                          <th class="d-none th__texto">Categoria</th>
+                          <th class="d-none th__texto">Subcategoria</th>                        
+                          <th class="d-none th__texto">Modelo de negocios</th>
+                          <th class="d-none th__texto">Flujo</th>
+                          <th class="d-none th__texto">Llave</th>
+                          <th class="d-none th__texto">Fecha correcta</th>
+                          <th class="d-none th__texto">Llave estado de cuenta</th>
+                          <th class="d-none th__texto">Clave</th>
+                          <th class="d-none th__texto">Metodo de pago</th>
                           <th class="th__texto">Modificar</th>
                           <th class="th__texto">Eliminar</th>
                       </tr>

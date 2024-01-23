@@ -142,6 +142,60 @@ foreach($datos as $item) {
 <?php } ?>
 
 
+                            foreach($datos as $item) {
+                          ?>
+                            <tr class="text-center">
+                            <td> <?php echo $item->LLAVE; ?> </td>
+                            <td> <?php echo $item->FECHA_DE_INGRESO;?> </td>
+                            <td> <?php echo $item->LOTE;?> </td>
+                            <td> <?php echo $item->CONDOMINIO;?> </td>
+                            <td> <?php echo $item->CLUSTER;?> </td>
+                            <td class="d-none"> <?php echo $item->DESARROLLO; ?> </td>
+                            <td class="d-none"> <?php echo $item->PUESTO;?> </td>
+                            <td class="d-none"> <?php echo $item->NOMBRE_CORRECTO;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->lTOTA_DE_LAVENTA),2);?></td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->ENGANCHE),2);?> </td>
+                            <td class="d-none"> <?php echo number_format(floatval($item->PCOMISION));?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->TOTAL_COMISION),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->DESCUENTO),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->DESC),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->APAGAR_EXTERNOS),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->SUBTOTAL),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->IVA),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->RETENCIONES_DE_IVA),2); ?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->RETENCIONES_ISR),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->TOTAL),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->PAGO),2);?> </td>
+                            <td class="d-none"> <?php echo $item->NOTAS;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->PAGADO),2);?> </td>
+                            <td class="d-none"> <?php echo $item->METODO_DE_PAGO; ?> </td>
+                            <td class="d-none"> <?php echo $item->FECHA_PAGADA;?> </td>
+                            <td class="d-none"> <?php echo $item->SEMANA_PAGADA; ?> </td>
+                            <td class="d-none"> <?php echo $item->SEMANA;?> </td>
+                            <td class="d-none"> <?php echo $item->X_TIPO_DE_REGIMEN;?></td>
+                            <td class="d-none"> <?php echo $item->CUENTA;?></td>
+                            <td class="d-none"> <?php echo $item->MOTIVO_DE_DESCUENTO; ?> </td>
+                            <td class="d-none"> <?php echo $item->ESTATUS;?> </td>
+                            <td class="d-none"> <?php echo $item->LOTE_ANTERIOR;?> </td>
+                            <td class="d-none"> <?php echo $item->TIPO;?> </td>
+                            <td>
+                              <form action="./AcumuladoDeComisiones/modificar_acumuladoComisiones.php" method="POST">
+                                <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                                <button class="btn btn-warning">
+                                  <img class="edit__icon" src="images/iconos/pen-solid.svg" alt="">
+                                </button>
+                              </form>
+                            </td>
+                            <td>
+                              <form action="./AcumuladoDeComisiones/eliminaracumuladodecomisiones.php" method="POST">
+                                <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
+                                <button class="btn btn-danger">
+                                  <img class="delete__icon" src="images/iconos/trash-solid.svg" alt="">
+                                </button>
+                              </form>
+                            </td>
+                            </tr>
+                            <?php  ?> 
                     </tbody>
                     <tfoot class="bg-blue">
                       <tr class="text-center">
@@ -150,34 +204,34 @@ foreach($datos as $item) {
                           <th class="th__texto">LOTE</th>
                           <th class="th__texto">CONDOMINIO</th>
                           <th class="th__texto">CLUSTER</th>
-                          <th class="th__texto">DESARROLLO</th>
-                          <th class="th__texto">PUESTO</th>
-                          <th class="th__texto">NOMBRE_CORRECTO</th>
-                          <th class="th__texto">TOTAL_DE_LA_VENTA</th>
-                          <th class="th__texto">ENGANCHE</th>
-                          <th class="th__texto">PCOMISION</th>
-                          <th class="th__texto">TOTAL_COMISION</th>
-                          <th class="th__texto">DESCUENTO</th>
-                          <th class="th__texto">DESC</th>
-                          <th class="th__texto">A_PAGAR_EXTERNOS</th>
-                          <th class="th__texto">SUBTOTAL</th>
-                          <th class="th__texto">IVA</th>
-                          <th class="th__texto">RETENCIONES_DE_IVA</th>
-                          <th class="th__texto">RETENCIONES_ISR</th>                        
-                          <th class="th__texto">TOTAL</th>
-                          <th class="th__texto">PAGO</th>
-                          <th class="th__texto">NOTAS</th>
-                          <th class="th__texto">PAGADO</th>
-                          <th class="th__texto">METODO_DE_PAGO</th>
-                          <th class="th__texto">FECHA_PAGADA</th>
-                          <th class="th__texto">SEMANA_PAGADA</th>
-                          <th class="th__texto">SEMANA</th>
-                          <th class="th__texto">X_TIPO_DE_REGIMEN</th>
-                          <th class="th__texto">CUENTA</th>
-                          <th class="th__texto">MOTIVO_DE_DESCUENTO</th>
-                          <th class="th__texto">ESTATUS</th>
-                          <th class="th__texto">LOTE_ANTERIOR</th>
-                          <th class="th__texto">TIPO</th>
+                          <th class="d-none th__texto">DESARROLLO</th>
+                          <th class="d-none th__texto">PUESTO</th>
+                          <th class="d-none th__texto">NOMBRE_CORRECTO</th>
+                          <th class="d-none th__texto">TOTAL_DE_LA_VENTA</th>
+                          <th class="d-none th__texto">ENGANCHE</th>
+                          <th class="d-none th__texto">PCOMISION</th>
+                          <th class="d-none th__texto">TOTAL_COMISION</th>
+                          <th class="d-none th__texto">DESCUENTO</th>
+                          <th class="d-none th__texto">DESC</th>
+                          <th class="d-none th__texto">A_PAGAR_EXTERNOS</th>
+                          <th class="d-none th__texto">SUBTOTAL</th>
+                          <th class="d-none th__texto">IVA</th>
+                          <th class="d-none th__texto">RETENCIONES_DE_IVA</th>
+                          <th class="d-none th__texto">RETENCIONES_ISR</th>                        
+                          <th class="d-none th__texto">TOTAL</th>
+                          <th class="d-none th__texto">PAGO</th>
+                          <th class="d-none th__texto">NOTAS</th>
+                          <th class="d-none th__texto">PAGADO</th>
+                          <th class="d-none th__texto">METODO_DE_PAGO</th>
+                          <th class="d-none th__texto">FECHA_PAGADA</th>
+                          <th class="d-none th__texto">SEMANA_PAGADA</th>
+                          <th class="d-none th__texto">SEMANA</th>
+                          <th class="d-none th__texto">X_TIPO_DE_REGIMEN</th>
+                          <th class="d-none th__texto">CUENTA</th>
+                          <th class="d-none th__texto">MOTIVO_DE_DESCUENTO</th>
+                          <th class="d-none th__texto">ESTATUS</th>
+                          <th class="d-none th__texto">LOTE_ANTERIOR</th>
+                          <th class="d-none th__texto">TIPO</th>
                           <th class="th__texto">MODIFICAR</th>
                           <th class="th__texto">ELIMINAR</th>
                       </tr>

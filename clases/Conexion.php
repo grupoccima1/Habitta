@@ -1,12 +1,12 @@
-<?php
-        session_start();
-
+<?php 
+session_start();
+    
         class Conexion{
             protected $dbh;
 
             protected function conectar(){
                 try{
-                    $conectar=mysqli_connect('localhost','root','','naves');
+                $conectar=mysqli_connect('localhost','root','','naves');
                    // $conectar = $this->dbh = new PDO("mysql:local=localhost;dbname=bbbme11_ti1", "bbbme11_ti","Gccima22.");
                     return $conectar;
                 } catch (Exception $e) {
@@ -21,6 +21,6 @@
 
             public function ruta(){
                
-            }
         }
+    }
 ?>

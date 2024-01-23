@@ -53,28 +53,28 @@
                           <th class="th__texto">DESARROLLO</th>
                           <th class="th__texto">LOTE</th>
                           <th class="th__texto">CONDOMINIO</th>
-                          <th class="th__texto">CLUSTER</th>
-                          <th class="th__texto">FECHA</th>
-                          <th class="th__texto">CLIENTES</th>
-                          <th class="th__texto">PRECIO_DEL_LOTE</th>
-                          <th class="th__texto">MONTO_MENS</th>
-                          <th class="th__texto">MENSUALIDAD</th>
-                          <th class="th__texto">INTERES</th>
-                          <th class="th__texto">TIPO_DE_INTES</th>
-                          <th class="th__texto">I_NEGOCIADO</th>
-                          <th class="th__texto">REAL</th>
-                          <th class="th__texto">MENS_PAGADA</th>
-                          <th class="th__texto">MEN_ADEUDADA</th>
-                          <th class="th__texto">FECHA_DE_ACUERDO</th>
-                          <th class="th__texto">MEDIO</th>
-                          <th class="th__texto">PLAZOS</th>
-                          <th class="th__texto">INICIO</th>
-                          <th class="th__texto">FIN</th>
-                          <th class="th__texto">ESTATUS_DE_INTERES</th>
-                          <th class="th__texto">COMENTARIO</th>
-                          <th class="th__texto">NEGOCIADO</th>
-                          <th class="th__texto">DEPARTAMENTO</th>
-                          <th class="th__texto">AÑO</th>
+                          <th class="d-none th__texto">CLUSTER</th>
+                          <th class="d-none th__texto">FECHA</th>
+                          <th class="d-none th__texto">CLIENTES</th>
+                          <th class="d-none th__texto">PRECIO_DEL_LOTE</th>
+                          <th class="d-none th__texto">MONTO_MENS</th>
+                          <th class="d-none th__texto">MENSUALIDAD</th>
+                          <th class="d-none th__texto">INTERES</th>
+                          <th class="d-none th__texto">TIPO_DE_INTES</th>
+                          <th class="d-none th__texto">I_NEGOCIADO</th>
+                          <th class="d-none th__texto">REAL</th>
+                          <th class="d-none th__texto">MENS_PAGADA</th>
+                          <th class="d-none th__texto">MEN_ADEUDADA</th>
+                          <th class="d-none th__texto">FECHA_DE_ACUERDO</th>
+                          <th class="d-none th__texto">MEDIO</th>
+                          <th class="d-none th__texto">PLAZOS</th>
+                          <th class="d-none th__texto">INICIO</th>
+                          <th class="d-none th__texto">FIN</th>
+                          <th class="d-none th__texto">ESTATUS_DE_INTERES</th>
+                          <th class="d-none th__texto">COMENTARIO</th>
+                          <th class="d-none th__texto">NEGOCIADO</th>
+                          <th class="d-none th__texto">DEPARTAMENTO</th>
+                          <th class="d-none th__texto">AÑO</th>
                           <th class="th__texto">MODIFICAR</th>
                           <th class="th__texto">ELIMINAR</th>
                       </tr>
@@ -89,28 +89,28 @@
                             <td> <?php echo $item->DESARROLLO;?> </td>
                             <td> <?php echo $item->LOTE;?> </td>
                             <td> <?php echo $item->CONDOMINIO;?> </td>
-                            <td> <?php echo $item->CLÚSTER; ?> </td>
-                            <td> <?php echo $item->FECHA;?> </td>
-                            <td> <?php echo $item->CLIENTE;?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->PRECIO_DEL_LOTE),2);?></td>
-                            <td> <?php echo "$".number_format(floatval($item->MONTO_MENS),2);?> </td>
-                            <td> <?php echo $item->MENSUALIDAD;?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->INTERES),2);?> </td>
-                            <td> <?php echo $item->TIPO_DE_INTES;?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->I_NEGOCIADO),2);?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->REAL),2);?> </td>
-                            <td> <?php echo $item->MENS_PAGADA;?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->MEN_ADEUDADA),2);?> </td>
-                            <td> <?php echo $item->FECHA_DE_ACUERDO;?> </td>
-                            <td> <?php echo $item->MEDIO;?> </td>
-                            <td> <?php echo $item->PLAZOS;?> </td>
-                            <td> <?php echo $item->INICIO;?> </td>
-                            <td> <?php echo $item->FIN;?> </td>
-                            <td> <?php echo $item->ESTATUS_DE_INTERES;?> </td>
-                            <td> <?php echo $item->COMENTARIO;?> </td>
-                            <td> <?php echo $item->NEGOCIADO?> </td>
-                            <td> <?php echo $item->DEPARTAMENTO;?> </td>
-                            <td> <?php echo $item->AÑO;?> </td>
+                            <td class="d-none"> <?php echo $item->CLÚSTER; ?> </td>
+                            <td class="d-none"> <?php echo $item->FECHA;?> </td>
+                            <td class="d-none"> <?php echo $item->CLIENTE;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->PRECIO_DEL_LOTE),2);?></td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->MONTO_MENS),2);?> </td>
+                            <td class="d-none"> <?php echo $item->MENSUALIDAD;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->INTERES),2);?> </td>
+                            <td class="d-none"> <?php echo $item->TIPO_DE_INTES;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->I_NEGOCIADO),2);?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->REAL),2);?> </td>
+                            <td class="d-none"> <?php echo $item->MENS_PAGADA;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->MEN_ADEUDADA),2);?> </td>
+                            <td class="d-none"> <?php echo $item->FECHA_DE_ACUERDO;?> </td>
+                            <td class="d-none"> <?php echo $item->MEDIO;?> </td>
+                            <td class="d-none"> <?php echo $item->PLAZOS;?> </td>
+                            <td class="d-none"> <?php echo $item->INICIO;?> </td>
+                            <td class="d-none"> <?php echo $item->FIN;?> </td>
+                            <td class="d-none"> <?php echo $item->ESTATUS_DE_INTERES;?> </td>
+                            <td class="d-none"> <?php echo $item->COMENTARIO;?> </td>
+                            <td class="d-none"> <?php echo $item->NEGOCIADO?> </td>
+                            <td class="d-none"> <?php echo $item->DEPARTAMENTO;?> </td>
+                            <td class="d-none"> <?php echo $item->AÑO;?> </td>
                             <td>
                               <form action="./clientesmorosos/modificar_clientesMorosos.php" method="POST">
                                 <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">
@@ -139,28 +139,28 @@
                           <th class="th__texto">DESARROLLO</th>
                           <th class="th__texto">LOTE</th>
                           <th class="th__texto">CONDOMINIO</th>
-                          <th class="th__texto">CLUSTER</th>
-                          <th class="th__texto">FECHA</th>
-                          <th class="th__texto">CLIENTES</th>
-                          <th class="th__texto">PRECIO_DEL_LOTE</th>
-                          <th class="th__texto">MONTO_MENS</th>
-                          <th class="th__texto">MENSUALIDAD</th>
-                          <th class="th__texto">INTERES</th>
-                          <th class="th__texto">TIPO_DE_INTES</th>
-                          <th class="th__texto">I_NEGOCIADO</th>
-                          <th class="th__texto">REAL</th>
-                          <th class="th__texto">MENS_PAGADA</th>
-                          <th class="th__texto">MEN_ADEUDADA</th>
-                          <th class="th__texto">FECHA_DE_ACUERDO</th>
-                          <th class="th__texto">MEDIO</th>
-                          <th class="th__texto">PLAZOS</th>
-                          <th class="th__texto">INICIO</th>
-                          <th class="th__texto">FIN</th>
-                          <th class="th__texto">ESTATUS_DE_INTERES</th>
-                          <th class="th__texto">COMENTARIO</th>
-                          <th class="th__texto">NEGOCIADO</th>
-                          <th class="th__texto">DEPARTAMENTO</th>
-                          <th class="th__texto">AÑO</th>
+                          <th class="d-none th__texto">CLUSTER</th>
+                          <th class="d-none th__texto">FECHA</th>
+                          <th class="d-none th__texto">CLIENTES</th>
+                          <th class="d-none th__texto">PRECIO_DEL_LOTE</th>
+                          <th class="d-none th__texto">MONTO_MENS</th>
+                          <th class="d-none th__texto">MENSUALIDAD</th>
+                          <th class="d-none th__texto">INTERES</th>
+                          <th class="d-none th__texto">TIPO_DE_INTES</th>
+                          <th class="d-none th__texto">I_NEGOCIADO</th>
+                          <th class="d-none th__texto">REAL</th>
+                          <th class="d-none th__texto">MENS_PAGADA</th>
+                          <th class="d-none th__texto">MEN_ADEUDADA</th>
+                          <th class="d-none th__texto">FECHA_DE_ACUERDO</th>
+                          <th class="d-none th__texto">MEDIO</th>
+                          <th class="d-none th__texto">PLAZOS</th>
+                          <th class="d-none th__texto">INICIO</th>
+                          <th class="d-none th__texto">FIN</th>
+                          <th class="d-none th__texto">ESTATUS_DE_INTERES</th>
+                          <th class="d-none th__texto">COMENTARIO</th>
+                          <th class="d-none th__texto">NEGOCIADO</th>
+                          <th class="d-none th__texto">DEPARTAMENTO</th>
+                          <th class="d-none th__texto">AÑO</th>
                           <th class="th__texto">MODIFICAR</th>
                           <th class="th__texto">ELIMINAR</th>
 

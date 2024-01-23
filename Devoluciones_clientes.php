@@ -52,11 +52,11 @@
                           <th class="th__texto">CONDOMINIO</th>
                           <th class="th__texto">LLAVE</th>
                           <th class="th__texto">CLIENTE</th>
-                          <th class="th__texto">MONTO</th>
-                          <th class="th__texto">BANCO</th>
-                          <th class="th__texto">MOTIVO</th>
-                          <th class="th__texto">MONTO_DE_LA_OPERACIÓN</th>
-                          <th class="th__texto">DESARROLLO</th>
+                          <th class="d-none th__texto">MONTO</th>
+                          <th class="d-none th__texto">BANCO</th>
+                          <th class="d-none th__texto">MOTIVO</th>
+                          <th class="d-none th__texto">MONTO_DE_LA_OPERACIÓN</th>
+                          <th class="d-none th__texto">DESARROLLO</th>
                           <th class="th__texto">MODIFICAR</th>
                           <th class="th__texto">ELIMINAR</th>
                       </tr>
@@ -71,11 +71,11 @@
                             <td> <?php echo $item->CONDOMINIO;?> </td>
                             <td> <?php echo $item->LLAVE;?> </td>
                             <td> <?php echo $item->CLIENTE;?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->MONTO),2); ?> </td>
-                            <td> <?php echo $item->BANCO;?> </td>
-                            <td> <?php echo $item->MOTIVO;?> </td>
-                            <td> <?php echo "$".number_format(floatval($item->MONTO_DE_LA_OPERACIÓN),2);?></td>
-                            <td> <?php echo $item->DESARROLLO;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->MONTO),2); ?> </td>
+                            <td class="d-none"> <?php echo $item->BANCO;?> </td>
+                            <td class="d-none"> <?php echo $item->MOTIVO;?> </td>
+                            <td class="d-none"> <?php echo "$".number_format(floatval($item->MONTO_DE_LA_OPERACIÓN),2);?></td>
+                            <td class="d-none"> <?php echo $item->DESARROLLO;?> </td>
                             <td>
                               <form action="./DevolucionesClientes/modificar_DevolucionesClientes.php" method="POST">
                                 <input type="text" name="id" id="id" hidden value="<?php echo $item->_id ?>">

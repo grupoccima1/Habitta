@@ -48,10 +48,10 @@
                           <th class="th__texto">COMISION</th>
                           <th class="th__texto">DEPOSITO_EN_BANCO</th>
                           <th class="th__texto">TIPO_DE_PAGO</th>
-                          <th class="th__texto">FOLIO</th>
-                          <th class="th__texto">TIPO_DE_TARJETA</th>
-                          <th class="th__texto">TPVAFILIADA</th>
-                          <th class="th__texto">FECHADE_DEPOSITO</th>
+                          <th class="d-none th__texto">FOLIO</th>
+                          <th class="d-none th__texto">TIPO_DE_TARJETA</th>
+                          <th class="d-none th__texto">TPVAFILIADA</th>
+                          <th class="d-none th__texto">FECHADE_DEPOSITO</th>
                           <th class="th__texto">AÑO</th>
                           <th class="th__texto">BANCO</th>
                       </tr>
@@ -66,10 +66,10 @@
                             <td><?php echo $item->COMISION;?> </td>
                             <td><?php echo $item->DEPOSITO_EN_BANCO;?> </td>
                             <td><?php echo $item->TIPO_DE_PAGO;?> </td>
-                            <td><?php echo $item->FOLIO; ?> </td>
-                            <td><?php echo $item->TIPO_DE_TARJETA;?> </td>
-                            <td><?php echo $item->TPVAFILIADA;?> </td>
-                            <td><?php echo $item->FECHADE_DEPOSITO;?></td>
+                            <td class="d-none"><?php echo $item->FOLIO; ?> </td>
+                            <td class="d-none"><?php echo $item->TIPO_DE_TARJETA;?> </td>
+                            <td class="d-none"><?php echo $item->TPVAFILIADA;?> </td>
+                            <td class="d-none"><?php echo $item->FECHADE_DEPOSITO;?></td>
                             <td><?php echo $item->AÑO;?> </td>
                             <td><?php echo $item->BANCO;?> </td>
                             
@@ -83,10 +83,10 @@
                           <th class="th__texto">COMISION</th>
                           <th class="th__texto">DEPOSITO_EN_BANCO</th>
                           <th class="th__texto">TIPO_DE_PAGO</th>
-                          <th class="th__texto">FOLIO</th>
-                          <th class="th__texto">TIPO_DE_TARJETA</th>
-                          <th class="th__texto">TPVAFILIADA</th>
-                          <th class="th__texto">FECHADE_DEPOSITO</th>
+                          <th class="d-none th__texto">FOLIO</th>
+                          <th class="d-none th__texto">TIPO_DE_TARJETA</th>
+                          <th class="d-none th__texto">TPVAFILIADA</th>
+                          <th class="d-none th__texto">FECHADE_DEPOSITO</th>
                           <th class="th__texto">AÑO</th>
                           <th class="th__texto">BANCO</th>
                       </tr>
